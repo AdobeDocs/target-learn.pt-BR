@@ -9,7 +9,7 @@ audience: developer
 doc-type: tutorial
 activity-type: implement
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 1%
@@ -35,7 +35,9 @@ Ao final desta lição, você poderá:
 
 No aplicativo de demonstração das lições anteriores, adicionaremos um novo local chamado &quot;weTravel_feature_flag_recs&quot; à solicitação de busca prévia na Atividade inicial e o carregaremos na tela com um novo método Java.
 
->[!NOTE] Um dos benefícios do uso de uma solicitação de busca prévia é que adicionar uma nova solicitação não adiciona sobrecarga de rede adicional ou gera trabalho de carga adicional, já que a solicitação é empacotada dentro da solicitação de busca prévia
+>[!NOTE]
+>
+>Um dos benefícios do uso de uma solicitação de busca prévia é que adicionar uma nova solicitação não adiciona sobrecarga de rede adicional ou gera trabalho de carga adicional, já que a solicitação é empacotada dentro da solicitação de busca prévia
 
 Primeiro, verifique se a constante weTravel_feature_flag_recs foi adicionada ao arquivo Constant.java:
 
