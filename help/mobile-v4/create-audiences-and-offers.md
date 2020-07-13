@@ -9,7 +9,7 @@ audience: developer
 doc-type: tutorial
 activity-type: implement
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 1%
@@ -78,13 +78,17 @@ Siga as mesmas etapas listadas acima para criar uma audiência para usuários re
 
    ![Criar uma Audiência de usuário recorrente](assets/audience_returning_mobile_app_users.jpg)
 
->[!NOTE] Todas as medições de ciclo de vida e dimensões coletadas no SDK [!DNL Target] móvel são precedidas por &quot;a&quot; (por exemplo, a.Launches) e estão disponíveis na opção &quot;Personalizado&quot; do menu suspenso e podem ser usadas para criar o audiência.
+>[!NOTE]
+>
+>Todas as medições de ciclo de vida e dimensões coletadas no SDK [!DNL Target] móvel são precedidas por &quot;a&quot; (por exemplo, a.Launches) e estão disponíveis na opção &quot;Personalizado&quot; do menu suspenso e podem ser usadas para criar o audiência.
 
 ### Crie uma Audiência para os usuários que reservam uma viagem para San Diego
 
 Em seguida, criaremos algumas audiências para alguns dos destinos oferecidos pelo aplicativo We.Travel. Na última lição, passamos o destino como um parâmetro de localização na solicitação de localização weTravel_context_dest. Esse parâmetro está disponível na opção &quot;Personalizado&quot; do menu suspenso.
 
->[!NOTE] Se um parâmetro que você está esperando ver na lista suspensa Personalizado não aparecer na [!DNL Target] interface, verifique se ele está sendo passado na solicitação. Se você verificou que está na solicitação, mas não carregou lento na [!DNL Target] interface, basta digitar o nome do parâmetro e pressionar enter para continuar definindo sua audiência
+>[!NOTE]
+>
+>Se um parâmetro que você está esperando ver na lista suspensa Personalizado não aparecer na [!DNL Target] interface, verifique se ele está sendo passado na solicitação. Se você verificou que está na solicitação, mas não carregou lento na [!DNL Target] interface, basta digitar o nome do parâmetro e pressionar enter para continuar definindo sua audiência
 
 1. Nomeie o _destino da audiência: San Diego_.
 1. Use uma regra personalizada com esta definição: _locationDest contém San Diego_.
