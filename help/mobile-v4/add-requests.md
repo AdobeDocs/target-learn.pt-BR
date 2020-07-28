@@ -1,6 +1,6 @@
 ---
 title: Adicionar solicitações Adobe Target
-description: 'O SDK do Adobe Mobile Services (v4) fornece métodos e funcionalidades de Adobe Target que permitem que você personalize seu aplicativo com diferentes experiências para usuários diferentes.   '
+description: 'O SDK do Adobe Mobile Services (v4) fornece métodos e funcionalidade de Adobe Target que permitem que você personalize seu aplicativo com experiências diferentes para usuários diferentes.   '
 feature: mobile
 kt: 3040
 audience: developer
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Adicionar solicitações Adobe Target
 
-O SDK do Adobe Mobile Services (v4) fornece métodos e funcionalidades de Adobe Target que permitem que você personalize seu aplicativo com diferentes experiências para usuários diferentes. Normalmente, uma ou mais solicitações são feitas do aplicativo para o Adobe Target para recuperar o conteúdo personalizado e medir o impacto desse conteúdo.
+O SDK do Adobe Mobile Services (v4) fornece métodos e funcionalidade de Adobe Target que permitem que você personalize seu aplicativo com experiências diferentes para usuários diferentes. Normalmente, uma ou mais solicitações são feitas do aplicativo para o Adobe Target para recuperar o conteúdo personalizado e medir o impacto desse conteúdo.
 
 Nesta lição, você preparará o aplicativo We.Travel para personalização implementando [!DNL Target] solicitações.
 
@@ -45,7 +45,7 @@ Abaixo está uma parte da terminologia principal do Público alvo que será usad
 * **Solicitação em lote:**  uma única solicitação que inclui vários locais
 * **Solicitação de busca prévia:**  uma única solicitação que recupera ofertas e as armazena em cache na memória para uso futuro no aplicativo
 * **Solicitação de busca prévia em lote:**  uma única solicitação que busca previamente ofertas para vários locais
-* **Audiência:**  um grupo de visitantes definidos na [!DNL Target] interface ou compartilhados com [!DNL Target] de outros aplicativos da Adobe (por exemplo, &quot;visitantes do iPhone X&quot;, &quot;visitantes na Califórnia&quot;, &quot;Abertura do primeiro aplicativo&quot;)
+* **Audiência:**  um grupo de visitantes definidos na [!DNL Target] interface ou compartilhados com [!DNL Target] outros aplicativos Adobe (por exemplo, &quot;visitantes do iPhone X&quot;, &quot;visitantes na Califórnia&quot;, &quot;Abertura do primeiro aplicativo&quot;)
 * **Atividade:**  uma [!DNL Target] construção, definida na interface de [!DNL Target] usuário (ou com API) que vincula locais, ofertas e Audiências para criar uma experiência personalizada
 
 ## Adicionar uma solicitação de busca prévia em lote
@@ -294,7 +294,7 @@ Esta foi uma atualização mais sofisticada que fizemos ao aplicativo na época 
 
 1. Interrompemos o comportamento anterior do aplicativo de mostrar três promoções padrão, comentando as linhas de código
 1. Em vez disso, pedimos ao aplicativo para executar uma nova função, que nomeamos arbitrariamente como targetLoadRequest
-1. Definimos a `targetLoadRequest` função para fazer uma solicitação ao Público alvo usando o método Público alvo.loadRequest e executar imediatamente a função quando a resposta da `filterRecommendationBasedOnOffer()` [!DNL Target] oferta é recebida
+1. Definimos a `targetLoadRequest` função para fazer uma solicitação ao Público alvo usando o método Público alvo.loadRequest e executar imediatamente a `filterRecommendationBasedOnOffer()` função quando a resposta da [!DNL Target] oferta for recebida
 1. A `filterRecommendationBasedOnOffer()` função interpreta a resposta e decide quais promoções devem ser aplicadas ao ecrã
 
 Este é um padrão de uso muito comum ao usar [!DNL Target] em aplicativos móveis.  Ele é muito poderoso, pois você pode personalizar quase todos os aspectos do seu aplicativo móvel. Também requer coordenação entre o código do aplicativo e as ofertas que definiremos posteriormente na [!DNL Target] interface. Devido a essa coordenação, alguns casos de uso de personalização podem exigir que você atualize seu aplicativo na app store para iniciar a atividade.
@@ -309,7 +309,7 @@ Na tela final de Agradecimentos, assista Logcat pela resposta. A resposta deve l
 
 ## Limpando locais pré-selecionados do cache
 
-Pode haver situações em que locais pré-buscados precisam ser apagados durante uma sessão. Por exemplo, quando uma reserva ocorre, faz sentido limpar os locais em cache, já que o usuário agora está &quot;engajado&quot; e entende o processo de reserva. Se eles fizerem outra viagem durante a sessão, não precisarão dos locais originais na tela inicial e na tela de resultados da pesquisa para orientar sua reserva. Seria mais lógico limpar os locais do cache e buscar novas ofertas para talvez um segundo agendamento ou outro cenário relevante. A lógica pode ser adicionada à tela inicial e à tela de resultados da pesquisa para realizar uma busca prévia em novos locais se uma reserva tiver ocorrido durante a sessão.
+Pode haver situações em que locais pré-buscados precisam ser apagados durante uma sessão. Por exemplo, quando uma reserva ocorre, faz sentido limpar os locais em cache, já que o usuário agora está &quot;engajado&quot; e entende o processo de reserva. Se eles fizerem outra viagem durante a sessão, não precisarão dos locais originais na tela inicial e na tela de resultados da pesquisa para orientar sua reserva. Seria mais sensato limpar os locais do cache e buscar novas ofertas para, talvez, uma segunda reserva com desconto ou outro cenário relevante. A lógica pode ser adicionada à tela inicial e à tela de resultados da pesquisa para realizar uma busca prévia em novos locais se uma reserva tiver ocorrido durante a sessão.
 
 Neste exemplo, nós apenas limparemos os locais pré-buscados para a sessão quando uma reserva ocorrer. Isso é feito chamando a `Target.clearPrefetchCache()` função. Defina a função dentro da `targetLoadRequest()` função, como mostrado abaixo:
 
