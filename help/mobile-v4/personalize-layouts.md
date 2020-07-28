@@ -49,7 +49,7 @@ Na [!DNL Target] interface, faça o seguinte:
 
 1. Clique em Aplicativo **** móvel.
 1. Selecione o **[!UICONTROL Compositor]** de formulário.
-1. Selecione seu espaço de trabalho (o mesmo espaço de trabalho usado nas lições anteriores).
+1. Selecione seu espaço de trabalho (o mesmo que você usou nas lições anteriores).
 1. Selecione sua Propriedade (a mesma propriedade usada nas lições anteriores).
 1. Clique em **[!UICONTROL Avançar]**.
 
