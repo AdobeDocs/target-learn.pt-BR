@@ -40,7 +40,7 @@ ht-degree: 8%
    + [Usar o Visual Experience Composer](../experiences/use-the-visual-experience-composer.md)
    + [Uso do Visual Experience Composer para aplicativos de página única (SPA VEC)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
    + [Use o Criador de experiências baseado em forma](../experiences/use-the-form-based-experience-composer.md)
-   + [Usar fragmentos de experiência do AEM no Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
+   + [Usar AEM fragmentos de experiência no Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
 + Relatórios{#reports}
    + [Usar os relatórios de insights de personalização](../reports/use-the-personalization-insights-reports.md)
 + Integrações{#integrations}
@@ -48,7 +48,7 @@ ht-degree: 8%
    + [Dados em: Usar provedores de dados para integrar dados de terceiros](../integrations/use-data-providers-to-integrate-third-party-data.md)
    + [Dados em: Implementação de provedores de dados para integrar dados de terceiros](../integrations/implement-data-providers-to-integrate-third-party-data.md)
    + [Saída de dados: Usar tokens de resposta e Eventos personalizados at.js](../integrations/use-response-tokens-and-atjs-custom-events.md)
-   + [Usar fragmentos de experiência do AEM no Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
+   + [Usar AEM fragmentos de experiência no Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
 + Administração{#administration}
    + [Configurar preferências de conta](../administration/set-up-account-preferences.md)
    + [Entenda as permissões de usuário corporativo](../administration/understanding-enterprise-user-permissions.md)
@@ -56,12 +56,12 @@ ht-degree: 8%
    + [Configurar propriedades](../administration/set-up-properties.md)
 + Recommendations{#recommendations}
    + [Criar uma atividade do Recommendations](../recommendations/create-a-recommendations-activity.md)
-   + [Usar Ofertas do Recommendations](../recommendations/use-recommendations-offers.md)
+   + [Usar Recommendations Oferta](../recommendations/use-recommendations-offers.md)
    + [Compreensão dos feeds](../recommendations/understanding-feeds.md)
    + [Criar um feed](../recommendations/create-a-feed.md)
    + [Criar critérios](../recommendations/create-criteria.md)
    + [Criar designs personalizados](../recommendations/create-custom-designs.md)
    + [Criar coleções e exclusões](../recommendations/create-collections-and-exclusions.md)
 + Solução de problemas{#troubleshooting}
-   + [Solucione problemas com o Depurador de Experience Cloud](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
+   + [Solucione problemas com o Experience Cloud Debugger](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
    + [Solucionar problemas com rastreamentos de Público alvo](../troubleshooting/troubleshoot-with-target-traces.md)
