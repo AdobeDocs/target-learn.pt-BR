@@ -1,6 +1,6 @@
 ---
-title: Visão geral dos tutoriais do Adobe Target
-seo-title: Visão geral dos tutoriais do Adobe Target
+title: Visão geral dos Adobe Target Tutorials
+seo-title: Visão geral dos Adobe Target Tutorials
 description: Uma coleção de vídeos explicativos e tutoriais para torná-lo um usuário avançado do Adobe Target
 translation-type: tm+mt
 source-git-commit: 0ef2d3c853aa85fef8c9f524588b29b02c7aceda
@@ -17,13 +17,13 @@ O Adobe Target é a solução da Adobe Experience Cloud que oferece tudo o que v
 
 ## Novidades
 
-* **[Usar Ofertas do Recommendations (Vídeo)](recommendations/use-recommendations-offers.md)**   <br>
+* **[Usar Recommendations Oferta (Vídeo)](recommendations/use-recommendations-offers.md)**   <br>
    *Use recomendações de produto nas Atividades de teste A/B e direcionamento de experiência.*
 
 * **[Implementação do Visual Experience Composer do Público alvo em aplicativos Android™ (tutorial)](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)**   <br>
    *Implemente o Visual Experience Composer (VEC) compatível com o comerciante do Público alvo em aplicativos Android nativos.*
 
-* **[Criar uma Atividade do Recommendations (Vídeo)](recommendations/create-a-recommendations-activity.md)**   <br>
+* **[Criar uma Atividade Recommendations (Vídeo)](recommendations/create-a-recommendations-activity.md)**   <br>
    *Recomende produtos aos clientes em escala com este recurso Premium.*
 
 ## Separações de Pessoal
@@ -32,11 +32,11 @@ O Adobe Target é a solução da Adobe Experience Cloud que oferece tudo o que v
 <tr>
   <td>
     <a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html">
-      <img alt="Implementar o Público alvo com o Adobe Experience Platform Launch" src="assets/launch_referencearchitectureguides.png" />
+      <img alt="Implementação do Público alvo com o Adobe Experience Platform Launch" src="assets/launch_referencearchitectureguides.png" />
     </a>
     <div>
       <a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html">
-    <strong>Implementar o Público alvo com o Adobe Experience Platform Launch</strong>
+    <strong>Implementação do Público alvo com o Adobe Experience Platform Launch</strong>
     </a>
     </div>
     <p>
