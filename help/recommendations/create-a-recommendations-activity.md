@@ -1,6 +1,6 @@
 ---
 title: Criar uma atividade do Recommendations
-seo-title: Criar uma Atividade do Recommendations no Adobe Target
+seo-title: Criar uma Atividade Recommendations no Adobe Target
 audience: marketer
 difficulty: 3
 author: Daniel Wright
@@ -21,7 +21,7 @@ ht-degree: 22%
 
 ## Recursos adicionais
 
-* [Usar Ofertas do Recommendations em Atividades de teste A/B e direcionamento de experiência](use-recommendations-offers.md)
+* [Usar Ofertas Recommendations em Atividades de teste A/B e direcionamento de experiência](use-recommendations-offers.md)
 * [Compreensão dos feeds](understanding-feeds.md)
 * [Criar um feed](create-a-feed.md)
 * [Criar critérios](create-criteria.md)
