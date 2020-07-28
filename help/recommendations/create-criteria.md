@@ -1,6 +1,6 @@
 ---
-title: Criar critérios em recomendações
-seo-title: Criar critérios em recomendações de Adobe Target
+title: Criar critérios no Recommendations
+seo-title: Criar critérios no Adobe Target Recommendations
 audience: marketer
 difficulty: 3
 author: Daniel Wright
@@ -15,7 +15,7 @@ ht-degree: 13%
 ---
 
 
-# Criar critérios em recomendações
+# Criar critérios no Recommendations
 
 >[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
 
