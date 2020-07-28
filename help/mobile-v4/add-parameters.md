@@ -1,6 +1,6 @@
 ---
 title: Adicionar parâmetros às solicitações
-description: Nesta lição, adicionaremos medições de ciclo de vida e parâmetros personalizados da Adobe às solicitações de Público alvo adicionadas na lição anterior. Essas métricas e parâmetros serão usados para criar audiências personalizadas posteriormente no tutorial.
+description: Nesta lição, adicionaremos medições de ciclo de vida do Adobe e parâmetros personalizados às solicitações do Público alvo adicionadas na lição anterior. Essas métricas e parâmetros serão usados para criar audiências personalizadas posteriormente no tutorial.
 feature: mobile
 kt: 3040
 audience: developer
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 # Adicionar parâmetros às solicitações
 
-Nesta lição, adicionaremos medições de ciclo de vida e parâmetros personalizados da Adobe às [!DNL Target] solicitações adicionadas na lição anterior. Essas métricas e parâmetros serão usados para criar audiências personalizadas posteriormente no tutorial.
+Nesta lição, adicionaremos medições de ciclo de vida de Adobe e parâmetros personalizados às [!DNL Target] solicitações adicionadas na lição anterior. Essas métricas e parâmetros serão usados para criar audiências personalizadas posteriormente no tutorial.
 
 ## Objetivos de aprendizagem
 
 Ao final desta lição, você poderá:
 
-* Adicionar as métricas de ciclo de vida do Adobe Mobile
+* Adicionar as medições de ciclo de vida do Adobe para dispositivos móveis
 * Adicionar parâmetros a uma solicitação de busca prévia
 * Adicionar parâmetros a um local ativo
 * Validar os parâmetros para ambas as solicitações
