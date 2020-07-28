@@ -25,7 +25,7 @@ O SPA VEC permite que os profissionais de marketing criem testes e personalizem 
 ## Visão geral
 
 * O SPA VEC pode ser usado para criar testes A/B e Autoalocar testes e atividades de direcionamento de experiência (XT)
-* O SPA VEC não é compatível com Público alvo automático, personalização automatizada ou atividades do Recommendations
+* O SPA VEC não suporta Público alvo automático, Automated Personalization ou Recommendations atividade
 * O SPA VEC suporta integrações A4T, [!UICONTROL Experience Cloud Audiência]e Atributos [!UICONTROL do] cliente
 * Todas as ações VEC são suportadas em aplicativos de página única, incluindo código personalizado
 * As ações VEC podem ser aplicadas a uma única visualização ou ao evento de carregamento de página
