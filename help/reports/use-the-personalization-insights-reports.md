@@ -1,6 +1,6 @@
 ---
 title: Uso dos relatórios de insights de personalização no Adobe Target
-description: As atividades de personalização automatizada e Público alvo automático usam o aprendizado de máquina avançado para fornecer a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis semelhantes. Os relatórios de Insights de personalização fornecem informações sobre como esses modelos tomam suas decisões.
+description: A Automated Personalization e as atividades de Público alvo automático usam o aprendizado de máquina avançado para servir a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis semelhantes. Os relatórios de Insights de personalização fornecem informações sobre como esses modelos tomam suas decisões.
 audience: analyst
 difficulty: 3
 author: Daniel Wright
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 # Usar os relatórios de insights de personalização
 
-As atividades de personalização automatizada e Público alvo automático usam o aprendizado de máquina avançado para fornecer a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis semelhantes. Os relatórios de Insights de personalização fornecem informações sobre como esses modelos tomam suas decisões.
+A Automated Personalization e as atividades de Público alvo automático usam o aprendizado de máquina avançado para servir a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis semelhantes. Os relatórios de Insights de personalização fornecem informações sobre como esses modelos tomam suas decisões.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/?quality=12)
 
