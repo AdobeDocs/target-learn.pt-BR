@@ -1,5 +1,5 @@
 ---
-title: Como entender feeds no Recommendations
+title: Como entender os feeds no Recommendations
 seo-title: Como entender os feeds no Adobe Target Recommendations
 audience: marketer
 difficulty: 3
@@ -15,7 +15,7 @@ ht-degree: 18%
 ---
 
 
-# Como entender feeds no Recommendations
+# Como entender os feeds no Recommendations
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695?quality=12)
 
