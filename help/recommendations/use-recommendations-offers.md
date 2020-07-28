@@ -1,7 +1,7 @@
 ---
-title: Usar Ofertas do Recommendations em Atividades de teste A/B e direcionamento de experiência
-seo-title: Usar Ofertas do Recommendations em Atividades de teste A/B e direcionamento de experiência no Adobe Target
-description: As ofertas do Recommendations podem ser usadas com Atividades de teste A/B e direcionamento de experiência.
+title: Usar Ofertas Recommendations em Atividades de teste A/B e direcionamento de experiência
+seo-title: Usar Ofertas Recommendations em Atividades de teste A/B e direcionamento de experiência no Adobe Target
+description: As ofertas Recommendations podem ser usadas com Atividades de teste A/B e direcionamento de experiência.
 feature: recommendations
 kt: kt-3451
 audience: marketer
@@ -16,9 +16,9 @@ ht-degree: 35%
 ---
 
 
-# Usar Ofertas do Recommendations em Atividades de teste A/B e direcionamento de experiência
+# Usar Ofertas Recommendations em Atividades de teste A/B e direcionamento de experiência
 
-As ofertas do Recommendations podem ser usadas com Atividades de teste A/B e direcionamento de experiência. Essa funcionalidade permite capacidades nunca antes vistas, como:
+As ofertas Recommendations podem ser usadas com Atividades de teste A/B e direcionamento de experiência. Essa funcionalidade permite capacidades nunca antes vistas, como:
 
 * Combine conteúdo de recomendações e não recomendações na mesma atividade
 * Experimente com facilidade a colocação de recomendações na página, incluindo a ordem de várias recomendações
@@ -29,5 +29,5 @@ As ofertas do Recommendations podem ser usadas com Atividades de teste A/B e dir
 
 ## Recursos adicionais
 
-* [Recomendações como documentação de oferta](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-as-an-offer.html)
+* [Recommendations como uma documentação de oferta](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-as-an-offer.html)
 * [Criar um vídeo de Atividade do Recommendations](create-a-recommendations-activity.md)
