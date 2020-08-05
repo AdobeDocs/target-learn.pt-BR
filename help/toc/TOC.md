@@ -4,9 +4,9 @@ user-guide-url: /content/help/en/target-learn/tutorials/overview.html
 audience: end-user
 solution: Target
 translation-type: tm+mt
-source-git-commit: 9b9b03e8c3ea837f345a8535e7147450bf55b6ad
+source-git-commit: b1f825112e7a8ae2af3f94bca9b4a86cf5ec7856
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '304'
 ht-degree: 8%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 8%
 + Relatórios{#reports}
    + [Usar os relatórios de insights de personalização](../reports/use-the-personalization-insights-reports.md)
 + Integrações{#integrations}
-   + [Usar a Analytics como Fonte de Dados para o Público alvo (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
+   + [Usar o Analytics como uma Fonte de Dados para o Público alvo (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
    + [Dados em: Usar provedores de dados para integrar dados de terceiros](../integrations/use-data-providers-to-integrate-third-party-data.md)
    + [Dados em: Implementação de provedores de dados para integrar dados de terceiros](../integrations/implement-data-providers-to-integrate-third-party-data.md)
    + [Saída de dados: Usar tokens de resposta e Eventos personalizados at.js](../integrations/use-response-tokens-and-atjs-custom-events.md)
@@ -65,3 +65,7 @@ ht-degree: 8%
 + Solução de problemas{#troubleshooting}
    + [Solucione problemas com o Experience Cloud Debugger](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
    + [Solucionar problemas com rastreamentos de Público alvo](../troubleshooting/troubleshoot-with-target-traces.md)
++ APIs{#apis}
+   + [Entenda as APIs de Públicos alvos](../apis/api-overview.md)
+   + [Configurar autenticação da API do Adobe](../apis/configure-io-target-integration.md)
+   + [Usar APIs da Recommendations](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html)
