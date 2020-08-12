@@ -1,12 +1,12 @@
 ---
-title: Visão geral dos Adobe Target Tutorials
-seo-title: Visão geral dos Adobe Target Tutorials
+title: Visão geral dos Tutorials Adobe Target
+seo-title: Visão geral dos Tutorials Adobe Target
 description: Uma coleção de vídeos explicativos e tutoriais para torná-lo um usuário avançado do Adobe Target
 translation-type: tm+mt
-source-git-commit: 0ef2d3c853aa85fef8c9f524588b29b02c7aceda
+source-git-commit: 49b21a85ca776f9da12f14cab85772395ba4ce16
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 18%
+source-wordcount: '242'
+ht-degree: 16%
 
 ---
 
@@ -17,14 +17,19 @@ O Adobe Target é a solução da Adobe Experience Cloud que oferece tudo o que v
 
 ## Novidades
 
+* **[Usar a API do Recommendations (tutorial)](recommendations-api-tutorial/recs-api-overview.md)**   <br>
+   *Para desenvolvedores: Obtenha uma prática prática prática usando as[!DNL Recommendations]APIs para configurar e gerenciar[!DNL Recommendations]catálogos e critérios personalizados e muito mais.*
+
+* **[Implementação do Adobe Target com Adobe Mobile Services SDK v4 para Android (tutorial)](mobile-v4/overview.md)**   <br>
+   *Para desenvolvedores que já estão usando o Adobe Mobile Services SDK v4: saiba como personalizar experiências de aplicativos com o Adobe Target. Essas etapas são fornecidas como suporte herdado ao usuário.<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->*
+
 * **[Usar Recommendations Oferta (Vídeo)](recommendations/use-recommendations-offers.md)**   <br>
-   *Use recomendações de produto nas Atividades de teste A/B e direcionamento de experiência.*
+   *Para todos os usuários do Público alvo: Saiba como usar as recomendações de produto nas Atividades A/B e Experience Targeting.*
 
-* **[Implementação do Visual Experience Composer do Público alvo em aplicativos Android™ (tutorial)](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)**   <br>
-   *Implemente o Visual Experience Composer (VEC) compatível com o comerciante do Público alvo em aplicativos Android nativos.*
-
-* **[Criar uma Atividade Recommendations (Vídeo)](recommendations/create-a-recommendations-activity.md)**   <br>
-   *Recomende produtos aos clientes em escala com este recurso Premium.*
+<!--
+* **[Create a Recommendations Activity (Video)](recommendations/create-a-recommendations-activity.md)**
+    <br>
+    *Recommend products to your customers at scale with this Premium feature.* -->
 
 ## Separações de Pessoal
 
