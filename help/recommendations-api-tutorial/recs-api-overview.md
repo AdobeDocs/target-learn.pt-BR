@@ -11,9 +11,9 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Adobe Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 78b30bc0018527f9d8b2a5b50edee86e877d14c7
+source-git-commit: b0e36ff68732f79c61797181da781ec7401f3f84
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '372'
 ht-degree: 1%
 
 ---
@@ -21,12 +21,12 @@ ht-degree: 1%
 
 # Visão geral da API do Adobe Recommendations
 
-As APIs relevantes para [!DNL Recommendations] incluem APIs [de](https://docs.adobe.com/content/help/en/target-learn/apis/api-overview.md) administração que permitem:
+As APIs relevantes para [!DNL Recommendations] incluem APIs [de](https://docs.adobe.com/content/help/en/target/using/apis/api-overview.html) administração que permitem:
 
 * Gerenciar seu catálogo de produtos ou conteúdo recomendáveis
 * Gerencie seus [!DNL Recommendations] algoritmos e atividades
 
-Usando a API [!DNL Target] do [](https://docs.adobe.com/content/help/en/target-learn/apis/api-overview.md) delivery com a Recommendations, você também pode:
+Usando a API [!DNL Target] do [](https://docs.adobe.com/content/help/en/target/using/apis/api-overview.html) delivery com a Recommendations, você também pode:
 
 * Recupere as recomendações em objetos JSON, HTML ou XML para que possam ser exibidas na Web, em dispositivos móveis, no email, na Internet das coisas (IOT) e em outros canais.
 
@@ -53,6 +53,6 @@ Observe os seguintes recursos, necessários para entender este tutorial e segui-
 | Recurso | Detalhes |
 | --- | --- |
 | Postman | Obtenha o aplicativo [Postman](https://www.postman.com/downloads/) para seu sistema operacional. O Postman Basic é gratuito com a criação de contas. Embora não seja necessário para usar as APIs da Adobe Target em geral, o Postman facilita os workflows de API e a Adobe Target fornece várias coleções Postman para ajudar a executar suas APIs e aprender como elas operam. O resto deste tutorial assume conhecimento prático do Postman. Para obter assistência, consulte a documentação [do](https://learning.getpostman.com/)Postman. |
-| Referências | A familiaridade com os seguintes recursos é assumida durante todo o restante deste tutorial:<UL><li>[Github de E/S Adobe](https://github.com/adobeio)</li><li>[Documentação de E/S do Adobe do Público alvo](https://developers.adobetarget.com/api/#introduction)</li><li>[Documentação da API do Recommendations](https://developers.adobetarget.com/api/recommendations/)</li></ul> |
+| Referências | A familiaridade com os seguintes recursos é assumida durante todo o restante deste tutorial:<UL><li>[Github de E/S Adobe](https://github.com/adobeio)</li><li>[Documentação de E/S do Adobe do público alvo](https://developers.adobetarget.com/api/#introduction)</li><li>[Documentação da API do Recommendations](https://developers.adobetarget.com/api/recommendations/)</li></ul> |
 
 [Próximo &quot;Gerenciar seu catálogo Recommendations&quot; >](manage-catalog.md)
