@@ -11,9 +11,9 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Adobe Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 562cf1fe659ade7fa085a3ba6cb9e7ae3c1957a5
+source-git-commit: c67105ec2ec4a72f7c1080dccc0051f5a7ef5b26
 workflow-type: tm+mt
-source-wordcount: '1876'
+source-wordcount: '1877'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ Esta lição percorre as etapas preliminares necessárias para gerar tokens de a
 | Recurso | Detalhes |
 | --- | --- |
 | Postman | Para concluir essas etapas com êxito, obtenha o aplicativo [](https://www.postman.com/downloads/) Postman para seu sistema operacional. O Postman Basic é gratuito com a criação de contas. Embora não seja necessário para usar as APIs da Adobe Target em geral, o Postman facilita os workflows de API e a Adobe Target fornece várias coleções Postman para ajudar a executar suas APIs e aprender como elas operam. O resto deste tutorial assume conhecimento prático do Postman. Para obter assistência, consulte a documentação [do](https://learning.getpostman.com/)Postman. |
-| Referências | A familiaridade com os seguintes recursos é assumida durante todo o restante deste tutorial:<UL><li>[Github de E/S Adobe](https://github.com/adobeio)</li><li>[Documentação de E/S do Adobe do Público alvo](https://developers.adobetarget.com/api/#introduction)</li><li>[Documentação da API do Recommendations](https://developers.adobetarget.com/api/recommendations/)</li></ul> |
+| Referências | A familiaridade com os seguintes recursos é assumida durante todo o restante deste tutorial:<UL><li>[Github de E/S Adobe](https://github.com/adobeio)</li><li>[Documentação de E/S do Adobe do público alvo](https://developers.adobetarget.com/api/#introduction)</li><li>[Documentação da API do Recommendations](https://developers.adobetarget.com/api/recommendations/)</li></ul> |
 
 ## Criar um projeto de E/S de Adobe
 
@@ -115,7 +115,9 @@ Essas etapas também são fornecidas a seguir.
 7. Observe `CLIENT_SECRET` e `API_KEY` (junto com outras variáveis) têm seus valores pré-preenchidos, extraídos de sua integração conforme definido no Console do desenvolvedor do Adobe. (A `CLIENT_SECRET` variável Postman deve corresponder à credencial do `CLIENT SECRET` Adobe, conforme exibida no Developer Console, e `API_KEY` no Postman também deve corresponder `CLIENT ID` no Developer Console.) Por outro lado, observe `PRIVATE_KEY`, `JWT_TOKEN`e `ACCESS_TOKEN` estão em branco. Vamos start fornecendo o `PRIVATE_KEY` valor.
    ![JWT7](assets/configure-io-target-jwt7.png)
 
-   >[!SURPRISE]
+   >[!NOTE]
+   >
+   >**Surpresa!**
    >
    >Teste de pop! Você consegue se lembrar onde está sua chave privada?
    >É isso mesmo, está no `config` arquivo baixado anteriormente do Adobe Developer Console!
@@ -131,7 +133,7 @@ Essas etapas também são fornecidas a seguir.
 
 ## Gerar o token de acesso do portador
 
-Nesta seção, você gera seu token de acesso portador, que é necessário para autenticar sua interação com APIs do Adobe Target. Para gerar seu token de acesso portador, é necessário enviar os detalhes de integração (estabelecidos nas seções anteriores) ao [Adobe Identity Management Service (IMS)](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/AuthenticationGuide.md). Existem algumas maneiras diferentes de fazer isso, mas neste tutorial nós criamos uma solicitação de POST bespoke para a API IMS. Brincadeira. Neste tutorial, aproveitamos uma coleção Postman contendo uma chamada IMS pré-construída que torna o processo direto e fácil. Depois de importar a coleção, você pode reutilizá-la sempre que necessário para gerar novos tokens não apenas para Adobe Target, mas também para outras APIs de Adobe.
+Nesta seção, você gera seu token de acesso portador, que é necessário para autenticar sua interação com APIs da Adobe Target. Para gerar seu token de acesso portador, é necessário enviar os detalhes de integração (estabelecidos nas seções anteriores) ao [Adobe Identity Management Service (IMS)](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/AuthenticationGuide.md). Existem algumas maneiras diferentes de fazer isso, mas neste tutorial nós criamos uma solicitação de POST bespoke para a API IMS. Brincadeira. Neste tutorial, aproveitamos uma coleção Postman contendo uma chamada IMS pré-construída que torna o processo direto e fácil. Depois de importar a coleção, você pode reutilizá-la sempre que necessário para gerar novos tokens não apenas para Adobe Target, mas também para outras APIs de Adobe.
 
 1. Navegue até as chamadas [de amostra da API de serviço do Identity Management](https://github.com/adobe/experience-platform-postman-samples/tree/master/apis/ims)Adobe.
    ![token1](assets/configure-io-target-generatetoken1.png)
