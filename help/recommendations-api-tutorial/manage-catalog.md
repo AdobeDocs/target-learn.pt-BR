@@ -8,10 +8,10 @@ doc-type: tutorial
 activity: use
 feature: api
 topics: recommendations;adobe recommendations;premium;api;apis
-solution: Adobe Target
+solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 78b30bc0018527f9d8b2a5b50edee86e877d14c7
+source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
 workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 1%
@@ -127,7 +127,7 @@ O objeto JSON pode ser dimensionado para enviar vários produtos. Por exemplo, e
 
 1. Agora é a sua vez! Use a API **Salvar Entidades** para adicionar os seguintes itens ao catálogo. Use a amostra JSON acima como ponto de partida. (Você precisará estender o JSON para incluir entidades adicionais.)
 
-   ![SaveEntities6.png](assets/SaveEntities06.png)
+   ![SaveEntities5.png](assets/SaveEntities06.png)
 
 Parece que esses dois últimos itens não pertencem. Vamos inspecioná-los usando a API **Obter entidade** e, se necessário, excluí-los usando a API **Excluir entidades** .
 
