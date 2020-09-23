@@ -8,10 +8,10 @@ doc-type: tutorial
 activity: use
 feature: api
 topics: recommendations;adobe recommendations;premium;api;apis
-solution: Adobe Target
+solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 7265fd8611aacc94d1a66c10cd641c0644f2d43f
+source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
 workflow-type: tm+mt
 source-wordcount: '1473'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 # Busca [!DNL Recommendations] com a API do Delivery
 
-As APIs do Adobe Target e do Adobe Target podem ser usadas para fornecer respostas a páginas da Web, mas também podem ser usadas em experiências não baseadas em HTML, incluindo aplicativos, telas, consoles, emails, quiosques e outros dispositivos de exibição. [!DNL Recommendations] Em outras palavras, quando [!DNL Target] bibliotecas e JavaScript não podem ser usadas, a API **[!DNL Target]do **Delivery ainda nos permite acessar toda a gama de[!DNL Target]funcionalidades para fornecer experiências personalizadas.
+As APIs do Adobe Target e do Adobe Target podem ser usadas para fornecer respostas a páginas da Web, mas também podem ser usadas em experiências não baseadas em HTML, incluindo aplicativos, telas, consoles, emails, quiosques e outros dispositivos de exibição. [!DNL Recommendations] Em outras palavras, quando [!DNL Target] bibliotecas e JavaScript não podem ser usadas, a API **[!DNL Target]do** Delivery ainda nos permite acessar toda a gama de [!DNL Target] funcionalidades para fornecer experiências personalizadas.
 
 >[!NOTE]
 >
@@ -97,7 +97,7 @@ Os recursos a seguir fornecem exemplos de várias implementações não focadas 
 | [Adobe Target em um aplicativo móvel sem o SDK Adobe](https://community.tealiumiq.com/t5/Universal-Data-Hub/Adobe-Target-in-a-Mobile-App-Without-the-Adobe-SDK/ta-p/26753) | Este guia mostra como configurar o Adobe Target em seu aplicativo móvel sem instalar o SDK do Adobe. Essa solução usa a visualização Web do SDK do Tealium e o módulo Comandos remotos para enviar e receber solicitações à API do Visitante do Adobe (Experience Cloud) e à API do Adobe Target. |
 | [Como a Adobe Target funciona em aplicativos móveis](https://docs.adobe.com/content/help/en/target/using/implement-target/mobile-apps/mobile-how-target-works-mobile-apps.html) | Como [!DNL Target] funciona com o SDK móvel |
 | [Configuração [!DNL Target] extension in Experience Platform Launch and Implementing [!DNL Target] das APIs](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | Etapas para configurar a [!DNL Target] extensão no Experience Platform Launch, adicionar a [!DNL Target] extensão ao aplicativo e implementar [!DNL Target] APIs para solicitar atividade, pré-buscar oferta e entrar no modo de pré-visualização visual. |
-| [Adobe Target Node Client](https://www.npmjs.com/package/@adobe/target-nodejs-sdk) | SDK v1.0 de [!DNL Target] Node.js de origem aberta |
+| [Adobe Target Node Client](https://www.npmjs.com/package/@adobe/target-nodejs-sdk) | SDK v1.0 de [!DNL Target] Node.js de fonte aberta |
 | [Visão geral do lado do servidor](https://docs.adobe.com/content/help/en/target/using/implement-target/server-side/api-and-sdk-overview.html) | Informações sobre APIs de delivery do lado do servidor Adobe Target, APIs de Delivery do lado do servidor, SDK do Node.js e APIs [!DNL Recommendations] do Adobe Target. |
 | [Adobe Campaign Content Recommendations no email](https://medium.com/adobetech/adobe-campaign-content-recommendations-in-email-b51ced771d7f) | Blog que descreve como aproveitar as recomendações de conteúdo por email via Adobe Target e Adobe I/O Runtime no Adobe Campaign. |
 
@@ -114,11 +114,11 @@ Aprendemos em uma seção [](manage-catalog.md) anterior como gerenciar entidade
 | [Designs](http://developers.adobetarget.com/api/recommendations/#tag/Designs) | Lista, criação, obtenção, edição, exclusão e validação de designs. |
 | [Entidades](http://developers.adobetarget.com/api/recommendations/#tag/Entities) | Salvar, excluir e obter entidades. |
 | [Promoções](http://developers.adobetarget.com/api/recommendations/#tag/Promotions) | Lista, criação, obtenção, edição e exclusão de promoções. |
-| [Critérios de Categoria](http://developers.adobetarget.com/api/recommendations/#tag/Category-Criteria) | Lista, criação, obtenção, edição e exclusão de critérios de categoria. |
+| [Critérios de categoria](http://developers.adobetarget.com/api/recommendations/#tag/Category-Criteria) | Lista, criação, obtenção, edição e exclusão de critérios de categoria. |
 | [Critérios personalizados](http://developers.adobetarget.com/api/recommendations/#tag/Custom-Criteria) | Lista, criação, obtenção, edição e exclusão de critérios personalizados. |
 | [Critérios do item](http://developers.adobetarget.com/api/recommendations/#tag/Item-Criteria) | Lista, criação, obtenção, edição e exclusão de critérios de item. |
 | [Critérios de popularidade](http://developers.adobetarget.com/api/recommendations/#tag/Popularity-Criteria) | Lista, criação, obtenção, edição e exclusão de critérios de popularidade. |
-| [Critérios de atributo do Perfil](http://developers.adobetarget.com/api/recommendations/#tag/Profile-Attribute-Criteria) | Lista, criação, obtenção, edição e exclusão dos critérios de atributos do perfil. |
+| [Critérios de atributo do perfil](http://developers.adobetarget.com/api/recommendations/#tag/Profile-Attribute-Criteria) | Lista, criação, obtenção, edição e exclusão dos critérios de atributos do perfil. |
 | [Critérios recentes](http://developers.adobetarget.com/api/recommendations/#tag/Recent-Criteria) | Lista, criação, obtenção, edição e exclusão de critérios recentes. |
 | [Critérios de sequência](http://developers.adobetarget.com/api/recommendations/#tag/Sequence-Criteria) | Lista, criação, obtenção, edição e exclusão de critérios de sequência. |
 
