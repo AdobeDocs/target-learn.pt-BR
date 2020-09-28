@@ -1,16 +1,16 @@
 ---
 title: Entenda os tipos de Atividades no Adobe Target
-description: 'null'
+description: Saiba mais sobre os diferentes tipos de atividades incluídas no Adobe Target e como elas podem ajudar a atingir suas metas.
 audience: marketer
 difficulty: 1
 author: Daniel Wright
 doc-type: understand
 activity-type: feature-video
 translation-type: tm+mt
-source-git-commit: 6ebdda26ef1e210cca495fe9ea73c67eca039d6f
+source-git-commit: 9d90be1fed34f07415d1619dfd007c4ec586ed0a
 workflow-type: tm+mt
-source-wordcount: '14'
-ht-degree: 7%
+source-wordcount: '32'
+ht-degree: 0%
 
 ---
 
