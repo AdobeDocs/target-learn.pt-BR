@@ -1,6 +1,6 @@
 ---
 title: Implantação Adobe Target Híbrida
-description: null
+description: A Adobe Target oferta um modelo exclusivo de implantação híbrida para personalização — mesclando implementações do lado do cliente e do lado do servidor.
 topics: implementation
 feature: implementation
 audience: developer, architect
@@ -10,10 +10,10 @@ team: Technical Marketing
 kt: 6165
 thumbnail: null
 translation-type: tm+mt
-source-git-commit: 1c5349efc4a8faeca007ff51b115b61d035602ab
+source-git-commit: eeb11a0ab043d8db4cb5b732baedd4cc44f6f57b
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 2%
+source-wordcount: '114'
+ht-degree: 1%
 
 ---
 
