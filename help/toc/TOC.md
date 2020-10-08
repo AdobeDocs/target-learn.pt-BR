@@ -5,9 +5,9 @@ breadcrumb-title: Target Tutorials
 audience: end-user
 solution: Target
 translation-type: tm+mt
-source-git-commit: 7e57febf5f552d697260283a3f98f9b403663f28
+source-git-commit: 6b8bded0235ed9d894fe30ff505d39b789fbeef1
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '376'
 ht-degree: 8%
 
 ---
@@ -36,6 +36,7 @@ ht-degree: 8%
    + [Criar uma implementação de Público alvo](../dev101/2.5-design-target-implementation.md)
    + [Próximas etapas para projetar uma implementação de Público alvo](../dev101/2.6-next-steps-design-target-implementation.md)
    + [Use a opção de aceitação para controlar soluções de Experience Cloud com base no consentimento do usuário](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/id-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html)
+   + [Entenda a implantação do Adobe Target Hybrid](../implementation/hybrid-deployment.md)
 + Integrações{#integrations}
    + [Integrar Público alvo ao Analytics](../dev101/3.2-target-analytics.md)
    + [Usar o Analytics como uma Fonte de Dados para o Público alvo (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
