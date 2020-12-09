@@ -4,10 +4,11 @@ user-guide-title: 'Tutoriais do Adobe Target '
 breadcrumb-title: Tutoriais do Target
 audience: end-user
 solution: Target
+type: tutorial
 translation-type: tm+mt
-source-git-commit: 6b8bded0235ed9d894fe30ff505d39b789fbeef1
+source-git-commit: 009b19539470c64d7497e848e6042f8399192903
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '381'
 ht-degree: 9%
 
 ---
@@ -37,13 +38,14 @@ ht-degree: 9%
    + [Próximas etapas para projetar uma implementação de Público alvo](../dev101/2.6-next-steps-design-target-implementation.md)
    + [Use a opção de aceitação para controlar soluções de Experience Cloud com base no consentimento do usuário](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/id-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html)
    + [Entenda a implantação do Adobe Target Hybrid](../implementation/hybrid-deployment.md)
+   + [Visão geral da decisão no dispositivo](../implementation/on-device-decisioning-overview.md)
 + Integrações{#integrations}
    + [Integrar Público alvo ao Analytics](../dev101/3.2-target-analytics.md)
    + [Usar o Analytics como uma Fonte de Dados para o Público alvo (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
    + [Integrar Público alvo ao Audience Manager](../dev101/3.3-target-dmp.md)
    + [Integrar o Público alvo ao Experience Cloud Audiência](../dev101/3.4-target-exc-audiences.md)
    + [Integração do Target ao Campaign](../dev101/3.6-target-campaign.md)
-   + [Integrar o Público alvo à E/S do Adobe](../dev101/3.7-target-io.md)
+   + [Integrar Público alvo ao Adobe I/O](../dev101/3.7-target-io.md)
    + [Integrar Público alvo ao Scene7](../dev101/3.8-target-scene7.md)
    + [Integrar Público alvo ao Adobe Experience Manager](../dev101/3.5-target-aem.md)
    + [Usar AEM fragmentos de experiência no Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
