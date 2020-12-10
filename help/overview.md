@@ -3,9 +3,9 @@ title: 'Tutoriais do Adobe Target '
 seo-title: 'Tutoriais do Adobe Target '
 description: Uma coleção de vídeos explicativos e tutoriais para torná-lo um usuário avançado do Adobe Target
 translation-type: tm+mt
-source-git-commit: eeb11a0ab043d8db4cb5b732baedd4cc44f6f57b
+source-git-commit: f7aef8f332173c8dfca9fbb09d13c5a43a42ffbc
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '240'
 ht-degree: 20%
 
 ---
@@ -17,20 +17,18 @@ O Adobe Target é a solução da Adobe Experience Cloud que oferece tudo o que v
 
 ## Novidades
 
-* **[Usar a API do Recommendations (tutorial)](recommendations-api-tutorial/recs-api-overview.md)**
+* **[Visão geral da decisão no dispositivo](implementation/on-device-decisioning-overview.md)**
 
-   <br>
-   *Para desenvolvedores: Obtenha uma prática prática prática usando as[!DNL Recommendations]APIs para configurar e gerenciar[!DNL Recommendations]catálogos e critérios personalizados e muito mais.*
+   *Para arquitetos: Comece com a decisão no dispositivo para fornecer experiências de latência quase zero aos seus consumidores!*
+* **[Usar a API do Recommendations (tutorial)](recommendations-api-tutorial/recs-api-overview.md)**
+   *Para desenvolvedores: Obtenha uma prática prática prática usando as [!DNL Recommendations] APIs para configurar e gerenciar [!DNL Recommendations] catálogos e critérios personalizados e muito mais.*
 
 * **[Implementação do Adobe Target com Adobe Mobile Services SDK v4 para Android (tutorial)](mobile-v4/overview.md)**
 
-   <br>
    *Para desenvolvedores que já estão usando o Adobe Mobile Services SDK v4: saiba como personalizar experiências de aplicativos com o Adobe Target. Essas etapas são fornecidas como suporte herdado ao usuário.<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->*
 
-* **[Usar Recommendations Oferta (Vídeo)](recommendations/use-recommendations-offers.md)**
-
-   <br>
-   *Para todos os usuários do Público alvo: Saiba como usar as recomendações de produto nas Atividades A/B e Experience Targeting.*
+<!--* **[Use Recommendations Offers (Video)](recommendations/use-recommendations-offers.md)**
+    *For all Target Users: Learn how to use product recommendations in A/B and Experience Targeting Activities.*-->
 
 <!--
 * **[Create a Recommendations Activity (Video)](recommendations/create-a-recommendations-activity.md)**
