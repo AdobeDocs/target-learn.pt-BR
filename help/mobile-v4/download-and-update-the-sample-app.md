@@ -26,7 +26,7 @@ O aplicativo de amostra We.Travel é pré-implementado com o SDK do Adobe Mobile
 Ao final desta lição, você poderá:
 
 * Baixe e abra o aplicativo de amostra We.Travel no Android Studio
-* Verificar e atualizar as configurações do SDK do Mobile Services para [!DNL Target]
+* Verifique e atualize as configurações do SDK do Mobile Services para [!DNL Target]
 
 ## Baixe o aplicativo We.Travel
 
@@ -36,32 +36,32 @@ Ao final desta lição, você poderá:
 * Execute o aplicativo em um emulador para confirmar que o aplicativo foi criado e que você pode ver a tela inicial
 * Procure o aplicativo e verifique se você pode concluir o processo de reserva (selecione qualquer opção de pagamento e clique em &quot;Continuar&quot; para ignorar a tela de cobrança!)
 
-   ![Abrir a tela](assets/wetravel_homeScreen.png)![appConfirmation](assets/wetravel_confirmationScreen.png)
+   ![Abrir a tela ](assets/wetravel_homeScreen.png)![appConfirmation](assets/wetravel_confirmationScreen.png)
 
-## Verificar e atualizar as configurações do SDK do Mobile Services para [!DNL Target]
+## Verifique e atualize as configurações do SDK do Mobile Services para [!DNL Target]
 
-O SDK do Adobe Mobile Services foi pré-instalado no aplicativo We.Travel de [acordo com a documentação](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html). Agora você atualizará a instalação para apontar para sua própria [!DNL Target] conta.
+O SDK do Adobe Mobile Services foi pré-instalado no aplicativo We.Travel [de acordo com a documentação](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html). Agora você atualizará a instalação para apontar para sua própria conta [!DNL Target].
 
 Primeiro, crie um novo aplicativo na interface do usuário do Mobile Services:
 
-1. Log in to the [Adobe Mobile Services interface](https://mobilemarketing.adobe.com).
-1. Vá para [!UICONTROL Gerenciar aplicativos]e clique em **[!UICONTROL Adicionar]** para adicionar um novo aplicativo a ser usado com este tutorial (**[!UICONTROL Gerenciar aplicativos]** > **[!UICONTROL Adicionar]**).
-1. Escolha um conjunto de relatórios da Analytics com dados que não sejam de produção, dê um nome ao aplicativo, selecione o tipo **[!UICONTROL Padrão]** e clique em **[!UICONTROL Salvar]**.
-1. Depois que o aplicativo for adicionado, adicione o Código do cliente na tela seguinte na seção Opções [!DNL Target] do Público alvo [!UICONTROL SDK (você pode encontrar o código do cliente na] interface em [!DNL Target] Configuração **[!UICONTROL >]** Implementação **[!UICONTROL >]** Editar configurações ****`at.js` , ao lado do botão Download).
-1. A configuração Tempo limite [!UICONTROL da] solicitação determina quanto tempo o aplicativo aguarda a resposta do [!DNL Target] servidor antes de executar instruções de tempo limite. Deixe apenas a configuração padrão.
-1. Ative o serviço [!UICONTROL de ID do] Visitante e verifique se a sua [!UICONTROL organização] está selecionada na lista suspensa.
-1. Salve as alterações clicando em **[!UICONTROL Salvar]** no lado superior direito da janela (não no link [!UICONTROL Universal Links], nas opções de Links  de Aplicativo ou na seção Serviços [!UICONTROL de] push).
+1. Faça logon na [interface do Adobe Mobile Services](https://mobilemarketing.adobe.com).
+1. Vá para [!UICONTROL Gerenciar aplicativos] e clique em **[!UICONTROL Adicionar]** para adicionar um novo aplicativo a ser usado com este tutorial (**[!UICONTROL Gerenciar aplicativos]** > **[!UICONTROL Adicionar]**).
+1. Escolha um conjunto de relatórios do Analytics com dados que não sejam de produção, dê um nome ao aplicativo, selecione o tipo **[!UICONTROL Standard]** e clique em **[!UICONTROL Salvar]**.
+1. Depois que o aplicativo for adicionado, adicione seu [!DNL Target] Código do cliente na próxima tela na seção [!UICONTROL Opções de Público alvo SDK] (você pode encontrar seu código de cliente na interface [!DNL Target] em **[!UICONTROL Configuração]** > **[!UICONTROL Implementação]** > **[!UICONTROL Editar configurações]**, ao lado do Download &lt;a1 ).`at.js`
+1. A configuração [!UICONTROL Tempo limite de solicitação] determina quanto tempo o aplicativo aguarda a resposta do servidor [!DNL Target] antes de executar instruções de tempo limite. Deixe apenas a configuração padrão.
+1. Ative o [!UICONTROL Serviço de ID de Visitante] e certifique-se de que [!UICONTROL Organização] esteja selecionado no menu suspenso.
+1. Salve as alterações clicando em **[!UICONTROL Salvar]** no lado superior direito da janela (não no lado [!UICONTROL Opções de Links Universais], [!UICONTROL Links de Aplicativo] ou [!UICONTROL Serviços de Push]).
 1. Role até a seção Downloads do SDK do aplicativo na parte inferior da página e baixe o arquivo de configuração:
 
    ![Download do arquivo de configuração](assets/config_file.jpg)
 
-1. Substitua o `ADBMobileConfig.json` arquivo na pasta de ativos do projeto do Android Studio (aplicativo > src > principal > ativos).
+1. Substitua o arquivo `ADBMobileConfig.json` na pasta de ativos do projeto do Android Studio (aplicativo > src > principal > ativos).
 
-1. Agora, abra o `ADBMobileConfig.json` arquivo e verifique se ele contém as alterações esperadas, como seu Código do [!DNL Target] cliente e seus detalhes do Analytics:
+1. Agora abra o arquivo `ADBMobileConfig.json` e verifique se ele contém as alterações esperadas, como seu [!DNL Target] Código do cliente e seus detalhes do Analytics:
    ![Download do arquivo de configuração](assets/client_code.jpg)
 
-Se não vir suas configurações, confirme que você clicou no botão **[!UICONTROL Salvar]** direito na interface do [!UICONTROL Mobile Services] e copiou o arquivo para o local correto.
+Se não vir suas configurações, confirme que você clicou no botão **[!UICONTROL Salvar]** direito na interface [!UICONTROL Mobile Services] e copiou o arquivo para o local correto.
 
-Parabéns! Você atualizou o SDK com os detalhes de sua [!DNL Target] conta! A validação da configuração será realizada depois que adicionarmos [!DNL Target] solicitações na próxima lição.
+Parabéns! Você atualizou o SDK com seus detalhes de conta [!DNL Target]! A validação da configuração será realizada depois que adicionarmos [!DNL Target] solicitações na próxima lição.
 
 **[PRÓXIMO : &quot;Adicionar solicitações de Público alvo&quot; >](add-requests.md)**
