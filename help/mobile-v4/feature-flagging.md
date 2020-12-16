@@ -1,8 +1,8 @@
 ---
 title: Sinalização de recurso
 seo-title: Sinalização de recurso
-description: O Adobe Target pode ser usado para experimentar recursos UX como cor, cópia, botões, texto e imagens e fornecer esses recursos a audiências específicas.
-seo-description: O Adobe Target pode ser usado para experimentar recursos UX como cor, cópia, botões, texto e imagens e fornecer esses recursos a audiências específicas.
+description: O Adobe Target pode ser usado para experimentar recursos UX como cor, cópia, botões, texto e imagens e fornecer esses recursos para audiências específicas.
+seo-description: O Adobe Target pode ser usado para experimentar recursos UX como cor, cópia, botões, texto e imagens e fornecer esses recursos para audiências específicas.
 feature: mobile
 kt: 3040
 audience: developer
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 # Sinalização de recurso
 
-Os proprietários de produtos de aplicativos móveis precisam de flexibilidade para implantar novos recursos em seus aplicativos sem precisar investir em várias versões de aplicativos. Eles também podem querer implantar recursos gradualmente em uma porcentagem da base de usuários, para testar a eficácia. O Adobe Target pode ser usado para experimentar recursos UX como cor, cópia, botões, texto e imagens e fornecer esses recursos a audiências específicas.
+Os proprietários de produtos de aplicativos móveis precisam de flexibilidade para implantar novos recursos em seus aplicativos sem precisar investir em várias versões de aplicativos. Eles também podem querer implantar recursos gradualmente em uma porcentagem da base de usuários, para testar a eficácia. O Adobe Target pode ser usado para experimentar recursos UX como cor, cópia, botões, texto e imagens e fornecer esses recursos para audiências específicas.
 
 Nesta lição, criaremos uma oferta de &quot;sinalizador de recurso&quot; que pode ser usada como disparador para ativar recursos específicos do aplicativo.
 
@@ -28,7 +28,7 @@ Nesta lição, criaremos uma oferta de &quot;sinalizador de recurso&quot; que po
 Ao final desta lição, você poderá:
 
 * Adicionar um novo local à solicitação de busca prévia em lote
-* Criar uma [!DNL Target] atividade com uma oferta que será usada como sinalizador de recurso
+* Criar uma atividade [!DNL Target] com uma oferta que será usada como sinalizador de recurso
 * Carregue e valide a oferta do sinalizador de recursos no aplicativo
 
 ## Adicionar um novo local à solicitação de busca prévia à Atividade inicial
@@ -37,7 +37,7 @@ No aplicativo de demonstração das lições anteriores, adicionaremos um novo l
 
 >[!NOTE]
 >
->Um dos benefícios do uso de uma solicitação de busca prévia é que adicionar uma nova solicitação não adiciona sobrecarga de rede adicional ou gera trabalho de carga adicional, já que a solicitação é empacotada dentro da solicitação de busca prévia
+>Um dos benefícios do uso de uma solicitação de busca prévia é que adicionar uma nova solicitação não adiciona sobrecarga adicional de rede ou gera trabalho de carga adicional, já que a solicitação é empacotada dentro da solicitação de busca prévia
 
 Primeiro, verifique se a constante weTravel_feature_flag_recs foi adicionada ao arquivo Constant.java:
 
@@ -53,7 +53,7 @@ Agora, adicione o local à solicitação de busca prévia e carregue uma nova fu
 
 ![Código de sinalizador de recurso](assets/feature_flag_code.jpg)
 
-Este é o código atualizado completo:
+Este é o código completo atualizado:
 
 ```java
 public void targetPrefetchContent() {
@@ -112,13 +112,13 @@ Depois que o código for adicionado, execute o Emulador na Atividade inicial e o
 
 ## Criar uma Oferta JSON de sinalizador de recurso
 
-Agora criaremos uma oferta JSON simples que atuará como um sinalizador ou acionador para uma audiência específica - a audiência que receberá a implantação do recurso em seu aplicativo. Na [!DNL Target] interface, crie uma nova oferta:
+Agora criaremos uma oferta JSON simples que atuará como um sinalizador ou acionador para uma audiência específica - a audiência que receberá a implantação do recurso em seu aplicativo. Na interface [!DNL Target], crie uma nova oferta:
 
 ![Criar sinalizador de recurso Oferta JSON](assets/feature_flag_json_offer.jpg)
 
 Vamos nomeá-lo &quot;Sinalizador de Recurso v1&quot; com o valor {&quot;enable&quot;:1}
 
-![Oferta feature_flag_v1 JSON](assets/feature_flag_json_name.jpg)
+![oferta feature_flag_v1 JSON](assets/feature_flag_json_name.jpg)
 
 ## Criar uma atividade
 
@@ -132,17 +132,17 @@ Agora vamos criar uma atividade de teste A/B com essa oferta. Para obter etapas 
 
 1. Clique em **[!UICONTROL Adicionar experiência]** para adicionar a experiência B.
 1. Deixe o local &quot;weTravel_feature_flag_recs&quot;
-1. Deixe o conteúdo **** padrão para o conteúdo
-1. Click **[!UICONTROL Next]** to advance to the [!UICONTROL Targeting] screen
+1. Deixe **[!UICONTROL Conteúdo padrão]** para o conteúdo
+1. Clique em **[!UICONTROL Próximo]** para avançar para a tela [!UICONTROL Definição de metas]
 
    ![Configuração de Atividade do sinalizador de recurso](assets/feature_flag_activity_2.jpg)
 
-1. Na tela [!UICONTROL Definição de metas] , verifique se o método de alocação [!UICONTROL de] tráfego está definido como a configuração padrão (Manual) e se cada experiência tem a alocação padrão de 50%. Selecione **[!UICONTROL Próximo]** para avançar para **[!UICONTROL Metas e configurações]**.
+1. Na tela [!UICONTROL Definição de metas], verifique se o método [!UICONTROL alocação de tráfego] está definido como a configuração padrão (Manual) e se cada experiência tem a alocação padrão de 50%. Selecione **[!UICONTROL Seguinte]** para avançar para **[!UICONTROL Metas e Definições]**.
 
    ![Configuração de Atividade do sinalizador de recurso](assets/feature_flag_activity_3.jpg)
 
-1. Defina o Objetivo **[!UICONTROL principal]** como **[!UICONTROL Conversão]**.
-1. Defina a ação como **[!UICONTROL Visualizada uma mbox]**. Usaremos o local &quot;weTravel_context_dest&quot; (como esse local está na tela Confirmação, podemos usá-lo para ver se o novo recurso leva a mais conversões).
+1. Defina **[!UICONTROL Objetivo primário]** como **[!UICONTROL Conversão]**.
+1. Defina a ação como **[!UICONTROL Exibida uma Mbox]**. Usaremos o local &quot;weTravel_context_dest&quot; (como esse local está na tela Confirmação, podemos usá-lo para ver se o novo recurso leva a mais conversões).
 1. Clique em **[!UICONTROL Salvar e fechar]**.
 
    ![Configuração de Atividade do sinalizador de recurso](assets/feature_flag_activity_4.jpg)
@@ -151,19 +151,19 @@ Ativar a atividade.
 
 ## Validar a Atividade do sinalizador de recurso
 
-Agora use o emulador para verificar a solicitação. Como definimos a definição de metas para 50% dos usuários, há 50% de resposta do sinalizador de recursos que contém o `{enable:1}` valor.
+Agora use o emulador para verificar a solicitação. Como definimos a definição de metas para 50% dos usuários, há 50% de resposta do sinalizador de recursos que contém o valor `{enable:1}`.
 
 ![Validação do sinalizador de recurso](assets/feature_flag_validation.jpg)
 
-Se você não vir o `{enable:1}` valor, isso significa que você não foi direcionado para a experiência. Como um teste temporário, para forçar a oferta a mostrar, você poderia:
+Se você não vir o valor `{enable:1}`, isso significa que você não foi direcionado para a experiência. Como um teste temporário, para forçar a oferta a mostrar, você poderia:
 
 1. Desative a atividade.
 1. Altere a alocação de tráfego para 100% na experiência do novo recurso.
 1. Salve e reative.
 1. Limpe os dados no emulador e reinicie o aplicativo.
-1. A oferta agora deve retornar o `{enable:1}` valor.
+1. A oferta agora deve retornar o valor `{enable:1}`.
 
-Em um cenário ao vivo, a `{enable:1}` resposta pode ser usada para ativar uma lógica mais personalizada no aplicativo para exibir o conjunto de recursos específico que você deseja que mostre a audiência do público alvo.
+Em um cenário ao vivo, a resposta `{enable:1}` pode ser usada para ativar uma lógica mais personalizada no aplicativo para exibir o conjunto de recursos específico que você deseja que mostre a audiência do público alvo.
 
 ## Conclusão 
 
