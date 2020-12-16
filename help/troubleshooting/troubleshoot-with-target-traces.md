@@ -1,5 +1,5 @@
 ---
-title: Solução de problemas de Adobe Target com traços de Público alvo
+title: Solucionar problemas do Adobe Target com rastreamentos de Público alvo
 description: Com o depurador da Adobe Experience Cloud é mais rápido e fácil entender a implementação do Target. Saiba como se autenticar no Experience Cloud e usar a poderosa ferramenta Público alvo Traces para inspecionar suas qualificações de atividade e audiência, bem como seu perfil de visitante.
 audience: marketer
 difficulty: 3
