@@ -29,6 +29,6 @@ O Direcionamento de experiência é uma primeira etapa no mundo da personalizaç
 
 ## Outros recursos usados neste vídeo
 
-* [Documentação Audiências para Relatórios](https://docs.adobe.com/help/en/target/using/audiences/managing-audience-filters.html)
+* [Documentação audiências para Relatórios](https://docs.adobe.com/help/en/target/using/audiences/managing-audience-filters.html)
 * [Criação de documentação do Audiência](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/create-audience.html)
 * [Criação de experiências com a documentação do Visual Experience Composer](https://docs.adobe.com/content/help/en/target/using/experiences/experiences.html)
