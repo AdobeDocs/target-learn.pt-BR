@@ -1,6 +1,6 @@
 ---
-title: Usar a Analytics como Fonte de Dados para o Público alvo (A4T)
-seo-title: Usar a Analytics como Fonte de Dados para o Público alvo (A4T)
+title: Usar o Analytics como uma Fonte de Dados para o Público alvo (A4T)
+seo-title: Usar o Analytics como uma Fonte de Dados para o Público alvo (A4T)
 description: 'null'
 audience: marketer
 difficulty: 2
@@ -16,6 +16,6 @@ ht-degree: 3%
 ---
 
 
-# Usar a Adobe Analytics como fonte de dados para Adobe Target (A4T)
+# Usar o Adobe Analytics como uma Fonte de Dados para o Adobe Target (A4T)
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384/?quality=12)
