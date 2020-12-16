@@ -1,6 +1,6 @@
 ---
 title: Criar designs personalizados no Recommendations
-seo-title: Crie designs personalizados no Adobe Target Recommendations
+seo-title: Criar designs personalizados no Adobe Target Recommendations
 audience: marketer
 difficulty: 3
 author: Daniel Wright
