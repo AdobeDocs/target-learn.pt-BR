@@ -1,5 +1,5 @@
 ---
-title: Criar testes A/B com Adobe Target
+title: Criar testes A/B com o Adobe Target
 description: 'null'
 audience: marketer
 difficulty: 1
