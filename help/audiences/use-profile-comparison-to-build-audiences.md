@@ -1,7 +1,7 @@
 ---
-title: Use a comparação entre Perfis para criar Audiências no Adobe Target
-seo-title: Use a comparação entre Perfis para criar Audiências no Adobe Target
-description: O recurso Comparação de Perfil permite que você compare dois valores numéricos de perfil entre si ao criar uma audiência. Isso é extremamente útil se você estiver transmitindo pontuações de propensão personalizadas para o Público alvo e quiser personalizar o conteúdo com base no produto com a pontuação de propensão mais alta.
+title: Usar comparação de Perfis para criar Audiências no Adobe Target
+seo-title: Usar comparação de Perfis para criar Audiências no Adobe Target
+description: O recurso Comparação de Perfis no Adobe Target permite que você compare dois valores numéricos de perfis entre si ao criar uma audiência. Isso é extremamente útil se você estiver transmitindo pontuações de propensão personalizadas para o Público alvo e quiser personalizar o conteúdo com base no produto com a pontuação de propensão mais alta.
 audience: marketer
 difficulty: 3
 author: Daniel Wright
@@ -16,9 +16,9 @@ ht-degree: 4%
 ---
 
 
-# Use a comparação entre Perfis para criar Audiências no Adobe Target
+# Usar comparação de Perfis para criar Audiências no Adobe Target
 
-O recurso Comparação [!UICONTROL de] Perfil permite que você compare dois valores numéricos de perfis entre si ao criar uma audiência. Isso é extremamente útil se você estiver transmitindo pontuações de propensão personalizadas [!DNL Target] e quiser personalizar o conteúdo com base no produto com a pontuação de propensão mais alta.
+O recurso [!UICONTROL Comparação de Perfis] no Adobe Target permite que você compare dois valores numéricos de perfis entre si ao criar uma audiência. Isso é extremamente útil se você estiver transmitindo pontuações de propensão personalizadas para [!DNL Target] e quiser personalizar o conteúdo com base no produto com a pontuação de propensão mais alta.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23218/?quality=12)
 
