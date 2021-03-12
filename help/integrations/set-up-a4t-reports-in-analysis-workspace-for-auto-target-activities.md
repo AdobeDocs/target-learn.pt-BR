@@ -10,7 +10,7 @@ topic: Analytics for Target (A4T), Direcionamento automático
 solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 814ce9b49eff6cbc41a84bb65718f4e5f4f0142d
+source-git-commit: 98ea1a58e1adef2f8778fc0f6654228bf8b550ab
 workflow-type: tm+mt
 source-wordcount: '2237'
 ht-degree: 1%
@@ -34,7 +34,7 @@ Este tutorial aborda as modificações recomendadas para analisar [!DNL Auto-Tar
 
 Para criar um relatório A4T para [!DNL Auto-Target], comece com o painel **[!UICONTROL Analytics for Target]** no Workspace, conforme mostrado abaixo, ou comece com uma tabela de forma livre. Em seguida, faça as seguintes seleções:
 
-1. **[!UICONTROL Experiência]** de controle: Você pode escolher qualquer experiência; no entanto, substituiremos essa opção posteriormente. Observe que para atividades [!DNL Auto-Target], a experiência de controle é realmente uma estratégia de controle, que é: a) Servir aleatoriamente entre todas as experiências ou b) Servir uma única experiência (essa escolha é feita no momento da criação da atividade no Adobe Target). Mesmo que você tenha optado pela escolha (b) - sua atividade [!DNL Auto-Target] designada uma experiência específica como Controle - você ainda deve seguir a abordagem descrita neste tutorial para analisar o A4T para atividades [!DNL Auto-Target] .
+1. **[!UICONTROL Experiência]** de controle: Você pode escolher qualquer experiência; no entanto, você substituirá essa opção posteriormente. Observe que para atividades [!DNL Auto-Target], a experiência de controle é realmente uma estratégia de controle, que é: a) Servir aleatoriamente entre todas as experiências ou b) Servir uma única experiência (essa escolha é feita no momento da criação da atividade no Adobe Target). Mesmo que você tenha optado pela escolha (b) - sua atividade [!DNL Auto-Target] designada uma experiência específica como Controle - você ainda deve seguir a abordagem descrita neste tutorial para analisar o A4T para atividades [!DNL Auto-Target] .
 2. **[!UICONTROL Métrica]** de normalização: Selecione Visitas.
 3. **[!UICONTROL Métricas]** de sucesso: Embora seja possível selecionar qualquer métrica para gerar relatórios, geralmente é necessário exibir relatórios sobre a mesma métrica escolhida para otimização durante a criação da atividade no Adobe Target.
 
@@ -87,7 +87,7 @@ Vamos comparar os relatórios a nível de visitante e a nível de visita:
 | Experiência | Visitantes únicos | Visitas | Conversões | Norma do visitante. Conv. Taxa | Norma de visita. Conv. Taxa |
 | --- | --- | --- | --- | --- | --- |
 | Um | 1 | 3 | - | 0% | 0% |
-| B  | 2 | 3 | 1 | 50% | 33,3% |
+| B  | 2 | 3 | 3 | 50% | 33,3% |
 | Totais | 2 | 4 | 3 | 50% | 25% |
 *Quadro 1: Exemplo comparando relatórios normalizados de visitantes e relatórios normalizados de visitas para um cenário em que as decisões são aderentes a uma visita (e não a um visitante, como com testes A/B regulares). Métricas normalizadas do visitante são confusas neste cenário.*
 
