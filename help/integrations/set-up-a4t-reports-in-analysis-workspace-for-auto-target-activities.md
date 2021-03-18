@@ -1,24 +1,23 @@
 ---
 title: Como configurar relatórios do A4T no Analysis Workspace para atividades de direcionamento automático
-description: Como configurar relatórios do A4T no Analysis Workspace para obter os resultados esperados ao executar atividades de Direcionamento automático
-kt: null
-audience: business user
-doc-type: tutorial
-activity: use, setup
+description: Depois que a integração do Analytics for Target (A4T) estiver em vigor e você estiver executando atividades de Direcionamento automático, como você pode garantir que está interpretando os resultados corretamente? Siga estas etapas para configurar relatórios do A4T no Analysis Workspace para obter os resultados esperados ao executar atividades de Direcionamento automático.
+role: Profissional
+level: Intermediário
+topic: Personalização
 feature: Analytics for Target (A4T), Direcionamento automático
-topic: Analytics for Target (A4T), Direcionamento automático
-solution: Target
-author: Judy Kim
+doc-type: tutorial
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 98ea1a58e1adef2f8778fc0f6654228bf8b550ab
+source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
 workflow-type: tm+mt
-source-wordcount: '2237'
+source-wordcount: '2262'
 ht-degree: 1%
 
 ---
 
 
-# Como configurar relatórios do A4T no Analysis Workspace para atividades [!DNL Auto-Target]
+# Configuração de relatórios A4T no Analysis Workspace para atividades [!DNL Auto-Target]
 
 A integração do Analytics for Target (A4T) para as atividades [!DNL Auto-Target] usa os algoritmos de aprendizado de máquina (ML) do conjunto do Adobe Target para escolher a melhor experiência para cada visitante com base em seu perfil, comportamento e contexto, tudo isso usando uma métrica de meta do Adobe Analytics.
 
@@ -86,7 +85,7 @@ Vamos comparar os relatórios a nível de visitante e a nível de visita:
 
 | Experiência | Visitantes únicos | Visitas | Conversões | Norma do visitante. Conv. Taxa | Norma de visita. Conv. Taxa |
 | --- | --- | --- | --- | --- | --- |
-| Um | 1 | 3 | - | 0% | 0% |
+| Um | 1 | 1 | - | 0% | 0% |
 | B  | 2 | 3 | 3 | 50% | 33,3% |
 | Totais | 2 | 4 | 3 | 50% | 25% |
 *Quadro 1: Exemplo comparando relatórios normalizados de visitantes e relatórios normalizados de visitas para um cenário em que as decisões são aderentes a uma visita (e não a um visitante, como com testes A/B regulares). Métricas normalizadas do visitante são confusas neste cenário.*
