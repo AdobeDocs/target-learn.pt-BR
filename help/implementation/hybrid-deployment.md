@@ -1,42 +1,43 @@
 ---
-title: Implantação Adobe Target Híbrida
-description: A Adobe Target oferta um modelo exclusivo de implantação híbrida para personalização — mesclando implementações do lado do cliente e do lado do servidor.
-topics: implementation
-feature: implementation
-audience: developer, architect
-activity: understand
+title: Opções de implantação híbrida
+description: Assista a este vídeo para saber mais sobre o modelo exclusivo de implantação híbrida da Adobe Target para personalização, mesclando implementações do lado do cliente e do lado do servidor.
+role: Desenvolvedor, Arquiteto
+level: Iniciante
+topic: Personalização, arquitetura, desenvolvimento
+feature: Implementação, Implementar no lado do servidor, Implementar no lado do cliente
 doc-type: feature video
-team: Evangelism
-kt: 6165
 thumbnail: null
+kt: 6165
+team: Evangelism
 translation-type: tm+mt
-source-git-commit: 3c4e25461527c361a7eb2281504e56ddc2f9ea5b
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '151'
 ht-degree: 1%
 
 ---
 
 
-# Implantação Adobe Target Híbrida
+# Implantação híbrida do Adobe Target
 
-## Descrição
-
-A Adobe Target oferta um modelo exclusivo de implantação híbrida para personalização — mesclando implementações do lado do cliente e do lado do servidor. Esse modelo híbrido permite que usuários não técnicos criem uma atividade de experiência ou personalização usando o WYSIWYG Visual Experience Composer e que a experiência seja executada, entregue e renderizada pelo lado do servidor para um delivery de alto desempenho. 
+A Adobe Target oferece um modelo exclusivo de implantação híbrida para personalização, mesclando implementações do lado do cliente e do lado do servidor. Esse modelo híbrido permite que usuários não técnicos criem uma atividade de experimento ou personalização usando o Visual Experience Composer WYSIWYG e que a experiência seja executada, entregue e renderizada pelo lado do servidor para um delivery de alto desempenho. 
 
 ## Objetivos
 
-Ao final deste vídeo, você:
+Ao fim deste vídeo, você deverá:
 
-* Entenda o que uma implantação híbrida da Adobe Target implica
-* Entenda os benefícios de uma implantação híbrida
-* Observe a redução nas chamadas do servidor possibilitada por uma implantação híbrida
+* Entenda o que uma implantação híbrida do Adobe Target implica
+* Entender os benefícios de uma implantação híbrida
+* Observe a redução nas chamadas do servidor viabilizada por uma implantação híbrida
 
-## Audiência pretendida
+## Público-alvo pretendido
 
 * Desenvolvedores
 * Arquitetos
 
 >[!VIDEO](https://video.tv.adobe.com/v/41698/?quality=12)
 
-<!-- JUDY: add to this once we have documentation. And/or add to this, with links to the on-device decisioning content. For more information, visit the [documentation](https://docs.adobe.com/content/help/en/target/using/implement-target/implementing-target.html). -->
+## Recursos adicionais
+
+* [Visão geral do On-Device Decisioning](https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/on-device-decisioning-overview.html?lang=en#implementation)
+* [Documentação do SDK do Adobe Target](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
