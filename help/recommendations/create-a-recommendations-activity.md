@@ -1,28 +1,40 @@
 ---
-title: Criar uma atividade do Recommendations
-seo-title: Criar uma Atividade Recommendations no Adobe Target
-audience: marketer
-difficulty: 3
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: Como criar uma atividade do Recommendations
+description: Saiba como criar uma atividade do Adobe Target Recommendations
+role: Profissional
+level: Intermediário
+topic: Personalização
+feature: Recommendations
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 86131453514cc9acb67ba0594e260996902c46d3
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 22%
+source-wordcount: '80'
+ht-degree: 12%
 
 ---
 
 
-# Criar uma atividade do Recommendations
+# Criar uma atividade do Adobe Target Recommendations
+
+## Descrição
+
+Neste vídeo, você aprenderá a:
+
+* Criar uma atividade do Recommendations
+
+## Público-alvo pretendido
+
+* Profissional
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688?quality=12)
 
 ## Recursos adicionais
 
-* [Usar Ofertas Recommendations em Atividades de teste A/B e direcionamento de experiência](use-recommendations-offers.md)
-* [Compreensão dos feeds](understanding-feeds.md)
+* [Usar as ofertas do Recommendations em atividades de teste A/B e direcionamento de experiência](use-recommendations-offers.md)
+* [Como entender os feeds](understanding-feeds.md)
 * [Criar um feed](create-a-feed.md)
 * [Criar critérios](create-criteria.md)
 * [Criar designs personalizados](create-custom-designs.md)
