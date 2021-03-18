@@ -1,21 +1,34 @@
 ---
-title: Entenda as permissões de usuário corporativo no Adobe Target
-description: 'null'
-audience: administrator
-difficulty: 1
-author: Daniel Wright
-doc-type: understand
-activity-type: feature-video
+title: Como configurar permissões de usuário do Enterprise
+description: Este vídeo apresenta os administradores do Adobe Target a permissões de usuário, propriedades e espaços de trabalho. Assista a este vídeo para saber mais sobre os diferentes níveis de usuário e como usar propriedades e espaços de trabalho para controlar o acesso dos usuários.
+role: Administrador
+level: Iniciante
+topic: Administração
+feature: Administração & Configuração
+doc-type: feature video
+thumbnail: null
+kt: null
 badge: premium
 translation-type: tm+mt
-source-git-commit: 6ebdda26ef1e210cca495fe9ea73c67eca039d6f
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '12'
+source-wordcount: '73'
 ht-degree: 8%
 
 ---
 
 
-# Noções Gerais das Permissões de Usuário Enterprise
+# Compreensão das permissões de usuário empresarial no Adobe Target
+
+## Descrição
+
+Neste vídeo, você aprenderá a:
+
+* Descreva os três níveis de usuário do Adobe Target
+* Entender propriedades e espaços de trabalho
+
+## Público-alvo pretendido
+
+* Administrador
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/?quality=12)
