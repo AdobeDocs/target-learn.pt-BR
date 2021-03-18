@@ -1,16 +1,19 @@
 ---
-title: Uso dos relatórios de insights de personalização no Adobe Target
-description: A Automated Personalization e as atividades de Público alvo automático usam o aprendizado de máquina avançado para servir a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis semelhantes. Os relatórios de Insights de personalização fornecem informações sobre como esses modelos tomam suas decisões.
-audience: analyst
-difficulty: 3
+title: Como usar os relatórios de insights de personalização
+description: As atividades de Automated Personalization e Direcionamento automático usam aprendizagem de máquina avançada para fornecer a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis similares. Os relatórios de Insights de personalização fornecem informações sobre como esses modelos tomam suas decisões.
+role: Profissional
+level: Intermediário
+topic: Personalização
+feature: Relatórios, Automated Personalization, Direcionamento automático
+doc-type: feature video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: use
-activity-type: feature-video
 badge: premium
 translation-type: tm+mt
-source-git-commit: 3c239d01b1cead4bf7c28e21e8694c4df6273d4e
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '134'
 ht-degree: 1%
 
 ---
@@ -18,7 +21,7 @@ ht-degree: 1%
 
 # Usar os relatórios de insights de personalização
 
-A Automated Personalization e as atividades de Público alvo automático usam o aprendizado de máquina avançado para servir a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis semelhantes. Os relatórios de Insights de personalização fornecem informações sobre como esses modelos tomam suas decisões.
+As atividades de Automated Personalization e Direcionamento automático usam aprendizagem de máquina avançada para fornecer a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis similares. Os relatórios de Insights de personalização fornecem informações sobre como esses modelos tomam suas decisões.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/?quality=12)
 
