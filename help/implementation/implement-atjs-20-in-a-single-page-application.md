@@ -1,34 +1,36 @@
 ---
-title: Implementação do Adobe Target at.js 2.0 em um aplicativo de página única (SPA)
-seo-title: Implementação do Adobe Target at.js 2.0 em um aplicativo de página única (SPA)
-description: A versão mais recente da at.js fornece conjuntos de recursos avançados que fazem com que sua empresa execute personalização em tecnologias de próxima geração e cliente. Essa nova versão tem como foco a atualização da at.js para ter interações harmoniosas com aplicativos de página única (SPAs).
-audience: developer
-difficulty: 3
+title: Como implementar o at.js 2.0 em um aplicativo de página única (SPA)
+description: A Adobe Target at.js 2.0 fornece conjuntos de recursos avançados que fazem com que sua empresa execute personalização em tecnologias de próxima geração no lado do cliente. Siga estas etapas para implementar o at.js 2.0 em um aplicativo de página única (SPA).
+role: Desenvolvedor
+level: Intermediário
+topic: SPA, arquitetura, desenvolvimento
+feature: Implementação
+doc-type: technical video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: implement
-activity-type: technical-video
 translation-type: tm+mt
-source-git-commit: 37443ae4c1cdda387c8db0053201d520fa1ec224
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 8%
+source-wordcount: '424'
+ht-degree: 0%
 
 ---
 
 
-# Implementação do Adobe Target at.js 2.0 em um aplicativo de página única (SPA)
+# Implementar o Adobe Target o at.js 2.0 em um aplicativo de página única (SPA)
 
-A versão mais recente do `at.js` fornece conjuntos ricos de recursos que equipam sua empresa para executar personalização em tecnologias de cliente da próxima geração. Esta nova versão tem como objetivo atualizar `at.js` para ter interações harmoniosas com aplicativos de página única (SPA).
+O Adobe Target `at.js` 2.0 fornece conjuntos de recursos avançados que fazem com que sua empresa execute a personalização em tecnologias de próxima geração no lado do cliente. Essa versão tem como foco a atualização `at.js` para ter interações harmoniosas com aplicativos de página única (SPA).
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248?quality=12)
 
-## Como implementar o at.js 2.0 em um SPA
+## Como implementar o at.js 2.0 em uma SPA
 
-* Implemente `at.js` 2.0 em &lt;head> do aplicativo de página única.
-* Implemente a função `adobe.target.triggerView()` sempre que a visualização for alterada em seu SPA. Várias técnicas podem ser empregadas para fazer isso, como acompanhar alterações de hash de URL, acompanhar eventos personalizados acionados por seu SPA ou incorporar o código `triggerView()` diretamente no aplicativo. Você deve escolher a opção que funciona melhor para seu aplicativo de página única específico.
-* O nome da visualização é o primeiro parâmetro da função `triggerView()`. Use nomes simples, claros e exclusivos para facilitar a seleção no Criador de experiências visuais do Público alvo.
-* É possível acionar visualizações em pequenas alterações de visualização, bem como em contextos que não sejam SPA, como meia-descida em uma página de rolagem infinita.
-* `at.js` 2.0 e  `triggerView()` pode ser implementado por meio de uma solução de gerenciamento de tags, como a Adobe Experience Platform Launch.
+* Implemente `at.js` 2.0 no &lt;head> do Aplicativo de página única.
+* Implemente a função `adobe.target.triggerView()` sempre que a exibição for alterada no SPA. Várias técnicas podem ser empregadas para fazer isso, como acompanhar alterações de hash de URL, ouvir eventos personalizados acionados por seu SPA ou incorporar o código `triggerView()` diretamente em seu aplicativo. Você deve escolher a opção que funciona melhor para seu aplicativo de página única específico.
+* O nome da exibição é o primeiro parâmetro da função `triggerView()`. Use nomes simples, claros e exclusivos para facilitar a seleção no Visual Experience Composer do Target.
+* Você pode acionar visualizações em pequenas alterações de visualização, bem como em contextos não SPA, como no meio de uma página de rolagem infinita.
+* `at.js` O 2.0 e  `triggerView()` podem ser implementados por meio de uma solução de gerenciamento de tags, como o Adobe Experience Platform Launch.
 
 ## Limitações do at.js 2.0
 
@@ -40,7 +42,7 @@ Esteja ciente das seguintes limitações de `at.js` 2.0 antes de atualizar:
 
 ## Código do rodapé da biblioteca usado no vídeo
 
-O código abaixo foi adicionado à seção Rodapé da biblioteca `at.js` durante o vídeo. Ele é acionado quando o aplicativo é carregado pela primeira vez e, em seguida, em qualquer alteração de hash no aplicativo. Ele usa uma versão limpa do hash como nome da visualização e &quot;início&quot; quando o hash está vazio. Observe que para identificar o SPA, o código procura o texto &quot;response/&quot; no URL, que provavelmente precisará ser atualizado em seu site. Lembre-se também de que pode ser mais apropriado para seu SPA desligar `triggerView()` dos eventos personalizados ou incorporar o código diretamente no aplicativo.
+O código abaixo foi adicionado à seção Rodapé da biblioteca `at.js` durante o vídeo. Ele é acionado quando o aplicativo é carregado pela primeira vez e, em seguida, em qualquer alteração de hash no aplicativo. Ele usa uma versão limpa do hash como o nome da exibição e &quot;inicial&quot; quando o hash está vazio. Observe que para identificar o SPA, o código busca o texto &quot;response/&quot; no URL, que provavelmente precisará ser atualizado em seu site. Lembre-se também de que pode ser mais apropriado que seu SPA acione `triggerView()` de eventos personalizados ou incorporando o código diretamente no aplicativo.
 
 ```javascript
 function sanitizeViewName(viewName) {
@@ -73,6 +75,6 @@ window.onhashchange = function() {
 
 ## Recursos adicionais
 
-* [Como funciona o at.js 2.0 (diagramas de arquitetura)](understanding-how-atjs-20-works.md)
-* [Usar o Visual Experience Composer Adobe Target para aplicativos de página única (SPA VEC)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
-* [Atualização da documentação do at.js 1.x para o at.js 2.0](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html)
+* [Como entender o funcionamento da at.js 2.0 (diagramas de arquitetura)](understanding-how-atjs-20-works.md)
+* [Usar o Adobe Target Visual Experience Composer para aplicativos de página única (VEC SPA)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
+* [Atualização da documentação da at.js 1.x para at.js 2.0](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html)
