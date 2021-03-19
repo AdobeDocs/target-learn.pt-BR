@@ -1,47 +1,46 @@
 ---
-title: Visão geral da decisão no dispositivo
-description: A decisão no dispositivo Adobe Target permite um delivery de conteúdo de latência quase zero.
-topics: implementation
-feature: implementation
-audience: architect
-activity: understand
+title: O que é o On-Device Decisioning
+description: O Adobe Target on-device Decisioning permite a entrega de conteúdo de latência quase zero. Assista a este vídeo para saber mais sobre as decisões no dispositivo e como ativá-las.
+role: Arquiteto
+level: Iniciante
+topic: Arquitetura, desenvolvimento
+feature: Implementação, Implementar no lado do servidor, Implementar no lado do cliente
 doc-type: feature video
 team: Evangelism
 kt: 6691
 thumbnail: null
 translation-type: tm+mt
-source-git-commit: 3c4e25461527c361a7eb2281504e56ddc2f9ea5b
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
 
 
-# Visão geral da decisão no dispositivo
+# Visão geral do On-Device Decisioning
 
 ## Descrição
 
-A decisão no dispositivo Adobe Target permite um delivery de conteúdo de latência quase zero. Este vídeo de 7 minutos:
+O Adobe Target on-device Decisioning permite a entrega de conteúdo de latência quase zero. Este vídeo de 7 minutos:
 
-* Descreve a decisão no dispositivo, incluindo como ela se compara a outros métodos de implementação do Público alvo
-* Demonstra como ativar a decisão no dispositivo no Público alvo
-* Examina uma amostra de atividade de compositor baseada em formulário configurada com conteúdo JSON
-* Mostra exemplo de código SDK Node.JS que contém a configuração de chave necessária para a decisão no dispositivo
+* Descreve a decisão no dispositivo, incluindo como ela se compara a outros métodos de implementação do Target
+* Demonstra como ativar a decisão no dispositivo no Target
+* Examina uma atividade de compositor baseada em formulário de amostra que foi configurada com conteúdo JSON
+* Mostra exemplos de código do SDK Node.JS contendo a configuração de chave necessária para a tomada de decisão no dispositivo
 * Demonstra resultados em um navegador
 
 ## Objetivos
 
-Ao final deste vídeo, você poderá:
+Ao fim deste vídeo, você poderá:
 
-* Descrever a decisão no dispositivo e seus benefícios
-* Ativar a decisão no dispositivo no Público alvo
-* Criar uma atividade de compositor baseada em formulário para uso com decisão no dispositivo
-* Saiba mais sobre a configuração do SDK necessária para decisões no dispositivo visitando a [documentação do SDK do Adobe Target](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
-* Entenda quais experiências os usuários finais terão com o conteúdo fornecido usando a decisão no dispositivo
+* Descreva a decisão no dispositivo e seus benefícios
+* Ativar a decisão no dispositivo no Target
+* Crie uma atividade do compositor baseada em formulário para uso com a tomada de decisão no dispositivo
+* Saiba mais sobre a configuração do SDK necessária para decisões no dispositivo, acessando a [documentação do SDK do Adobe Target](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
+* Entenda o que os usuários finais experimentarão para o conteúdo fornecido usando a tomada de decisão no dispositivo
 
-
-## Audiência pretendida
+## Público-alvo pretendido
 
 * Arquitetos
 
