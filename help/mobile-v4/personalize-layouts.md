@@ -1,10 +1,10 @@
 ---
 title: Personalizar layouts
 description: 'Nesta lição final, criamos duas atividades de personalização no Target para nossos públicos-alvo. Saiba como carregar e exibir as atividades no aplicativo e validar se o conteúdo é exibido na hora certa nos locais corretos.  '
-role: Desenvolvedor
-level: Intermediário
-topic: Móvel, Personalização
-feature: Implementar dispositivos móveis
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

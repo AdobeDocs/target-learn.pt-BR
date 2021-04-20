@@ -1,10 +1,10 @@
 ---
 title: Adicionar parâmetros às solicitações
 description: Nesta lição, adicionaremos medições de ciclo de vida do Adobe e parâmetros personalizados às solicitações do Target adicionadas na lição anterior. Essas métricas e parâmetros serão usados para criar públicos personalizados posteriormente no tutorial.
-role: Desenvolvedor
-level: Intermediário
-topic: Móvel, Personalização
-feature: Implementar dispositivos móveis
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

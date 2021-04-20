@@ -1,10 +1,10 @@
 ---
 title: Como usar os relatórios de insights de personalização
 description: As atividades de Automated Personalization e Direcionamento automático usam aprendizagem de máquina avançada para fornecer a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis similares. Os relatórios de Insights de personalização fornecem informações sobre como esses modelos tomam suas decisões.
-role: Profissional
-level: Intermediário
-topic: Personalização
-feature: Relatórios, Automated Personalization, Direcionamento automático
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
+feature: Reports, Automated Personalization, Auto-Target
 doc-type: feature video
 kt: null
 thumbnail: null

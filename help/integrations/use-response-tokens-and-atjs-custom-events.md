@@ -1,10 +1,10 @@
 ---
 title: Como usar tokens de resposta e eventos personalizados do at.js
 description: Saiba como usar Tokens de resposta e Eventos personalizados da at.js para compartilhar informações de perfil do Target com sistemas de terceiros.
-role: Desenvolvedor
-level: Experienciado
-topic: Personalização, arquitetura, desenvolvimento
-feature: Implementação
+role: Developer
+level: Experienced
+topic: Personalization, Architecture, Development
+feature: Implementation
 doc-type: technical video
 kt: null
 thumbnail: null

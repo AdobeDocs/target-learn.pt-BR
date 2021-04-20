@@ -1,10 +1,10 @@
 ---
 title: Como configurar relatórios do A4T no Analysis Workspace para atividades de direcionamento automático
 description: Depois que a integração do Analytics for Target (A4T) estiver em vigor e você estiver executando atividades de Direcionamento automático, como você pode garantir que está interpretando os resultados corretamente? Siga estas etapas para configurar relatórios do A4T no Analysis Workspace para obter os resultados esperados ao executar atividades de Direcionamento automático.
-role: Profissional
-level: Intermediário
-topic: Personalização, integrações
-feature: Analytics for Target (A4T), Direcionamento automático, Integrações
+role: Business Practitioner
+level: Intermediate
+topic: Personalization, Integrations
+feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 thumbnail: null
 kt: null

@@ -1,10 +1,10 @@
 ---
 title: Como usar o Direcionamento de atividade
 description: O Adobe Target fornece diferentes alavancas para controlar as experiências mostradas para públicos-alvo diferentes quando uma atividade entra em vigor. Saiba como controlar quem vê o que usando públicos-alvo e alocação de tráfego.
-role: Profissional
-level: Intermediário
-topic: Personalização
-feature: Atividades, Públicos-alvo
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
+feature: Activities, Audiences
 doc-type: feature video
 thumbnail: null
 kt: null

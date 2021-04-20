@@ -1,9 +1,9 @@
 ---
 title: Como criar um feed no Recommendations
 description: Saiba como criar um feed de dados no Adobe Target Recommendations
-role: Profissional
-level: Intermediário
-topic: Personalização
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null

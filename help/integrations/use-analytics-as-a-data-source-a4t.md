@@ -1,10 +1,10 @@
 ---
 title: Como usar o Analytics como fonte de dados para o Target (A4T)
 description: Este vídeo apresenta profissionais de marketing ao Analytics for Target (A4T).
-role: Profissional
-level: Iniciante
-topic: Personalização, integrações
-feature: Analytics for Target (A4T), Integrações
+role: Business Practitioner
+level: Beginner
+topic: Personalization, Integrations
+feature: Analytics for Target (A4T), Integrations
 doc-type: feature video
 thumbnail: null
 kt: null

@@ -1,10 +1,10 @@
 ---
 title: Baixe e atualize o aplicativo de amostra We.Travel
 description: 'O aplicativo de amostra We.Travel é pré-implementado com o SDK do Adobe Mobile Services v4. Você só precisa atualizá-lo para que ele aponte para suas próprias contas Experience Cloud Org e solução.   '
-role: Desenvolvedor
-level: Intermediário
-topic: Móvel, Personalização
-feature: Implementar dispositivos móveis
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

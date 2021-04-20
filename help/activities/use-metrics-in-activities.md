@@ -1,10 +1,10 @@
 ---
 title: Como usar métricas nas atividades
 description: Como medir se uma atividade do Adobe Target é bem-sucedida? Neste vídeo, saiba os diferentes tipos de métricas de meta e como usá-las para medir o desempenho de sua atividade.
-role: Profissional
-level: Intermediário
-topic: Personalização
-feature: Atividades
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
+feature: Activities
 doc-type: feature video
 thumbnail: null
 kt: null

@@ -1,10 +1,10 @@
 ---
 title: Como criar atividades de direcionamento de experiência
 description: As atividades de Direcionamento de experiência (XT) permitem que os profissionais de marketing direcionem conteúdo específico para um público-alvo específico. Saiba mais sobre os benefícios das atividades de XT e como criá-las e usá-las.
-role: Profissional
-level: Iniciante
-topic: Personalização
-feature: Direcionamento de experiência, Atividades, Visual Experience Composer (VEC)
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Experience Targeting, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null

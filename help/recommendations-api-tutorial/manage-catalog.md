@@ -1,10 +1,10 @@
 ---
 title: Como gerenciar o catálogo do Recommendations usando APIs
 description: Esta parte do tutorial orienta os desenvolvedores pelas etapas necessárias para usar as APIs do Adobe Target para criar, atualizar, salvar, obter e excluir entidades em seu catálogo do Recommendations.
-role: Desenvolvedor
-level: Intermediário
-topic: Personalização, administração, integrações, desenvolvimento
-feature: APIs/SDKs, Recommendations, Administração e configuração
+role: Developer
+level: Intermediate
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Recommendations, Administration & Configuration
 doc-type: tutorial
 kt: 3815
 thumbnail: null

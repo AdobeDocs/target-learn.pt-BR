@@ -1,10 +1,10 @@
 ---
 title: Como configurar propriedades
 description: Este vídeo mostra aos administradores como criar propriedades no Adobe Target.
-role: Administrador
-level: Iniciante
-topic: Administração
-feature: Administração & Configuração
+role: Administrator
+level: Beginner
+topic: Administration
+feature: Administration & Configuration
 doc-type: feature video
 thumbnail: null
 kt: null

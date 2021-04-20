@@ -1,9 +1,9 @@
 ---
 title: O que é um feed no Recommendations?
 description: Saiba o que é um feed Recommendations do Adobe Target e como ele é usado
-role: Profissional
-level: Intermediário
-topic: Personalização
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null

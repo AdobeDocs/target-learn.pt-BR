@@ -1,10 +1,10 @@
 ---
 title: Como solucionar problemas com o Target Traces
 description: Com o depurador da Adobe Experience Cloud é mais rápido e fácil entender a implementação do Target. Saiba como autenticar no Experience Cloud e usar a poderosa ferramenta Target Traces para inspecionar suas qualificações de atividade e público-alvo, bem como seu perfil de visitante.
-role: Profissional
-level: Intermediário
-topic: Personalização, desempenho
-feature: Solução de problemas
+role: Business Practitioner
+level: Intermediate
+topic: Personalization, Performance
+feature: Troubleshooting
 doc-type: feature video
 kt: null
 thumbnail: null

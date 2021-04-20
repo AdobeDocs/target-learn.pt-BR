@@ -1,10 +1,10 @@
 ---
 title: Como usar provedores de dados para integrar dados de terceiros
 description: Este tutorial apresenta usuários a provedores de dados. Saiba como usar o recurso Provedores de dados para transmitir dados facilmente de terceiros para a Adobe Target.
-role: Profissional de negócios, desenvolvedor
-level: Experienciado
-topic: Personalização, integrações
-feature: Implementação, integrações, APIs/SDKs
+role: Business Practitioner, Developer
+level: Experienced
+topic: Personalization, Integrations
+feature: Implementation, Integrations, APIs/SDKs
 doc-type: feature video
 kt: null
 thumbnail: null
