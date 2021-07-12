@@ -1,12 +1,11 @@
 ---
 title: Saiba como usar o Adobe Target
 description: Saiba como usar o Adobe Target com esta coleção de tutoriais e vídeos que abrangem todos os seus componentes. Use o poder do Adobe Target de forma eficaz.
-role: Leader, Architect, Developer, Administrator, Business Practitioner
+role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
-topic: Personalization
+topic: Personalização
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-translation-type: tm+mt
-source-git-commit: 62c9d6328f65945109c96f65d94659b59708ac82
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 15%
