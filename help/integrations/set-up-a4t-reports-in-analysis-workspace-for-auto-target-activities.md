@@ -1,21 +1,20 @@
 ---
 title: Como configurar relatórios do A4T no Analysis Workspace para atividades de direcionamento automático
 description: Depois que a integração do Analytics for Target (A4T) estiver em vigor e você estiver executando atividades de Direcionamento automático, como você pode garantir que está interpretando os resultados corretamente? Siga estas etapas para configurar relatórios do A4T no Analysis Workspace para obter os resultados esperados ao executar atividades de Direcionamento automático.
-role: Business Practitioner
+role: User
 level: Intermediate
-topic: Personalization, Integrations
-feature: Analytics for Target (A4T), Auto-Target, Integrations
+topic: Personalização, integrações
+feature: Analytics for Target (A4T), Direcionamento automático, Integrações
 doc-type: tutorial
 thumbnail: null
 kt: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '2264'
+source-wordcount: '2261'
 ht-degree: 1%
 
 ---
-
 
 # Configuração de relatórios A4T no Analysis Workspace para atividades [!DNL Auto-Target]
 
@@ -85,7 +84,7 @@ Vamos comparar os relatórios a nível de visitante e a nível de visita:
 
 | Experiência | Visitantes únicos | Visitas | Conversões | Norma do visitante. Conv. Taxa | Norma de visita. Conv. Taxa |
 | --- | --- | --- | --- | --- | --- |
-| Um | 1 | 3 | - | 0% | 0% |
+| Um | 1 | 1 | - | 0% | 0% |
 | B  | 2 | 3 | 1 | 50% | 33,3% |
 | Totais | 2 | 4 | 1 | 50% | 25% |
 *Quadro 1: Exemplo comparando relatórios normalizados de visitantes e relatórios normalizados de visitas para um cenário em que as decisões são aderentes a uma visita (e não a um visitante, como com testes A/B regulares). Métricas normalizadas do visitante são confusas neste cenário.*
