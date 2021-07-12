@@ -1,21 +1,20 @@
 ---
 title: Como criar designs personalizados no Recommendations
 description: Saiba como criar Designs personalizados no Adobe Target Recommendations.
-role: Business Practitioner
+role: User
 level: Intermediate
-topic: Personalization
+topic: Personalização
 feature: Recommendations
 doc-type: feature video
 thumbnail: null
 kt: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 19be02da-f5b8-4950-9bb5-7a0effec419c
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 13%
+source-wordcount: '71'
+ht-degree: 14%
 
 ---
-
 
 # Criar designs personalizados no Recommendations
 
