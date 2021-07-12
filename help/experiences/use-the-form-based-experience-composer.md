@@ -1,22 +1,21 @@
 ---
 title: Como usar o Experience Composer baseado em formulário
 description: Este vídeo mostra aos usuários do Adobe Target como e quando usar o Experience Composer baseado em formulário.
-role: Business Practitioner
+role: User
 level: Beginner
-topic: Personalization
-feature: Form-based Experience Composer, Experiences and Offers, Visual Experience Composer (VEC)
+topic: Personalização
+feature: Experience Composer, experiências e ofertas baseadas em formulário, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null
 author: Daniel Wright
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 7d216524-03a7-4acd-bd06-345d37ba24be
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '81'
 ht-degree: 8%
 
 ---
-
 
 # Usar o Experience Composer baseado em formulário no Adobe Target
 
