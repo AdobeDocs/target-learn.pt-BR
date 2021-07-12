@@ -1,22 +1,21 @@
 ---
 title: Como solucionar problemas do Adobe Target com o Experience Cloud Debugger
 description: Com o depurador da Adobe Experience Cloud é mais rápido e fácil entender a implementação do Target. Você pode visualizar rapidamente a configuração da biblioteca, examinar as solicitações para garantir que os parâmetros personalizados estão sendo passados corretamente, ativar o logon no console e desativar todas as solicitações do Target. Faça a autenticação na Experience Cloud e use a ferramenta Mbox Trace avançada para inspecionar as qualificações de atividade e público-alvo, bem como o perfil do visitante.
-role: Business Practitioner
+role: User
 level: Intermediate
-topic: Personalization, Performance
-feature: Troubleshooting
+topic: Personalização, desempenho
+feature: Solução de problemas
 doc-type: feature video
 kt: null
 thumbnail: null
 author: Daniel Wright
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: afdc531d-e54c-4612-b21b-67a3e8e65a26
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 62%
+source-wordcount: '224'
+ht-degree: 63%
 
 ---
-
 
 # Solucionar problemas com o Experience Cloud Debugger
 
