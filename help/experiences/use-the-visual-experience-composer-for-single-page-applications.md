@@ -1,22 +1,21 @@
 ---
 title: Como usar o Visual Experience Composer em aplicativos de página única (VEC SPA)
 description: Este vídeo apresenta profissionais de marketing ao Adobe Target Visual Experience Composer para aplicativos de página única (VEC SPA). Assista a este vídeo para saber como criar atividades usando o VEC do SPA.
-role: Business Practitioner
+role: User
 level: Beginner
-topic: SPA, Personalization
-feature: Experiences and Offers, Visual Experience Composer (VEC)
+topic: SPA, Personalização
+feature: Experiências e ofertas, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null
 author: Daniel Wright
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 3e32d869-a94a-4253-93d7-58b615921067
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '266'
 ht-degree: 1%
 
 ---
-
 
 # Uso do [!UICONTROL Visual Experience Composer] para aplicativos de página única (VEC SPA) no Adobe Target
 
