@@ -1,22 +1,21 @@
 ---
 title: O que são públicos-alvo e como usá-los?
 description: Este vídeo mostra aos usuários do Adobe Target como usar públicos para direcionar atividades e filtrar relatórios.
-role: Business Practitioner
+role: User
 level: Beginner
-topic: Personalization
-feature: Audiences, Reports
+topic: Personalização
+feature: Públicos-alvo, Relatórios
 doc-type: feature video
 thumbnail: null
 kt: null
 author: Daniel Wright
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: c164eba0-d548-4ace-b9e7-746bdafa844d
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 1%
+source-wordcount: '66'
+ht-degree: 25%
 
 ---
-
 
 # Usar públicos-alvo no Adobe Target
 
