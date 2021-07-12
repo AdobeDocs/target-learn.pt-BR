@@ -1,22 +1,21 @@
 ---
 title: Como usar a comparação de perfis para criar públicos-alvo
 description: Este vídeo mostra aos usuários do Adobe Target como usar o recurso Comparação de perfis para comparar dois valores de perfil numéricos entre si ao criar um público-alvo.
-role: Business Practitioner
+role: User
 level: Experienced
-topic: Personalization
-feature: Audiences
+topic: Personalização
+feature: Públicos-alvo
 doc-type: feature video
 thumbnail: null
 kt: null
 author: Daniel Wright
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 66764a66-ba47-4ab4-8a36-137a7cca525b
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '176'
 ht-degree: 5%
 
 ---
-
 
 # Usar a comparação de perfis para criar públicos no Adobe Target
 
