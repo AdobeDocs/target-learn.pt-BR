@@ -8,14 +8,13 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 0250e55f-a233-4060-84e1-86d1f88a6106
+source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
-
 
 # Adicionar parâmetros às solicitações
 
@@ -91,7 +90,7 @@ public void targetPrefetchContent() {
 
 ### Observação sobre parâmetros
 
-Para projetos futuros, você pode implementar parâmetros adicionais. O método `createTargetPrefetchObject()` permite três tipos de parâmetros: `locationParams`, `orderParams` e `productParams`. Consulte a documentação para [mais detalhes sobre como adicionar esses parâmetros à solicitação de pré-busca](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-mob-target-prefetch-android.html).
+Para projetos futuros, você pode implementar parâmetros adicionais. O método `createTargetPrefetchObject()` permite três tipos de parâmetros: `locationParams`, `orderParams` e `productParams`. Consulte a documentação para [mais detalhes sobre como adicionar esses parâmetros à solicitação de pré-busca](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en).
 
 Observe também que diferentes parâmetros de localização podem ser adicionados a cada local na solicitação de pré-busca. Por exemplo, você pode criar outro Mapa chamado param2, colocar um novo parâmetro nele e, em seguida, definir param2 em um local e param1 com o outro local. Veja um exemplo:
 
@@ -148,11 +147,11 @@ Execute o emulador e abra o Logcat. Filtre um dos parâmetros para verificar se 
 
 >[!NOTE]
 >
->Solicitações e parâmetros de confirmação de pedido: Embora não seja usado neste projeto de demonstração, os detalhes do pedido geralmente são capturados em uma implementação real, de modo que [!DNL Target] pode usar os detalhes do pedido como métricas/dimensões. Consulte a documentação para obter instruções sobre como [implementar a solicitação de confirmação de pedido e os parâmetros](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-target-methods.html).
+>Solicitações e parâmetros de confirmação de pedido: Embora não seja usado neste projeto de demonstração, os detalhes do pedido geralmente são capturados em uma implementação real, de modo que [!DNL Target] pode usar os detalhes do pedido como métricas/dimensões. Consulte a documentação para obter instruções sobre como [implementar a solicitação de confirmação de pedido e os parâmetros](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=en).
 
 >[!NOTE]
 >
->Analytics for Target (A4T): O Adobe Analytics pode ser configurado como a fonte de relatórios para [!DNL Target]. Isso permite que todas as métricas/dimensões coletadas pelo SDK do Target sejam visualizadas no Adobe Analytics. Consulte a [Visão geral do A4T](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) para obter mais detalhes.
+>Analytics for Target (A4T): O Adobe Analytics pode ser configurado como a fonte de relatórios para [!DNL Target]. Isso permite que todas as métricas/dimensões coletadas pelo SDK do Target sejam visualizadas no Adobe Analytics. Consulte a [Visão geral do A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en) para obter mais detalhes.
 
 Bom trabalho! Agora que os parâmetros estão em vigor, estamos prontos para usar esses parâmetros para criar públicos e ofertas no Adobe Target.
 

@@ -1,16 +1,15 @@
 ---
 user-guide-title: 'Tutoriais do Adobe Target '
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-translation-type: tm+mt
-source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
+source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 7%
+source-wordcount: '388'
+ht-degree: 9%
 
 ---
 
 
-# Tutoriais do Adobe Target   {#tutorials}
+# Tutoriais do Adobe Target  {#tutorials}
 
 + [Visão geral do Adobe Target Tutorials](../overview.md)
 + Administração{#administration}
@@ -24,7 +23,7 @@ ht-degree: 7%
 + Implementação{#implementation}
    + [Introdução à implementação do Target](../dev101/2.1-intro-to-target-implementation.md)
    + [Integração do Target ao Launch](../dev101/3.1-target-launch.md)
-   + [Implementar em sites com o Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html)
+   + [Implementar em sites com o Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)
    + [Benefícios do uso de Localizações](../dev101/2.2-benefits-of-locations.md)
    + [Introdução às solicitações do Target](../dev101/2.3-intro-to-target-requests.md)
    + [Introdução aos parâmetros do Target](../dev101/2.4-intro-to-target-params.md)
@@ -32,7 +31,7 @@ ht-degree: 7%
    + [Implementar a at.js 2.0 em um aplicativo de página única (SPA)](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [Criar uma implementação do Target](../dev101/2.5-design-target-implementation.md)
    + [Próximas etapas para projetar uma implementação do Target](../dev101/2.6-next-steps-design-target-implementation.md)
-   + [Use o Opt-in para controlar as soluções do Experience Cloud com base no consentimento do usuário](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/id-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html)
+   + [Use o Opt-in para controlar as soluções do Experience Cloud com base no consentimento do usuário](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
    + [Entender a implantação híbrida do Adobe Target](../implementation/hybrid-deployment.md)
    + [Visão geral do On-Device Decisioning](../implementation/on-device-decisioning-overview.md)
 + Integrações{#integrations}
@@ -87,4 +86,4 @@ ht-degree: 7%
    + [Implementar o Adobe Target com o Adobe Mobile Services SDK v4 para Android](../mobile-v4/overview.md)
 + APIs{#apis}
    + [Configurar a autenticação Adobe API](../apis/configure-io-target-integration.md)
-   + [Usar APIs do Recommendations](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html)
+   + [Usar APIs do Recommendations](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html?lang=en)

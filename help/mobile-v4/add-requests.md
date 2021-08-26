@@ -8,14 +8,13 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 88a5be3f-d61f-43e7-997a-574ef56122ed
+source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
 workflow-type: tm+mt
-source-wordcount: '1810'
+source-wordcount: '1804'
 ht-degree: 0%
 
 ---
-
 
 # Adicionar solicitações do Adobe Target
 
@@ -54,7 +53,7 @@ Abaixo está uma parte da terminologia principal do Target que usaremos no resta
 
 A primeira solicitação que implementaremos no We.Travel é uma solicitação de pré-busca em lote com dois locais [!DNL Target] na Tela inicial. Em uma lição posterior, vamos configurar ofertas para esses locais que exibem mensagens para ajudar a orientar novos usuários durante o processo de reserva.
 
-Uma solicitação de busca prévia busca conteúdo [!DNL Target] o mínimo possível, armazenando a resposta do servidor do Adobe Target em cache (oferta). Uma solicitação de pré-busca em lote recupera e armazena em cache várias ofertas, cada uma associada a um local diferente. Todos os locais pré-buscados são armazenados em cache no dispositivo para uso futuro na sessão do usuário. Ao realizar uma busca prévia em vários locais na tela inicial, podemos recuperar ofertas para uso posteriormente, à medida que o visitante navega pelo aplicativo. Consulte a [documentação de pré-busca](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-mob-target-prefetch-android.html) para obter mais detalhes sobre os métodos de pré-busca.
+Uma solicitação de busca prévia busca conteúdo [!DNL Target] o mínimo possível, armazenando a resposta do servidor do Adobe Target em cache (oferta). Uma solicitação de pré-busca em lote recupera e armazena em cache várias ofertas, cada uma associada a um local diferente. Todos os locais pré-buscados são armazenados em cache no dispositivo para uso futuro na sessão do usuário. Ao realizar uma busca prévia em vários locais na tela inicial, podemos recuperar ofertas para uso posteriormente, à medida que o visitante navega pelo aplicativo. Consulte a [documentação de pré-busca](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en) para obter mais detalhes sobre os métodos de pré-busca.
 
 ### Adicionar a solicitação de pré-busca em lote
 

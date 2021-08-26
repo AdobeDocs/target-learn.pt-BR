@@ -3,16 +3,16 @@ title: Como configurar a autenticação para APIs do Adobe Target
 description: Este tutorial orienta os desenvolvedores pelas etapas necessárias para gerar tokens de autenticação para interagir com as APIs do Adobe Target com êxito. Siga estas etapas para usar o Console do desenvolvedor do Adobe para gerar e testar o token de acesso do portador, que é necessário para usar as APIs do Target.
 role: Developer, Admin, Architect
 level: Intermediate
-topic: Personalização, administração, integrações, desenvolvimento
-feature: APIs/SDKs, Administração e configuração
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Administration & Configuration
 doc-type: tutorial
 kt: null
 thumbnail: null
 author: Judy Kim
 exl-id: 8a1e93e4-67b2-4942-a8da-fc0f2cbb2df2
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1884'
 ht-degree: 2%
 
 ---
@@ -51,11 +51,11 @@ Nesta seção, você acessará o Console do desenvolvedor do Adobe e criará um 
 
    ![configure-io-target-create-project3.png](assets/configure-io-target-createproject3.png)
 
-4. Clique em **[!UICONTROL Adicionar API]** para adicionar uma REST API ao seu projeto para acessar serviços e produtos do Adobe.
+4. Clique em **[!UICONTROL Adicionar API]** para adicionar uma REST API ao seu projeto para acessar serviços e produtos da Adobe.
 
    ![Adicionar API](assets/configure-io-target-createproject4.png)
 
-5. Selecione **[!DNL Adobe Target]** como o serviço do Adobe com o qual deseja integrar. Clique no botão **[!UICONTROL Next]** que aparece.
+5. Selecione **[!DNL Adobe Target]** como o serviço da Adobe com o qual deseja integrar. Clique no botão **[!UICONTROL Next]** que aparece.
 
    ![configure-io-target-create-project5](assets/configure-io-target-createproject5.png)
 
@@ -93,8 +93,7 @@ Há muitas maneiras de especificar os detalhes do seu projeto no Postman, mas ne
 > 2. Gerar um token de acesso com o Postman
 
 >
-> 
-Essas etapas também são fornecidas abaixo.
+> Essas etapas também são fornecidas abaixo.
 
 1. Ainda no [Console do Desenvolvedor do Adobe](https://console.adobe.io/), navegue para exibir as credenciais **[!UICONTROL Conta de Serviço (JWT)]** do seu novo projeto. Use a navegação à esquerda ou a seção **[!UICONTROL Credenciais]**, conforme mostrado.
    ![JWT1](assets/configure-io-target-jwt1.png)
@@ -197,4 +196,4 @@ Neste exercício, você usará seu novo token de acesso do portador enviando uma
 1. Envie sua solicitação após verificar se você selecionou o ambiente correto. Você deve receber uma resposta contendo sua lista de atividades.
    ![testtoken6](assets/configure-io-target-testtoken6.png)
 
-Parabéns! Depois de verificar a autenticação do Adobe, é possível usá-la para interagir com as APIs do Adobe Target (bem como com outras APIs do Adobe). Por exemplo, você pode [Usar APIs do Recommendations](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html) para criar ou gerenciar recomendações.
+Parabéns! Depois de verificar a autenticação do Adobe, é possível usá-la para interagir com as APIs do Adobe Target (bem como com outras APIs do Adobe). Por exemplo, você pode [Usar APIs do Recommendations](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html?lang=en) para criar ou gerenciar recomendações.
