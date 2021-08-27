@@ -3,16 +3,16 @@ title: Como usar as ofertas do Recommendations em atividades de testes A/B e dir
 description: Saiba como usar as ofertas do Recommendations em Testes A/B e Atividades de Direcionamento de experiência no Adobe Target.
 role: User
 level: Intermediate
-topic: Personalização
-feature: Recommendations, Direcionamento automático, Alocação automática
+topic: Personalization
+feature: Recommendations, Auto-Target, Auto-Allocate
 doc-type: feature video
 thumbnail: null
 kt: 3451
 exl-id: 16908f07-cda4-4a34-9e11-42b419e3917b
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 29%
+source-wordcount: '131'
+ht-degree: 30%
 
 ---
 
@@ -29,5 +29,5 @@ As ofertas do Recommendations podem ser usadas com atividades de Teste A/B e Dir
 
 ## Recursos adicionais
 
-* [Documentação do Recommendations as a offer](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-as-an-offer.html)
+* [Documentação do Recommendations as a offer](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-as-an-offer.html?lang=en)
 * [Vídeo Criar uma atividade do Recommendations](create-a-recommendations-activity.md)

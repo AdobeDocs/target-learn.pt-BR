@@ -3,16 +3,16 @@ title: Como usar a comparação de perfis para criar públicos-alvo
 description: Este vídeo mostra aos usuários do Adobe Target como usar o recurso Comparação de perfis para comparar dois valores de perfil numéricos entre si ao criar um público-alvo.
 role: User
 level: Experienced
-topic: Personalização
-feature: Públicos-alvo
+topic: Personalization
+feature: Audiences
 doc-type: feature video
 thumbnail: null
 kt: null
 author: Daniel Wright
 exl-id: 66764a66-ba47-4ab4-8a36-137a7cca525b
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '174'
 ht-degree: 5%
 
 ---
@@ -36,7 +36,7 @@ Neste vídeo, você aprenderá a:
 
 ## Recursos adicionais
 
-* [Criação de um público-alvo de comparação do atributo de perfil](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html)
-* [Métodos para colocar os dados no Adobe Target](https://docs.adobe.com/content/help/en/target/using/implement-target/before-implement/methods/methods-to-get-data-into-target.html)
-* [Criação de públicos-alvo](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/create-audience.html)
+* [Criação de um público-alvo de comparação do atributo de perfil](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=en)
+* [Métodos para colocar os dados no Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/methods/methods-to-get-data-into-target.html?lang=en)
+* [Criação de públicos-alvo](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=en)
 * [Vídeo Criar atividades de direcionamento de experiência](../activities/create-experience-targeting-activities.md)

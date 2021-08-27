@@ -9,18 +9,17 @@ doc-type: tutorial
 kt: 3815
 thumbnail: null
 author: Judy Kim
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: ee63bd3e-200a-4c08-b364-9f17a479033b
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '941'
 ht-degree: 1%
 
 ---
 
-
 # Gerenciar critérios personalizados
 
-Às vezes, os algoritmos fornecidos por [!DNL Recommendations] não são capazes de exibir itens específicos que você gostaria de promover. Em tal situação, os critérios personalizados fornecem uma maneira de fornecer um conjunto específico de itens recomendados para um determinado item-chave ou categoria. Você define o mapeamento entre o item ou a categoria principal e os itens recomendados e importa esse mapeamento como um critério personalizado. Esse processo é descrito na [documentação de critérios personalizados](https://docs.adobe.com/content/help/en/target/using/recommendations/criteria/recommendations-csv.html). Conforme observado nessa documentação, você pode criar, editar e excluir critérios personalizados por meio da [!DNL Target] interface do usuário (UI). No entanto, [!DNL Target] também fornece um conjunto de APIs de Critérios personalizados que permitem um gerenciamento mais detalhado de seus critérios personalizados.
+Às vezes, os algoritmos fornecidos por [!DNL Recommendations] não são capazes de exibir itens específicos que você gostaria de promover. Em tal situação, os critérios personalizados fornecem uma maneira de fornecer um conjunto específico de itens recomendados para um determinado item-chave ou categoria. Você define o mapeamento entre o item ou a categoria principal e os itens recomendados e importa esse mapeamento como um critério personalizado. Esse processo é descrito na [documentação de critérios personalizados](https://experienceleague.adobe.com/docs/target/using/recommendations/criteria/recommendations-csv.html?lang=en). Conforme observado nessa documentação, você pode criar, editar e excluir critérios personalizados por meio da [!DNL Target] interface do usuário (UI). No entanto, [!DNL Target] também fornece um conjunto de APIs de Critérios personalizados que permitem um gerenciamento mais detalhado de seus critérios personalizados.
 
 >[!IMPORTANT]
 >
@@ -36,7 +35,7 @@ Para criar critérios personalizados usando a [Criar API de critérios personali
 
 >[!WARNING]
 >
->Os critérios personalizados criados usando a API Criar critérios personalizados, conforme descrito neste exercício, serão exibidos na interface do usuário, onde persistirão. Não será possível editá-los ou excluí-los da interface do usuário. Você pode editá-los ou excluí-los **por meio da API**, mas de qualquer maneira, eles continuarão a aparecer na interface do usuário [!DNL Target]. Para manter a opção de editar ou excluir da interface do usuário, crie os critérios personalizados usando a interface do usuário de [a documentação](https://docs.adobe.com/content/help/en/target/using/recommendations/criteria/recommendations-csv.html), em vez de usar a API Criar critérios personalizados .
+>Os critérios personalizados criados usando a API Criar critérios personalizados, conforme descrito neste exercício, serão exibidos na interface do usuário, onde persistirão. Não será possível editá-los ou excluí-los da interface do usuário. Você pode editá-los ou excluí-los **por meio da API**, mas de qualquer maneira, eles continuarão a aparecer na interface do usuário [!DNL Target]. Para manter a opção de editar ou excluir da interface do usuário, crie os critérios personalizados usando a interface do usuário de [a documentação](https://experienceleague.adobe.com/docs/target/using/recommendations/criteria/recommendations-csv.html?lang=en), em vez de usar a API Criar critérios personalizados .
 
 Continue com este tutorial somente depois de ler o aviso acima e esteja confortável em criar novos critérios personalizados que não podem ser excluídos subsequentemente da interface do usuário.
 

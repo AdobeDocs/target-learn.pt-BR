@@ -3,15 +3,15 @@ title: Como criar uma atividade do Recommendations
 description: Saiba como criar uma atividade do Adobe Target Recommendations
 role: User
 level: Intermediate
-topic: Personalização
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null
 kt: null
 exl-id: 40014bac-e206-47f7-811e-bfd16fb761d3
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '75'
 ht-degree: 12%
 
 ---
@@ -38,4 +38,4 @@ Neste vídeo, você aprenderá a:
 * [Criar critérios](create-criteria.md)
 * [Criar designs personalizados](create-custom-designs.md)
 * [Criar coleções e exclusões](create-collections-and-exclusions.md)
-* [Documentação do Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Documentação do Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

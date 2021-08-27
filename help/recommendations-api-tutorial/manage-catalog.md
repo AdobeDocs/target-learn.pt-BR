@@ -9,14 +9,13 @@ doc-type: tutorial
 kt: 3815
 thumbnail: null
 author: Judy Kim
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 8060b69b-e8e5-4fe7-895f-742410d8ed45
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 1%
+source-wordcount: '903'
+ht-degree: 2%
 
 ---
-
 
 # Gerencie seu catálogo [!DNL Recommendations] usando APIs
 
@@ -154,7 +153,7 @@ Os detalhes da entidade só podem ser recuperados para uma única entidade de ca
 Se você receber um erro informando que a entidade não foi encontrada, como mostrado no exemplo acima, verifique se está enviando a solicitação para o  [!DNL Target] ambiente correto.
 
    >[!NOTE]
-   Se nenhum ambiente for especificado explicitamente, a Entidade Obter tentará obter a entidade somente do seu [ambiente padrão](https://docs.adobe.com/content/help/en/target/using/administer/hosts.html#section_4F8539B07C0C45E886E8525C344D5FB0). Se quiser extrair de qualquer ambiente diferente do padrão, especifique a ID do ambiente.
+   Se nenhum ambiente for especificado explicitamente, a Entidade Obter tentará obter a entidade somente do seu [ambiente padrão](https://experienceleague.adobe.com/docs/target/using/administer/hosts.html?lang=en). Se quiser extrair de qualquer ambiente diferente do padrão, especifique a ID do ambiente.
 
 4. Se necessário, adicione o parâmetro `environmentId` e reenvie a solicitação.
 
