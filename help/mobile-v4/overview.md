@@ -8,14 +8,13 @@ feature: Implement Mobile, Overview
 doc-type: tutorial
 kt: 3040
 thumbnail: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 20f8ed4f-a86d-4c5e-9296-71a93724caa3
+source-git-commit: ee58c7c85708722cf040cd9b039a2855dd390a16
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 2%
+source-wordcount: '549'
+ht-degree: 3%
 
 ---
-
 
 # Adobe Target com Adobe Mobile Services SDK v4 para Android - Visão geral
 
@@ -25,7 +24,7 @@ Um aplicativo de demonstração para Android é fornecido para que você conclua
 
 Depois de concluir este tutorial, você será capaz de:
 
-* Validar a configuração do [Adobe Mobile Services SDK](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html)
+* Validar a configuração do [Adobe Mobile Services SDK](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en)
 * Implemente os seguintes tipos de solicitações [!DNL Target]:
    * Busca prévia do conteúdo [!DNL Target]
    * Aplique vários [!DNL Target] locais em lote (mboxes) em uma única solicitação
@@ -44,7 +43,7 @@ Nessas lições, presume-se que você:
 
 * Ter uma ID do Adobe e acesso de nível de aprovador à interface do Adobe Target (consulte as etapas de verificação abaixo)
 * Conheça o Código do cliente do Adobe Target para fazer solicitações em sua própria conta. O Código do cliente é mostrado na interface do Adobe Target na   Configuração > Implementação > Editar tela de configurações da at.js
-* Ter acesso e estar familiarizado com a [interface do usuário do Mobile Services](https://mobilemarketing.adobe.com)
+* Ter acesso e estar familiarizado com a [interface do usuário do Mobile Services](https://mobilemarketing.adobe.com/)
 * Ter um IDE para desenvolvimento de aplicativos móveis Android. Este tutorial apresenta [Android Studio](https://developer.android.com/studio/install) em várias etapas e capturas de tela
 
 Se você não tiver o acesso necessário às Soluções do Experience Cloud, entre em contato com o Administrador do Experience Cloud.
