@@ -3,16 +3,15 @@ title: Como usar as configurações da atividade
 description: Assista a este vídeo para saber como usar várias configurações de atividade no Adobe Target, incluindo objetivos, níveis de prioridade, horários de início e término e públicos.
 role: User
 level: Beginner
-topic: Personalização
-feature: Atividades
+topic: Personalization
+feature: Activities
 doc-type: feature video
-thumbnail: null
 kt: null
 exl-id: 2a6e292e-0330-4e60-bd1b-2ca2226e00b7
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 14%
+source-wordcount: '62'
+ht-degree: 12%
 
 ---
 

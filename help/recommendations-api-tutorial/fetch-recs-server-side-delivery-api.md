@@ -7,10 +7,9 @@ topic: Personalization, Administration, Integrations, Development
 feature: APIs/SDKs, Recommendations, Administration & Configuration
 doc-type: tutorial
 kt: 3815
-thumbnail: null
 author: Judy Kim
 exl-id: 553d1208-647f-479d-acc7-d7760469d642
-source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '1418'
 ht-degree: 2%
@@ -71,7 +70,7 @@ A sintaxe para a [API de entrega](https://developers.adobetarget.com/api/deliver
 1. Observe que o código de cliente é obrigatório. Como lembrete, seu código de cliente pode ser encontrado no Adobe Target navegando até **[!UICONTROL Recommendations] > [!UICONTROL Settings]**. Observe o valor **[!UICONTROL Código do cliente]** na seção **[!UICONTROL Token de API do Recommendation]**.
    ![client-code.png](assets/client-code.png)
 1. Depois de ter seu código de cliente, crie sua chamada de API de entrega. O exemplo abaixo começa com a **[!UICONTROL Chamada da API de entrega de mboxes em lote da Web]** fornecida na [Coleção do postman da API de entrega](https://developers.adobetarget.com/api/delivery-api/#section/Getting-Started/Postman-Collection), fazendo modificações relevantes. Por exemplo:
-   * os objetos **browser** e **address** foram removidos do **Body**, uma vez que não são necessários para casos de uso não-HTML
+   * os objetos **browser** e **address** foram removidos do **Body**, uma vez que não são necessários para casos de uso não HTML
    * *api_* charteris listado como o nome do local neste exemplo
    * a entity.id é especificada, já que esta recomendação se baseia na Similaridade de conteúdo, que requer que uma chave de item atual seja passada para [!DNL Target].
       ![server-side-Delivery-API-call.](assets/server-side-delivery-api-call2.png)
@@ -83,7 +82,7 @@ pngLembre-se de configurar seus parâmetros de consulta corretamente. Por exempl
    ![server-side-create-recs-json-response2.](assets/server-side-create-recs-json-response2.png)
 pngA resposta inclui a ID da chave, bem como as IDs de entidade das entidades recomendadas.
 
-Usar a API de entrega com [!DNL Recommendations] dessa forma permite executar etapas adicionais antes de exibir recomendações para o visitante no dispositivo não HTML. Por exemplo, você pode obter a resposta da API de entrega para executar uma pesquisa adicional em tempo real de detalhes do atributo da entidade (inventário, preço, classificação etc.) de outro sistema (como uma plataforma CMS, PIM ou comércio eletrônico), antes de exibir os resultados finais.
+Usar a API de entrega com [!DNL Recommendations] dessa forma permite executar etapas adicionais antes de exibir recomendações para o visitante em um dispositivo que não seja o HTML. Por exemplo, você pode obter a resposta da API de entrega para executar uma pesquisa adicional em tempo real de detalhes do atributo da entidade (inventário, preço, classificação etc.) de outro sistema (como uma plataforma CMS, PIM ou comércio eletrônico), antes de exibir os resultados finais.
 
 Usando a abordagem descrita neste tutorial, você pode obter qualquer aplicativo para aproveitar a resposta de [!DNL Target] para fornecer recomendações personalizadas!
 

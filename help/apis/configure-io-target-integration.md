@@ -7,10 +7,9 @@ topic: Personalization, Administration, Integrations, Development
 feature: APIs/SDKs, Administration & Configuration
 doc-type: tutorial
 kt: null
-thumbnail: null
 author: Judy Kim
 exl-id: 8a1e93e4-67b2-4942-a8da-fc0f2cbb2df2
-source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '1883'
 ht-degree: 2%
@@ -51,7 +50,7 @@ Nesta seção, você acessará o Console do desenvolvedor do Adobe e criará um 
 
    ![configure-io-target-create-project3.png](assets/configure-io-target-createproject3.png)
 
-4. Clique em **[!UICONTROL Adicionar API]** para adicionar uma REST API ao seu projeto para acessar serviços e produtos do Adobe.
+4. Clique em **[!UICONTROL Adicionar API]** para adicionar uma REST API ao seu projeto para acessar serviços e produtos da Adobe.
 
    ![Adicionar API](assets/configure-io-target-createproject4.png)
 

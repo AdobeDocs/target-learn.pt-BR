@@ -3,15 +3,14 @@ title: Como configurar relatórios do A4T no Analysis Workspace para atividades 
 description: Depois que a integração do Analytics for Target (A4T) estiver em vigor e você estiver executando atividades de Direcionamento automático, como você pode garantir que está interpretando os resultados corretamente? Siga estas etapas para configurar relatórios do A4T no Analysis Workspace para obter os resultados esperados ao executar atividades de Direcionamento automático.
 role: User
 level: Intermediate
-topic: Personalização, integrações
-feature: Analytics for Target (A4T), Direcionamento automático, Integrações
+topic: Personalization, Integrations
+feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
-thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '2261'
+source-wordcount: '2252'
 ht-degree: 1%
 
 ---
@@ -45,11 +44,11 @@ Para criar um relatório A4T para [!DNL Auto-Target], comece com o painel **[!UI
 
 ## Use a dimensão Controle versus Direcionado para comparar o modelo ML do conjunto da Adobe Target ao seu controle
 
-O painel A4T padrão foi projetado para testes A/B clássicos (manuais) ou atividades de Alocação automática, onde o objetivo é comparar o desempenho de experiências individuais com a experiência de Controle. No entanto, em [!DNL Auto-Target] atividades, a primeira comparação de pedidos deve ser entre o Control *strategy* e o Targeted *strategy* (em outras palavras, determinar o aumento do desempenho geral do [!DNL Auto-Target] modelo ML do conjunto sobre a estratégia de Controle).
+O painel A4T padrão foi projetado para testes A/B clássicos (manuais) ou atividades de Alocação automática, onde o objetivo é comparar o desempenho de experiências individuais com a experiência de Controle. In [!DNL Auto-Target] activities, however, the first order comparison should be between the Control *strategy* and the Targeted *strategy* (in other words, determining the lift of the overall performance of the [!DNL Auto-Target] ensemble ML model over the Control strategy).
 
-Para executar essa comparação, use a dimensão **[!UICONTROL Controle vs Destino (Analytics for Target)]** . Arraste e solte para substituir a dimensão **[!UICONTROL Experiências do Target]** no relatório A4T padrão.
+Para executar essa comparação, use a dimensão **[!UICONTROL Controle vs Destino (Analytics for Target)]** . Drag and drop to replace the **[!UICONTROL Target Experiences]** dimension in the default A4T report.
 
-Observe que essa substituição invalida os cálculos padrão de Aumento e Confiança no painel A4T. Para evitar confusão, você pode remover essas métricas do painel padrão, deixando o seguinte relatório:
+Observe que essa substituição invalida os cálculos padrão de Aumento e Confiança no painel A4T. To avoid confusion, you can remove these metrics from the default panel, leaving the following report:
 
 ![Figura 2.](assets/Figure2.png)
 *pngFigura 2: O relatório de linha de base recomendado para  [!DNL Auto-Target] atividades. Este relatório foi configurado para comparar o tráfego Direcionado (servido pelo modelo ML do conjunto) com seu tráfego de Controle.*
@@ -58,7 +57,7 @@ Observe que essa substituição invalida os cálculos padrão de Aumento e Confi
 >
 >Atualmente, os números de Lift e Confidence não estão disponíveis para as dimensões Control vs Targeted para os relatórios A4T para Direcionamento automático. Até que o suporte seja adicionado, o Aumento e a Confiança podem ser calculados manualmente baixando a [calculadora de confiança](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en).
 
-## Adicionar detalhamentos de métricas no nível da experiência
+## Add Experience-level breakdowns of metrics
 
 Para obter mais informações sobre o desempenho do modelo ML do conjunto, você pode examinar os detalhamentos no nível da experiência da dimensão **[!UICONTROL Controle vs Target]**. No Workspace, arraste a dimensão **[!UICONTROL Experiências do Target]** para o relatório e depois detalhe cada uma das dimensões de Controle e Direcionado separadamente.
 
@@ -78,7 +77,7 @@ Um exemplo do relatório resultante é mostrado aqui.
 
 Ao analisar uma atividade [!DNL Auto-Target], sempre escolha Visitas como a métrica de normalização padrão. [!DNL Auto-Target] a personalização seleciona uma experiência para um visitante uma vez por visita (formalmente, uma vez por sessão do Adobe Target), o que significa que a experiência exibida para um usuário pode mudar em cada visita única. Assim, se você usar Visitantes únicos como a métrica de normalização, o fato de que um único usuário pode acabar visualizando várias experiências (em diferentes visitas) levaria a taxas de conversão confusas.
 
-Um exemplo simples demonstra esse ponto: considere um cenário em que dois visitantes entram em uma campanha que tem apenas duas experiências. O primeiro visitante visita duas vezes. Eles são atribuídos à Experiência A na primeira visita, mas à Experiência B na segunda visita (devido ao estado do perfil ter mudado na segunda visita). Após a segunda visita, o visitante é convertido ao fazer um pedido. A conversão é atribuída à experiência exibida mais recentemente (Experiência B). O segundo visitante também visita duas vezes e a Experiência B é exibida duas vezes, mas nunca converte.
+Um exemplo simples demonstra esse ponto: considere um cenário em que dois visitantes entram em uma campanha que tem apenas duas experiências. The first visitor visits twice. Eles são atribuídos à Experiência A na primeira visita, mas à Experiência B na segunda visita (devido ao estado do perfil ter mudado na segunda visita). Após a segunda visita, o visitante é convertido ao fazer um pedido. A conversão é atribuída à experiência exibida mais recentemente (Experiência B). O segundo visitante também visita duas vezes e a Experiência B é exibida duas vezes, mas nunca converte.
 
 Vamos comparar os relatórios a nível de visitante e a nível de visita:
 
@@ -103,21 +102,21 @@ Se preferir relatar sobre visitas em que o usuário interagiu com a atividade de
 **Para criar o segmento:**
 
 1. Selecione a opção **[!UICONTROL Componentes > Criar segmento]** na barra de ferramentas do Workspace.
-2. Insira um **[!UICONTROL Título]** para seu segmento. No exemplo mostrado abaixo, o segmento é nomeado [!DNL "Hit with specific Auto-Target activity"].
-3. Arraste a dimensão **[!UICONTROL Atividades do Target]** para a seção **[!UICONTROL Definição]** do segmento.
+2. Enter a **[!UICONTROL Title]** for your segment. No exemplo mostrado abaixo, o segmento é nomeado [!DNL "Hit with specific Auto-Target activity"].
+3. Drag the **[!UICONTROL Target Activities]** dimension to the segment **[!UICONTROL Definition]** section.
 4. Use o operador **[!UICONTROL equals]**.
-5. Procure sua atividade específica do Target.
+5. Search for your specific Target activity.
 6. Selecione o ícone de engrenagem e selecione **[!UICONTROL Attribution model > Instance]** conforme mostrado na figura abaixo.
 7. Clique em **[!UICONTROL Salvar]**.
 
 ![Figura 5.](assets/Figure5.png)
 *pngFigura 5: Use um segmento como o mostrado aqui para filtrar a métrica Visitas no seu A4T para  [!DNL Auto-Target] relatório*
 
-Depois que o segmento tiver sido criado, use-o para filtrar a métrica Visitas, de modo que a métrica Visitas inclua apenas visitas onde o usuário interagiu com a atividade do Target.
+Once the segment has been created, use it to filter the Visits metric, so the Visits metric only includes visits where the user interacted with the Target activity.
 
-**Para filtrar Visitas usando este segmento:**
+**To filter Visits using this segment:**
 
-1. Arraste o segmento recém-criado da barra de ferramentas dos componentes e passe o mouse sobre a base do rótulo da métrica **[!UICONTROL Visitas]** até que um prompt azul **[!UICONTROL Filtrar por]** seja exibido.
+1. Drag the newly created segment from the components toolbar, and hover over the base of the **[!UICONTROL Visits]** metric label until a blue **[!UICONTROL Filter by]** prompt appears.
 2. Solte o segmento. O filtro será aplicado a essa métrica.
 
 O painel final será exibido da seguinte maneira.
@@ -129,9 +128,9 @@ O painel final será exibido da seguinte maneira.
 
 A integração A4T permite que o modelo ML de [!DNL Auto-Target] seja *treinado* usando os mesmos dados de evento de conversão que o Adobe Analytics usa para *gerar relatórios de desempenho*. No entanto, há certos pressupostos que devem ser utilizados na interpretação destes dados na formação dos modelos ML, que diferem dos pressupostos predefinidos durante a fase de comunicação na Adobe Analytics.
 
-Especificamente, os modelos ML da Adobe Target usam um modelo de atribuição com escopo de visitas. Ou seja, eles presumem que uma conversão deve ocorrer na mesma visita que uma exibição de conteúdo para a atividade, para que a conversão seja &quot;atribuída&quot; à decisão tomada pelo modelo ML. Tal é necessário para que o Target garanta a formação atempada dos seus modelos; O Target não pode esperar até 30 dias por uma conversão (a janela de atribuição padrão para relatórios no Adobe Analytics), antes de incluí-la nos dados de treinamento de seus modelos.
+Specifically, Adobe Target’s ML models use a visit-scoped attribution model. Ou seja, eles presumem que uma conversão deve ocorrer na mesma visita que uma exibição de conteúdo para a atividade, para que a conversão seja &quot;atribuída&quot; à decisão tomada pelo modelo ML. Tal é necessário para que o Target garanta a formação atempada dos seus modelos; O Target não pode esperar até 30 dias por uma conversão (a janela de atribuição padrão para relatórios no Adobe Analytics), antes de incluí-la nos dados de treinamento de seus modelos.
 
-Assim, a diferença entre a atribuição usada pelos modelos do Target (durante o treinamento) e a atribuição padrão usada na consulta de dados (durante a geração do relatório) pode levar a discrepâncias. Pode até parecer que os modelos de ML têm um desempenho ruim, quando, de fato, o problema está na atribuição.
+Assim, a diferença entre a atribuição usada pelos modelos do Target (durante o treinamento) e a atribuição padrão usada na consulta de dados (durante a geração do relatório) pode levar a discrepâncias. It may even appear that the ML models are performing poorly, when in fact the issue lies with attribution.
 
 >[!TIP]
 >
@@ -139,10 +138,10 @@ Assim, a diferença entre a atribuição usada pelos modelos do Target (durante 
 
 Para visualizar métricas de meta que tenham a mesma metodologia de atribuição usada por modelos ML Adobe Target, siga estas etapas:
 
-1. Passe o mouse sobre o ícone de engrenagem da métrica de meta:
+1. Hover over the goal metric’s gear icon:
    ![gearicon.png](assets/gearicon.png)
 1. No menu resultante, role até **[!UICONTROL Data settings]**.
-1. Selecione **[!UICONTROL Usar modelo de atribuição não padrão]** (se ainda não estiver selecionado):
+1. Select **[!UICONTROL Use non-default  attribution model]** (if not already selected):
    ![non-defaultattributionmodel.png](assets/non-defaultattributionmodel.png)
 1. Clique em **[!UICONTROL Editar]**.
 1. Selecione **[!UICONTROL Modelo]**: **[!UICONTROL Participação]** e **[!UICONTROL Janela de pesquisa]**: **[!UICONTROL Visita]**.

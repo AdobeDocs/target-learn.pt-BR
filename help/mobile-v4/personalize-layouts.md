@@ -7,16 +7,14 @@ topic: Mobile, Personalization
 feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
-thumbnail: null
 author: Daniel Wright
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: a9f033d9-9f72-4154-88f5-d36423a404d0
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1092'
 ht-degree: 1%
 
 ---
-
 
 # Personalizar layouts
 
@@ -64,7 +62,7 @@ Na interface [!DNL Target], faça o seguinte:
    ![Novo público-alvo de usuários do aplicativo móvel](assets/activity_create_4.jpg)
 
 1. Altere o local para _weTravel_engagement_home_.
-1. Selecione a seta suspensa ao lado de Conteúdo padrão e selecione **[!UICONTROL Alterar oferta HTML]**.
+1. Selecione a seta suspensa ao lado de Conteúdo padrão e selecione **[!UICONTROL Alterar oferta de HTML]**.
 
    ![Novo público-alvo de usuários do aplicativo móvel](assets/activity_create_5.jpg)
 
@@ -77,7 +75,7 @@ Na interface [!DNL Target], faça o seguinte:
    ![Novo público-alvo de usuários do aplicativo móvel](assets/activity_create_7.jpg)
 
 1. Selecione o local _weTravel_engagement_search_.
-1. Altere a oferta HTML.
+1. Altere a HTML offer.
 
    ![Novo público-alvo de usuários do aplicativo móvel](assets/activity_create_8.jpg)
 
