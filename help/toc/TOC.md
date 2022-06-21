@@ -1,10 +1,10 @@
 ---
 user-guide-title: 'Tutoriais do Adobe Target '
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: df4e2a7660e92ee87d9678d8bb9bb9d6a22bf6b4
+source-git-commit: 18f3badbdcad6467f350b6f30aa0643a5a9d0139
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 9%
+source-wordcount: '411'
+ht-degree: 8%
 
 ---
 
@@ -13,7 +13,11 @@ ht-degree: 9%
 
 + [Visão geral do Adobe Target Tutorials](../overview.md)
 + Administração{#administration}
-   + [Estratégia de implementação e governança do sistema](../dev101/1.1-implementation-strategy-sys-governance.md)
+   + [Estratégia e liderança de pensamento]{#strategy}
+      + [Início rápido para testes de personalização e criação de roteiro](../strategy/create-personalization-roadmap-testing-plan.md)
+      + [Estratégia de implementação e governação do sistema](../dev101/1.1-implementation-strategy-sys-governance.md)
+      + [Práticas recomendadas para otimização com o Adobe Target](../strategy/target-best-practices-for-optimization.md)
+      + [Otimizar a implementação do Adobe Target](../strategy/optimize-your-target-implementation.md)
    + [Configurar preferências da conta](../administration/set-up-account-preferences.md)
    + [Compreender as permissões do usuário empresarial](../administration/understanding-enterprise-user-permissions.md)
    + [Configurar permissões de usuário empresarial](../dev101/1.2-configure-ent-user-permissions.md)
