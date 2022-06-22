@@ -1,10 +1,11 @@
 ---
 title: Práticas recomendadas de otimização
-description: 'Saiba mais sobre seis princípios básicos de otimização do Adobe. '
+description: Saiba mais sobre seis princípios básicos de otimização do Adobe.
 solution: Target
-source-git-commit: fd679d3fc2c72b9852d8129adf8c1187bf22b25f
+exl-id: dd29faea-bb67-4128-b261-fa407ba7158c
+source-git-commit: 46f61d8f503f230a79b4072ea0d75edd41403708
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
@@ -115,3 +116,5 @@ A personalização também inclui o tipo de atividade de teste Direcionamento de
 Dada a compreensão acima, o Adobe recomenda Otimizar antes de Personalizar e promover a Personalização de modo amplo a granular. Para madurar as atividades de personalização, de amplo para granular, você começará a usar um estilo de personalização one-to-many (amplo) (usando testes A/B) e passará para o estilo de personalização one-to-one (granular) (usando atividades de personalização automatizada).
 
 Para obter mais informações, ouça [webinar sobre compreensão e otimização da implementação do Adobe Target](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/), com a consultora de negócios Katie Cozby.
+
+Saiba mais sobre estratégia e liderança de pensamento no [Sucesso do cliente](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) cubo.

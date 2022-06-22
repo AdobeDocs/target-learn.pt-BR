@@ -1,10 +1,11 @@
 ---
 title: Início rápido para testes de personalização e criação de roteiro
-description: 'Saiba mais sobre uma estrutura que pode ser usada para começar a validar atividades de personalização e criar um roteiro de personalização para executar por meio do Adobe Target e Adobe Analytics.  '
+description: Saiba mais sobre uma estrutura que pode ser usada para começar a validar atividades de personalização e criar um roteiro de personalização para executar por meio do Adobe Target e Adobe Analytics.
 solution: Target,Analytics
-source-git-commit: fd679d3fc2c72b9852d8129adf8c1187bf22b25f
+exl-id: c0b6f9a0-7074-4e25-81e6-9781a54e2156
+source-git-commit: 46f61d8f503f230a79b4072ea0d75edd41403708
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
@@ -51,7 +52,7 @@ Focalize a análise de dados para identificar áreas específicas do site que po
 1. Resenhas jornalísticas - Identifique quais partes do site se beneficiariam mais com a Personalização. Essas revisões permitem que você dê um passo para trás e navegue pelo seu site como um cliente faria.
 1. Análise do concorrente - As chances são de que outras empresas enfrentem os mesmos desafios que você faz. Esta análise não se limita a empresas do mesmo setor.
 
-A meta dessa etapa é gerar um insight acionável na forma de hipótese. Uma hipótese é uma previsão que você cria antes de executar um experimento. Ele diz claramente o que está sendo mudado, o que você acredita que será o resultado e por que você acha que é o caso. Executar o experimento comprovará ou desaprovará sua hipótese. No final desta etapa, você deve ter um conjunto de hipóteses para oportunidades de personalização que melhorarão seu site e a satisfação do visitante.
+A meta dessa etapa é gerar um insight acionável na forma de hipótese. Uma hipótese é uma previsão que você cria antes de executar um experimento. Ele afirma claramente o que está sendo mudado, o que você acredita que será o resultado e por que você acha que é o caso. Executar o experimento comprovará ou desaprovará sua hipótese. No final desta etapa, você deve ter um conjunto de hipóteses para oportunidades de personalização que melhorarão seu site e a satisfação do visitante.
 
 ## Etapa 2: Desenvolver casos de uso{#use-cases}
 
@@ -86,3 +87,5 @@ Depois que sua atividade de personalização tiver envolvido uma amostra represe
 ### Mais informações
 
 Recomendamos que você assista a este vídeo, que discute cada uma dessas etapas: [https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/](https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/)
+
+Saiba mais sobre estratégia e liderança de pensamento no [Sucesso do cliente](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) cubo.

@@ -1,10 +1,11 @@
 ---
 title: Otimizar a implementação do Adobe Target
-description: 'Obtenha uma visão geral da implementação e estrutura do Adobe Target. Saiba como entender e auditar a configuração de sua organização. Saiba mais sobre as técnicas comuns de solução de problemas e dicas sobre como criar um repositório de conhecimento para sua equipe. '
+description: Obtenha uma visão geral da implementação e estrutura do Adobe Target. Saiba como entender e auditar a configuração de sua organização. Saiba mais sobre as técnicas comuns de solução de problemas e dicas sobre como criar um repositório de conhecimento para sua equipe.
 solution: Target
-source-git-commit: fd679d3fc2c72b9852d8129adf8c1187bf22b25f
+exl-id: 49b69f41-0993-437c-bb69-84392be427df
+source-git-commit: 46f61d8f503f230a79b4072ea0d75edd41403708
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1148'
 ht-degree: 0%
 
 ---
@@ -162,3 +163,5 @@ Os documentos típicos em um Repositório de Conhecimento incluem:
 * **Painel de programas** - um documento usado para acompanhar o desempenho do programa, a cadência e os benefícios de receita ao longo do tempo.
 
 Para obter mais informações, consulte nossa [webinário](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/) com o Consultor Sênior, Wilder Freed.
+
+Saiba mais sobre estratégia e liderança de pensamento no [Sucesso do cliente](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) cubo.
