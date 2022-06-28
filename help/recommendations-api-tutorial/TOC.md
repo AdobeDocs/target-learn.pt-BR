@@ -1,9 +1,9 @@
 ---
 user-guide-title: Usar APIs do Recommendations
 user-guide-url: /content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: d8bb5884e3014792174813464bf00e7f94cc83ad
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '49'
 ht-degree: 0%
 
 ---
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Usar APIs do Adobe Target Recommendations{#recommendations-api-tutorial}
 
-+ [Visão geral da API Recs](https://developer.adobe.com/target/before-administer/recs-api/){target=_blank}
++ [Visão geral da API Recs](recs-api-overview.md)
 + [Gerencie seu catálogo com APIs](https://developer.adobe.com/target/before-administer/recs-api/manage-catalog/){target=_blank}
 + [Gerenciar critérios personalizados](https://developer.adobe.com/target/before-administer/recs-api/manage-custom-criteria/){target=_blank}
 + [Usar a API de entrega com o Recommendations](https://developer.adobe.com/target/before-administer/recs-api/fetch-recs-server-side-delivery-api/){target=_blank}
