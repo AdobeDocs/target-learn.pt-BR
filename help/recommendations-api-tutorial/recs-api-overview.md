@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: 3815
 author: Judy Kim
 exl-id: 10f80056-fb71-4362-86bc-d161f596cb91
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: cee2618bb92284da1f82d108a0aff0d39340a15b
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 3%
@@ -41,7 +41,7 @@ Este tutorial é destinado a desenvolvedores novos em APIs do Target ou APIs do 
 
 ## Pré-requisitos
 
-O uso das APIs de administrador do Target requer [Configuração de autenticação Adobe](https://developer.adobe.com/target/before-administer/configure-authentication/){target=_blank}. Certifique-se de ter isso configurado antes de iniciar este tutorial.
+O uso das APIs de administrador do Target requer [Configuração de autenticação Adobe](https://developer.adobe.com/target/before-administer/configure-authentication/){target=&quot;_blank&quot;}. Certifique-se de ter isso configurado antes de iniciar este tutorial.
 
 ## Recursos
 
@@ -52,4 +52,4 @@ Observe os seguintes recursos, que são necessários para entender este tutorial
 | Postman | Obtenha o [Aplicativo Postman](https://www.postman.com/downloads/) para seu sistema operacional. O Postman básico é gratuito com a criação de contas. Embora não seja necessário para usar as APIs do Adobe Target em geral, o Postman facilita os fluxos de trabalho da API e o Adobe Target fornece várias coleções de Postman para ajudar a executar suas APIs e aprender como elas operam. O restante deste tutorial assume conhecimento prático do Postman. Para obter ajuda, consulte o [Documentação do Postman](https://learning.getpostman.com/). |
 | Referências | A familiarização com os seguintes recursos é assumida no restante deste tutorial:<UL><li>[Adobe I/O Github](https://github.com/adobeio)</li><li>[Documentação do Target Adobe I/O](https://developers.adobetarget.com/api/#introduction)</li><li>[Documentação da API do Recommendations](https://developers.adobetarget.com/api/recommendations/)</li></ul> |
 
-[Próximo: &quot;Gerenciar seu catálogo do Recommendations&quot; >](https://developer.adobe.com/target/before-administer/recs-api/manage-catalog/){target=_blank}
+[Próximo: &quot;Gerenciar seu catálogo do Recommendations&quot; >](https://developer.adobe.com/target/before-administer/recs-api/manage-catalog/){target=&quot;_blank&quot;}

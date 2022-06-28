@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: 3815
 author: Judy Kim
 exl-id: 8060b69b-e8e5-4fe7-895f-742410d8ed45
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: cee2618bb92284da1f82d108a0aff0d39340a15b
 workflow-type: tm+mt
 source-wordcount: '918'
 ht-degree: 2%
@@ -24,7 +24,7 @@ Você pode usar o [APIs do Recommendations](https://developers.adobetarget.com/a
 
 >[!TIP]
 >
->Envie o **[!UICONTROL IMS: JWT Generate + Auth via Token de usuário]** sempre que precisar atualizar o token de acesso para autenticação, pois ele expira após 24 horas. Consulte [Configurar a autenticação Adobe API](https://developer.adobe.com/target/before-administer/configure-authentication/){target=_blank} para obter instruções.
+>Envie o **[!UICONTROL IMS: JWT Generate + Auth via Token de usuário]** sempre que precisar atualizar o token de acesso para autenticação, pois ele expira após 24 horas. Consulte [Configurar a autenticação Adobe API](https://developer.adobe.com/target/before-administer/configure-authentication/){target=&quot;_blank&quot;} para obter instruções.
 
 ![JWT3ff](assets/configure-io-target-jwt3ff.png)
 
@@ -204,4 +204,4 @@ Se nenhuma ID de entidade for fornecida, todas as entidades no ambiente em quest
 
 Parabéns! Agora você pode usar o [!DNL Recommendations] APIs para criar, atualizar, excluir e obter detalhes sobre as entidades em seu catálogo. Na próxima seção, você aprenderá a gerenciar critérios personalizados.
 
-[Próximo: &quot;Gerenciar critérios personalizados&quot; >](https://developer.adobe.com/target/before-administer/recs-api/manage-custom-criteria/){target=_blank}
+[Próximo: &quot;Gerenciar critérios personalizados&quot; >](https://developer.adobe.com/target/before-administer/recs-api/manage-custom-criteria/){target=&quot;_blank&quot;}
