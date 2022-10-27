@@ -8,7 +8,7 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 1c09ae58070d9f55aab555531f9a03dacbb26f03
+source-git-commit: e1acb84970b967625e0b6c7495067ed6456a6aa3
 workflow-type: tm+mt
 source-wordcount: '2653'
 ht-degree: 1%
@@ -86,6 +86,7 @@ Vamos comparar os relatórios a nível de visitante e a nível de visita:
 | Um | 1 | 1 | - | 0% | 0% |
 | B  | 2 | 3 | 1 | 50% | 33,3% |
 | Totais | 2 | 4 | 1 | 50% | 25% |
+
 *Quadro 1: Exemplo que compara relatórios normalizados de visitantes e relatórios normalizados de visitas para um cenário em que as decisões são aderentes a uma visita (e não a um visitante, como com testes A/B regulares). Métricas normalizadas do visitante são confusas nesse cenário.*
 
 Conforme mostrado na tabela, há uma clara incongruência de números no nível do visitante. Apesar do fato de haver dois visitantes únicos totais, essa não é uma soma de visitantes únicos individuais para cada experiência. Embora a taxa de conversão no nível do visitante não esteja necessariamente errada, quando você compara experiências individuais, as taxas de conversão no nível da visita provavelmente fazem muito mais sentido. Formalmente, a unidade de análise (&quot;visitas&quot;) é a mesma que a unidade de decisão, o que significa que os detalhamentos das métricas no nível da experiência podem ser adicionados e comparados.
