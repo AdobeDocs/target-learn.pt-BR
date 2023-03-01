@@ -11,9 +11,9 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: dd0c3ed5cd44d6b70b7c69bfcfbca5940900772b
+source-git-commit: ba33152906afda02ebf65365d9783ba8a4ea3c83
 workflow-type: tm+mt
-source-wordcount: '2278'
+source-wordcount: '2282'
 ht-degree: 1%
 
 ---
@@ -203,6 +203,8 @@ A definição completa da métrica calculada é mostrada aqui.
 ## Resumo: amostra final [!DNL Analysis Workspace] painel para [!UICONTROL Direcionamento automático] relatórios
 
 Combinando todas as etapas acima em um único painel, a figura abaixo mostra uma exibição completa do relatório recomendado para [!UICONTROL Direcionamento automático] Atividades do A4T. Este relatório é o mesmo que o utilizado pelo [!DNL Target] Modelos de ML para otimizar sua métrica de meta. O relatório incorpora todas as nuances e recomendações discutidas neste tutorial. O presente relatório está também mais próximo das metodologias de contagem [!DNL Target]orientado por relatórios [!UICONTROL Direcionamento automático] atividades.
+
+Clique para expandir a imagem.
 
 ![Relatório final do A4T no [!DNL Analysis Workspace]](assets/Figure8.png "Relatório do A4T no Analysis Workspace"){width="600" zoomable="yes"}
 
