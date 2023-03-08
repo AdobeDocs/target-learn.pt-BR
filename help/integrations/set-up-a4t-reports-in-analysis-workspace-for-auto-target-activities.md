@@ -2,7 +2,6 @@
 title: Como configurar relatórios do A4T no [!DNL Analysis Workspace] para [!DNL Auto-Target] Atividades
 description: Como configurar relatórios do A4T no [!DNL Analysis Workspace] para obter os resultados esperados durante a execução [!UICONTROL Direcionamento automático] atividades?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
-badgeBeta: label="Beta" type="Informative"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -11,18 +10,14 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: ba33152906afda02ebf65365d9783ba8a4ea3c83
+source-git-commit: 14a362214dce9d698c78438c3a47424b59aa4632
 workflow-type: tm+mt
-source-wordcount: '2282'
+source-wordcount: '2253'
 ht-degree: 1%
 
 ---
 
 # Configuração de relatórios do A4T no [!DNL Analysis Workspace] para [!DNL Auto-Target] atividades
-
->[!NOTE]
->
->No momento, essa funcionalidade está na versão beta e estará disponível para todos [Target Premium](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium){target=_blank} clientes em uma versão futura.
 
 >[!IMPORTANT]
 >

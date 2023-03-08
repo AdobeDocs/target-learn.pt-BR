@@ -1,7 +1,6 @@
 ---
 title: Como configurar relatórios do A4T no [!DNL Analysis Workspace] para [!UICONTROL Alocação automática] Atividades
 description: Como configurar relatórios do A4T no [!DNL Analysis Workspace] para obter os resultados esperados durante a execução [!UICONTROL Alocação automática] atividades.
-badgeBeta: label="Beta" type="Informative"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -9,18 +8,14 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: ba33152906afda02ebf65365d9783ba8a4ea3c83
+source-git-commit: 14a362214dce9d698c78438c3a47424b59aa4632
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1018'
 ht-degree: 0%
 
 ---
 
 # Configuração de relatórios do A4T no [!DNL Analysis Workspace] para [!DNL Auto-Allocate] atividades
-
->[!NOTE]
->
->No momento, essa funcionalidade está na versão beta e estará disponível para todos [!UICONTROL Target] clientes em uma versão futura.
 
 Um [!DNL Auto-Allocate] a atividade identifica um vencedor entre duas ou mais experiências e realoca automaticamente mais tráfego para o vencedor enquanto o teste continua a ser executado e aprendido. A variável [!UICONTROL Analytics for Target] Integração do (A4T) para [!UICONTROL Alocação automática] permite visualizar os dados de relatórios no [!DNL Adobe Analytics]e você pode até otimizar para eventos ou métricas personalizados definidos em [!DNL Analytics].
 

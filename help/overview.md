@@ -1,31 +1,37 @@
 ---
 title: Saiba como usar o Adobe Target
-description: Saiba como usar o Adobe Target com esta coleção de tutoriais e vídeos que abrangem todos os seus componentes. Use o poder do Adobe Target de forma eficaz.
+description: Saiba como usar o [!DNL Adobe Target] com esta coleção de tutoriais e vídeos que abrangem todos os seus componentes.
 role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-source-git-commit: da8f839931f4c68d3ee8ef9e1c8ca377d79a4cb0
+source-git-commit: ca57cc6fae9bb68b9ad432afe64ffea726cd6872
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 17%
+source-wordcount: '249'
+ht-degree: 15%
 
 ---
 
 # Saiba como usar o Adobe Target
 
-O Adobe Target é a solução da Adobe Experience Cloud que oferece tudo o que você precisa para ajustar e personalizar a experiência do cliente e maximizar a receita em sites da Web e móveis, aplicativos, redes sociais e outros canais digitais. Use esses vídeos e tutoriais para saber mais sobre os vários componentes do Adobe Target.
+O [!DNL Adobe Target] é a solução completa da [!DNL Adobe Experience Cloud] para ajustar e personalizar a experiência do cliente e maximizar a receita em sites da Web e móveis, aplicativos, redes sociais e outros canais digitais. Use estes vídeos e tutoriais para saber mais sobre os vários componentes do [!DNL Adobe Target].
 
 <div id="whats-new-section">
 
 ## Novidades
 
-* **[Configuração de relatórios A4T no Analysis Workspace para atividades de Direcionamento automático](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)**
+* **[Configuração de relatórios do A4T no [!DNL Analysis Workspace] para [!DNL Auto-Allocate] atividades](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md)**
 
-   *Para profissionais de negócios: Você está usando o A4T para Direcionamento automático? Siga estas etapas para configurar relatórios do A4T no Analysis Workspace para garantir que você obtenha os resultados esperados ao executar atividades de Direcionamento automático.*
-* **[Visão geral do On-Device Decisioning](implementation/on-device-decisioning-overview.md)**
+   Para profissionais de negócios: a [!UICONTROL Analytics for Target] Integração do (A4T) para [!UICONTROL Alocação automática] permite visualizar os dados de relatórios no [!DNL Adobe Analytics]e você pode até otimizar para eventos ou métricas personalizados definidos em [!DNL Analytics].
 
-   *Para arquitetos: Comece a tomar decisões no dispositivo para fornecer experiências de latência quase zero aos seus consumidores!*
+* **[Configuração de relatórios do A4T no [!DNL Analysis Workspace] para [!UICONTROL Direcionamento automático] atividades](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)**
+
+   Para profissionais de negócios: você está usando o A4T para [!UICONTROL Direcionamento automático]? Siga estas etapas para configurar relatórios do A4T em [!DNL Analysis Workspace] para garantir que você obtenha os resultados esperados durante a execução [!UICONTROL Direcionamento automático] atividades.
+
+* **[Visão geral da decisão no dispositivo](implementation/on-device-decisioning-overview.md)**
+
+   Para arquitetos: Introdução a [!UICONTROL decisão no dispositivo] para fornecer experiências de latência quase zero aos seus consumidores.
+
 <!-- * **[Use the Recommendations API (Tutorial)](recommendations-api-tutorial/recs-api-overview.md)**
     *For developers: Get hands-on practice using the [!DNL Recommendations] APIs to configure and manage [!DNL Recommendations] catalogs and custom criteria, and more.*-->
 
@@ -40,7 +46,6 @@ O Adobe Target é a solução da Adobe Experience Cloud que oferece tudo o que v
     <br>
     *Recommend products to your customers at scale with this Premium feature.* -->
 
-
 </div>
 
 <div id="recs-overview-body-1"></div>
@@ -52,17 +57,17 @@ O Adobe Target é a solução da Adobe Experience Cloud que oferece tudo o que v
 
 <div id="staff-picks-section">
 
-## Escolhas do pessoal
+## Escolhas de pessoal
 
 <table>
 <tr>
   <td>
     <a href="https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html?lang=en">
-      <img alt="Implementar o Target com o Adobe Experience Platform Launch" src="assets/launch_referencearchitectureguides.png" />
+      <img alt="Implementação do Target com o Adobe Experience Platform Launch" src="assets/launch_referencearchitectureguides.png" />
     </a>
     <div>
       <a href="https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html?lang=en">
-    <strong>Implementar o Target com o Adobe Experience Platform Launch</strong>
+    <strong>Implementação do Target com o Adobe Experience Platform Launch</strong>
     </a>
     </div>
     <p>
@@ -79,7 +84,7 @@ O Adobe Target é a solução da Adobe Experience Cloud que oferece tudo o que v
     </a>
     </div>
     <p>
-    <em>Veja como a at.js 2.x suporta SPA</em>
+    <em>Veja como a at.js 2.x oferece suporte a SPA</em>
     <p>
   </td>
   <td>
