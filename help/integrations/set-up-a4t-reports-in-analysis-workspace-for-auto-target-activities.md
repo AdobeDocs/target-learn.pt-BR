@@ -2,6 +2,7 @@
 title: Como configurar relatórios do A4T no [!DNL Analysis Workspace] para [!DNL Auto-Target] Atividades
 description: Como configurar relatórios do A4T no [!DNL Analysis Workspace] para obter os resultados esperados durante a execução [!UICONTROL Direcionamento automático] atividades?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="What are Target Beta release features?"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -10,7 +11,7 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 14a362214dce9d698c78438c3a47424b59aa4632
+source-git-commit: 0ab5bc8b2ad4b5b32069b022d95d0862ec84e868
 workflow-type: tm+mt
 source-wordcount: '2253'
 ht-degree: 1%
@@ -51,7 +52,7 @@ Para criar um A4T para [!UICONTROL Direcionamento automático] relatório, comec
 
 ## Use o [!UICONTROL Controle versus Direcionado] dimensão para comparar a [!DNL Target] modelo ML conjunto para o seu controle
 
-O painel A4T padrão foi criado para o clássico (manual) [!UICONTROL Teste A/B] ou [!UICONTROL Alocação automática] atividades em que o objetivo é comparar o desempenho de experiências individuais com a experiência de controle. Entrada [!UICONTROL Direcionamento automático] atividades de controlo, mas a primeira comparação de ordem deve ser entre o *estratégia* e o direcionado *estratégia*. Por outras palavras, determinar o aumento do desempenho global do [!UICONTROL Direcionamento automático] modelo ML do conjunto sobre a estratégia de controle).
+O painel A4T padrão foi criado para o clássico (manual) [!UICONTROL Teste A/B] ou [!UICONTROL Alocação automática] atividades em que o objetivo é comparar o desempenho de experiências individuais com a experiência de controle. Entrada [!UICONTROL Direcionamento automático] atividades de controlo, mas a primeira comparação de ordem deve ser entre o *estratégia* e o direcionado *estratégia*. Por outras palavras, determinar o aumento do desempenho global do [!UICONTROL Direcionamento automático] reunir o modelo de ML sobre a estratégia de controle.
 
 Para fazer essa comparação, use o **[!UICONTROL Controle versus Direcionado (Analytics for Target)]** dimensão. Arraste e solte para substituir o **[!UICONTROL Experiências do Target]** no relatório A4T padrão.
 
