@@ -1,6 +1,6 @@
 ---
 title: Saiba como usar o Adobe Target
-description: Saiba como usar o [!DNL Adobe Target] com esta coleção de tutoriais e vídeos que abrangem todos os seus componentes.
+description: Saiba como usar [!DNL Adobe Target] com esta coleção de tutoriais e vídeos que abrangem todos os seus componentes.
 role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 topic: Personalization
@@ -14,19 +14,19 @@ ht-degree: 15%
 
 # Saiba como usar o Adobe Target
 
-O [!DNL Adobe Target] é a solução completa da [!DNL Adobe Experience Cloud] para ajustar e personalizar a experiência do cliente e maximizar a receita em sites da Web e móveis, aplicativos, redes sociais e outros canais digitais. Use estes vídeos e tutoriais para saber mais sobre os vários componentes do [!DNL Adobe Target].
+O [!DNL Adobe Target] é a solução completa da [!DNL Adobe Experience Cloud] para ajustar e personalizar a experiência do cliente e maximizar a receita em sites da Web e móveis, aplicativos, redes sociais e outros canais digitais. Use esses vídeos e tutoriais para saber mais sobre os vários componentes do [!DNL Adobe Target].
 
 <div id="whats-new-section">
 
 ## Novidades
 
-* **[Configuração de relatórios do A4T no [!DNL Analysis Workspace] para [!DNL Auto-Allocate] atividades](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md)**
+* **[Configuração de relatórios do A4T em [!DNL Analysis Workspace] para [!DNL Auto-Allocate] atividades](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md)**
 
-   Para profissionais de negócios: a [!UICONTROL Analytics for Target] Integração do (A4T) para [!UICONTROL Alocação automática] permite visualizar os dados de relatórios no [!DNL Adobe Analytics]e você pode até otimizar para eventos ou métricas personalizados definidos em [!DNL Analytics].
+   Para profissionais de negócios: O [!UICONTROL Analytics para Target] Integração do (A4T) para [!UICONTROL Alocação automática] permite que você veja seus dados de relatório em [!DNL Adobe Analytics]e você também pode otimizar para eventos personalizados ou métricas definidas no [!DNL Analytics].
 
-* **[Configuração de relatórios do A4T no [!DNL Analysis Workspace] para [!UICONTROL Direcionamento automático] atividades](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)**
+* **[Configuração de relatórios do A4T em [!DNL Analysis Workspace] para [!UICONTROL Direcionamento automático] atividades](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)**
 
-   Para profissionais de negócios: você está usando o A4T para [!UICONTROL Direcionamento automático]? Siga estas etapas para configurar relatórios do A4T em [!DNL Analysis Workspace] para garantir que você obtenha os resultados esperados durante a execução [!UICONTROL Direcionamento automático] atividades.
+   Para profissionais de negócios: Você está usando o A4T para [!UICONTROL Direcionamento automático]? Siga estas etapas para configurar relatórios do A4T em [!DNL Analysis Workspace] para garantir que você obtenha os resultados esperados ao executar o [!UICONTROL Direcionamento automático] atividades.
 
 * **[Visão geral da decisão no dispositivo](implementation/on-device-decisioning-overview.md)**
 
@@ -57,17 +57,17 @@ O [!DNL Adobe Target] é a solução completa da [!DNL Adobe Experience Cloud] p
 
 <div id="staff-picks-section">
 
-## Escolhas de pessoal
+## Escolhas do pessoal
 
 <table>
 <tr>
   <td>
     <a href="https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html?lang=en">
-      <img alt="Implementação do Target com o Adobe Experience Platform Launch" src="assets/launch_referencearchitectureguides.png" />
+      <img alt="Implementar o Target com o Adobe Experience Platform Launch" src="assets/launch_referencearchitectureguides.png" />
     </a>
     <div>
       <a href="https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html?lang=en">
-    <strong>Implementação do Target com o Adobe Experience Platform Launch</strong>
+    <strong>Implementar o Target com o Adobe Experience Platform Launch</strong>
     </a>
     </div>
     <p>
@@ -84,7 +84,7 @@ O [!DNL Adobe Target] é a solução completa da [!DNL Adobe Experience Cloud] p
     </a>
     </div>
     <p>
-    <em>Veja como a at.js 2.x oferece suporte a SPA</em>
+    <em>Veja como a at.js 2.x suporta SPA</em>
     <p>
   </td>
   <td>
