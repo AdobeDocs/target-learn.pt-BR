@@ -11,9 +11,9 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 0c15c9f448556ba4f5746de62f0673c16202d65f
+source-git-commit: 952348fa8e8bdba04d543774ba365063ae63eb43
 workflow-type: tm+mt
-source-wordcount: '2253'
+source-wordcount: '2647'
 ht-degree: 1%
 
 ---
@@ -138,7 +138,7 @@ O painel final aparece da seguinte maneira:
 
 *Figura 6: Painel de relatórios com o segmento &quot;Ocorrência com atividade de direcionamento automático específica&quot; aplicado ao [!UICONTROL Visitas] métrica. Esse segmento garante que somente visitas nas quais um usuário interagiu com a [!DNL Target] atividade em questão são incluídas no relatório.*
 
-## Alinhe a atribuição entre o treinamento do modelo ML e a geração de métrica de meta
+## Garanta que a métrica de meta e a atribuição estejam alinhadas ao seu critério de otimização
 
 A integração A4T permite a [!UICONTROL Direcionamento automático] Modelo ML a utilizar *treinado* usando os mesmos dados de evento de conversão que [!DNL Adobe Analytics] usa para *gerar relatórios de desempenho*. Todavia, na formação dos modelos de ML, há determinados pressupostos que devem ser utilizados na interpretação destes dados, que diferem dos pressupostos predefinidos durante a fase de comunicação em [!DNL Adobe Analytics].
 
@@ -148,7 +148,13 @@ Assim, a diferença entre a atribuição usada pela variável [!DNL Target] mode
 
 >[!TIP]
 >
->Se os modelos de ML estiverem otimizando uma métrica atribuída de forma diferente da métrica que você está visualizando em um relatório, os modelos podem não funcionar conforme esperado. Para evitar essa situação, assegure-se de que as métricas de meta no seu relatório usem a mesma atribuição usada pela variável [!DNL Target] Modelos ML.
+>Se os modelos de ML estiverem otimizando uma métrica atribuída de forma diferente da métrica que você está visualizando em um relatório, os modelos podem não funcionar conforme esperado. Para evitar isso, assegure-se de que as métricas de meta em seu relatório usem a mesma definição de métrica e atribuição usadas pela variável [!DNL Target] Modelos ML.
+
+A definição exata de métrica e as configurações de atribuição dependem do [critério de otimização](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#supported) você especificou durante a criação da atividade.
+
+### Conversões definidas pelo Target ou [!DNL Analytics] métricas com *Maximizar valor de métrica por visita*
+
+Quando a métrica é uma [!DNL Target] conversão ou uma [!DNL Analytics] métricas com **Maximizar valor de métrica por visita**, a definição da métrica de meta permite que vários eventos de conversão ocorram na mesma visita.
 
 Para visualizar métricas de meta que tenham a mesma metodologia de atribuição usada pela [!DNL Target] Modelos ML, siga estas etapas:
 
@@ -170,9 +176,43 @@ Para visualizar métricas de meta que tenham a mesma metodologia de atribuição
 
 Essas etapas garantem que seu relatório atribua a métrica de meta à exibição da experiência, se o evento de métrica de meta tiver ocorrido *qualquer hora* (&quot;participação&quot;) na mesma visita que uma experiência foi exibida.
 
+### [!DNL Analytics] métricas com *Taxas de conversão de visita única*
+
+**Definir a visita com o segmento de métrica positiva**
+
+No cenário selecionado *Maximize a taxa de conversão de visitas exclusivas* como os critérios de otimização, a definição correta da taxa de conversão é a fração de visitas em que o valor da métrica é positivo. Isso pode ser feito criando uma filtragem de segmentos para visitas com um valor positivo da métrica e, em seguida, filtrando a métrica de visitas.
+
+1. Como antes, selecione o **[!UICONTROL Componentes > Criar segmento]** na [!DNL Analysis Workspace] barra de ferramentas.
+2. Especifique um **[!UICONTROL Título]** para o seu segmento.
+
+   No exemplo mostrado abaixo, o segmento é nomeado como [!DNL "Visits with an order"].
+
+3. Arraste a métrica base usada na meta de otimização para o segmento.
+
+   No exemplo mostrado abaixo, usamos a variável **ordens** para que a taxa de conversão meça a fração de visitas em que um pedido é registrado.
+
+4. Na parte superior esquerda do contêiner de definição de segmento, selecione **[!UICONTROL Incluir]** **Visita**.
+5. Use o **[!UICONTROL é maior que]** e defina o valor como 0.
+
+   Definir o valor como 0 significa que esse segmento inclui visitas nas quais a métrica de pedidos é positiva.
+
+6. Clique em **[!UICONTROL Salvar]**.
+
+![Figura 7.png](assets/Figure7.png)
+
+*Figura 7: A filtragem da definição de segmento para visitas com uma ordem positiva. Dependendo da métrica de otimização da sua atividade, você deve substituir os pedidos por uma métrica apropriada*
+
+**Aplique isso às visitas na métrica filtrada de atividades**
+
+Esse segmento agora pode ser usado para filtrar visitas com um número positivo de pedidos e onde houve uma ocorrência para a variável [!DNL Auto-Target] atividade . O procedimento de filtragem de uma métrica é semelhante a antes e depois de aplicar o novo segmento à métrica de visita já filtrada, o painel Relatório deve se parecer com a Figura 8
+
+![Figura 8.png](assets/Figure8.png)
+
+*Figura 8: O painel de relatórios com a métrica de conversão de visita única correta: o número de visitas em que uma ocorrência da atividade foi registrada e em que a métrica de conversão (pedidos neste exemplo) foi diferente de zero.*
+
 ## Etapa final: Crie uma taxa de conversão que capture a mágica acima
 
-Com as modificações na [!UICONTROL Visita] e métricas de meta nas seções anteriores, a modificação final que você deve fazer no padrão A4T para [!UICONTROL Direcionamento automático] o painel de relatórios é criar taxas de conversão que são a proporção correta (a de uma métrica de meta com a atribuição correta), para uma métrica filtrada adequadamente [!UICONTROL Visitas] métrica.
+Com as modificações na [!UICONTROL Visita] e métricas de meta nas seções anteriores, a modificação final que você deve fazer no padrão A4T para [!DNL Auto-Target] o painel de relatórios é criar taxas de conversão que são a proporção correta, a da métrica de meta corrigida, para uma métrica de &quot;Visitas&quot; filtrada apropriadamente.
 
 Faça isso criando uma [!UICONTROL Métrica calculada] usando as seguintes etapas:
 
@@ -186,9 +226,13 @@ Faça isso criando uma [!UICONTROL Métrica calculada] usando as seguintes etapa
 1. Arraste o **[!UICONTROL Visitas]** no contêiner de segmento.
 1. Clique em **[!UICONTROL Salvar]**.
 
+>[!TIP]
+>
+> Também é possível criar essa métrica usando a [funcionalidade de métrica calculada rápida](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html).
+
 A definição completa da métrica calculada é mostrada aqui.
 
-![Figura 7.png](assets/Figure7.png)
+![Figura9.png](assets/Figure9.png)
 
 *Figura 7: A definição de métrica de taxa de conversão do modelo corrigida de visitas e de atribuição. (Observe que essa métrica depende da métrica de meta e da atividade. Em outras palavras, essa definição de métrica não é reutilizável em atividades do .)*
 
@@ -202,6 +246,6 @@ Combinando todas as etapas acima em um único painel, a figura abaixo mostra uma
 
 Clique em para expandir a imagem.
 
-![Relatório final A4T em [!DNL Analysis Workspace]](assets/Figure8.png "Relatório A4T no Analysis Workspace"){width="600" zoomable="yes"}
+![Relatório final A4T em [!DNL Analysis Workspace]](assets/Figure10.png "Relatório A4T no Analysis Workspace"){width="600" zoomable="yes"}
 
-*Figura 8: O A4T final [!UICONTROL Direcionamento automático] relatório em [!DNL Adobe Analytics] [!DNL Workspace], que combina todos os ajustes nas definições de métrica descritas nas seções anteriores deste tutorial.*
+*Figura 10: O A4T final [!UICONTROL Direcionamento automático] relatório em [!DNL Adobe Analytics] [!DNL Workspace], que combina todos os ajustes nas definições de métrica descritas nas seções anteriores deste tutorial.*
