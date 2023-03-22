@@ -1,8 +1,8 @@
 ---
 title: Como configurar relatórios do A4T em [!DNL Analysis Workspace] para [!DNL Auto-Target] Atividades
 description: Como configurar relatórios do A4T em [!DNL Analysis Workspace] para obter os resultados esperados durante a execução [!UICONTROL Direcionamento automático] atividades?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="What are Target Beta release features?"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#premium newtab=true" tooltip="See what's included in Target Premium."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -11,9 +11,9 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 952348fa8e8bdba04d543774ba365063ae63eb43
+source-git-commit: 538dfe6a26b4f62c52b24d54a189738677e63bf3
 workflow-type: tm+mt
-source-wordcount: '2647'
+source-wordcount: '2641'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Embora os recursos de análise avançada estejam disponíveis em [!DNL Adobe Ana
 Este tutorial aborda as modificações recomendadas para analisar [!UICONTROL Direcionamento automático] atividades em [!DNL Analysis Workspace], que se baseiam nos seguintes conceitos principais:
 
 * O **[!UICONTROL Controle vs. Direcionado]** pode ser usada para distinguir entre [!UICONTROL Controle] experiências versus as servidas pela [!UICONTROL Direcionamento automático] algoritmo do conjunto ML.
-* As Visitas devem ser usadas como a métrica de normalização ao visualizar detalhamentos de desempenho no nível da experiência. Além disso, [A metodologia de contagem padrão da Adobe Analytics pode incluir visitas em que o usuário não vê realmente o conteúdo da atividade](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=en#metrics), mas esse comportamento padrão pode ser modificado usando um segmento com escopo apropriado (detalhes abaixo).
+* As Visitas devem ser usadas como a métrica de normalização ao visualizar detalhamentos de desempenho no nível da experiência. Além disso, [A metodologia de contagem padrão da Adobe Analytics pode incluir visitas em que o usuário não vê realmente o conteúdo da atividade](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html#metrics){target=_blank}, mas esse comportamento padrão pode ser modificado usando um segmento com escopo apropriado (detalhes abaixo).
 * A atribuição de escopo de retrospectiva de visita, também conhecida como &quot;janela de retrospectiva de visita&quot; no modelo de atribuição prescrito, é usada pelo [!DNL Adobe Target] Modelos ML durante as fases de treinamento e o mesmo modelo de atribuição (não padrão) devem ser usados ao detalhar a métrica de meta.
 
 ## Criar o A4T para [!UICONTROL Direcionamento automático] no painel [!DNL Analysis Workspace]
@@ -64,7 +64,7 @@ Observe que essa substituição invalida o padrão [!UICONTROL Lift e Confidence
 
 >[!NOTE]
 >
->Atualmente, [!UICONTROL Lift e Confidence] não estão disponíveis para [!UICONTROL Controle vs. Direcionado] dimensões para relatórios A4T para [!UICONTROL Direcionamento automático]. Até que o suporte seja adicionado, [!UICONTROL Lift e Confidence] pode ser calculado manualmente baixando a variável [calculadora de confiança](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en).
+>Atualmente, [!UICONTROL Lift e Confidence] não estão disponíveis para [!UICONTROL Controle vs. Direcionado] dimensões para relatórios A4T para [!UICONTROL Direcionamento automático]. Até que o suporte seja adicionado, [!UICONTROL Lift e Confidence] pode ser calculado manualmente baixando a variável [calculadora de confiança](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx).
 
 ## Adicionar detalhamentos de métricas em nível de experiência
 
@@ -150,7 +150,7 @@ Assim, a diferença entre a atribuição usada pela variável [!DNL Target] mode
 >
 >Se os modelos de ML estiverem otimizando uma métrica atribuída de forma diferente da métrica que você está visualizando em um relatório, os modelos podem não funcionar conforme esperado. Para evitar isso, assegure-se de que as métricas de meta em seu relatório usem a mesma definição de métrica e atribuição usadas pela variável [!DNL Target] Modelos ML.
 
-A definição exata de métrica e as configurações de atribuição dependem do [critério de otimização](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#supported) você especificou durante a criação da atividade.
+A definição exata de métrica e as configurações de atribuição dependem do [critério de otimização](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank} você especificou durante a criação da atividade.
 
 ### Conversões definidas pelo Target ou [!DNL Analytics] métricas com *Maximizar valor de métrica por visita*
 
