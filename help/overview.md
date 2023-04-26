@@ -5,10 +5,10 @@ role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-source-git-commit: 0b160a9c72c922d184383c699cea463df46a5ecd
+source-git-commit: cc9f5d26ff0b2fdce1209e777838738e3b03bd47
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 10%
+source-wordcount: '474'
+ht-degree: 11%
 
 ---
 
@@ -41,6 +41,10 @@ Para profissionais de negócios: Você está usando o A4T para [!UICONTROL Direc
 
 Para arquitetos: Introdução a [!UICONTROL decisão no dispositivo] para fornecer experiências de latência quase zero aos seus consumidores. Consulte [Visão geral do On-device decisioning](implementation/on-device-decisioning-overview.md).
 
+### Migrar [!DNL Target] da at.js 2.*x* para [!DNL Adobe Experience Platform Web SDK]
+
+Saiba como migrar uma [!DNL Target] Implementação da at.js para [!DNL Adobe Experience Platform Web SDK]. Consulte [Migrar [!DNL Target] da at.js 2.x para [!DNL Platform Web SDK]](https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html?lang=pt-BR){target=_blank} no *Guia do Adobe Experience Platform Tutorials*.
+
 ## Vídeos mais populares
 
 Os seguintes vídeos são mais acessados pelos clientes do Target:
@@ -67,20 +71,14 @@ O [!DNL Adobe Target] A equipe recomenda os seguintes recursos:
 
 ### Implementar o Target com tags do Adobe Experience Platform
 
-Saiba como implementar a extensão Adobe Target com uma solicitação de carregamento de página e parâmetros personalizados.
-
-Para obter mais informações, consulte [Adicionar Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html){target=_blank} no *Guia do tutorial Implementar em sites com tags*.
+Saiba como implementar a extensão Adobe Target com uma solicitação de carregamento de página e parâmetros personalizados. Para obter mais informações, consulte [Adicionar Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html){target=_blank} no *Guia do tutorial Implementar em sites com tags*.
 
 ### Implementar a at.js 2.0 em um aplicativo de página única (SPA)
 
-Saiba como implementar a at.js 2.0 (e posterior) no SPA.
-
-Para obter mais informações, consulte [Implementar o Adobe Target o at.js 2.0 em um aplicativo de página única (SPA)](implementation/implement-atjs-20-in-a-single-page-application.md).
+Saiba como implementar a at.js 2.0 (e posterior) no SPA. Para obter mais informações, consulte [Implementar o Adobe Target o at.js 2.0 em um aplicativo de página única (SPA)](implementation/implement-atjs-20-in-a-single-page-application.md).
 
 ### Solução de problemas do Target com o Experience Cloud Debugger
 
-Saiba como usar o Adobe Experience Cloud Debugger para entender o [!DNL Target] implementação. Saiba como visualizar rapidamente a configuração da biblioteca, examinar as solicitações para garantir que os parâmetros personalizados estejam sendo passados corretamente, ativar o registro no console e desativar todos os [!DNL Target] e use a ferramenta Mbox Trace .
-
-Para obter mais informações, consulte [Solução de problemas [!DNL Target] com o [!DNL Experience Cloud Debugger]](troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md).
+Saiba como usar o Adobe Experience Cloud Debugger para entender o [!DNL Target] implementação. Saiba como visualizar rapidamente a configuração da biblioteca, examinar as solicitações para garantir que os parâmetros personalizados estejam sendo passados corretamente, ativar o registro no console e desativar todos os [!DNL Target] e use a ferramenta Mbox Trace . Para obter mais informações, consulte [Solução de problemas [!DNL Target] com o [!DNL Experience Cloud Debugger]](troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md).
 
 
