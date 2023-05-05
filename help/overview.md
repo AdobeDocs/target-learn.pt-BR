@@ -5,10 +5,10 @@ role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-source-git-commit: cc9f5d26ff0b2fdce1209e777838738e3b03bd47
+source-git-commit: bfb985f8f4d4d354b39dffacdda8c81fe828b9f1
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 11%
+source-wordcount: '464'
+ht-degree: 13%
 
 ---
 
@@ -22,63 +22,118 @@ ht-degree: 11%
 >
 >* *[Guia do profissional de negócios do Adobe Target](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=pt-BR){target=_blank}*
 >
->* *[Guia do desenvolvedor do Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}*
+>* *[Guia do desenvolvedor do Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=pt-BR){target=_blank}*
 
 
 ## Novidades
 
 Os seguintes recursos são novos:
 
-### Configuração de relatórios do A4T em [!DNL Analysis Workspace] para [!DNL Auto-Allocate] atividades
+* **[Configuração de relatórios do A4T em [!DNL Analysis Workspace] para [!DNL Auto-Allocate] atividades](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md){target=_blank}**
 
-Para profissionais de negócios: O [!UICONTROL Analytics para Target] Integração do (A4T) para [!UICONTROL Alocação automática] permite que você veja seus dados de relatório em [!DNL Adobe Analytics]e você também pode otimizar para eventos personalizados ou métricas definidas no [!DNL Analytics]. Consulte [Configuração de relatórios do A4T em [!DNL Analysis Workspace] para [!DNL Auto-Allocate] atividades](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md).
+   *Para profissionais de negócios: O [!UICONTROL Analytics para Target] Integração do (A4T) para [!UICONTROL Alocação automática] permite que você veja seus dados de relatório em [!DNL Adobe Analytics]e você também pode otimizar para eventos personalizados ou métricas definidas no [!DNL Analytics].*
 
-### Configuração de relatórios do A4T no [!DNL Analysis Workspace] para as atividades de [!UICONTROL Direcionamento automático]
 
-Para profissionais de negócios: Você está usando o A4T para [!UICONTROL Direcionamento automático]? Siga estas etapas para configurar relatórios do A4T em [!DNL Analysis Workspace] para garantir que você obtenha os resultados esperados ao executar o [!UICONTROL Direcionamento automático] atividades. Consulte [Configuração de relatórios do A4T em [!DNL Analysis Workspace] para [!UICONTROL Direcionamento automático] atividades](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md).
+* **[Configuração de relatórios do A4T no  [!DNL Analysis Workspace]  para as atividades de [!UICONTROL Direcionamento automático]](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md){target=_blank}**
 
-### Decisão no dispositivo
+   *Para profissionais de negócios: Você está usando o A4T para [!UICONTROL Direcionamento automático]? Siga estas etapas para configurar relatórios do A4T em [!DNL Analysis Workspace] para garantir que você obtenha os resultados esperados ao executar o [!UICONTROL Direcionamento automático] atividades.*
 
-Para arquitetos: Introdução a [!UICONTROL decisão no dispositivo] para fornecer experiências de latência quase zero aos seus consumidores. Consulte [Visão geral do On-device decisioning](implementation/on-device-decisioning-overview.md).
+* **[Decisão no dispositivo](implementation/on-device-decisioning-overview.md)**
 
-### Migrar [!DNL Target] da at.js 2.*x* para [!DNL Adobe Experience Platform Web SDK]
+   *Para arquitetos: Introdução a [!UICONTROL decisão no dispositivo] para fornecer experiências de latência quase zero aos seus consumidores.*
 
-Saiba como migrar uma [!DNL Target] Implementação da at.js para [!DNL Adobe Experience Platform Web SDK]. Consulte [Migrar [!DNL Target] da at.js 2.x para [!DNL Platform Web SDK]](https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html?lang=pt-BR){target=_blank} no *Guia do Adobe Experience Platform Tutorials*.
+* **[Migrar [!DNL Target] da at.js 2.x para [!DNL Platform Web SDK]](https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html?lang=pt-BR){target=_blank}**
+
+   *Saiba como migrar uma [!DNL Target] Implementação da at.js para [!DNL Adobe Experience Platform Web SDK].*
 
 ## Vídeos mais populares
 
-Os seguintes vídeos são mais acessados pelos clientes do Target:
-
-### Visão geral da decisão no dispositivo
-
->[!VIDEO](https://video.tv.adobe.com/v/329032/?quality=12)
-
-Para obter mais informações, consulte [Visão geral do On-device decisioning](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} no *Guia do desenvolvedor do Adobe Target*.
-
-### Introdução ao [!DNL Adobe Target] implementação
-
->[!VIDEO](https://video.tv.adobe.com/v/35139/?quality=12)
-
-Para obter mais informações, consulte [Implementação do lado do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank} or [Server-side implementation](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank} no *[!UICONTROL Guia do desenvolvedor do Adobe Target]*.
-
-### Criar scripts de perfil em [!DNL Adobe Target]
-
->[!VIDEO](https://video.tv.adobe.com/v/17394/?quality=12)
+<table>
+<tr>
+  <td>
+    <a href="https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html"> 
+      <img alt="Visão geral da decisão no dispositivo" src="./assets/329032.png"/>
+    </a>
+    <div>
+      <a href="https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html">
+    <strong>Visão geral da decisão no dispositivo</strong>
+    </a>
+    </div>
+    <!--- <p>
+    <em>Learn how to implement the Adobe Target extension with a page load request and custom parameters.</em>
+    <p> --->
+  </td>
+   <td>
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/2.1-intro-to-target-implementation.html">
+      <img alt="Introdução à implementação do Adobe Target" src="./assets/35139.png" />
+    </a>
+    <div>
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/2.1-intro-to-target-implementation.html">
+    <strong>Introdução à implementação do Adobe Target</strong>
+    </a>
+    </div>
+    <!--- <p>
+    <em> Learn how to implement at.js 2.0 (and later) in SPAs.</em>
+    <p> --->
+  </td>
+  <td>
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/audiences/create-profile-scripts.html">
+      <img alt="Criar scripts de perfil no Adobe Target" src="./assets/17394.png" />
+    </a>
+    <div>
+      <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/audiences/create-profile-scripts.html">
+    <strong>Criar scripts de perfil no Adobe Target</strong>
+    </a>
+    </div>
+    <!--- <p>
+    <em>Learn how to use the Adobe Experience Cloud Debugger to understand your [!DNL Target] implementation. Learn how to quickly view your library configuration, examine requests to make sure that your custom parameters are being passed correctly, turn on console logging, and disable all [!DNL Target] requests, and use the Mbox Trace tool.</em>
+    <p> --->
+  </td>
+</tr>
+</table>
 
 ## Escolhas do pessoal
 
-O [!DNL Adobe Target] A equipe recomenda os seguintes recursos:
-
-### Implementar o Target com tags do Adobe Experience Platform
-
-Saiba como implementar a extensão Adobe Target com uma solicitação de carregamento de página e parâmetros personalizados. Para obter mais informações, consulte [Adicionar Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html){target=_blank} no *Guia do tutorial Implementar em sites com tags*.
-
-### Implementar a at.js 2.0 em um aplicativo de página única (SPA)
-
-Saiba como implementar a at.js 2.0 (e posterior) no SPA. Para obter mais informações, consulte [Implementar o Adobe Target o at.js 2.0 em um aplicativo de página única (SPA)](implementation/implement-atjs-20-in-a-single-page-application.md).
-
-### Solução de problemas do Target com o Experience Cloud Debugger
-
-Saiba como usar o Adobe Experience Cloud Debugger para entender o [!DNL Target] implementação. Saiba como visualizar rapidamente a configuração da biblioteca, examinar as solicitações para garantir que os parâmetros personalizados estejam sendo passados corretamente, ativar o registro no console e desativar todos os [!DNL Target] e use a ferramenta Mbox Trace . Para obter mais informações, consulte [Solução de problemas [!DNL Target] com o [!DNL Experience Cloud Debugger]](troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md).
-
-
+<table>
+<tr>
+  <td>
+    <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html"> 
+      <img alt="Implementar o Target com tags do Adobe Experience Platform" src="./assets/add-adobe-target.png"/>
+    </a>
+    <div>
+      <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html">
+    <strong>Implementar o Target com tags do Adobe Experience Platform</strong>
+    </a>
+    </div>
+    <p>
+    <em>Saiba como implementar a extensão Adobe Target com uma solicitação de carregamento de página e parâmetros personalizados.</em>
+    <p>
+  </td>
+   <td>
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html">
+      <img alt="Implementar o Adobe Target o at.js 2.0 em um aplicativo de página única (SPA)" src="./assets/26248.png" />
+    </a>
+    <div>
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html">
+    <strong>Implementar o Adobe Target o at.js 2.0 em um aplicativo de página única (SPA)</strong>
+    </a>
+    </div>
+    <p>
+    <em> Saiba como implementar a at.js 2.0 (e posterior) no SPA.</em>
+    <p>
+  </td>
+  <td>
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html">
+      <img alt="Solução de problemas do Target com o Experience Cloud Debugger" src="./assets/23115.png" />
+    </a>
+    <div>
+      <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html">
+    <strong>Solução de problemas do Target com o Experience Cloud Debugger</strong>
+    </a>
+    </div>
+    <p>
+    <em>Saiba como usar o Adobe Experience Cloud Debugger para entender o [!DNL Target] implementação. Saiba como visualizar rapidamente a configuração da biblioteca, examinar as solicitações para garantir que os parâmetros personalizados estejam sendo passados corretamente, ativar o registro no console e desativar todos os [!DNL Target] e use a ferramenta Mbox Trace .</em>
+    <p>
+  </td>
+</tr>
+</table>
