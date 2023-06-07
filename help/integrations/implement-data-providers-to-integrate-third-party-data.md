@@ -9,55 +9,53 @@ doc-type: technical video
 kt: null
 author: Daniel Wright
 exl-id: fcf6d1a8-e2a7-41ce-9c1c-02985b7afb5a
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
 
-# Implemente [!UICONTROL Data Providers] para integrar dados de terceiros ao Adobe Target
+# Implementar [!UICONTROL Provedores de dados] para integrar dados de terceiros ao Adobe Target
 
-Detalhes de implementação e exemplos de como usar o recurso [!UICONTROL Provedores de dados] da Adobe Target para recuperar dados de provedores de dados de terceiros e passá-los na solicitação do Target.
+Detalhes de implementação e exemplos de como usar o Adobe Target [!UICONTROL Provedores de dados] recurso para recuperar dados de provedores de dados de terceiros e passá-los na solicitação do Target.
 
 >[!NOTE]
 >
->[!UICONTROL Os ] provedores de dados exigem o  `at.js` 1.3 ou superior
+>[!UICONTROL Provedores de dados] exige `at.js` 1.3 ou superior
 
 ## Implementar os componentes básicos dos provedores de dados
 
 >[!VIDEO](https://video.tv.adobe.com/v/22348/?quality=12)
 
-Uma visão geral rápida dos componentes básicos de um `dataProvider` e como colocar o código na ordem correta.\
+Uma visão geral rápida dos componentes básicos de um `dataProvider` e como colocar seu código na ordem correta.\
 Um exemplo prático com o código usado no vídeo pode ser encontrado aqui:
 [https://target.enablementadobe.com/data-providers/simple.html](https://target.enablementadobe.com/data-providers/simple.html)
 
-## Integração com uma API de terceiros
+## Integrar a uma API de terceiros
 
 >[!VIDEO](https://video.tv.adobe.com/v/22345/)
 
-Um exemplo mais realista, integrando uma API meteorológica.\
+Um exemplo mais realista, integrar uma API meteorológica.\
 Um exemplo prático com o código usado no vídeo pode ser encontrado aqui:
 [https://target.enablementadobe.com/data-providers/3rdparty.html](https://target.enablementadobe.com/data-providers/3rdparty.html)
 
-## Integração com vários provedores
+## Integrar a vários provedores
 
 >[!VIDEO](https://video.tv.adobe.com/v/22346/)
 
-Como incorporar dados de vários provedores em sua solicitação global [!DNL Target].\
+Como incorporar dados de vários provedores no seu modelo global [!DNL Target] solicitação.\
 Um exemplo prático com o código usado no vídeo pode ser encontrado aqui:
 [https://target.enablementadobe.com/data-providers/combined.html](https://target.enablementadobe.com/data-providers/combined.html)
 
-## Minimizar o impacto no carregamento da página
+## Minimizar impacto do carregamento de página
 
 >[!VIDEO](https://video.tv.adobe.com/v/22347/)
 
-Minimize o impacto no tempo de carregamento da página armazenando dados em um objeto de armazenamento de sessão. Como alternativa, você pode passar os valores como parâmetros de perfil usando o prefixo `profile.` e passá-los na primeira solicitação [!DNL Target] da sessão. No entanto, você estaria limitado a transmitir cinquenta parâmetros de perfil por solicitação.
+Minimize o impacto no tempo de carregamento da página armazenando dados em um objeto de armazenamento de sessão. Como alternativa, você pode transmitir os valores como parâmetros de perfil usando o `profile.` prefixo e apenas transmita-os no primeiro [!DNL Target] solicitação da sessão. No entanto, você estaria limitado a transmitir cinquenta parâmetros de perfil por solicitação.
 
 Um exemplo prático com o código usado no vídeo pode ser encontrado aqui: [https://target.enablementadobe.com/data-providers/reducedCalls.html](https://target.enablementadobe.com/data-providers/reducedCalls.html)
 
 ## Materiais de suporte
 
 * [Usar provedores de dados com o Adobe Target](use-data-providers-to-integrate-third-party-data.md)
-
-* [Documentação dos provedores de dados](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/functions-overview/targetgobalsettings.html?lang=en#data-providers)

@@ -1,6 +1,6 @@
 ---
 title: Como usar a comparação de perfis para criar públicos-alvo
-description: Este vídeo mostra aos usuários do Adobe Target como usar o recurso Comparação de perfis para comparar dois valores de perfil numéricos entre si ao criar um público-alvo.
+description: Este vídeo mostra aos usuários do Adobe Target como usar o recurso de Comparação de perfis para comparar dois valores de perfil numéricos ao criar um público-alvo.
 role: User
 level: Experienced
 topic: Personalization
@@ -9,33 +9,32 @@ doc-type: feature video
 kt: null
 author: Daniel Wright
 exl-id: 66764a66-ba47-4ab4-8a36-137a7cca525b
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '156'
 ht-degree: 5%
 
 ---
 
-# Usar a comparação de perfis para criar públicos no Adobe Target
+# Use a Comparação de perfis para criar públicos-alvo no Adobe Target
 
-O recurso [!UICONTROL Comparação de perfis] no Adobe Target permite comparar dois valores de perfil numéricos entre si ao criar um público-alvo. Isso é extremamente útil se você estiver, por exemplo, transmitindo pontuações de propensão personalizadas para [!DNL Target] e quiser personalizar o conteúdo com base no produto com a pontuação de propensão mais alta.
+A variável [!UICONTROL Comparação de perfis] O recurso no Adobe Target permite comparar dois valores numéricos de perfil entre si ao criar um público-alvo. Isso é extremamente útil se você estiver, por exemplo, passando pontuações de propensão personalizadas para [!DNL Target] e desejam personalizar o conteúdo com base no produto com a maior pontuação de propensão.
 
 ## Descrição
 
 Neste vídeo, você aprenderá a:
 
-* Comparar valores de perfil numéricos (pontuações) passados para o Adobe Target
-* Usar essas comparações de pontuação para definir públicos-alvo
+* Comparar valores numéricos de perfil (pontuações) transmitidos para o Adobe Target
+* Use essas comparações de pontuação para definir públicos
 
-## Público-alvo pretendido
+## Público-alvo
 
-* Profissional
+* Profissional de negócios
 
 >[!VIDEO](https://video.tv.adobe.com/v/23218/?quality=12)
 
 ## Recursos adicionais
 
 * [Criação de um público-alvo de comparação do atributo de perfil](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=en)
-* [Métodos para colocar os dados no Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/methods/methods-to-get-data-into-target.html?lang=en)
-* [Criação de públicos-alvo](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=en)
+* [Criação de públicos](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=en)
 * [Vídeo Criar atividades de direcionamento de experiência](../activities/create-experience-targeting-activities.md)
