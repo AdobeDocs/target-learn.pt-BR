@@ -2,8 +2,10 @@
 title: QuickStart para testes de personalização e criação de roteiro
 description: Saiba mais sobre uma estrutura que você pode usar para começar a validar atividades de personalização e criar um roteiro de personalização para execução por meio do Adobe Target e do Adobe Analytics.
 solution: Target,Analytics
+level: Intermediate
+role: Leader, Architect, Developer, Admin
 exl-id: c0b6f9a0-7074-4e25-81e6-9781a54e2156
-source-git-commit: 389f754ff909752d89f74a2d6c698fc9f5d8c354
+source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
 workflow-type: tm+mt
 source-wordcount: '1420'
 ht-degree: 0%
@@ -22,7 +24,7 @@ O artigo a seguir fornece uma estrutura que você pode usar para começar a vali
 
 1. **Desenvolver casos de uso** : defina objetivos de sua atividade de personalização com atributos específicos do visitante em mente, seja explícito sobre como o conteúdo preparado melhorará a experiência do visitante, estabeleça com antecedência a aparência do sucesso e quais ações podem ser executadas a partir dos aprendizados do teste.
 
-1. **Criar um roteiro** : agregue uma lista e priorize casos de uso de personalização, certifique-se de que seus esforços estejam focados em atividades de alto valor; espere refinar e revisar casos de uso e roteiro com base em aprendizados.
+1. **Criar um roteiro** : agregue uma lista e priorize casos de uso de personalização, verifique se seus esforços estão concentrados em atividades de alto valor; espere refinar e revisar casos de uso e roteiro com base em aprendizados.
 
 1. **Projetar e executar** : crie e inicie as atividades do Adobe Target para fornecer conteúdo com curadoria para seus públicos-alvo prioritários.
 
