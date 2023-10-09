@@ -8,7 +8,7 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 194579db80fdac60e204e36ab769975be2795eee
+source-git-commit: d85e6510bf5243a4a37edff5d0ce9342af3162e2
 workflow-type: tm+mt
 source-wordcount: '1575'
 ht-degree: 0%
@@ -52,13 +52,13 @@ As seções a seguir especificam quais configurações são necessárias, depend
 
    A variável [!UICONTROL Coluna] caixa de diálogo de configurações é exibida:
 
-   ![Caixa de diálogo Configurações de coluna](/help/integrations/assets/column-settings-dialog-box.png)
+   ![Caixa de diálogo Configurações de coluna](/help/integrations/assets/column-settings-dialog-box.png){width="200"}
 
 1. Desmarque a opção **[!UICONTROL Percentual]** caixa de seleção
 
-Seu painel A4T agora não inclui porcentagens como Taxa de conversão e corresponde a [!DNL Target], conforme mostrado abaixo:
+   Seu painel A4T agora não inclui porcentagens como Taxa de conversão e corresponde a [!DNL Target], conforme mostrado abaixo:
 
-![A coluna Taxa de conversão não exibe porcentagens](/help/integrations/assets/no-percentages.png)
+   ![A coluna Taxa de conversão não exibe porcentagens](/help/integrations/assets/no-percentages.png)
 
 ### Alinhar a data e a hora no painel A4T {#aligning-date-and-time}
 
@@ -160,9 +160,9 @@ As seções a seguir contêm mais informações sobre orientações adicionais �
 1. Arraste e solte a métrica &quot;Taxa de conversão&quot; recém-criada no painel existente.
 1. Clique no ícone de engrenagem e desmarque a **[!UICONTROL Percentual]** , pois esse valor pode causar confusão.
 
-A configuração correta do relatório deve produzir um resultado que se assemelha à seguinte ilustração:
+   A configuração correta do relatório deve produzir um resultado que se assemelha à seguinte ilustração:
 
-![Índice de conversão de visita exclusiva no relatório de painel do A4T](/help/integrations/assets/a4t-aa-maximize-metric-value-revenue.png)
+   ![Índice de conversão de visita exclusiva no relatório de painel do A4T](/help/integrations/assets/a4t-aa-maximize-metric-value-revenue.png)
 
 ## [!DNL Target]taxa de conversão definida pelo
 
