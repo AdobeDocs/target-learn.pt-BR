@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: d85e6510bf5243a4a37edff5d0ce9342af3162e2
+source-git-commit: 3afbb97e2276ed98ea05e254026c8943acc6fee0
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1582'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ As seções a seguir especificam quais configurações são necessárias, depend
 
 >[!NOTE]
 >
-Os emblemas &quot;Ainda não há vencedor&quot; e &quot;Vencedor&quot; não estão disponíveis no painel A4T no [!DNL Analysis Workspace] e também não disponível no [!DNL Target] relatório. Para obter mais informações, consulte [Alocação automática](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *Suporte do A4T para atividades de Alocação automática e Direcionamento automático* no *[!UICONTROL Guia do profissional de negócios do Adobe Target]*.
+Os emblemas &quot;Ainda não há vencedor&quot; e &quot;Vencedor&quot; não estão disponíveis no painel A4T no [!DNL Analysis Workspace]. Além disso, o emblema &quot;estrela&quot; vencedor exibido em [!DNL Target] relatórios para [!UICONTROL Alocação automática] atividades devem ser ignoradas. Para obter mais informações, consulte [Alocação automática](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *Suporte do A4T para atividades de Alocação automática e Direcionamento automático* no *[!UICONTROL Guia do profissional de negócios do Adobe Target]*.
 
 ## Criar o A4T para [!UICONTROL Alocação automática] painel no [!DNL Analysis Workspace]
 
