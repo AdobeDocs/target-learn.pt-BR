@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 3afbb97e2276ed98ea05e254026c8943acc6fee0
+source-git-commit: 9761412ba2f60e91152a6fd5ad9e50ec0df0adba
 workflow-type: tm+mt
-source-wordcount: '1582'
+source-wordcount: '1590'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Este tutorial aborda a orientação geral do A4T e as etapas de configuração d
 
 É possível navegar para um modelo pré-criado [!UICONTROL Analytics for Target] clicando no link da tela de relatório no [!UICONTROL Adobe Target] (isso é mencionado posteriormente neste guia como o &quot;[!DNL Target]relatório acionado pelo (&quot;). Como alternativa, você pode criar o painel A4T no [!DNL Analytics] (detalhes mais adiante nesta seção).
 
-As seções a seguir especificam quais configurações são necessárias, dependendo de quais desses métodos você escolher:
+As seções a seguir especificam quais configurações são necessárias, dependendo de quais desses métodos você escolher. No entanto, as seguintes etapas servem como orientação geral:
 
 * As métricas de confiança devem ser removidas do painel A4T, independentemente do método de criação do painel (ambos são detalhados abaixo). Em vez disso, faça referência a esses valores em [!DNL Target] relatórios. Além disso, os vencedores da atividade podem ser identificados em [!DNL Target] relatórios. Detalhes sobre a identificação do vencedor da atividade podem ser encontrados na [Identificar o vencedor da atividade](#winner) abaixo.
 >>
@@ -76,7 +76,7 @@ As seções a seguir especificam quais configurações são necessárias, depend
 >
 Os emblemas &quot;Ainda não há vencedor&quot; e &quot;Vencedor&quot; não estão disponíveis no painel A4T no [!DNL Analysis Workspace]. Além disso, o emblema &quot;estrela&quot; vencedor exibido em [!DNL Target] relatórios para [!UICONTROL Alocação automática] atividades devem ser ignoradas. Para obter mais informações, consulte [Alocação automática](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *Suporte do A4T para atividades de Alocação automática e Direcionamento automático* no *[!UICONTROL Guia do profissional de negócios do Adobe Target]*.
 
-## Criar o A4T para [!UICONTROL Alocação automática] painel no [!DNL Analysis Workspace]
+### Criar o A4T para [!UICONTROL Alocação automática] painel no [!DNL Analysis Workspace]
 
 1. Para criar um painel A4T para um [!UICONTROL Alocação automática] relatório de atividades, comece com o [!UICONTROL Analytics for Target] painel no [!DNL Analysis Workspace], conforme mostrado abaixo.
 
@@ -94,11 +94,11 @@ Os emblemas &quot;Ainda não há vencedor&quot; e &quot;Vencedor&quot; não est�
 
 Para configurar o relatório, faça as seguintes alterações no relatório do A4T:
 
-![Maximizar o valor de métrica para a receita](/help/integrations/assets/maximize-metric-value-revenue.png)
-
 | Alterações necessárias | [!DNL Target]relatório acionado por | Relatório do painel A4T |
 | --- | --- | --- |
 | Maximizar valor de métrica para um [!DNL Analytics] métrica | <ul><li>[!UICONTROL Confiança] métricas devem ser removidas.</li><li>[!UICONTROL Aumento (Baixo)] e [!UICONTROL Lift (alto)] deve ser removido.</li><li>A métrica da taxa de conversão deve ser renomeada para &quot;Métrica/Visitante&quot;.</li><li>Desmarque a apresentação de porcentagem do [!UICONTROL Índice de conversão] para evitar confusão. Para obter mais informações, consulte [Orientação geral](#guidance) acima.</li></ul> | <ul><li>[!UICONTROL Confiança] métricas devem ser removidas.</li><li>[!UICONTROL Aumento (Baixo)] e [!UICONTROL Lift (alto)] deve ser removido.</li><li>A métrica da taxa de conversão deve ser renomeada para &quot;Métrica/Visitante&quot;.</li><li>Desmarque a apresentação de porcentagem do [!UICONTROL Índice de conversão] para evitar confusão. Para obter mais informações, consulte [Orientação geral](#guidance) acima.</li><li>Verifique se os intervalos de data e hora estão alinhados com os valores que você vê na variável [!DNL Target] relatório. Para obter mais informações, consulte [Orientação geral](#guidance) acima.</li></ul> |
+
+![Maximizar o valor de métrica para a receita](/help/integrations/assets/maximize-metric-value-revenue.png)
 
 ## [!DNL Analytics] métricas com &quot;[!UICONTROL Índice de conversão de visitante único]&quot; critérios de otimização
 
