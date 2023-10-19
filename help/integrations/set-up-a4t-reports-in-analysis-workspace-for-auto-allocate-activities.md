@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 78e5b5f7fa8f4c1a08c06c6d2b0e1a5242cd464c
+source-git-commit: b820a3f8a964d88027de5c27b45a76fcc878042d
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1552'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Para configurar o relatório, faça as seguintes alterações no relatório do A
 
 | Alterações necessárias | Relatório acionado pelo Target | Relatório do painel A4T |
 | --- | --- | --- |
-| Maximizar conversões para um [!DNL Analytics] métrica | <ul><li>[!UICONTROL Confiança] métricas devem ser removidas.</li><li>Remover tudo [!UICONTROL Elevação] métricas.</li><li>Desmarque a apresentação de porcentagem do [!UICONTROL Índice de conversão] para evitar confusão. Consulte [Orientações gerais para o A4T](#guidance) abaixo.</li></ul> | <ul><li>Remover [!UICONTROL Confiança] métricas.</li><li>Remover tudo [!UICONTROL Elevação] métricas.</li><li>Crie um segmento para filtrar visitantes com um valor de métrica positivo que visualizaram a atividade que foi analisada. Consulte [Criar um segmento](#segment) abaixo.</li><li>Substitua o preenchido automaticamente [!UICONTROL Índice de conversão] para que seja a divisão entre [!UICONTROL Visitantes únicos] com um valor de métrica positivo e visitantes únicos. Consulte [Atualizar a métrica Taxa de conversão](#update-conversion-metric) abaixo.</li><li>Desmarque a apresentação de porcentagem do [!UICONTROL Índice de conversão] para evitar confusão. Consulte [Orientações gerais para o A4T](#guidance) abaixo.</li><li>Verifique se os intervalos de data e hora estão alinhados com os valores que você vê na variável [!DNL Target] relatório. Consulte [Orientações gerais para o A4T](#guidance) abaixo.</li></ul> |
+| Maximizar conversões para um [!DNL Analytics] métrica | <ul><li>Remover [!UICONTROL Confiança] métricas.</li><li>Remover tudo [!UICONTROL Elevação] métricas.</li><li>Desmarque a apresentação de porcentagem do [!UICONTROL Índice de conversão] para evitar confusão. Consulte [Orientações gerais para o A4T](#guidance) abaixo.</li></ul> | <ul><li>Remover [!UICONTROL Confiança] métricas.</li><li>Remover tudo [!UICONTROL Elevação] métricas.</li><li>Crie um segmento para filtrar visitantes com um valor de métrica positivo que visualizaram a atividade que foi analisada. Consulte [Criar um segmento](#segment) abaixo.</li><li>Substitua o preenchido automaticamente [!UICONTROL Índice de conversão] para que seja a divisão entre [!UICONTROL Visitantes únicos] com um valor de métrica positivo e visitantes únicos. Consulte [Atualizar a métrica Taxa de conversão](#update-conversion-metric) abaixo.</li><li>Desmarque a apresentação de porcentagem do [!UICONTROL Índice de conversão] para evitar confusão. Consulte [Orientações gerais para o A4T](#guidance) abaixo.</li><li>Verifique se os intervalos de data e hora estão alinhados com os valores que você vê na variável [!DNL Target] relatório. Consulte [Orientações gerais para o A4T](#guidance) abaixo.</li></ul> |
 
 ### Relatório do painel A4T padrão - orientação adicional
 
