@@ -8,7 +8,7 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 9761412ba2f60e91152a6fd5ad9e50ec0df0adba
+source-git-commit: b22d51d7d231d67af179622755fb4f7ef83474a8
 workflow-type: tm+mt
 source-wordcount: '1590'
 ht-degree: 0%
@@ -32,62 +32,6 @@ Cada tipo de métrica de otimização requer uma configuração de relatório di
 
 Este tutorial aborda a orientação geral do A4T e as etapas de configuração de relatório específicas dos critérios.
 
-## Orientações gerais para [!UICONTROL Analytics for Target] (A4T) {#guidance}
-
-É possível navegar para um modelo pré-criado [!UICONTROL Analytics for Target] clicando no link da tela de relatório no [!UICONTROL Adobe Target] (isso é mencionado posteriormente neste guia como o &quot;[!DNL Target]relatório acionado pelo (&quot;). Como alternativa, você pode criar o painel A4T no [!DNL Analytics] (detalhes mais adiante nesta seção).
-
-As seções a seguir especificam quais configurações são necessárias, dependendo de quais desses métodos você escolher. No entanto, as seguintes etapas servem como orientação geral:
-
-* As métricas de confiança devem ser removidas do painel A4T, independentemente do método de criação do painel (ambos são detalhados abaixo). Em vez disso, faça referência a esses valores em [!DNL Target] relatórios. Além disso, os vencedores da atividade podem ser identificados em [!DNL Target] relatórios. Detalhes sobre a identificação do vencedor da atividade podem ser encontrados na [Identificar o vencedor da atividade](#winner) abaixo.
->>
-* Para evitar confusão, desmarque a opção &quot;[!UICONTROL Percentual]&quot;Apresentação da [!UICONTROL Índice de conversão] métrica. Para obter mais informações, consulte [Ocultar a porcentagem da variável [!UICONTROL Índice de conversão] coluna](#hide-percentage) abaixo.
->>
-* Se estiver criando um painel A4T, verifique se os intervalos de data e hora correspondem aos do [!DNL Target] relatório. Para obter mais informações, consulte [Alinhar a data e a hora no painel A4T](#aligning-date-and-time) abaixo.
-
-### Ocultar a porcentagem da variável [!UICONTROL Índice de conversão] coluna {#hide-percentage}
-
-1. Clique em **engrenagem** ícone ao lado do título da variável [!UICONTROL Índice de conversão] coluna.
-
-   ![Ícone de engrenagem na coluna Taxa de conversão](/help/integrations/assets/coversion-rate-gear-icon.png)
-
-   A variável [!UICONTROL Coluna] caixa de diálogo de configurações é exibida:
-
-   ![Caixa de diálogo Configurações de coluna](/help/integrations/assets/column-settings-dialog-box.png){width="200"}
-
-1. Desmarque a opção **[!UICONTROL Percentual]** caixa de seleção
-
-   Seu painel A4T agora não inclui porcentagens como Taxa de conversão e corresponde a [!DNL Target], conforme mostrado abaixo:
-
-   ![A coluna Taxa de conversão não exibe porcentagens](/help/integrations/assets/no-percentages.png)
-
-### Alinhar a data e a hora no painel A4T {#aligning-date-and-time}
-
-1. Acima de cada painel, verifique o intervalo de datas referenciado pelo painel para garantir que o intervalo de datas corresponda ao do [!DNL Target] relatório.
-
-   ![Intervalo de datas no painel A4T](/help/integrations/assets/date-range.png)
-
-1. Entrada [!DNL Analytics], defina o intervalo de tempo como 12h - 11h59min.
-
-### Identificar o vencedor da atividade {#winner}
-
-[!DNL Auto-Allocate] os vencedores da atividade são selecionados quando há uma taxa de conversão vencedora com valores de confiança maiores ou iguais a 95%. Esses valores devem ser referenciados na variável [!DNL Target] relatórios, já que os cálculos de confiança refletem os métodos mais [!DNL Target] recomenda para [!UICONTROL Alocação automática] atividades. Para obter mais informações, consulte [Garantias estatísticas da alocação automática](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/determine-winner.html#section_7AF3B93E90BA4B80BC9FC4783B6A389C){target=_blank} no *[!UICONTROL Guia do profissional de negócios do Adobe Target]*.
-
->[!NOTE]
->
-Os emblemas &quot;Ainda não há vencedor&quot; e &quot;Vencedor&quot; não estão disponíveis no painel A4T no [!DNL Analysis Workspace]. Além disso, o emblema &quot;estrela&quot; vencedor exibido em [!DNL Target] relatórios para [!UICONTROL Alocação automática] atividades devem ser ignoradas. Para obter mais informações, consulte [Alocação automática](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *Suporte do A4T para atividades de Alocação automática e Direcionamento automático* no *[!UICONTROL Guia do profissional de negócios do Adobe Target]*.
-
-### Criar o A4T para [!UICONTROL Alocação automática] painel no [!DNL Analysis Workspace]
-
-1. Para criar um painel A4T para um [!UICONTROL Alocação automática] relatório de atividades, comece com o [!UICONTROL Analytics for Target] painel no [!DNL Analysis Workspace], conforme mostrado abaixo.
-
-   ![Analytics for Target - Relatório de alocação automática](/help/integrations/assets/a4t-auto-allocate-report.png)
-
-1. Faça as seguintes seleções:
-
-   * **[!UICONTROL Experiência de controle]**: escolha qualquer experiência.
-   * **[!UICONTROL Métrica de normalização]**: Selecionar **[!UICONTROL Visitantes]** (incluído no painel A4T por padrão). [!UICONTROL Alocação automática] O sempre normaliza as taxas de conversão de acordo com visitantes únicos.
-   * **Métricas de sucesso**: selecione a mesma métrica (otimização) usada durante a criação da atividade. Se isso foi um [!DNL Target]métrica de conversão definida por, selecione **[!UICONTROL Conversão de atividade]**. Caso contrário, selecione o [!DNL Adobe Analytics] que você usou.
-
 ## Métricas do Analytics com &quot;[!UICONTROL Maximizar valor de métrica por visitante]&quot; critérios de otimização
 
 **Definição**: (Valor de métrica geral) / (# de visitantes)
@@ -96,7 +40,7 @@ Para configurar o relatório, faça as seguintes alterações no relatório do A
 
 | Alterações necessárias | [!DNL Target]relatório acionado por | Relatório do painel A4T |
 | --- | --- | --- |
-| Maximizar valor de métrica para um [!DNL Analytics] métrica | <ul><li>[!UICONTROL Confiança] métricas devem ser removidas.</li><li>[!UICONTROL Aumento (Baixo)] e [!UICONTROL Lift (alto)] deve ser removido.</li><li>A métrica da taxa de conversão deve ser renomeada para &quot;Métrica/Visitante&quot;.</li><li>Desmarque a apresentação de porcentagem do [!UICONTROL Índice de conversão] para evitar confusão. Para obter mais informações, consulte [Orientação geral](#guidance) acima.</li></ul> | <ul><li>[!UICONTROL Confiança] métricas devem ser removidas.</li><li>[!UICONTROL Aumento (Baixo)] e [!UICONTROL Lift (alto)] deve ser removido.</li><li>A métrica da taxa de conversão deve ser renomeada para &quot;Métrica/Visitante&quot;.</li><li>Desmarque a apresentação de porcentagem do [!UICONTROL Índice de conversão] para evitar confusão. Para obter mais informações, consulte [Orientação geral](#guidance) acima.</li><li>Verifique se os intervalos de data e hora estão alinhados com os valores que você vê na variável [!DNL Target] relatório. Para obter mais informações, consulte [Orientação geral](#guidance) acima.</li></ul> |
+| Maximizar valor de métrica para um [!DNL Analytics] métrica | <ul><li>[!UICONTROL Confiança] métricas devem ser removidas.</li><li>[!UICONTROL Aumento (Baixo)] e [!UICONTROL Lift (alto)] deve ser removido.</li><li>Desmarque a apresentação de porcentagem do [!UICONTROL Índice de conversão] para evitar confusão. Para obter mais informações, consulte [Orientação geral](#guidance) abaixo.</li><li>A métrica da taxa de conversão deve ser renomeada para &quot;Métrica/Visitante&quot;.</li></ul> | <ul><li>[!UICONTROL Confiança] métricas devem ser removidas.</li><li>[!UICONTROL Aumento (Baixo)] e [!UICONTROL Lift (alto)] deve ser removido.</li><li>Desmarque a apresentação de porcentagem do [!UICONTROL Índice de conversão] para evitar confusão. Para obter mais informações, consulte [Orientação geral](#guidance) abaixo.</li><li>A métrica da taxa de conversão deve ser renomeada para &quot;Métrica/Visitante&quot;.</li><li>Verifique se os intervalos de data e hora estão alinhados com os valores que você vê na variável [!DNL Target] relatório. Para obter mais informações, consulte [Orientação geral](#guidance) abaixo.</li></ul> |
 
 ![Maximizar o valor de métrica para a receita](/help/integrations/assets/maximize-metric-value-revenue.png)
 
@@ -108,13 +52,13 @@ Exemplo: suponha que sua métrica de otimização seja [!UICONTROL Receita]. Há
 
 >[!NOTE]
 >
-O índice de conversão referenciado aqui pode se referir a ações fora de pedidos, como cliques, impressões e assim por diante. Nesses casos, o critério ainda seria maximizar a contagem de visitantes que clicam ou visualizam a página, respectivamente.
+>O índice de conversão referenciado aqui pode se referir a ações fora de pedidos, como cliques, impressões e assim por diante. Nesses casos, o critério ainda seria maximizar a contagem de visitantes que clicam ou visualizam a página, respectivamente.
 
 Para configurar o relatório, faça as seguintes alterações no relatório do A4T:
 
 | Alterações necessárias | Relatório acionado pelo Target | Relatório do painel A4T |
 | --- | --- | --- |
-| Maximizar conversões para um [!DNL Analytics] métrica | <ul><li>[!UICONTROL Confiança] métricas devem ser removidas.</li><li>Todos [!UICONTROL Elevação] métricas devem ser removidas.</li><li>Desmarque a apresentação de porcentagem do [!UICONTROL Índice de conversão] para evitar confusão. (Para obter mais informações, consulte [Orientação geral](#guidance) acima.</li></ul> | <ul><li>[!UICONTROL Confiança] métricas devem ser removidas.</li><li>Todos [!UICONTROL Elevação] métricas devem ser removidas.</li><li>Crie um segmento para filtrar visitantes com um valor de métrica positivo que visualizaram a atividade analisada. Para obter mais informações, consulte [Criar um segmento](#segment) abaixo.</li><li>Substitua o preenchido automaticamente [!UICONTROL Índice de conversão] para que seja a divisão entre [!UICONTROL Visitantes únicos] com um valor de métrica positivo e visitantes únicos. Para obter mais informações, consulte [Atualizar a métrica Taxa de conversão](#update-conversion-metric) abaixo.</li><li>Desmarque a apresentação de porcentagem do [!UICONTROL Índice de conversão] para evitar confusão. Para obter mais informações, consulte [Orientação geral](#guidance) acima.</li><li>Verifique se os intervalos de data e hora estão alinhados com os valores que você vê na variável [!DNL Target] relatório. Para obter mais informações, consulte [Orientação geral](#guidance) acima.</li></ul> |
+| Maximizar conversões para um [!DNL Analytics] métrica | <ul><li>[!UICONTROL Confiança] métricas devem ser removidas.</li><li>Todos [!UICONTROL Elevação] métricas devem ser removidas.</li><li>Desmarque a apresentação de porcentagem do [!UICONTROL Índice de conversão] para evitar confusão. (Para obter mais informações, consulte [Orientação geral](#guidance) abaixo.</li></ul> | <ul><li>[!UICONTROL Confiança] métricas devem ser removidas.</li><li>Todos [!UICONTROL Elevação] métricas devem ser removidas.</li><li>Crie um segmento para filtrar visitantes com um valor de métrica positivo que visualizaram a atividade analisada. Para obter mais informações, consulte [Criar um segmento](#segment) abaixo.</li><li>Substitua o preenchido automaticamente [!UICONTROL Índice de conversão] para que seja a divisão entre [!UICONTROL Visitantes únicos] com um valor de métrica positivo e visitantes únicos. Para obter mais informações, consulte [Atualizar a métrica Taxa de conversão](#update-conversion-metric) abaixo.</li><li>Desmarque a apresentação de porcentagem do [!UICONTROL Índice de conversão] para evitar confusão. Para obter mais informações, consulte [Orientação geral](#guidance) abaixo.</li><li>Verifique se os intervalos de data e hora estão alinhados com os valores que você vê na variável [!DNL Target] relatório. Para obter mais informações, consulte [Orientação geral](#guidance) abaixo.</li></ul> |
 
 ### Relatório do painel A4T padrão - orientação adicional
 
@@ -147,11 +91,11 @@ As seções a seguir contêm mais informações sobre orientações adicionais �
 
 #### Atualize o [!UICONTROL Índice de conversão] métrica {#update-conversion-metric}
 
-1. Se ainda não tiver feito isso, remova a existente [!UICONTROL Índice de conversão] do painel, conforme explicado acima.
+1. Se ainda não tiver feito isso, remova a existente [!UICONTROL Índice de conversão] do painel, conforme explicado abaixo.
 1. Adicione uma métrica clicando no sinal &quot;+&quot; ao lado da variável **[!UICONTROL Métricas]** no painel esquerdo.
 1. Nomeie a métrica &quot;Taxa de conversão&quot; e defina-a como &quot;([!UICONTROL Visitantes únicos] com valor de métrica positivo)&quot; dividido por &quot;Visitantes únicos&quot;, como mostrado abaixo.
 
-   Adicione o segmento recém-criado (etapas definidas acima) de &quot;Visitantes com valor de métrica positivo&quot;, o operador de divisão, a métrica &quot;Visitantes únicos&quot; no numerador e &quot;Visitantes únicos&quot; como denominador.
+   Adicione o segmento recém-criado (etapas definidas abaixo) de &quot;Visitantes com valor de métrica positivo&quot;, o operador de divisão, a métrica &quot;Visitantes únicos&quot; no numerador e &quot;Visitantes únicos&quot; como denominador.
 
    ![Taxa de conversão no painel A4T.](/help/integrations/assets/conversion-rate.png)
 
@@ -170,11 +114,67 @@ Para configurar o relatório, faça as seguintes alterações no relatório do A
 
 | Alterações necessárias | Relatório acionado pelo Target | Relatório do painel A4T |
 | --- | --- | --- |
-| [!DNL Analytics] relatórios com [!DNL Target] métrica de conversão | <ul><li>[!UICONTROL Confiança] métricas devem ser removidas.</li><li>[!UICONTROL Aumento (Baixo)] e [!UICONTROL Lift (alto)] deve ser removido.</li><li>Desmarque a apresentação de porcentagem do [!UICONTROL Índice de conversão] para evitar confusão. Para obter mais informações, consulte [Orientação geral](#guidance) acima.</li></ul> | <ul><li>[!UICONTROL Confiança] métricas devem ser removidas.</li><li>[!UICONTROL Aumento (Baixo)] e [!UICONTROL Lift (alto)] deve ser removido.</li><li>Desmarque a apresentação de porcentagem do [!UICONTROL Índice de conversão] para evitar confusão. Para obter mais informações, consulte [Orientação geral](#guidance) acima.</li><li>Verifique se os intervalos de data e hora estão alinhados com os valores que você vê na variável [!DNL Target] relatório. Para obter mais informações, consulte [Orientação geral](#guidance) acima.</li></ul> |
+| [!DNL Analytics] relatórios com [!DNL Target] métrica de conversão | <ul><li>[!UICONTROL Confiança] métricas devem ser removidas.</li><li>[!UICONTROL Aumento (Baixo)] e [!UICONTROL Lift (alto)] deve ser removido.</li><li>Desmarque a apresentação de porcentagem do [!UICONTROL Índice de conversão] para evitar confusão. Para obter mais informações, consulte [Orientação geral](#guidance) abaixo.</li></ul> | <ul><li>[!UICONTROL Confiança] métricas devem ser removidas.</li><li>[!UICONTROL Aumento (Baixo)] e [!UICONTROL Lift (alto)] deve ser removido.</li><li>Desmarque a apresentação de porcentagem do [!UICONTROL Índice de conversão] para evitar confusão. Para obter mais informações, consulte [Orientação geral](#guidance) abaixo.</li><li>Verifique se os intervalos de data e hora estão alinhados com os valores que você vê na variável [!DNL Target] relatório. Para obter mais informações, consulte [Orientação geral](#guidance) abaixo.</li></ul> |
 
 A configuração correta do relatório deve produzir um resultado que se assemelha à seguinte ilustração:
 
 ![Conversões de atividade](/help/integrations/assets/optimized-table.png)
+
+## Orientações gerais para [!UICONTROL Analytics for Target] (A4T) {#guidance}
+
+É possível navegar para um modelo pré-criado [!UICONTROL Analytics for Target] clicando no link da tela de relatório no [!UICONTROL Adobe Target] (isso é mencionado posteriormente neste guia como o &quot;[!DNL Target]relatório acionado pelo (&quot;). Como alternativa, você pode criar o painel A4T no [!DNL Analytics] (detalhes mais adiante nesta seção).
+
+As seções a seguir especificam quais configurações são necessárias, dependendo de quais desses métodos você escolher. No entanto, as seguintes etapas servem como orientação geral:
+
+* As métricas de confiança devem ser removidas do painel A4T, independentemente do método de criação do painel (ambos são detalhados abaixo). Em vez disso, faça referência a esses valores em [!DNL Target] relatórios. Além disso, os vencedores da atividade podem ser identificados em [!DNL Target] relatórios. Detalhes sobre a identificação do vencedor da atividade podem ser encontrados na [Identificar o vencedor da atividade](#winner) abaixo.
+>>
+* Para evitar confusão, desmarque a opção &quot;[!UICONTROL Percentual]&quot;Apresentação da [!UICONTROL Índice de conversão] métrica. Para obter mais informações, consulte [Ocultar a porcentagem da variável [!UICONTROL Índice de conversão] coluna](#hide-percentage) abaixo.
+>>
+* Se estiver criando um painel A4T, verifique se os intervalos de data e hora correspondem aos do [!DNL Target] relatório. Para obter mais informações, consulte [Alinhar a data e a hora no painel A4T](#aligning-date-and-time) abaixo.
+
+### Ocultar a porcentagem da variável [!UICONTROL Índice de conversão] coluna {#hide-percentage}
+
+1. Clique em **engrenagem** ícone ao lado do título da variável [!UICONTROL Índice de conversão] coluna.
+
+   ![Ícone de engrenagem na coluna Taxa de conversão](/help/integrations/assets/coversion-rate-gear-icon.png)
+
+   A variável [!UICONTROL Coluna] caixa de diálogo de configurações é exibida:
+
+   ![Caixa de diálogo Configurações de coluna](/help/integrations/assets/column-settings-dialog-box.png){width="200"}
+
+1. Desmarque a opção **[!UICONTROL Percentual]** caixa de seleção
+
+   Seu painel A4T agora não inclui porcentagens como Taxa de conversão e corresponde a [!DNL Target], conforme mostrado abaixo:
+
+   ![A coluna Taxa de conversão não exibe porcentagens](/help/integrations/assets/no-percentages.png)
+
+### Alinhar a data e a hora no painel A4T {#aligning-date-and-time}
+
+1. abaixo de cada painel, verifique o intervalo de datas referenciado pelo painel para garantir que o intervalo de datas corresponda ao do [!DNL Target] relatório.
+
+   ![Intervalo de datas no painel A4T](/help/integrations/assets/date-range.png)
+
+1. Entrada [!DNL Analytics], defina o intervalo de tempo como 12h - 11h59min.
+
+### Identificar o vencedor da atividade {#winner}
+
+[!DNL Auto-Allocate] os vencedores da atividade são selecionados quando há uma taxa de conversão vencedora com valores de confiança maiores ou iguais a 95%. Esses valores devem ser referenciados na variável [!DNL Target] relatórios, já que os cálculos de confiança refletem os métodos mais [!DNL Target] recomenda para [!UICONTROL Alocação automática] atividades. Para obter mais informações, consulte [Garantias estatísticas da alocação automática](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/determine-winner.html#section_7AF3B93E90BA4B80BC9FC4783B6A389C){target=_blank} no *[!UICONTROL Guia do profissional de negócios do Adobe Target]*.
+
+>[!NOTE]
+>
+Os emblemas &quot;Ainda não há vencedor&quot; e &quot;Vencedor&quot; não estão disponíveis no painel A4T no [!DNL Analysis Workspace]. Além disso, o emblema &quot;estrela&quot; vencedor exibido em [!DNL Target] relatórios para [!UICONTROL Alocação automática] atividades devem ser ignoradas. Para obter mais informações, consulte [Alocação automática](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *Suporte do A4T para atividades de Alocação automática e Direcionamento automático* no *[!UICONTROL Guia do profissional de negócios do Adobe Target]*.
+
+### Criar o A4T para [!UICONTROL Alocação automática] painel no [!DNL Analysis Workspace]
+
+1. Para criar um painel A4T para um [!UICONTROL Alocação automática] relatório de atividades, comece com o [!UICONTROL Analytics for Target] painel no [!DNL Analysis Workspace], conforme mostrado abaixo.
+
+   ![Analytics for Target - Relatório de alocação automática](/help/integrations/assets/a4t-auto-allocate-report.png)
+
+1. Faça as seguintes seleções:
+
+   * **[!UICONTROL Experiência de controle]**: escolha qualquer experiência.
+   * **[!UICONTROL Métrica de normalização]**: Selecionar **[!UICONTROL Visitantes]** (incluído no painel A4T por padrão). [!UICONTROL Alocação automática] O sempre normaliza as taxas de conversão de acordo com visitantes únicos.
+   * **Métricas de sucesso**: selecione a mesma métrica (otimização) usada durante a criação da atividade. Se isso foi um [!DNL Target]métrica de conversão definida por, selecione **[!UICONTROL Conversão de atividade]**. Caso contrário, selecione o [!DNL Adobe Analytics] que você usou.
 
 
 
