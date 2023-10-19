@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: b820a3f8a964d88027de5c27b45a76fcc878042d
+source-git-commit: 190a67832f378e15090115420bfaf8a4af4b9cb9
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1566'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Para configurar o relatório, faça as seguintes alterações no relatório do A
 
 | Alterações necessárias | [!DNL Target]relatório acionado por | Relatório do painel A4T |
 | --- | --- | --- |
-| Maximizar valor de métrica para um [!DNL Analytics] métrica | <ul><li>Remover [!UICONTROL Confiança] métricas.</li><li>Remover [!UICONTROL Aumento (Baixo)] e [!UICONTROL Lift (alto)].</li><li>Desmarque a apresentação de porcentagem do [!UICONTROL Índice de conversão] para evitar confusão. Consulte [Orientações gerais para o A4T](#guidance) abaixo.</li><li>Renomeie o [!UICONTROL Conversão] métrica de taxa para &quot;Métrica / Visitante&quot;.</li></ul> | <ul><li>Remover [!UICONTROL Confiança] métricas.</li><li>Remover [!UICONTROL Aumento (Baixo)] e [!UICONTROL Lift (alto)].</li><li>Desmarque a apresentação de porcentagem do [!UICONTROL Índice de conversão] para evitar confusão. Consulte [Orientações gerais para o A4T](#guidance) abaixo.</li><li>Renomeie o [!UICONTROL Conversão] métrica de taxa para &quot;Métrica / Visitante&quot;.</li><li>Verifique se os intervalos de data e hora estão alinhados com os valores que você vê na variável [!DNL Target] relatório. Consulte [Orientações gerais para o A4T](#guidance) abaixo.</li></ul> |
+| Maximizar valor de métrica para um [!DNL Analytics] métrica | <ul><li>Remover [!UICONTROL Confiança] métricas.</li><li>Remover [!UICONTROL Aumento (Baixo)] e [!UICONTROL Lift (alto)]. Manter [!UICONTROL Lift (Med)].</li><li>Desmarque a apresentação de porcentagem do [!UICONTROL Índice de conversão] para evitar confusão. Consulte [Orientações gerais para o A4T](#guidance) abaixo.</li><li>Renomeie o [!UICONTROL Conversão] métrica de taxa para &quot;Métrica / Visitante&quot;.</li></ul> | <ul><li>Remover [!UICONTROL Confiança] métricas.</li><li>Remover [!UICONTROL Aumento (Baixo)] e [!UICONTROL Lift (alto)] Manter [!UICONTROL Lift (Med)].</li><li>Desmarque a apresentação de porcentagem do [!UICONTROL Índice de conversão] para evitar confusão. Consulte [Orientações gerais para o A4T](#guidance) abaixo.</li><li>Renomeie o [!UICONTROL Conversão] métrica de taxa para &quot;Métrica / Visitante&quot;.</li><li>Verifique se os intervalos de data e hora estão alinhados com os valores que você vê na variável [!DNL Target] relatório. Consulte [Orientações gerais para o A4T](#guidance) abaixo.</li></ul> |
 
 ![Maximizar o valor de métrica para a receita](/help/integrations/assets/maximize-metric-value-revenue.png)
 
@@ -58,7 +58,7 @@ Para configurar o relatório, faça as seguintes alterações no relatório do A
 
 | Alterações necessárias | Relatório acionado pelo Target | Relatório do painel A4T |
 | --- | --- | --- |
-| Maximizar conversões para um [!DNL Analytics] métrica | <ul><li>Remover [!UICONTROL Confiança] métricas.</li><li>Remover tudo [!UICONTROL Elevação] métricas.</li><li>Desmarque a apresentação de porcentagem do [!UICONTROL Índice de conversão] para evitar confusão. Consulte [Orientações gerais para o A4T](#guidance) abaixo.</li></ul> | <ul><li>Remover [!UICONTROL Confiança] métricas.</li><li>Remover tudo [!UICONTROL Elevação] métricas.</li><li>Crie um segmento para filtrar visitantes com um valor de métrica positivo que visualizaram a atividade que foi analisada. Consulte [Criar um segmento](#segment) abaixo.</li><li>Substitua o preenchido automaticamente [!UICONTROL Índice de conversão] para que seja a divisão entre [!UICONTROL Visitantes únicos] com um valor de métrica positivo e visitantes únicos. Consulte [Atualizar a métrica Taxa de conversão](#update-conversion-metric) abaixo.</li><li>Desmarque a apresentação de porcentagem do [!UICONTROL Índice de conversão] para evitar confusão. Consulte [Orientações gerais para o A4T](#guidance) abaixo.</li><li>Verifique se os intervalos de data e hora estão alinhados com os valores que você vê na variável [!DNL Target] relatório. Consulte [Orientações gerais para o A4T](#guidance) abaixo.</li></ul> |
+| Maximizar conversões para um [!DNL Analytics] métrica | <ul><li>Remover [!UICONTROL Confiança] métricas.</li><li>Remover todos os três [!UICONTROL Elevação] métricas.</li><li>Desmarque a apresentação de porcentagem do [!UICONTROL Índice de conversão] para evitar confusão. Consulte [Orientações gerais para o A4T](#guidance) abaixo.</li></ul> | <ul><li>Remover [!UICONTROL Confiança] métricas.</li><li>Remover todos os três [!UICONTROL Elevação] métricas.</li><li>Crie um segmento para filtrar visitantes com um valor de métrica positivo que visualizaram a atividade que foi analisada. Consulte [Criar um segmento](#segment) abaixo.</li><li>Substitua o preenchido automaticamente [!UICONTROL Índice de conversão] para que seja a divisão entre [!UICONTROL Visitantes únicos] com um valor de métrica positivo e visitantes únicos. Consulte [Atualizar a métrica Taxa de conversão](#update-conversion-metric) abaixo.</li><li>Desmarque a apresentação de porcentagem do [!UICONTROL Índice de conversão] para evitar confusão. Consulte [Orientações gerais para o A4T](#guidance) abaixo.</li><li>Verifique se os intervalos de data e hora estão alinhados com os valores que você vê na variável [!DNL Target] relatório. Consulte [Orientações gerais para o A4T](#guidance) abaixo.</li></ul> |
 
 ### Relatório do painel A4T padrão - orientação adicional
 
@@ -114,7 +114,7 @@ Para configurar o relatório, faça as seguintes alterações no relatório do A
 
 | Alterações necessárias | Relatório acionado pelo Target | Relatório do painel A4T |
 | --- | --- | --- |
-| [!DNL Analytics] relatórios com [!DNL Target] métrica de conversão | <ul><li>Remover [!UICONTROL Confiança] métricas.</li><li>Remover [!UICONTROL Aumento (Baixo)] e [!UICONTROL Lift (alto)].</li><li>Desmarque a apresentação de porcentagem do [!UICONTROL Índice de conversão] para evitar confusão. Consulte [Orientações gerais para o A4T](#guidance) abaixo.</li></ul> | <ul><li>Remover [!UICONTROL Confiança] métricas.</li><li>Remover [!UICONTROL Aumento (Baixo)] e [!UICONTROL Lift (alto)].</li><li>Desmarque a apresentação de porcentagem do [!UICONTROL Índice de conversão] para evitar confusão. Consulte [Orientações gerais para o A4T](#guidance) abaixo.</li><li>Verifique se os intervalos de data e hora estão alinhados com os valores que você vê na variável [!DNL Target] relatório. Consulte [Orientações gerais para o A4T](#guidance) abaixo.</li></ul> |
+| [!DNL Analytics] relatórios com [!DNL Target] métrica de conversão | <ul><li>Remover [!UICONTROL Confiança] métricas.</li><li>Remover [!UICONTROL Aumento (Baixo)] e [!UICONTROL Lift (alto)]. Manter Elevação (Med).</li><li>Desmarque a apresentação de porcentagem do [!UICONTROL Índice de conversão] para evitar confusão. Consulte [Orientações gerais para o A4T](#guidance) abaixo.</li></ul> | <ul><li>Remover [!UICONTROL Confiança] métricas.</li><li>Remover [!UICONTROL Aumento (Baixo)] e [!UICONTROL Lift (alto)]. Manter [!UICONTROL Lift (Med)].</li><li>Desmarque a apresentação de porcentagem do [!UICONTROL Índice de conversão] para evitar confusão. Consulte [Orientações gerais para o A4T](#guidance) abaixo.</li><li>Verifique se os intervalos de data e hora estão alinhados com os valores que você vê na variável [!DNL Target] relatório. Consulte [Orientações gerais para o A4T](#guidance) abaixo.</li></ul> |
 
 A configuração correta do relatório deve produzir um resultado que se assemelha à seguinte ilustração:
 
