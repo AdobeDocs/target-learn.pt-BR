@@ -10,8 +10,8 @@ kt: null
 exl-id: d09f01aa-4b24-4f5c-93ef-03bc0d28d85c
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 12%
+source-wordcount: '65'
+ht-degree: 10%
 
 ---
 
@@ -23,15 +23,15 @@ Neste vídeo, você aprenderá a:
 
 * Criar um feed de dados no Adobe Target Recommendations
 
-## Público-alvo pretendido
+## Público-alvo
 
-* Profissional
+* Profissional de negócios
 
 >[!VIDEO](https://video.tv.adobe.com/v/27696?quality=12)
 
 ## Recursos adicionais
 
-* [Como entender os feeds](understanding-feeds.md)
+* [Noções básicas sobre feeds](understanding-feeds.md)
 * [Criar uma atividade do Recommendations](create-a-recommendations-activity.md)
 * [Criar critérios](create-criteria.md)
 * [Criar designs personalizados](create-custom-designs.md)

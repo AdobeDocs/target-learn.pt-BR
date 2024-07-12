@@ -1,6 +1,6 @@
 ---
-title: O que é um feed no Recommendations?
-description: Saiba o que é um feed Recommendations do Adobe Target e como ele é usado
+title: O que é um Feed no Recommendations?
+description: Saiba o que é um feed do Adobe Target Recommendations e como ele é usado
 role: User
 level: Intermediate
 topic: Personalization
@@ -10,12 +10,12 @@ kt: null
 exl-id: f9de86e7-1967-4ab7-a600-00e86220f209
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 12%
+source-wordcount: '67'
+ht-degree: 10%
 
 ---
 
-# Como entender os feeds no Recommendations
+# Noções básicas sobre feeds no Recommendations
 
 ## Descrição
 
@@ -23,9 +23,9 @@ Neste vídeo, você aprenderá a:
 
 * Descreva o que é um feed e entenda como ele é usado
 
-## Público-alvo pretendido
+## Público-alvo
 
-* Profissional
+* Profissional de negócios
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695?quality=12)
 

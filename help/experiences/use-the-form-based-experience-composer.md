@@ -1,6 +1,6 @@
 ---
 title: Como usar o Experience Composer baseado em formulário
-description: Este vídeo mostra aos usuários do Adobe Target como e quando usar o Experience Composer baseado em formulário.
+description: Este vídeo mostra aos usuários do Adobe Target como e quando usar o Experience Composer baseado em formulários.
 role: User
 level: Beginner
 topic: Personalization
@@ -23,11 +23,11 @@ ht-degree: 10%
 Neste vídeo, você aprenderá a:
 
 * Criar uma atividade usando o compositor baseado em formulário
-* Explique quando usar o compositor baseado em formulário, em vez do Visual Experience Composer (VEC)
+* Explicar quando usar o compositor baseado em formulário, em vez do Visual Experience Composer (VEC)
 * Use refinamentos para direcionar um local
 
-## Público-alvo pretendido
+## Público-alvo
 
-* Profissional
+* Profissional de negócios
 
 >[!VIDEO](https://video.tv.adobe.com/v/17390/?quality=12)

@@ -11,8 +11,8 @@ team: Evangelism
 exl-id: e669d773-494f-4eb7-82da-6b3f23508d9f
 source-git-commit: 17d2bc2929eed3c029705c3842c902141c639f02
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 6%
+source-wordcount: '127'
+ht-degree: 3%
 
 ---
 
@@ -37,5 +37,5 @@ Ao final deste vídeo, você irá:
 
 ## Recursos adicionais
 
-* [Visão geral da decisão no dispositivo](https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/on-device-decisioning-overview.html?lang=en#implementation)
+* [Visão Geral Da Decisão No Dispositivo](https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/on-device-decisioning-overview.html?lang=en#implementation)
 * [Documentação do SDK do Adobe Target](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)

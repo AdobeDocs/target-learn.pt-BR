@@ -1,6 +1,6 @@
 ---
 title: Como administrar e implementar parâmetros
-description: Este vídeo mostra aos arquitetos e desenvolvedores do Adobe Target como diferenciar entre parâmetros de solicitação e parâmetros de perfil, configurar e acionar solicitações usando sistemas de gerenciamento de tags e JavaScript e entender os requisitos de implementação para APIs e direcionamento de email e para dispositivos móveis.
+description: Este vídeo mostra os arquitetos e desenvolvedores do Adobe Target como diferenciar entre parâmetros de solicitação e parâmetros de perfil, configurar e acionar solicitações usando sistemas de gerenciamento de tags e JavaScript e entender os requisitos de implementação para APIs, direcionamento de email e móveis.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -23,7 +23,7 @@ ht-degree: 2%
 Neste vídeo, você aprenderá a:
 
 * Diferenciar entre parâmetros de solicitação e parâmetros de perfil
-* Configure e acione solicitações usando sistemas JavaScript e de gerenciamento de tags
+* Configure e acione solicitações usando sistemas de gerenciamento de tags e JavaScript
 * Listar os requisitos de implementação para dispositivos móveis, direcionamento por email e APIs
 
 ## Público-alvo
@@ -33,4 +33,4 @@ Neste vídeo, você aprenderá a:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35142/?quality=12)
 
-Para obter mais informações, visite o [documentação](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=en).
+Para obter mais informações, visite a [documentação](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=en).

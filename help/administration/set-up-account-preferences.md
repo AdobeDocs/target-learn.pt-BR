@@ -1,6 +1,6 @@
 ---
-title: Como configurar preferências da conta
-description: Este vídeo descreve as preferências da conta do Adobe Target. Assista a este vídeo para ver exemplos de como diferentes configurações afetam o Adobe Target.
+title: Como configurar as preferências da conta
+description: Este vídeo descreve as preferências da conta do Adobe Target. Assista a este vídeo para obter exemplos de como diferentes configurações afetam o Adobe Target.
 role: Admin
 level: Beginner
 topic: Administration
@@ -21,9 +21,9 @@ ht-degree: 3%
 
 Neste vídeo, você aprenderá a:
 
-* Descreva as diferentes configurações de conta no Adobe Target
+* Descrever as diferentes configurações da conta no Adobe Target
 
-## Público-alvo pretendido
+## Público-alvo
 
 * Administrador
 

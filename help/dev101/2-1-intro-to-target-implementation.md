@@ -13,7 +13,7 @@ thumbnail: 35139.jpg
 exl-id: ce615020-6775-486a-b0e0-f4298adbae39
 source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '107'
 ht-degree: 57%
 
 ---
@@ -35,5 +35,5 @@ Neste vídeo, você aprenderá a:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35139/?quality=12)
 
-Para obter mais informações, consulte [Implementação do lado do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank} or [Server-side implementation](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=pt-BR){target=_blank} no *[!UICONTROL Guia do desenvolvedor do Adobe Target]*.
+Para obter mais informações, consulte [Implementação do lado do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank} ou [Implementação do lado do servidor](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=pt-BR){target=_blank} no *[!UICONTROL Adobe Target Developer Guide]*.
 

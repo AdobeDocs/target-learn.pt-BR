@@ -30,4 +30,4 @@ Neste vídeo, você aprenderá a:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35149/?quality=12)
 
-Para obter mais informações, visite o [documentação](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=en).
+Para obter mais informações, visite a [documentação](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=en).

@@ -1,6 +1,6 @@
 ---
 title: Adicionar parâmetros às solicitações
-description: Nesta lição, adicionaremos medições de ciclo de vida do Adobe e parâmetros personalizados às solicitações do Target adicionadas na lição anterior. Essas métricas e parâmetros serão usados para criar públicos personalizados posteriormente no tutorial.
+description: Nesta lição, adicionaremos as métricas de ciclo de vida de Adobe e parâmetros personalizados às solicitações do Target adicionadas na lição anterior. Essas métricas e parâmetros serão usados para criar públicos personalizados posteriormente no tutorial.
 role: Developer
 level: Intermediate
 topic: Mobile, Personalization
@@ -10,54 +10,54 @@ kt: 3040
 exl-id: 0250e55f-a233-4060-84e1-86d1f88a6106
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
 
 # Adicionar parâmetros às solicitações
 
-Nesta lição, adicionaremos medições de ciclo de vida do Adobe e parâmetros personalizados às solicitações [!DNL Target] adicionadas na lição anterior. Essas métricas e parâmetros serão usados para criar públicos personalizados posteriormente no tutorial.
+Nesta lição, adicionaremos as métricas de ciclo de vida de Adobe e parâmetros personalizados às [!DNL Target] solicitações adicionadas na lição anterior. Essas métricas e parâmetros serão usados para criar públicos personalizados posteriormente no tutorial.
 
 ## Objetivos de aprendizagem
 
-Ao final desta lição, você poderá:
+No final desta lição, você poderá:
 
-* Adicionar as medições de ciclo de vida do Adobe Mobile
+* Adicionar as métricas de ciclo de vida móvel do Adobe
 * Adicionar parâmetros a uma solicitação de pré-busca
 * Adicionar parâmetros a um local ativo
 * Validar os parâmetros de ambas as solicitações
 
 ## Adicionar os parâmetros de ciclo de vida
 
-Vamos ativar as [medições de ciclo de vida móvel do Adobe](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=en). Isso adicionará parâmetros às solicitações de localização contendo informações avançadas sobre o dispositivo do usuário e o envolvimento com o aplicativo. Criaremos públicos na próxima lição usando dados que a solicitação do ciclo de vida fornecer.
+Vamos habilitar as [métricas do ciclo de vida móvel do Adobe](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=en). Isso adicionará parâmetros às solicitações de localização contendo informações avançadas sobre o dispositivo do usuário e o envolvimento com o aplicativo. Criaremos públicos-alvo na próxima lição usando os dados fornecidos pela solicitação de ciclo de vida.
 
-Para ativar as medições de ciclo de vida, abra o controlador HomeActivity novamente e adicione `Config.collectLifecycleData(this);` à função onResume() :
+Para habilitar medições de ciclo de vida, abra o controlador HomeActivity novamente e adicione `Config.collectLifecycleData(this);` à função onResume():
 
 ![Solicitação de ciclo de vida](assets/lifecycle_code.jpg)
 
-### Validar os parâmetros do ciclo de vida para a solicitação de busca prévia
+### Validar os parâmetros de ciclo de vida para a solicitação de pré-busca
 
 Execute o Emulador e use o Logcat para validar os parâmetros do ciclo de vida. Filtre por &quot;pré-busca&quot; para encontrar a resposta da pré-busca e procurar os novos parâmetros:
-![Validação do Ciclo de Vida](assets/lifecycle_validation.jpg)
+![Validação do ciclo de vida](assets/lifecycle_validation.jpg)
 
-Mesmo que tenhamos adicionado apenas `Config.collectLifecycleData()` ao controlador HomeActivity, você deve ver as medições de ciclo de vida enviadas com a solicitação do Target em sua tela de agradecimento também.
+Embora tenhamos adicionado `Config.collectLifecycleData()` somente ao controlador HomeActivity, você também deve ver as medições de ciclo de vida enviadas com a solicitação do Target na tela de agradecimento.
 
-## Adicionar o parâmetro at_property à solicitação de busca prévia
+## Adicione o parâmetro at_property à solicitação de pré-busca
 
-As propriedades do Adobe Target são definidas na interface [!DNL Target] e são usadas para estabelecer limites para personalizar aplicativos e sites. O parâmetro at_property identifica a propriedade específica na qual suas ofertas e atividades são acessadas e mantidas. Adicionaremos uma propriedade à busca prévia e às solicitações de localização ativa.
+As Propriedades do Adobe Target são definidas na interface [!DNL Target] e são usadas para estabelecer limites para personalizar aplicativos e sites. O parâmetro at_property identifica a propriedade específica em que suas ofertas e atividades são acessadas e mantidas. Adicionaremos uma propriedade às solicitações de pré-busca e de localização ao vivo.
 
 >[!NOTE]
 >
->Você pode ou não ver as opções de Propriedades na interface [!DNL Target], dependendo da sua licença. Se você não tiver essas opções, ou se não usar as Propriedades na empresa, pule para a próxima seção desta lição.
+>É possível ou não ver as opções de Propriedades na interface do [!DNL Target], dependendo da sua licença. Se você não tiver essas opções ou se não usar as Propriedades na empresa, vá para a próxima seção desta lição.
 
-Você pode recuperar o valor de at_property na interface [!DNL Target] em [!UICONTROL Setup] > [!UICONTROL Properties].  Passe o mouse sobre a propriedade, selecione o ícone do trecho de código e copie o valor `at_property`:
+Você pode recuperar seu valor at_property na interface [!DNL Target] em [!UICONTROL Setup] > [!UICONTROL Properties].  Passe o mouse sobre a propriedade, selecione o ícone do trecho de código e copie o valor `at_property`:
 
 ![Copiar at_property](assets/at_property_interface.jpg)
 
-Adicione-o como um parâmetro para cada local na solicitação de pré-busca como esta:
+Adicione-o como parâmetro para cada local na solicitação de pré-busca, desta forma:
 ![Adicionar parâmetro at_property](assets/params_at_property.jpg)
-Este é o código atualizado para a função `targetPrefetchContent()` (certifique-se de atualizar o _[!UICONTROL seu valor at_property vai aqui]_ texto de espaço reservado!):
+Este é o código atualizado da função `targetPrefetchContent()` (atualize o texto do espaço reservado _[!UICONTROL your at_property value goes here]_!):
 
 ```java
 public void targetPrefetchContent() {
@@ -89,27 +89,27 @@ public void targetPrefetchContent() {
 
 ### Observação sobre parâmetros
 
-Para projetos futuros, você pode implementar parâmetros adicionais. O método `createTargetPrefetchObject()` permite três tipos de parâmetros: `locationParams`, `orderParams` e `productParams`. Consulte a documentação para [mais detalhes sobre como adicionar esses parâmetros à solicitação de pré-busca](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en).
+Para projetos futuros, você pode implementar parâmetros adicionais. O método `createTargetPrefetchObject()` permite três tipos de parâmetros: `locationParams`, `orderParams` e `productParams`. Consulte a documentação para obter [mais detalhes sobre como adicionar esses parâmetros à solicitação de pré-busca](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en).
 
-Observe também que diferentes parâmetros de localização podem ser adicionados a cada local na solicitação de pré-busca. Por exemplo, você pode criar outro Mapa chamado param2, colocar um novo parâmetro nele e, em seguida, definir param2 em um local e param1 com o outro local. Veja um exemplo:
+Observe também que diferentes parâmetros de localização podem ser adicionados a cada localização na solicitação de pré-busca. Por exemplo, você pode criar outro Mapa chamado param2, colocar um novo parâmetro nele e, em seguida, definir param2 em um local e param1 com outro local. Veja um exemplo:
 
 ```java
 prefetchList.add(Target.createTargetPrefetchObject(location1_name, params1);
 prefetchList.add(Target.createTargetPrefetchObject(location2_name, params2);
 ```
 
-## Validar o parâmetro at_property na solicitação de busca prévia
+## Validar o parâmetro at_property na solicitação de pré-busca
 
-Agora execute o emulador e use o Logcat para verificar se a at_property está sendo exibida na solicitação de pré-busca e na resposta para ambos os locais:
+Agora execute o emulador e use o Logcat para verificar se a at_property é exibida na solicitação de pré-busca e na resposta para ambos os locais:
 ![Validar o parâmetro at_property](assets/parameters_at_property_validation.jpg)
 
-## Adicionar parâmetros personalizados à solicitação de local em tempo real
+## Adicionar parâmetros personalizados à solicitação de localização ao vivo
 
-A solicitação de local ativo (weTravel_context_dest) foi adicionada na lição anterior para podermos exibir uma promoção relevante na tela de confirmação final do processo de reserva. Gostaríamos de personalizar a promoção com base no destino do usuário e, para isso, adicionaremos isso como parâmetro à solicitação. Também adicionaremos um parâmetro para a origem do trop e o valor de at_property.
+A solicitação de localização ao vivo (wetravel_context_dest) foi adicionada na lição anterior para que possamos exibir uma promoção relevante na tela de confirmação final do processo de reserva. Gostaríamos de personalizar a promoção com base no destino do usuário e, para isso, adicionaremos isso como parâmetro à solicitação. Também adicionaremos um parâmetro para a origem do trop e o valor at_property.
 
 Adicione os seguintes parâmetros à função targetLoadRequest() no controlador ThankYouActivity:
-![Adicionar Parâmetros à Solicitação de Local ao Vivo](assets/parameters_live_location.jpg)
-Este é o código atualizado da função targetLoadRequest() (certifique-se de atualizar o texto do espaço reservado &quot;adicionar seu valor at_property aqui&quot;!):
+![Adicionar Parâmetros à Solicitação de Local Dinâmico](assets/parameters_live_location.jpg)
+Este é o código atualizado da função targetLoadRequest() (certifique-se de atualizar o texto do espaço reservado &quot;adicione seu valor at_property aqui&quot;!):
 
 ```java
 public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
@@ -139,19 +139,19 @@ public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
 }
 ```
 
-### Validar os parâmetros personalizados na solicitação de local em tempo real
+### Validar os parâmetros personalizados na solicitação de localização ao vivo
 
 Execute o emulador e abra o Logcat. Filtre um dos parâmetros para verificar se a solicitação contém os parâmetros necessários:
-![Validar os Parâmetros Personalizados no Pedido de Localização em Tempo Real](assets/parameters_live_location_validation.jpg)
+![Validar os Parâmetros Personalizados na Solicitação de Local Dinâmico](assets/parameters_live_location_validation.jpg)
 
 >[!NOTE]
 >
->Solicitações e parâmetros de confirmação de pedido: Embora não seja usado neste projeto de demonstração, os detalhes do pedido geralmente são capturados em uma implementação real, de modo que [!DNL Target] pode usar os detalhes do pedido como métricas/dimensões. Consulte a documentação para obter instruções sobre como [implementar a solicitação de confirmação de pedido e os parâmetros](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=en).
+>Solicitações e parâmetros de confirmação de pedido: embora não sejam usados neste projeto de demonstração, os detalhes do pedido geralmente são capturados em uma implementação real, para que [!DNL Target] possa usar os detalhes do pedido como métricas/dimensões. Consulte a documentação para obter instruções sobre como [implementar a solicitação e os parâmetros de confirmação de pedido](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=en).
 
 >[!NOTE]
 >
->Analytics for Target (A4T): O Adobe Analytics pode ser configurado como a fonte de relatórios para [!DNL Target]. Isso permite que todas as métricas/dimensões coletadas pelo SDK do Target sejam visualizadas no Adobe Analytics. Consulte a [Visão geral do A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en) para obter mais detalhes.
+>Analytics for Target (A4T): o Adobe Analytics pode ser configurado como a fonte de relatórios para [!DNL Target]. Isso permite que todas as métricas/dimensões coletadas pelo SDK do Target sejam visualizadas no Adobe Analytics. Consulte a [Visão Geral do A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en) para obter mais detalhes.
 
-Bom trabalho! Agora que os parâmetros estão em vigor, estamos prontos para usar esses parâmetros para criar públicos e ofertas no Adobe Target.
+Bom trabalho! Agora que os parâmetros estão em vigor, estamos prontos para usá-los para criar públicos e ofertas no Adobe Target.
 
-**[PRÓXIMO : &quot;Criar públicos e ofertas&quot; >](create-audiences-and-offers.md)**
+**[NEXT: &quot;Criar Públicos-alvo e Ofertas&quot; >](create-audiences-and-offers.md)**

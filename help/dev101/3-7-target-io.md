@@ -1,5 +1,5 @@
 ---
-title: Como integrar o Target ao console do Adobe Developer
+title: Como integrar o Target ao Adobe Developer Console
 description: Saiba como integrar o Adobe Target e o Adobe Developer Console.
 role: Developer
 level: Intermediate
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 ---
 
-# Integração do Target ao console do Adobe Developer
+# Integração do Target ao Adobe Developer Console
 
 ## Descrição
 
@@ -30,6 +30,6 @@ Neste vídeo, você aprenderá a:
 
 ## Observação
 
-Este vídeo demonstra conceitos de integração usando o [Console do Adobe Developer](https://developer.adobe.com/developer-console/). Para obter etapas práticas que demonstram como usar o Console do Adobe Developer para integrar-se ao Adobe Target, visite esta [guia sobre a configuração da autenticação de Adobe](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html?lang=pt-BR){target="_blank"} no *Guia do desenvolvedor do Adobe Target*.
+Este vídeo demonstra conceitos de integração usando o [Adobe Developer Console](https://developer.adobe.com/developer-console/). Para obter as etapas práticas que demonstram como usar o Adobe Developer Console para integração com o Adobe Target, visite este [guia sobre como configurar a autenticação de Adobe](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html?lang=pt-BR){target="_blank"} no *Guia do Desenvolvedor do Adobe Target*.
 
 >[!VIDEO](https://video.tv.adobe.com/v/35150/?quality=12)

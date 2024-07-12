@@ -7,7 +7,7 @@ role: Leader, User
 exl-id: 49b69f41-0993-437c-bb69-84392be427df
 source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -36,13 +36,13 @@ Há três tipos de atividades fundamentais do Target:
 * para obter insights sobre seu público-alvo.
 * para determinar qual experiência tem o melhor desempenho.
 
-**Teste multivariado** (MVT) compara combinações de ofertas entre elementos em uma página para ver qual combinação tem o melhor desempenho para um público-alvo específico. Este teste também identifica qual elemento da página melhora mais conversões durante um período de teste pré-especificado. O MVT fornece:
+O **Multivariate testing** (MVT) compara combinações de ofertas entre elementos em uma página para ver qual combinação tem o melhor desempenho para um público-alvo específico. Este teste também identifica qual elemento da página melhora mais conversões durante um período de teste pré-especificado. O MVT fornece:
 
 * Uma maneira de exibir várias ofertas em vários elementos.
 * Um método para testar a experiência exclusiva resultante em relação a uma meta específica.
 * Insight quanto aos elementos que têm maior impacto negativo ou positivo nas interações do visitante.
 
-**Teste de experiência** O (Direcionamento experiente) fornece conteúdo a um público-alvo específico com base em um conjunto de regras e critérios definidos pelo profissional de marketing. Esse método oferece uma maneira de direcionar conteúdo específico a um público-alvo específico com base em um conjunto de regras de alocação definidas.
+O **teste de experiência** (direcionamento experiente) fornece conteúdo a um público específico com base em um conjunto de regras e critérios definidos pelo profissional de marketing. Esse método oferece uma maneira de direcionar conteúdo específico a um público-alvo específico com base em um conjunto de regras de alocação definidas.
 
 Como funciona o Target?
 
@@ -60,11 +60,11 @@ O Target é construído em uma &quot;Mbox global&quot; que oferece a capacidade 
 
 Para entender sua implementação do atual, a Adobe recomenda que você revise sua implementação da interface do usuário do Target, juntamente com sua implementação do Tag Manager e do Carregamento de página.
 
-**Para analisar o [!DNL Target] interface do usuário:**
+**Para examinar a interface de usuário do [!DNL Target]:**
 
-1. Comece sua análise no [!DNL Target] Interface do usuário:
+1. Comece sua análise na interface do usuário do [!DNL Target]:
 
-   * Revise o [!DNL Target] pilha de tecnologia
+   * Revise a pilha de tecnologia do [!DNL Target]
    * Confirmar os recursos disponíveis
    * Identificar onde a implantação está ativa
 
@@ -74,7 +74,7 @@ Para entender sua implementação do atual, a Adobe recomenda que você revise s
 
 1. Desativar atividades antigas:
 
-   * Arquivar e limpar [!DNL Target] ativo que não tem mais uso atual ou futuro
+   * Arquivar e limpar o ativo [!DNL Target] que não tem mais uso atual ou futuro
 
 1. Revise os públicos-alvo.
 
@@ -89,20 +89,20 @@ Para revisar o gerenciador de tags e o carregamento de página:
 
 1. Confirme o seguinte no gerenciador de tags:
 
-   * A implantação do esperado [!DNL Target] Código JavaScript
+   * A implantação do código JavaScript [!DNL Target] esperado
    * A solução apropriada para ocultação de conteúdo
-   * Defina as regras necessárias para preencher o [!DNL Target] chamadas com os parâmetros esperados
+   * Definir as regras necessárias para preencher as chamadas [!DNL Target] com os parâmetros esperados
 
 1. Confirme o seguinte durante o carregamento da página:
 
-   * Números de versão correspondentes para o URL da solicitação e [!DNL Target] URL de solicitação
+   * Correspondência de números de versão para a URL de solicitação e a URL de solicitação [!DNL Target]
    * Valor da Experience Cloud ID preenchido (corpo da nuvem)
    * Apresentar os valores de integração esperados (corpo na nuvem)
-   * Preenchido [!DNL Target] parâmetros nas páginas apropriadas
+   * Preencheu [!DNL Target] parâmetros nas páginas apropriadas
 
 ## [!DNL Target] atividades de auditoria
 
-Para evitar percorrer manualmente cada página para auditar [!DNL Target] use o Adobe Auditor para ajudá-lo a entender o estado técnico atual de sua implementação. O Adobe Auditor é alimentado pelo ObservePoint e pode ser configurado para ser executado em nível manual, para identificar problemas de implementação de alto nível em seu site.
+Para evitar percorrer manualmente cada página para auditar [!DNL Target] atividades, use o Auditor de Adobe para ajudá-lo a entender o estado técnico atual de sua implementação. O Adobe Auditor é alimentado pelo ObservePoint e pode ser configurado para ser executado em nível manual, para identificar problemas de implementação de alto nível em seu site.
 
 O Adobe Auditor fornece:
 
@@ -132,13 +132,13 @@ Veja a seguir dicas gerais de solução de problemas ao entrar na Experience Pla
 ### Você está qualificado para a atividade?
 
 * Verifique se você executou as mesmas etapas que o público-alvo usou na atividade
-* Uso `mboxTrace` ou tokens de resposta para verificar os valores de perfil e segmento
+* Use `mboxTrace` ou tokens de resposta para verificar valores de perfil e segmento
 
 ### Dicas gerais de solução de problemas ao validar visual/funcional
 
-Se estiverem na [!DNL Target] e você não visualiza a experiência visual esperada:
+Se você estiver na experiência [!DNL Target] e não vir a experiência visual esperada:
 
-Verifique a [!DNL Target] resposta:
+Verifique a resposta [!DNL Target]:
 
 * Se o código não for executado:
 
@@ -157,13 +157,13 @@ Idealmente, o repositório deve permitir a edição e o salvamento automático n
 
 Os documentos típicos em um Repositório de conhecimento incluem:
 
-* **Documento de visão geral** - um documento usado para explicar claramente as metas, objetivos, processos e estrutura do programa
+* **Documento de visão geral** - um documento usado para explicar claramente as metas, os objetivos, os processos e a estrutura do programa
 * **Repositório de ideação** - um documento usado para gerenciar e priorizar possíveis ideias que não estão prontas para o processo de teste
 * **Roteiro do programa** - um documento usado para gerenciar todos os aspectos das atividades de teste quando as ideias estiverem prontas para iniciar o processo de teste
-* **Documento do plano de atividades** - um documento usado para destacar as informações necessárias para criar e iniciar atividades do
-* **Documento do plano de atividades** - um documento usado para comunicar os resultados e as próximas etapas recomendadas às partes interessadas
-* **Painel do programa** - um documento usado para rastrear o desempenho do programa, a cadência e os benefícios de receita ao longo do tempo.
+* **Documento do plano de atividade** - um documento usado para destacar informações necessárias para compilar e iniciar atividades
+* **Documento do plano de atividade** - um documento usado para comunicar resultados e as próximas etapas recomendadas aos participantes
+* **Painel de programas** - um documento usado para rastrear o desempenho do programa, a cadência e os benefícios da receita ao longo do tempo.
 
-Para obter mais informações, consulte nossa [webinário](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/) com o consultor sênior, Wilder Freed.
+Para obter mais informações, consulte nosso [webinário](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/) com o consultor sênior, Wilder Freed.
 
-Saiba mais sobre estratégia e liderança de pensamento na [Sucesso do cliente](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html) hub.
+Saiba mais sobre estratégia e liderança de pensamento na central de [Sucesso do cliente](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html).

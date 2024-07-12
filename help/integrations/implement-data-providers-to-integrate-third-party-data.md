@@ -11,18 +11,18 @@ author: Daniel Wright
 exl-id: fcf6d1a8-e2a7-41ce-9c1c-02985b7afb5a
 source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '256'
 ht-degree: 0%
 
 ---
 
-# Implementar [!UICONTROL Provedores de dados] para integrar dados de terceiros ao Adobe Target
+# Implementar o [!UICONTROL Data Providers] para integrar dados de terceiros ao Adobe Target
 
-Detalhes de implementação e exemplos de como usar o Adobe Target [!UICONTROL Provedores de dados] recurso para recuperar dados de provedores de dados de terceiros e passá-los na solicitação do Target.
+Detalhes de implementação e exemplos de como usar o recurso [!UICONTROL Data Providers] do Adobe Target para recuperar dados de provedores de dados de terceiros e passá-los na solicitação do Target.
 
 >[!NOTE]
 >
->[!UICONTROL Provedores de dados] exige `at.js` 1.3 ou superior
+>[!UICONTROL Data Providers] requer `at.js` 1.3 ou superior
 
 ## Implementar os componentes básicos dos provedores de dados
 
@@ -44,7 +44,7 @@ Um exemplo prático com o código usado no vídeo pode ser encontrado aqui:
 
 >[!VIDEO](https://video.tv.adobe.com/v/22346/)
 
-Como incorporar dados de vários provedores no seu modelo global [!DNL Target] solicitação.\
+Como incorporar dados de vários provedores à sua solicitação global [!DNL Target].\
 Um exemplo prático com o código usado no vídeo pode ser encontrado aqui:
 [https://target.enablementadobe.com/data-providers/combined.html](https://target.enablementadobe.com/data-providers/combined.html)
 
@@ -52,10 +52,10 @@ Um exemplo prático com o código usado no vídeo pode ser encontrado aqui:
 
 >[!VIDEO](https://video.tv.adobe.com/v/22347/)
 
-Minimize o impacto no tempo de carregamento da página armazenando dados em um objeto de armazenamento de sessão. Como alternativa, você pode transmitir os valores como parâmetros de perfil usando o `profile.` prefixo e apenas transmita-os no primeiro [!DNL Target] solicitação da sessão. No entanto, você estaria limitado a transmitir cinquenta parâmetros de perfil por solicitação.
+Minimize o impacto no tempo de carregamento da página armazenando dados em um objeto de armazenamento de sessão. Como alternativa, você pode passar os valores como parâmetros de perfil usando o prefixo `profile.` e apenas passá-los na primeira solicitação [!DNL Target] da sessão. No entanto, você estaria limitado a transmitir cinquenta parâmetros de perfil por solicitação.
 
 Um exemplo prático com o código usado no vídeo pode ser encontrado aqui: [https://target.enablementadobe.com/data-providers/reducedCalls.html](https://target.enablementadobe.com/data-providers/reducedCalls.html)
 
 ## Materiais de suporte
 
-* [Usar provedores de dados com o Adobe Target](use-data-providers-to-integrate-third-party-data.md)
+* [Usar Provedores de Dados com o Adobe Target](use-data-providers-to-integrate-third-party-data.md)

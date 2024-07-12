@@ -24,12 +24,12 @@ ht-degree: 47%
 
 Neste vídeo, você aprenderá a:
 
-* Definir o que é um &quot;público-alvo&quot; da Adobe Target
-* Encontrar públicos-alvo na lista de públicos-alvo
-* Usar públicos-alvo para direcionar atividades e filtrar relatórios
+* Definir o que é um &quot;público-alvo&quot; do Adobe Target
+* Localizar públicos na Lista de públicos-alvo
+* Use públicos para direcionar atividades e filtrar relatórios
 
-## Público-alvo pretendido
+## Público-alvo
 
-* Profissional
+* Profissional de negócios
 
 >[!VIDEO](https://video.tv.adobe.com/v/17398/?quality=12)

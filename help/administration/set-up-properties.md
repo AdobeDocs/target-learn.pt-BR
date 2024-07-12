@@ -11,8 +11,8 @@ badge: premium
 exl-id: bf732d87-9d4a-4c6e-a299-61df4307f48a
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 5%
+source-wordcount: '39'
+ht-degree: 7%
 
 ---
 
@@ -24,7 +24,7 @@ Neste vídeo, você aprenderá a:
 
 * Criar propriedades no Adobe Target
 
-## Público-alvo pretendido
+## Público-alvo
 
 * Administrador
 

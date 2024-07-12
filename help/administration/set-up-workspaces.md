@@ -23,7 +23,7 @@ Neste vídeo, você aprenderá a:
 
 * Criar espaços de trabalho no Adobe Target
 
-## Público-alvo pretendido
+## Público-alvo
 
 * Administrador
 

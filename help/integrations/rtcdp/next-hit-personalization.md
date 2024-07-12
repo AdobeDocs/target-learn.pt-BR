@@ -8,7 +8,8 @@ feature: Integrations,Segments,Web SDK,Destinations,Datastreams,Audiences,Experi
 level: Intermediate
 jira: KT-9629
 thumbnail: 340091.jpg
-source-git-commit: 6e868964fdf9f3575928e933e91805bf5ef71cb0
+exl-id: 4a3f0976-b286-499f-9f7d-9abf04c78ca6
+source-git-commit: ff0ca2f7f87ed15a8a13c5db9fb6f32e922c3d44
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 1%
@@ -17,7 +18,6 @@ ht-degree: 1%
 
 # Personalização de próxima ocorrência com Real-Time CDP e Adobe Target
 
-Saiba como personalizar a próxima ocorrência com o Real-time Customer Data Platform e o Adobe Target. O destino do Adobe Target no Real-Time CDP permite usar segmentos Experience Platform no Adobe Target para personalização da mesma página e da próxima página com suporte para governança e privacidade. Para obter mais informações, consulte [Configurar destinos de personalização para a documentação de personalização de mesma página e próxima página](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=pt-BR)
+Saiba como personalizar a próxima ocorrência com o Real-time Customer Data Platform e o Adobe Target. O destino do Adobe Target no Real-Time CDP permite usar segmentos Experience Platform no Adobe Target para personalização da mesma página e da próxima página com suporte para governança e privacidade. Para obter mais informações, consulte a [Configurar destinos de personalização para a documentação de personalização de mesma página e próxima página](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=pt-BR)
 
 >[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
-
