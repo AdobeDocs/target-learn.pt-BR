@@ -9,10 +9,10 @@ doc-type: feature video
 kt: null
 badge: premium
 exl-id: bf732d87-9d4a-4c6e-a299-61df4307f48a
-source-git-commit: d1088178a874437aea181f6048ab20977fe85e84
+source-git-commit: 35f64f388eb0bfb2809bdacd07d1398405196b99
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,4 +41,4 @@ Os usuários devem ter as seguintes permissões para criar propriedades:
 
 >[!NOTE]
 >
->A interface do usuário do [!DNL Target] foi atualizada desde a gravação deste vídeo. Até que um novo vídeo esteja disponível, o caminho para criar propriedades é **[!UICONTROL Administration]** > **[!UICONTROL Properties]** > **[!UICONTROL Create Property]**.
+>A interface do usuário do [!DNL Target] foi atualizada desde que este vídeo foi gravado. Para criar propriedades, navegue até [!UICONTROL Administration] > [!UICONTROL Properties] > [!UICONTROL Create Property]. Um novo vídeo estará disponível em breve.
