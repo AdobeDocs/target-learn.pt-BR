@@ -8,16 +8,16 @@ feature: Recommendations
 doc-type: feature video
 kt: null
 exl-id: f9de86e7-1967-4ab7-a600-00e86220f209
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 10%
+source-wordcount: '70'
+ht-degree: 14%
 
 ---
 
 # Noções básicas sobre feeds no Recommendations
 
-## Descrição
+## O que você vai aprender
 
 Neste vídeo, você aprenderá a:
 

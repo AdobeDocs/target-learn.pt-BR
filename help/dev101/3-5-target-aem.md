@@ -1,6 +1,6 @@
 ---
 title: Como integrar o Target ao AEM
-description: Este vídeo mostra aos desenvolvedores como integrar o Adobe Target com AEM (métodos 3). Os desenvolvedores aprenderão a aplicar o processo para importar fragmentos de experiência do AEM, bem como a aplicar os requisitos de integração do Target e do AEM.
+description: Saiba como integrar o Adobe Target ao AEM (métodos 3). Saiba como aplicar o processo para importar fragmentos de experiência do AEM. Conheça os requisitos de integração do Adobe Target e do AEM.
 role: Developer
 level: Intermediate
 topic: Personalization, Integrations
@@ -9,20 +9,18 @@ doc-type: technical video
 kt: 5387
 thumbnail: 35147.jpg
 exl-id: e7792ff4-7289-485e-af46-c89431a7a122
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 2%
+source-wordcount: '81'
+ht-degree: 1%
 
 ---
 
-# Integração do Target ao Adobe Experience Manager (AEM)
-
-## Descrição
+# Integrar o [!DNL Target] ao Adobe Experience Manager (AEM)
 
 Neste vídeo, você aprenderá a:
 
-* Integração do Target ao AEM (métodos 3)
+* Integração do Target ao AEM (3 métodos)
 * Aplicar o processo para importar fragmentos de experiência do AEM
 * Listar os requisitos de integração do Target e do AEM
 

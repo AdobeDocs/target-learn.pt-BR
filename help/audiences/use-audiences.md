@@ -1,7 +1,7 @@
 ---
 title: O que são públicos-alvo e como usá-los?
-description: Este vídeo mostra aos usuários do Adobe Target como usar públicos para direcionar atividades e filtrar relatórios.
-landing-page-description: Saiba como definir e encontrar públicos-alvo, atividades de direcionamento e filtrar relatórios.
+description: Saiba como usar públicos para direcionar atividades e filtrar relatórios.
+landing-page-description: Saiba como definir e encontrar públicos, direcionar atividades e filtrar relatórios.
 short-description: Saiba como definir e encontrar públicos, direcionar atividades e filtrar relatórios.
 role: User
 level: Beginner
@@ -11,16 +11,18 @@ doc-type: feature video
 kt: null
 author: Daniel Wright
 exl-id: c164eba0-d548-4ace-b9e7-746bdafa844d
-source-git-commit: 72f7cfcc95bbfbe1bb054f98246305f25ce5cc0f
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 47%
+source-wordcount: '101'
+ht-degree: 43%
 
 ---
 
-# Usar públicos-alvo no Adobe Target
+# Usar públicos no Adobe Target
 
-## Descrição
+Este vídeo mostra aos usuários do Adobe Target como usar públicos para direcionar atividades e filtrar relatórios.
+
+## O que você vai aprender
 
 Neste vídeo, você aprenderá a:
 

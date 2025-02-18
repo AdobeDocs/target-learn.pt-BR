@@ -8,16 +8,18 @@ feature: Analytics for Target (A4T), Integrations
 doc-type: feature video
 kt: null
 exl-id: 6ea8e127-ada7-4a13-8160-ac83cdb20d03
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 1%
+source-wordcount: '68'
+ht-degree: 5%
 
 ---
 
 # Usar o Adobe Analytics as a Data Source para Adobe Target (A4T)
 
-## Descrição
+Este vídeo apresenta os profissionais de marketing ao Analytics for Target (A4T).
+
+## O que você vai aprender
 
 * O que é A4T e por que usá-lo?
 * Como o A4T funciona?

@@ -1,6 +1,6 @@
 ---
 title: Opções de Implantação Híbrida
-description: Assista a este vídeo para saber mais sobre o modelo exclusivo de implantação híbrida da Adobe Target para personalização, mesclando implementações do lado do cliente e do lado do servidor.
+description: Saiba mais sobre o modelo exclusivo de implantação híbrida da Adobe Target para implementações de combinação de personalização do lado do cliente e do lado do servidor.
 role: Developer, Architect
 level: Beginner
 topic: Personalization, Architecture, Development
@@ -9,16 +9,16 @@ doc-type: feature video
 kt: 6165
 team: Evangelism
 exl-id: e669d773-494f-4eb7-82da-6b3f23508d9f
-source-git-commit: f7d130040c74cb2dd79edadf7090bc8a4501557e
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '123'
 ht-degree: 3%
 
 ---
 
 # Implantação híbrida do Adobe Target
 
-O Adobe Target oferece um modelo exclusivo de implantação híbrida para personalização, combinando implementações do lado do cliente e do lado do servidor. Esse modelo híbrido permite que usuários não técnicos criem uma atividade de experimento ou personalização usando o Visual Experience Composer WYSIWYG e que a experiência seja executada, entregue e renderizada pelo lado do servidor para oferecer um delivery de alto desempenho.
+O Adobe Target oferece um modelo exclusivo de implantação híbrida para implementações de combinação de personalização do lado do cliente e do lado do servidor. Esse modelo híbrido permite que usuários não técnicos criem uma atividade de experimento ou personalização usando o WYSIWYG Visual Experience Composer e que a experiência seja executada, entregue e renderizada pelo lado do servidor para oferecer um delivery de alto desempenho.
 
 ## Objetivos
 
@@ -38,4 +38,4 @@ Ao final deste vídeo, você irá:
 ## Recursos adicionais
 
 * [Visão Geral Da Decisão No Dispositivo](https://experienceleague.adobe.com/en/docs/target-learn/tutorials/implementation/on-device-decisioning-overview#implementation)
-* [Documentação do SDK do Adobe Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview)
+* [Documentação do Adobe Target SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview)

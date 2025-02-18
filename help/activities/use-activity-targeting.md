@@ -1,6 +1,6 @@
 ---
 title: Como usar o direcionamento de atividade
-description: O Adobe Target fornece diferentes alavancas para controlar as experiências mostradas para públicos diferentes quando uma atividade é ativada. Saiba como controlar quem vê o quê usando públicos e alocação de tráfego.
+description: Saiba mais sobre as diferentes alavancas para controlar as experiências mostradas para públicos diferentes quando uma atividade é ativada.
 role: User
 level: Intermediate
 topic: Personalization
@@ -8,16 +8,14 @@ feature: Activities, Audiences
 doc-type: feature video
 kt: null
 exl-id: fa330c1d-4a67-4927-bd4c-adb57c10c769
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 30%
+source-wordcount: '58'
+ht-degree: 36%
 
 ---
 
-# Usar o direcionamento de atividade
-
-## Descrição
+# Usar direcionamento de atividade
 
 Neste vídeo, você aprenderá a:
 

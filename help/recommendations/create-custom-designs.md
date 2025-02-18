@@ -8,16 +8,16 @@ feature: Recommendations
 doc-type: feature video
 kt: null
 exl-id: 19be02da-f5b8-4950-9bb5-7a0effec419c
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 11%
+source-wordcount: '64'
+ht-degree: 15%
 
 ---
 
 # Criar designs personalizados no Recommendations
 
-## Descrição
+## O que você vai aprender
 
 Neste vídeo, você aprenderá a:
 

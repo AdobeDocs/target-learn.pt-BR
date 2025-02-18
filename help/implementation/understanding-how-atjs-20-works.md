@@ -1,6 +1,6 @@
 ---
 title: Como a at.js 2.0 funciona?
-description: A at.js 2.0 aprimora o suporte da Adobe Target para aplicativos de página única (SPA) e integra-se com outras soluções de Experience Cloud. Este vídeo e os diagramas que o acompanham explicam como tudo se une.
+description: Saiba como a at.js 2.0 melhora o suporte da Adobe Target para aplicativos de página única (SPA) e se integra a outras soluções da Experience Cloud.
 role: Developer
 level: Intermediate
 topic: SPA, Architecture, Development
@@ -9,16 +9,16 @@ doc-type: technical video
 kt: null
 author: Daniel Wright
 exl-id: 7f037665-88a7-469c-8df5-c82cb0f65382
-source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
 
-# Noções básicas sobre o funcionamento da at.js 2.0 do Adobe Target
+# Entender como a at.js 2.0 do Adobe Target funciona
 
-O `at.js` 2.0 aprimora o suporte da Adobe Target para aplicativos de página única (SPA) e integra-se com outras soluções de Experience Cloud. Este vídeo e os diagramas que o acompanham explicam como tudo se une.
+O `at.js` 2.0 aprimora o suporte da Adobe Target para aplicativos de página única (SPA) e integra-se com outras soluções da Experience Cloud. Este vídeo e os diagramas que o acompanham explicam como tudo se une.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?quality=12)
 
@@ -26,13 +26,13 @@ O `at.js` 2.0 aprimora o suporte da Adobe Target para aplicativos de página ún
 
 Comportamento do ![at.js 2.0 no carregamento da página](assets/pageload.png)
 
-1. A chamada retorna a ID de Experience Cloud (ECID). Se o usuário for autenticado, outra chamada sincroniza a ID do cliente.
+1. A chamada retorna a Experience Cloud ID (ECID). Se o usuário for autenticado, outra chamada sincroniza a ID do cliente.
 
 1. A biblioteca `at.js` é carregada de forma síncrona e oculta o corpo do documento (`at.js` também pode ser carregado de forma assíncrona com um trecho oculto previamente implementado na página).
 
 1. A solicitação de Carregamento de página é feita, incluindo todos os parâmetros configurados, ECID, SDID e ID do cliente.
 
-1. Os scripts de perfil executam e alimentam o [!UICONTROL Profile Store]. A Loja solicita públicos qualificados do [!UICONTROL Audience Library] (por exemplo, públicos compartilhados de [!DNL Analytics], Audience Manager, etc.). [!UICONTROL Customer Attributes] são enviados a [!UICONTROL Profile Store] em um processo em lote.
+1. Os scripts de perfil executam e alimentam o [!UICONTROL Profile Store]. A Loja solicita públicos qualificados do [!UICONTROL Audience Library] (por exemplo, públicos compartilhados de [!DNL Analytics], Audience Manager, etc). [!UICONTROL Customer Attributes] são enviados a [!UICONTROL Profile Store] em um processo em lote.
 1. Com base na URL, parâmetros de solicitação e dados de perfil, [!DNL Target] decide quais Atividades e Experiências retornarão ao visitante para a página atual e para as exibições futuras
 
 1. O conteúdo direcionado é enviado de volta para a página, opcionalmente incluindo valores de perfil para personalização adicional.

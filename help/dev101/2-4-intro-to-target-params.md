@@ -1,6 +1,6 @@
 ---
 title: Como administrar e implementar parâmetros
-description: Este vídeo mostra os arquitetos e desenvolvedores do Adobe Target como diferenciar entre parâmetros de solicitação e parâmetros de perfil, configurar e acionar solicitações usando sistemas de gerenciamento de tags e JavaScript e entender os requisitos de implementação para APIs, direcionamento de email e móveis.
+description: Saiba como diferenciar entre parâmetros de solicitação e parâmetros de perfil, configurar e acionar solicitações usando o JavaScript e sistemas de gerenciamento de tags. Entenda os requisitos de implementação para dispositivos móveis, direcionamento de email e APIs.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -9,16 +9,14 @@ doc-type: technical video
 kt: 5382
 thumbnail: 35142.jpg
 exl-id: 49929748-c67f-44e1-9853-b499d8da6b7d
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 2%
+source-wordcount: '84'
+ht-degree: 1%
 
 ---
 
-# Introdução aos parâmetros do Target
-
-## Descrição
+# Introdução a [!DNL Target] parâmetros
 
 Neste vídeo, você aprenderá a:
 

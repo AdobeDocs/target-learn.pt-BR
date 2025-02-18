@@ -1,6 +1,6 @@
 ---
 title: Como funcionam as solicitações do Target?
-description: Este vídeo descreve o fator de expiração para cookies e perfis do Target. Saiba como determinar o número e os tipos de solicitações do Target, diferenciar entre implantação síncrona e assíncrona e explicar o gerenciamento de cintilação.
+description: Saiba como determinar o número e os tipos de solicitações do Adobe Target, diferenciar entre implantação síncrona e assíncrona e explicar o gerenciamento de cintilação.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -9,16 +9,14 @@ doc-type: technical video
 kt: 5381
 thumbnail: 35141.jpg
 exl-id: b5182e70-551c-43e4-bca3-a9889740cecc
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 2%
+source-wordcount: '74'
+ht-degree: 1%
 
 ---
 
-# Introdução às solicitações do Target
-
-## Descrição
+# Introdução a [!DNL Target] solicitações
 
 Neste vídeo, você aprenderá a:
 

@@ -1,8 +1,7 @@
 ---
 title: Como implementar o Target
-description: Este vídeo orienta desenvolvedores e arquitetos da Adobe Target na implementação do Target. Assista a este vídeo para saber mais sobre as diferentes tecnologias de implementação do Target e utilizar as práticas recomendadas de implementação do Target.
-landing-page-description: Assista a este vídeo para saber mais sobre as diferentes tecnologias de implementação do Target e utilizar as práticas recomendadas de implementação do Target.
-short-description: Assista a este vídeo para saber mais sobre as diferentes tecnologias de implementação do Target e utilizar as práticas recomendadas de implementação do Target.
+description: Saiba mais sobre as diferentes tecnologias de implementação do Adobe Target e utilize as práticas recomendadas de implementação do Target.
+landing-page-description: Saiba mais sobre as diferentes tecnologias de implementação do Adobe Target e utilize as práticas recomendadas de implementação do Target.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -11,16 +10,14 @@ doc-type: technical video
 kt: 5379
 thumbnail: 35139.jpg
 exl-id: ce615020-6775-486a-b0e0-f4298adbae39
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 57%
+source-wordcount: '73'
+ht-degree: 2%
 
 ---
 
 # Introdução à implementação do Adobe Target
-
-## Descrição
 
 Neste vídeo, você aprenderá a:
 

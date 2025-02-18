@@ -1,6 +1,6 @@
 ---
 title: Como administrar o Target
-description: Este vídeo mostra aos administradores do Adobe Target como configurar preferências de conta, criar propriedades e criar hosts e ambientes. Saiba como explicar as configurações de implementação da interface do usuário do Target.
+description: Saiba como configurar preferências de conta, criar propriedades e criar hosts e ambientes. Saiba como explicar as configurações de implementação da interface do usuário do Target.
 role: Admin, Developer, Architect
 level: Intermediate
 topic: Personalization, Administration
@@ -9,16 +9,14 @@ doc-type: technical video
 kt: 5062
 thumbnail: 33751.jpg
 exl-id: ab9e6c12-1941-49fc-9516-184f1005dc11
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 4%
+source-wordcount: '66'
+ht-degree: 3%
 
 ---
 
-# Introdução à Configuração de administração
-
-## Descrição
+# Introdução à configuração de administração
 
 Neste vídeo, você aprenderá a:
 

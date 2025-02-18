@@ -9,7 +9,7 @@ doc-type: technical video
 kt: null
 author: Daniel Wright
 exl-id: 955f0571-5791-4dbb-9931-e6d5c8bb42a7
-source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 0%
@@ -18,14 +18,14 @@ ht-degree: 0%
 
 # Implementar a at.js 2.0 do Adobe Target em um aplicativo de página única (SPA)
 
-O `at.js` 2.0 da Adobe Target fornece conjuntos de recursos avançados para sua empresa personalizar tecnologias de próxima geração no lado do cliente. Esta versão tem como foco a atualização do `at.js` para ter interações harmoniosas com aplicativos de página única (SPA).
+O `at.js` 2.0 da Adobe Target fornece conjuntos de recursos avançados para sua empresa personalizar tecnologias de próxima geração no lado do cliente. Esta versão tem como foco a atualização do `at.js` para ter interações harmoniosas com aplicativos de página única (SPAs).
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248?quality=12)
 
 ## Como implementar a at.js 2.0 em um SPA
 
 * Implemente o `at.js` 2.0 no &lt;head> do seu Aplicativo de Página Única.
-* Implemente a função `adobe.target.triggerView()` sempre que visualizar alterações no SPA. Várias técnicas podem ser empregadas para fazer isso, como ouvir alterações de hash de URL, ouvir eventos personalizados disparados pelo seu SPA ou incorporar o código `triggerView()` diretamente no aplicativo. Você deve escolher a opção que funciona melhor para seu aplicativo de página única específico.
+* Implemente a função `adobe.target.triggerView()` sempre que a exibição for alterada em seu SPA. Várias técnicas podem ser empregadas para fazer isso, como ouvir alterações de hash de URL, ouvir eventos personalizados acionados por seu SPA ou incorporar o código `triggerView()` diretamente no aplicativo. Você deve escolher a opção que funciona melhor para seu aplicativo de página única específico.
 * O nome da exibição é o primeiro parâmetro da função `triggerView()`. Use nomes simples, claros e exclusivos para facilitar a seleção no Visual Experience Composer do Target.
 * Você pode acionar exibições em pequenas alterações de exibição, bem como em contextos não SPA, como na metade de uma página de rolagem infinita.
 * O `at.js` 2.0 e o `triggerView()` podem ser implementados por meio de uma solução de gerenciamento de marcas, como o Adobe Experience Platform Launch.
@@ -40,7 +40,7 @@ Esteja ciente das seguintes limitações do `at.js` 2.0 antes da atualização:
 
 ## Código do rodapé da biblioteca usado no vídeo
 
-O código abaixo foi adicionado à seção Rodapé da biblioteca da biblioteca `at.js` durante o vídeo. Ele é acionado quando o aplicativo é carregado pela primeira vez e, em seguida, em qualquer alteração de hash no aplicativo. Ele usa uma versão limpa do hash como o nome da exibição e &quot;inicial&quot; quando o hash está vazio. Observe que para identificar o SPA, o código procura pelo texto &quot;react/&quot; no URL, que provavelmente precisará ser atualizado no site. Lembre-se também de que pode ser mais apropriado para seu SPA disparar `triggerView()` fora de eventos personalizados ou incorporando o código diretamente no seu aplicativo.
+O código abaixo foi adicionado à seção Rodapé da biblioteca da biblioteca `at.js` durante o vídeo. Ele é acionado quando o aplicativo é carregado pela primeira vez e, em seguida, em qualquer alteração de hash no aplicativo. Ele usa uma versão limpa do hash como o nome da exibição e &quot;inicial&quot; quando o hash está vazio. Observe que para identificar o SPA, o código procura pelo texto &quot;react/&quot; no URL, que provavelmente precisará ser atualizado no site. Lembre-se também de que pode ser mais apropriado para seu SPA acionar o `triggerView()` fora dos eventos personalizados ou incorporando o código diretamente no aplicativo.
 
 ```javascript
 function sanitizeViewName(viewName) {

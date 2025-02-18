@@ -1,6 +1,6 @@
 ---
 title: Como projetar uma implementação do Target
-description: Este vídeo orienta desenvolvedores e arquitetos do Adobe Target sobre as diferenças de implementação nos ambientes de site padrão (várias páginas) e de aplicativo de página única (SPA). Saiba como aplicar o processo para implementar uma campanha baseada em pessoas (mbox3rdPartyID), identificar informações relevantes na arquitetura do sistema/documentos de design e analisar uma estratégia de relatório para implicações de implementação.
+description: Saiba como aplicar o processo para implementar uma campanha baseada em pessoas (mbox3rdPartyID), identificar informações relevantes na arquitetura do sistema/documentos de design e analisar uma estratégia de relatório para implicações de implementação.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development, Architecture
@@ -9,16 +9,14 @@ doc-type: technical video
 kt: 5383
 thumbnail: 35143.jpg
 exl-id: 8a568f5d-3cc4-4b73-b490-0023043b3f81
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '91'
 ht-degree: 1%
 
 ---
 
-# Criar uma implementação do Target
-
-## Descrição
+# Criar uma implementação do [!DNL Target]
 
 Neste vídeo, você aprenderá a:
 

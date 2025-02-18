@@ -1,6 +1,6 @@
 ---
 title: Como solucionar erros de mbox
-description: Este vídeo mostra aos desenvolvedores do Adobe Target alguns erros comuns de log do console e parâmetros de entidade para recomendações. Saiba como solucionar problemas do trecho de pré-ocultação do corpo e como inspecionar e entender a saída de rastreamento.
+description: Saiba mais sobre erros comuns de log do console e parâmetros de entidade para obter recomendações. Saiba como solucionar problemas do trecho de pré-ocultação do corpo e como inspecionar e entender a saída de rastreamento.
 role: Developer
 level: Intermediate
 topic: Performance
@@ -9,22 +9,20 @@ doc-type: technical video
 kt: 5393
 thumbnail: 35153.jpg
 exl-id: cf95e97c-3b91-43a5-97b1-b7e57133358e
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 2%
+source-wordcount: '74'
+ht-degree: 1%
 
 ---
 
 # Solução de problemas de erros de mbox
 
-## Descrição
-
 Neste vídeo, você aprenderá a:
 
 * Explicar erros comuns de log do console e parâmetros de entidade para recomendações
 * Solução de problemas de trecho de pré-ocultação do corpo
-* Inspect e entenda o resultado do rastreamento
+* Inspecionar e entender a saída do rastreamento
 
 ## Público-alvo
 
