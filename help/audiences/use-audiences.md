@@ -1,8 +1,8 @@
 ---
 title: O que são públicos-alvo e como usá-los?
-description: Saiba como usar públicos para direcionar atividades e filtrar relatórios.
-landing-page-description: Saiba como definir e encontrar públicos, direcionar atividades e filtrar relatórios.
-short-description: Saiba como definir e encontrar públicos, direcionar atividades e filtrar relatórios.
+description: Saiba como usar públicos-alvo para direcionar atividades e filtrar relatórios.
+landing-page-description: Saiba como definir e encontrar públicos-alvo, direcionar atividades e filtrar relatórios.
+short-description: Saiba como definir e encontrar públicos-alvo, direcionar atividades e filtrar relatórios.
 role: User
 level: Beginner
 topic: Personalization
@@ -14,7 +14,7 @@ exl-id: c164eba0-d548-4ace-b9e7-746bdafa844d
 source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 43%
+ht-degree: 54%
 
 ---
 

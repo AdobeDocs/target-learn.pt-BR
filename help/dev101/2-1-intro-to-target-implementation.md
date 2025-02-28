@@ -1,7 +1,7 @@
 ---
 title: Como implementar o Target
-description: Saiba mais sobre as diferentes tecnologias de implementação do Adobe Target e utilize as práticas recomendadas de implementação do Target.
-landing-page-description: Saiba mais sobre as diferentes tecnologias de implementação do Adobe Target e utilize as práticas recomendadas de implementação do Target.
+description: Aplique práticas recomendadas e conheça as diferentes tecnologias de implementação do Adobe Target.
+landing-page-description: Aplique práticas recomendadas e conheça as diferentes tecnologias de implementação do Adobe Target.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -13,7 +13,7 @@ exl-id: ce615020-6775-486a-b0e0-f4298adbae39
 source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 2%
+ht-degree: 38%
 
 ---
 

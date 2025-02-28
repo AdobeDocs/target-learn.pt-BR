@@ -1,6 +1,6 @@
 ---
 title: Como integrar o Target ao Analytics
-description: Saiba mais sobre os requisitos de implementação do Adobe Analytics com Adobe Target (A4T).
+description: Conheça os requisitos da implementação do Adobe Analytics com o Adobe Target (A4T).
 landing-page-description: Assista a este vídeo para saber mais sobre os requisitos de implementação do Adobe Analytics com o Adobe Target (A4T).
 short-description: Assista a este vídeo para saber mais sobre os requisitos de implementação do Adobe Analytics com o Adobe Target (A4T).
 role: Developer
@@ -14,7 +14,7 @@ exl-id: 29292873-91f5-40c4-8f4c-d26ed4ce24d8
 source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '88'
-ht-degree: 35%
+ht-degree: 47%
 
 ---
 
