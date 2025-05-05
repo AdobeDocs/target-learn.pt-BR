@@ -50,11 +50,11 @@ O [!DNL Adobe Target] é a solução do [!DNL Adobe Experience Cloud] que oferec
     <p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html"> 
+    <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html?lang=pt-BR"> 
       <img alt="Implementar o Target com tags do Adobe Experience Platform" src="./assets/add-adobe-target.jpg"/>
     </a>
     <div>
-      <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html">
+      <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html?lang=pt-BR">
     <strong>Implementar o Target com Tags do Adobe Experience Platform</strong>
     </a>
     </div>
@@ -63,11 +63,11 @@ O [!DNL Adobe Target] é a solução do [!DNL Adobe Experience Cloud] que oferec
     <p>
   </td>
    <td>
-    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html">
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html?lang=pt-BR">
       <img alt="Implementar a at.js 2.0 do Adobe Target em um aplicativo de página única (SPA)" src="./assets/26248.png" />
     </a>
     <div>
-    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html">
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html?lang=pt-BR">
     <strong>Implementar a at.js 2.0 em um SPA</strong>
     </a>
     </div>

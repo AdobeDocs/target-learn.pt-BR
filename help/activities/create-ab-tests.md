@@ -29,4 +29,4 @@ Neste vídeo, você aprenderá a:
 
 ## Outros recursos
 
-Para obter instruções passo a passo, consulte [Criar um teste A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html){target=_blank} no *Guia do profissional de negócios da Adobe Target*.
+Para obter instruções passo a passo, consulte [Criar um teste A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=pt-BR){target=_blank} no *Guia do profissional de negócios da Adobe Target*.

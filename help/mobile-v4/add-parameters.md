@@ -150,7 +150,7 @@ Execute o emulador e abra o Logcat. Filtre um dos parâmetros para verificar se 
 
 >[!NOTE]
 >
->Analytics for Target (A4T): o Adobe Analytics pode ser configurado como a fonte de relatórios para [!DNL Target]. Isso permite que todas as métricas/dimensões coletadas pelo SDK do Target sejam visualizadas no Adobe Analytics. Consulte a [Visão Geral do A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en) para obter mais detalhes.
+>Analytics for Target (A4T): o Adobe Analytics pode ser configurado como a fonte de relatórios para [!DNL Target]. Isso permite que todas as métricas/dimensões coletadas pelo SDK do Target sejam visualizadas no Adobe Analytics. Consulte a [Visão Geral do A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=pt-BR) para obter mais detalhes.
 
 Bom trabalho! Agora que os parâmetros estão em vigor, estamos prontos para usá-los para criar públicos e ofertas no Adobe Target.
 

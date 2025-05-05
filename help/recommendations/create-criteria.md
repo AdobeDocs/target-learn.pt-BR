@@ -36,4 +36,4 @@ Neste vídeo, você aprenderá a:
 * [Criar uma atividade do Recommendations](create-a-recommendations-activity.md)
 * [Noções básicas sobre feeds](understanding-feeds.md)
 * [Criar um feed](create-a-feed.md)
-* [Documentação do Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [Documentação do Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=pt-BR)
