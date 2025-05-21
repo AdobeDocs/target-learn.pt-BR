@@ -30,7 +30,7 @@ No final desta lição, você poderá:
 
 ## Adicionar os parâmetros de ciclo de vida
 
-Vamos habilitar as [métricas do ciclo de vida móvel do Adobe](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=en). Isso adicionará parâmetros às solicitações de localização contendo informações avançadas sobre o dispositivo do usuário e o envolvimento com o aplicativo. Criaremos públicos-alvo na próxima lição usando os dados fornecidos pela solicitação de ciclo de vida.
+Vamos habilitar as [métricas do ciclo de vida móvel do Adobe](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=pt-BR). Isso adicionará parâmetros às solicitações de localização contendo informações avançadas sobre o dispositivo do usuário e o envolvimento com o aplicativo. Criaremos públicos-alvo na próxima lição usando os dados fornecidos pela solicitação de ciclo de vida.
 
 Para habilitar medições de ciclo de vida, abra o controlador HomeActivity novamente e adicione `Config.collectLifecycleData(this);` à função onResume():
 
@@ -89,7 +89,7 @@ public void targetPrefetchContent() {
 
 ### Observação sobre parâmetros
 
-Para projetos futuros, você pode implementar parâmetros adicionais. O método `createTargetPrefetchObject()` permite três tipos de parâmetros: `locationParams`, `orderParams` e `productParams`. Consulte a documentação para obter [mais detalhes sobre como adicionar esses parâmetros à solicitação de pré-busca](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en).
+Para projetos futuros, você pode implementar parâmetros adicionais. O método `createTargetPrefetchObject()` permite três tipos de parâmetros: `locationParams`, `orderParams` e `productParams`. Consulte a documentação para obter [mais detalhes sobre como adicionar esses parâmetros à solicitação de pré-busca](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=pt-BR).
 
 Observe também que diferentes parâmetros de localização podem ser adicionados a cada localização na solicitação de pré-busca. Por exemplo, você pode criar outro Mapa chamado param2, colocar um novo parâmetro nele e, em seguida, definir param2 em um local e param1 com outro local. Veja um exemplo:
 
@@ -146,7 +146,7 @@ Execute o emulador e abra o Logcat. Filtre um dos parâmetros para verificar se 
 
 >[!NOTE]
 >
->Solicitações e parâmetros de confirmação de pedido: embora não sejam usados neste projeto de demonstração, os detalhes do pedido geralmente são capturados em uma implementação real, para que [!DNL Target] possa usar os detalhes do pedido como métricas/dimensões. Consulte a documentação para obter instruções sobre como [implementar a solicitação e os parâmetros de confirmação de pedido](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=en).
+>Solicitações e parâmetros de confirmação de pedido: embora não sejam usados neste projeto de demonstração, os detalhes do pedido geralmente são capturados em uma implementação real, para que [!DNL Target] possa usar os detalhes do pedido como métricas/dimensões. Consulte a documentação para obter instruções sobre como [implementar a solicitação e os parâmetros de confirmação de pedido](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=pt-BR).
 
 >[!NOTE]
 >

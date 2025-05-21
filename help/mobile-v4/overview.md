@@ -23,7 +23,7 @@ Um aplicativo de demonstração do Android é fornecido para que você conclua a
 
 Depois de concluir este tutorial, você será capaz de:
 
-* Validar a configuração do [SDK do Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en)
+* Validar a configuração do [SDK do Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=pt-BR)
 * Implemente os seguintes tipos de solicitações [!DNL Target]:
    * Pré-busca de conteúdo [!DNL Target]
    * Vários locais (mboxes) do [!DNL Target] em lote em uma única solicitação
