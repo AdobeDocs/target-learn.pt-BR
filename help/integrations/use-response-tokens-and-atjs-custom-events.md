@@ -20,7 +20,7 @@ ht-degree: 3%
 
 Os Tokens de resposta e os Eventos personalizados do `at.js` permitem que você compartilhe informações de perfil do [!DNL Target] com sistemas de terceiros. Qualquer objeto no perfil de visitante do [!DNL Target], incluindo atributos de perfil personalizados, informações geográficas, detalhes de atividades e perfis internos, pode ser adicionado à resposta do [!DNL Target], na qual você pode usar o JavaScript personalizado para integrar-se a terceiros.
 
->[!VIDEO](https://video.tv.adobe.com/v/23253/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/33346/?quality=12&captions=por_br)
 
 ## Como usar Tokens de resposta e Eventos personalizados do at.js
 

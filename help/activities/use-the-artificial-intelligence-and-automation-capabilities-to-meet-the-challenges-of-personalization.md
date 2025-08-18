@@ -20,4 +20,4 @@ ht-degree: 1%
 
 Este vídeo aborda a importância da personalização, os desafios de fazer bem a personalização, a solução para esses desafios (as quatro ofertas de IA/Automação no Adobe Target) e os componentes principais para fornecer experiências personalizadas. É uma versão editada da apresentação de 2018 do Adobe Summit de Jamie Brighton.
 
->[!VIDEO](https://video.tv.adobe.com/v/25440/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/31291/?quality=12&captions=por_br)
