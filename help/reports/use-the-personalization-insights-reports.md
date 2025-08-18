@@ -21,8 +21,8 @@ ht-degree: 2%
 
 As atividades de Automated Personalization e Direcionamento automático usam aprendizagem de máquina avançada para fornecer a experiência mais personalizada para cada visitante com base no perfil individual do cliente e no comportamento de visitantes anteriores com perfis semelhantes. Os relatórios do Personalization Insights fornecem informações sobre como esses modelos tomam suas decisões.
 
->[!VIDEO](https://video.tv.adobe.com/v/30851/?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/25601/?quality=12)
 
 ## Informações adicionais
 
-* [Personalization Insights na documentação de ajuda](https://experienceleague.adobe.com/docs/target/using/reports/insights/personalization-insights-reports.html?lang=pt-BR)
+* [Personalization Insights na documentação de ajuda](https://experienceleague.adobe.com/docs/target/using/reports/insights/personalization-insights-reports.html?lang=en)

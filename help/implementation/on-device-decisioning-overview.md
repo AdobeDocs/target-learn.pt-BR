@@ -33,7 +33,7 @@ Ao final deste vídeo, você poderá:
 * Descrever a decisão no dispositivo e seus benefícios
 * Ativar a decisão no dispositivo no Target
 * Crie uma atividade de compositor baseada em formulário para usar com a decisão no dispositivo
-* Saiba mais sobre a configuração do SDK necessária para a tomada de decisões no dispositivo acessando a [documentação do Adobe Target SDK](https://experienceleague.adobe.com/pt-br/docs/target-dev/developer/server-side/on-device-decisioning/overview)
+* Saiba mais sobre a configuração do SDK necessária para a tomada de decisões no dispositivo acessando a [documentação do Adobe Target SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview)
 * Entenda o que os usuários finais experimentarão para o conteúdo entregue usando a decisão no dispositivo
 
 ## Público-alvo

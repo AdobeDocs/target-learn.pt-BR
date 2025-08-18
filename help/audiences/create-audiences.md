@@ -20,4 +20,4 @@ ht-degree: 12%
 
 Saiba como criar e salvar públicos-alvo personalizados no [!DNL Target] para usar em suas atividades.
 
->[!VIDEO](https://video.tv.adobe.com/v/3417372/?quality=12&learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/344302/?quality=12&learn=on)

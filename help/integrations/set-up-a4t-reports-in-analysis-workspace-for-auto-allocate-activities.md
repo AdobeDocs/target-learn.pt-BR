@@ -10,16 +10,16 @@ kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
 source-git-commit: 190a67832f378e15090115420bfaf8a4af4b9cb9
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1339'
 ht-degree: 0%
 
 ---
 
 # Configurar relatórios do A4T em [!DNL Analysis Workspace] para [!DNL Auto-Allocate] atividades
 
-Uma atividade [[!UICONTROL Auto-Allocate]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=pt-BR){target=_blank} em [!DNL Adobe Target] identifica um vencedor entre duas ou mais experiências e realoca automaticamente o tráfego de visitantes para o vencedor enquanto o teste continua a ser executado e aprendido. A integração do [!UICONTROL Analytics for Target] (A4T) para [!UICONTROL Auto-Allocate] permite exibir os dados de relatório no [!DNL Adobe Analytics] e você pode otimizar para eventos ou métricas personalizadas definidas no [!DNL Analytics].
+Uma atividade [[!UICONTROL Auto-Allocate]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html){target=_blank} em [!DNL Adobe Target] identifica um vencedor entre duas ou mais experiências e realoca automaticamente o tráfego de visitantes para o vencedor enquanto o teste continua a ser executado e aprendido. A integração do [!UICONTROL Analytics for Target] (A4T) para [!UICONTROL Auto-Allocate] permite exibir os dados de relatório no [!DNL Adobe Analytics] e você pode otimizar para eventos ou métricas personalizadas definidas no [!DNL Analytics].
 
-Embora os recursos de análise avançada estejam disponíveis no [!DNL Adobe Analytics] [!DNL Analysis Workspace], algumas modificações no painel [!UICONTROL Analytics for Target] padrão podem ser necessárias para interpretar corretamente as atividades de [!UICONTROL Auto-Allocate]. Estas modificações são necessárias devido às nuances nos [critérios de métrica de otimização](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=pt-BR#supported){target=_blank}.
+Embora os recursos de análise avançada estejam disponíveis no [!DNL Adobe Analytics] [!DNL Analysis Workspace], algumas modificações no painel [!UICONTROL Analytics for Target] padrão podem ser necessárias para interpretar corretamente as atividades de [!UICONTROL Auto-Allocate]. Estas modificações são necessárias devido às nuances nos [critérios de métrica de otimização](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}.
 
 Cada tipo de métrica de otimização requer uma configuração de relatório diferente no A4T, da seguinte maneira:
 
@@ -66,7 +66,7 @@ As seções a seguir contêm mais informações sobre orientações adicionais �
 
 #### Criar um segmento {#segment}
 
-1. Clique no sinal &quot;+&quot; **&#x200B;**&#x200B;ao lado de **[!UICONTROL Segments]** no painel esquerdo.
+1. Clique no sinal &quot;+&quot; **** ao lado de **[!UICONTROL Segments]** no painel esquerdo.
 
    ![Sinal de adição ao lado de segmentos no painel esquerdo.](/help/integrations/assets/plus-sign.png)
 
@@ -127,9 +127,9 @@ Você pode navegar para um painel [!UICONTROL Analytics for Target] pré-criado 
 As seções a seguir especificam quais configurações são necessárias, dependendo de quais desses métodos você escolher. No entanto, as seguintes etapas servem como orientação geral para o A4T:
 
 * Remova as métricas de confiança do painel A4T, independentemente do método de criação do painel (ambos são detalhados abaixo). Em vez disso, faça referência a esses valores nos relatórios de [!DNL Target]. Além disso, os vencedores da atividade podem ser identificados nos relatórios [!DNL Target]. Detalhes sobre a identificação do vencedor da atividade podem ser encontrados na seção [Identificar o vencedor da atividade](#winner) abaixo.
-&#x200B;>>
+>>
 * Para evitar confusão, desmarque a apresentação [!UICONTROL Percent] da métrica [!UICONTROL Conversion Rate]. Consulte [Ocultar a porcentagem da [!UICONTROL Conversion Rate] coluna](#hide-percentage) abaixo.
-&#x200B;>>
+>>
 * Se você estiver criando um painel A4T, verifique se os intervalos de data e hora correspondem aos do relatório [!DNL Target]. Consulte [Alinhar a data e a hora no painel A4T](#aligning-date-and-time) abaixo.
 
 ### Ocultar a porcentagem da coluna [!UICONTROL Conversion Rate] {#hide-percentage}
@@ -154,15 +154,15 @@ As seções a seguir especificam quais configurações são necessárias, depend
 
    ![Intervalo de datas no painel A4T](/help/integrations/assets/date-range.png)
 
-1. Em [!DNL Analytics], defina o intervalo de tempo como 12h - 11h59min.
+1. Em [!DNL Analytics], defina o intervalo de tempo como 12:00am - 11:59pm.
 
 ### Identificar o vencedor da atividade {#winner}
 
-Os vencedores da atividade [!DNL Auto-Allocate] são selecionados quando há uma taxa de conversão vencedora com valores de confiança maiores ou iguais a 95%. Esses valores devem ser referenciados nos relatórios [!DNL Target], já que os cálculos de confiança refletem os métodos mais conservadores que [!DNL Target] recomenda para atividades [!UICONTROL Auto-Allocate]. Consulte [Garantias estatísticas de Alocação automática](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/determine-winner.html?lang=pt-BR#section_7AF3B93E90BA4B80BC9FC4783B6A389C){target=_blank} em *[!UICONTROL Adobe Target Business Practitioner Guide]*.
+Os vencedores da atividade [!DNL Auto-Allocate] são selecionados quando há uma taxa de conversão vencedora com valores de confiança maiores ou iguais a 95%. Esses valores devem ser referenciados nos relatórios [!DNL Target], já que os cálculos de confiança refletem os métodos mais conservadores que [!DNL Target] recomenda para atividades [!UICONTROL Auto-Allocate]. Consulte [Garantias estatísticas de Alocação automática](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/determine-winner.html#section_7AF3B93E90BA4B80BC9FC4783B6A389C){target=_blank} em *[!UICONTROL Adobe Target Business Practitioner Guide]*.
 
 >[!NOTE]
 >
->Os emblemas &quot;Ainda não há vencedor&quot; e &quot;Vencedor&quot; não estão disponíveis no painel A4T em [!DNL Analysis Workspace]. Além disso, o selo de &quot;estrela&quot; vencedor exibido nos relatórios [!DNL Target] para atividades [!UICONTROL Auto-Allocate] deve ser ignorado. Consulte [Alocação automática](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=pt-BR#aa){target=_blank} em *Suporte do A4T para atividades de Alocação automática e Direcionamento automático* em *[!UICONTROL Adobe Target Business Practitioner Guide]*.
+>Os emblemas &quot;Ainda não há vencedor&quot; e &quot;Vencedor&quot; não estão disponíveis no painel A4T em [!DNL Analysis Workspace]. Além disso, o selo de &quot;estrela&quot; vencedor exibido nos relatórios [!DNL Target] para atividades [!UICONTROL Auto-Allocate] deve ser ignorado. Consulte [Alocação automática](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} em *Suporte do A4T para atividades de Alocação automática e Direcionamento automático* no *[!UICONTROL Adobe Target Business Practitioner Guide]*.
 
 ### Criar o A4T para o painel [!UICONTROL Auto-Allocate] em [!DNL Analysis Workspace]
 

@@ -1,6 +1,6 @@
 ---
 title: Práticas recomendadas de otimização
-description: Adobe Saiba mais sobre os seis princípios básicos de otimização e como aplicá-los.
+description: Saiba mais sobre os seis conceitos básicos da Adobe sobre otimização e como aplicá-los.
 solution: Target
 role: Leader, Architect, Developer, Admin
 feature: Overview
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Práticas recomendadas de otimização com o Adobe Target
 
-Adobe Saiba mais sobre os seis princípios básicos de otimização e como aplicá-los.
+Saiba mais sobre os seis conceitos básicos da Adobe sobre otimização e como aplicá-los.
 
 Quando se trata de construir uma forte presença digital, há vários desafios que sua equipe enfrentará. Você não tem apenas a tarefa de envolver centenas, até milhares de clientes, além disso, seus clientes exibem uma variedade de comportamentos e preferências únicos que mudarão com o tempo, e cabe a você não apenas acompanhar essas alterações, mas antecipá-las e executar suas estratégias com eficiência e precisão. É uma corrida contra os concorrentes em uma maratona de conteúdo perpétua, exigindo iteração constante e a melhor tecnologia do setor.
 
@@ -65,7 +65,7 @@ Uma hipótese completa tem três partes:
 * **Relatórios de Públicos-alvo:** Lista de descrições de subconjuntos de visitantes a serem usados para análise.
 * **Conceitos de experiência:** modelos, exemplos wireframes e descrições.
 
-**Observação geral:** qualquer elemento de uma página da Web que possa gerar valor comercial ou fornecer informações valiosas sobre o comportamento do visitante pode ser testado. Alguns tipos comuns de atividades de teste incluem:
+**Observação geral:** todos os elementos de uma página da Web que podem agregar valor comercial ou fornecer insight valiosas ao comportamento do visitante podem ser testados. Alguns tipos comuns de atividades de teste incluem:
 
 * Texto do título
 * Texto do conteúdo
@@ -104,7 +104,7 @@ Em um alto nível:
 
 Ao se concentrar na Otimização, as atividades de teste mais comuns são:
 
-* **Teste A/B:** teste em tempo real de duas ou mais páginas ou elementos de página entre si para obter insights quantitativos sobre a preferência do cliente.
+* **Teste A/B:** teste em tempo real de duas ou mais páginas ou elementos de página entre si para obter insight quantitativo em preferência do cliente.
 * **Teste multivariado:** Comparação de combinações de ofertas entre elementos em uma página para ver qual combinação tem o melhor desempenho. Além disso, o teste multivariado identificará qual elemento da página melhora mais conversões.
 
 Ao se concentrar no Personalization, provavelmente você verá as mesmas atividades de teste que no Otimization, mas elas são direcionadas para públicos mais específicos. Por exemplo, no teste A/B, é provável que você adicione páginas e públicos-alvo nas experiências para aprimorar o Personalization.
@@ -116,8 +116,8 @@ O Personalization também inclui o tipo de atividade de teste de Direcionamento 
 
 ## Otimização antes da personalização
 
-Dado o entendimento acima, a Adobe recomenda que você Otimize antes de Personalizar e avançar o Personalization de amplo para granular. Para amadurecer as atividades do Personalization de amplo a granular, você começará a usar um estilo de personalização de um para muitos (amplo) (usando o teste A/B) e, em seguida, passará para um estilo de personalização de um para um (granular) (usando as atividades de Personalização automatizada).
+Dado o entendimento acima, a Adobe recomenda que você Otimize antes de Personalizar e promova o Personalization de amplo para granular. Para amadurecer as atividades do Personalization de amplo a granular, você começará a usar um estilo de personalização de um para muitos (amplo) (usando o teste A/B) e, em seguida, passará para um estilo de personalização de um para um (granular) (usando as atividades de Personalização automatizada).
 
 Para obter mais informações, assista ao [webinário sobre como entender e otimizar a implementação do Adobe Target](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/), com a Consultora de negócios, Katie Cozby.
 
-Saiba mais sobre estratégia e liderança de pensamento na central de [Sucesso do cliente](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=pt-BR).
+Saiba mais sobre estratégia e liderança de pensamento na central de [Sucesso do cliente](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html).

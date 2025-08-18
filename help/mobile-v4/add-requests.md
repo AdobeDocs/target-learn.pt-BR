@@ -1,6 +1,6 @@
 ---
 title: Adicionar solicitações do Adobe Target
-description: O SDK do Adobe Mobile Services (v4) fornece métodos e funcionalidades do Adobe Target que permitem personalizar seu aplicativo com experiências diferentes para usuários diferentes.
+description: O Adobe Mobile Services SDK (v4) fornece métodos e funcionalidades do Adobe Target que permitem personalizar seu aplicativo com experiências diferentes para usuários diferentes.
 role: Developer
 level: Intermediate
 topic: Mobile, Personalization
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Adicionar solicitações do Adobe Target
 
-O SDK do Adobe Mobile Services (v4) fornece métodos e funcionalidades do Adobe Target que permitem personalizar seu aplicativo com experiências diferentes para usuários diferentes. Normalmente, uma ou mais solicitações são feitas pelo aplicativo à Adobe Target para recuperar o conteúdo personalizado e medir o impacto desse conteúdo.
+O Adobe Mobile Services SDK (v4) fornece métodos e funcionalidades do Adobe Target que permitem personalizar seu aplicativo com experiências diferentes para usuários diferentes. Normalmente, uma ou mais solicitações são feitas pelo aplicativo à Adobe Target para recuperar o conteúdo personalizado e medir o impacto desse conteúdo.
 
 Nesta lição, você preparará o aplicativo We.Travel para personalização implementando [!DNL Target] solicitações.
 
@@ -45,14 +45,14 @@ Abaixo está uma da terminologia principal do Target que será usada no restante
 * **Solicitação em Lote:** uma única solicitação que inclui várias localizações
 * **Solicitação de pré-busca:** uma única solicitação que recupera ofertas e as armazena em cache na memória para uso futuro no aplicativo
 * **Solicitação de pré-busca de lote:** uma única solicitação que pré-busca ofertas para vários locais
-* **Público-alvo:** um grupo de visitantes definido na interface [!DNL Target] ou compartilhado para [!DNL Target] a partir de outros aplicativos Adobe (por exemplo, &quot;visitantes do iPhone X&quot;, &quot;visitantes na Califórnia&quot;, &quot;Primeiro aplicativo aberto&quot;)
+* **Público-alvo:** um grupo de visitantes definido na interface do [!DNL Target] ou compartilhado com o [!DNL Target] a partir de outros aplicativos da Adobe (por exemplo, &quot;visitantes do iPhone X&quot;, &quot;visitantes na Califórnia&quot;, &quot;Primeiro aplicativo aberto&quot;)
 * **Atividade:** uma construção [!DNL Target], definida na interface do usuário [!DNL Target] (ou com a API) que vincula locais, ofertas e públicos para criar uma experiência personalizada
 
 ## Adicionar uma solicitação de pré-busca de lote
 
 A primeira solicitação que implementaremos no We.Travel é uma solicitação de pré-busca em lote com dois locais [!DNL Target] na tela inicial. Em uma lição posterior, configuraremos ofertas para esses locais que exibem mensagens para ajudar a orientar novos usuários durante o processo de reserva.
 
-Uma solicitação de pré-busca busca obtém o mínimo possível de conteúdo [!DNL Target] ao armazenar em cache a resposta do servidor do Adobe Target (oferta). Uma solicitação de pré-busca em lote recupera e armazena em cache várias ofertas, cada uma associada a um local diferente. Todos os locais de busca prévia são armazenados em cache no dispositivo para uso futuro na sessão do usuário. Ao buscar previamente vários locais na tela inicial, podemos recuperar ofertas para usar posteriormente enquanto o visitante navega pelo aplicativo. Consulte a [documentação de busca prévia](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=pt-BR) para obter mais detalhes sobre os métodos de busca prévia.
+Uma solicitação de pré-busca busca obtém o mínimo possível de conteúdo [!DNL Target] ao armazenar em cache a resposta do servidor do Adobe Target (oferta). Uma solicitação de pré-busca em lote recupera e armazena em cache várias ofertas, cada uma associada a um local diferente. Todos os locais de busca prévia são armazenados em cache no dispositivo para uso futuro na sessão do usuário. Ao buscar previamente vários locais na tela inicial, podemos recuperar ofertas para usar posteriormente enquanto o visitante navega pelo aplicativo. Consulte a [documentação de busca prévia](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en) para obter mais detalhes sobre os métodos de busca prévia.
 
 ### Adicionar a solicitação de pré-busca de lote
 
@@ -116,8 +116,8 @@ public static final String wetravel_engage_search = "wetravel_engage_search";
 
 | Código | Descrição |
 |--- |--- |
-| `targetPrefetchContent()` | Uma função definida pelo usuário (não parte do SDK) que usa métodos [!DNL Target] para recuperar e armazenar em cache dois locais [!DNL Target]. |
-| `prefetchContent()` | O método do SDK [!DNL Target] que envia a solicitação de pré-busca |
+| `targetPrefetchContent()` | Uma função definida pelo usuário (não parte da SDK) que usa métodos [!DNL Target] para recuperar e armazenar em cache dois locais [!DNL Target]. |
+| `prefetchContent()` | O método SDK [!DNL Target] que envia a solicitação de pré-busca |
 | `Constant.wetravel_engage_home` | Nome do local [!DNL Target] previamente buscado que exibirá o conteúdo da oferta na tela inicial |
 | `Constant.wetravel_engage_search` | Nome do local [!DNL Target] previamente buscado que exibirá seu conteúdo de oferta na Tela de Resultados da Pesquisa. Como esse é um segundo local na busca prévia, essa solicitação de busca prévia é chamada de &quot;solicitação em lote de busca prévia&quot;. |
 | setUp() | Uma função definida pelo usuário que renderiza a tela inicial do aplicativo após as ofertas de [!DNL Target] serem buscadas previamente |
@@ -284,8 +284,8 @@ import com.adobe.mobile.TargetPrefetchObject;
 
 | Código | Descrição |
 |--- |--- |
-| `targetLoadRequest()` | Uma função definida pelo usuário (não parte do SDK) que aciona `Target.loadRequest()` que carrega e exibe o local wetravel_context_dest |
-| `Target.loadRequest()` | O método do SDK que faz a solicitação ao servidor do Target |
+| `targetLoadRequest()` | Uma função definida pelo usuário (não parte da SDK) que aciona `Target.loadRequest()`, que carrega e exibe o local wetravel_context_dest |
+| `Target.loadRequest()` | O método SDK que faz a solicitação ao servidor do Target |
 | Constant.wetravel_context_dest | O nome da localização atribuído à solicitação que será usada posteriormente quando criarmos a atividade na interface [!DNL Target] |
 | `filterRecommendationBasedOnOffer()` | Uma função definida pelo usuário no aplicativo que obtém a oferta da localização da resposta do Target e decide como o aplicativo deve ser alterado com base no conteúdo da oferta |
 | `recommandations.addAll()` | Uma função definida pelo usuário no aplicativo que era executada por padrão quando a tela Obrigado foi carregada, mas que agora é executada após a resposta do Target ter sido recebida e analisada por `filterRecommendationBasedOnOffer()` |

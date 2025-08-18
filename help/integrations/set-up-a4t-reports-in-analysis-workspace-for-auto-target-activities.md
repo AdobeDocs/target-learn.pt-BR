@@ -1,7 +1,7 @@
 ---
 title: Como configurar relatórios do A4T no [!DNL Analysis Workspace] for [!DNL Auto-Target] Activities
 description: Como configurar relatórios do A4T no [!DNL Analysis Workspace] para obter os resultados esperados ao executar [!UICONTROL Auto-Target] atividades?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -30,7 +30,7 @@ Embora os recursos de análise avançada estejam disponíveis no [!DNL Adobe Ana
 Este tutorial aborda as modificações recomendadas para analisar [!UICONTROL Auto-Target] atividades no [!DNL Analysis Workspace], que são baseadas nos seguintes conceitos principais:
 
 * A dimensão **[!UICONTROL Control vs Targeted]** pode ser usada para distinguir entre [!UICONTROL Control] experiências versus as servidas pelo algoritmo de ML do conjunto [!UICONTROL Auto-Target].
-* As Visitas devem ser usadas como a métrica de normalização ao visualizar detalhamentos de desempenho no nível de experiência. Além disso, a metodologia de contagem padrão do [Adobe Analytics pode incluir visitas em que o usuário não vê realmente o conteúdo da atividade](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=pt-BR#metrics){target=_blank}, mas esse comportamento padrão pode ser modificado usando um segmento com escopo adequado (detalhes abaixo).
+* As Visitas devem ser usadas como a métrica de normalização ao visualizar detalhamentos de desempenho no nível de experiência. Além disso, a metodologia de contagem padrão do [Adobe Analytics pode incluir visitas em que o usuário não vê realmente o conteúdo da atividade](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html#metrics){target=_blank}, mas esse comportamento padrão pode ser modificado usando um segmento com escopo apropriado (detalhes abaixo).
 * A atribuição com escopo de retrospectiva de visita, também conhecida como &quot;janela de retrospectiva de visita&quot; no modelo de atribuição prescrito, é usada pelos modelos de ML [!DNL Adobe Target] durante suas fases de treinamento, e o mesmo modelo de atribuição (não padrão) deve ser usado ao detalhar a métrica de meta.
 
 ## Criar o A4T para o painel [!UICONTROL Auto-Target] em [!DNL Analysis Workspace]
@@ -63,11 +63,11 @@ Painel ![[!UICONTROL Experiences by Activity Conversions] em [!DNL Analysis Work
 
 >[!NOTE]
 >
->Atualmente, [!UICONTROL Lift and Confidence] números não estão disponíveis para [!UICONTROL Control vs Targeted] dimensões para relatórios do A4T para [!UICONTROL Auto-Target]. Até que o suporte seja adicionado, [!UICONTROL Lift and Confidence] pode ser calculado manualmente baixando a [calculadora de confiança](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=pt-BR).
+>Atualmente, [!UICONTROL Lift and Confidence] números não estão disponíveis para [!UICONTROL Control vs Targeted] dimensões para relatórios do A4T para [!UICONTROL Auto-Target]. Até que o suporte seja adicionado, [!UICONTROL Lift and Confidence] pode ser calculado manualmente baixando a [calculadora de confiança](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx).
 
 ## Adicionar detalhamentos de métricas no nível de experiência
 
-Para obter mais informações sobre o desempenho do modelo de ML de conjunto, você pode examinar detalhamentos de nível de experiência da dimensão **[!UICONTROL Control vs Targeted]**. Em [!DNL Analysis Workspace], arraste a dimensão **[!UICONTROL Target Experiences]** para seu relatório e analise cada uma das dimensões de controle e de destino separadamente.
+Para obter mais insight sobre o desempenho do modelo de ML de conjunto, você pode examinar detalhamentos de nível de experiência da dimensão **[!UICONTROL Control vs Targeted]**. Em [!DNL Analysis Workspace], arraste a dimensão **[!UICONTROL Target Experiences]** para seu relatório e analise cada uma das dimensões de controle e de destino separadamente.
 
 Painel ![[!UICONTROL Experiences by Activity Conversions] em [!DNL Analysis Workspace]](assets/Figure3.png)
 
@@ -149,7 +149,7 @@ Assim, a diferença entre a atribuição usada pelos modelos [!DNL Target] (dura
 >
 >Se os modelos de ML estiverem sendo otimizados para uma métrica atribuída de forma diferente das métricas que você está visualizando em um relatório, os modelos podem não funcionar conforme esperado. Para evitar isso, verifique se as métricas de meta do seu relatório usam a mesma definição e atribuição de métrica usadas pelos modelos de ML [!DNL Target].
 
-A definição exata da métrica e as configurações de atribuição dependem do [critério de otimização](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=pt-BR#supported){target=_blank} especificado durante a criação da atividade.
+A definição exata da métrica e as configurações de atribuição dependem do [critério de otimização](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank} especificado durante a criação da atividade.
 
 ### Conversões definidas pelo Target, ou [!DNL Analytics] métricas com *Maximizar valor de métrica por visita*
 
@@ -227,7 +227,7 @@ Faça isso criando uma [!UICONTROL Calculated Metric] usando as seguintes etapas
 
 >[!TIP]
 >
-> Você também pode criar esta métrica usando a [funcionalidade de métrica calculada rápida](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=pt-BR).
+> Você também pode criar esta métrica usando a [funcionalidade de métrica calculada rápida](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html).
 
 A definição completa da métrica calculada é mostrada aqui.
 
@@ -241,7 +241,7 @@ A definição completa da métrica calculada é mostrada aqui.
 
 ## Resumo: Painel de amostra final [!DNL Analysis Workspace] para relatórios [!UICONTROL Auto-Target]
 
-Combinando todas as etapas acima em um único painel, a figura abaixo mostra uma exibição completa do relatório recomendado para [!UICONTROL Auto-Target] atividades do A4T. Este relatório é o mesmo usado pelos modelos de ML do [!DNL Target] para otimizar sua métrica de meta. O relatório incorpora todas as nuances e recomendações discutidas neste tutorial. Este relatório também é o mais próximo das metodologias de contagem usadas nas atividades [!UICONTROL Auto-Target] tradicionais orientadas por relatórios [!DNL Target].
+Combinando todas as etapas acima em um único painel, a figura abaixo mostra uma exibição completa do relatório recomendado para [!UICONTROL Auto-Target] atividades do A4T. Este relatório é o mesmo usado pelos modelos de ML do [!DNL Target] para otimizar sua métrica de meta. O relatório incorpora todas as nuances e recomendações discutidas neste tutorial. Este relatório também é o mais próximo das metodologias de contagem usadas nas atividades [!DNL Target] tradicionais orientadas por relatórios [!UICONTROL Auto-Target].
 
 Clique para expandir a imagem.
 

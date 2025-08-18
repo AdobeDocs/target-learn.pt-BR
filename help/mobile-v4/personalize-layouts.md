@@ -75,7 +75,7 @@ Na interface [!DNL Target], faça o seguinte:
    ![Novo público-alvo de usuários de aplicativos móveis](assets/activity_create_7.jpg)
 
 1. Selecione o local _wetravel_engage_search_.
-1. Altere a oferta HTML.
+1. Altere a oferta do HTML.
 
    ![Novo público-alvo de usuários de aplicativos móveis](assets/activity_create_8.jpg)
 
@@ -193,7 +193,7 @@ Agora selecione **[!UICONTROL Done]** e tente outra reserva com Los Angeles como
 
 ## Conclusão 
 
-Parabéns! Isso conclui a parte principal do Tutorial do Adobe Target SDK 4.x para Android. Agora você tem as habilidades para implementar a personalização em aplicativos Android! Você pode consultar esta documentação e o aplicativo de demonstração como uma referência para seus projetos futuros.
+Parabéns! Isso conclui a parte principal do tutorial do Adobe Target SDK 4.x para Android. Agora você tem as habilidades para implementar a personalização em aplicativos Android! Você pode consultar esta documentação e o aplicativo de demonstração como uma referência para seus projetos futuros.
 
 Próximo: A Sinalização de recurso é outro recurso que pode ser implementado com o Adobe Target no Android. Para saber mais sobre a sinalização de recursos, confira a próxima lição.
 

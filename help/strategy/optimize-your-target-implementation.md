@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Se você é novo na organização e deseja se familiarizar com o que está em vigor a partir de uma prática de teste e otimização, este artigo ajuda a começar. Começaremos com uma visão geral da implementação e da estrutura do Adobe Target. Você aprenderá a entender e auditar a configuração de sua organização. Por fim, discutiremos técnicas comuns de solução de problemas e dicas sobre como criar um repositório de conhecimento para sua equipe.
 
-O Adobe Target é uma ferramenta que permite testar e direcionar conteúdo exclusivo para visitantes diferentes. Para obter uma visão geral dos recursos disponíveis, [visite este guia](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR).
+O Adobe Target é uma ferramenta que permite testar e direcionar conteúdo exclusivo para visitantes diferentes. Para obter uma visão geral dos recursos disponíveis, [visite este guia](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en).
 
 ## Implementação e estrutura do Target
 
@@ -40,7 +40,7 @@ O **Multivariate testing** (MVT) compara combinações de ofertas entre elemento
 
 * Uma maneira de exibir várias ofertas em vários elementos.
 * Um método para testar a experiência exclusiva resultante em relação a uma meta específica.
-* Insight quanto aos elementos que têm maior impacto negativo ou positivo nas interações do visitante.
+* Insight para saber quais elementos têm mais impacto negativo ou positivo nas interações do visitante.
 
 O **teste de experiência** (direcionamento experiente) fornece conteúdo a um público específico com base em um conjunto de regras e critérios definidos pelo profissional de marketing. Esse método oferece uma maneira de direcionar conteúdo específico a um público-alvo específico com base em um conjunto de regras de alocação definidas.
 
@@ -58,7 +58,7 @@ O Target é construído em uma &quot;Mbox global&quot; que oferece a capacidade 
 
 ## Entenda sua implementação atual
 
-Para entender sua implementação do atual, a Adobe recomenda que você revise sua implementação da interface do usuário do Target, juntamente com sua implementação do Tag Manager e do Carregamento de página.
+Para entender sua implementação atual do, a Adobe recomenda que você revise sua implementação da interface do usuário do Target junto com seu Gerenciador de tags e implementação de carregamento de página.
 
 **Para examinar a interface de usuário do [!DNL Target]:**
 
@@ -102,14 +102,14 @@ Para revisar o gerenciador de tags e o carregamento de página:
 
 ## [!DNL Target] atividades de auditoria
 
-Para evitar percorrer manualmente cada página para auditar [!DNL Target] atividades, use o Auditor de Adobe para ajudá-lo a entender o estado técnico atual de sua implementação. O Adobe Auditor é alimentado pelo ObservePoint e pode ser configurado para ser executado em nível manual, para identificar problemas de implementação de alto nível em seu site.
+Para evitar percorrer manualmente cada página para auditar [!DNL Target] atividades, use o Adobe Auditor para ajudá-lo a entender o estado técnico atual de sua implementação. O Adobe Auditor é disponibilizado pelo ObservePoint e pode ser configurado para execução manual, a fim de identificar problemas de implementação de alto nível no site.
 
 O Adobe Auditor fornece:
 
 * Uma integridade de site alta
 * Chamadas rápidas para problemas de implementação
 
-A Adobe recomenda a realização de auditorias manuais mensais para:
+A Adobe recomenda realizar auditorias manuais mensais para:
 
 * Identificar páginas não marcadas
 * Identificar versões inconsistentes
@@ -120,7 +120,7 @@ A Adobe recomenda a realização de auditorias manuais mensais para:
 
 >[!NOTE]
 >
->O Adobe recomenda instalar o Adobe Experience Platform Debugger.
+>A Adobe recomenda instalar o Adobe Experience Platform Debugger.
 
 Veja a seguir dicas gerais de solução de problemas ao entrar na Experience Platform:
 
@@ -166,4 +166,4 @@ Os documentos típicos em um Repositório de conhecimento incluem:
 
 Para obter mais informações, consulte nosso [webinário](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/) com o consultor sênior, Wilder Freed.
 
-Saiba mais sobre estratégia e liderança de pensamento na central de [Sucesso do cliente](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=pt-BR).
+Saiba mais sobre estratégia e liderança de pensamento na central de [Sucesso do cliente](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html).

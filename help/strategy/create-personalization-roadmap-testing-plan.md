@@ -18,7 +18,7 @@ O Personalization pode ser eficiente, mas precisa ser validado por testes para g
 
 À medida que nos lançamos na segunda década do século 21, organizações como a sua estão se separando de estratégias desatualizadas de direcionamento ao consumidor e análises de dados imprecisas. Este é o início da personalização, uma era em que os consumidores esperam nada menos do que uma experiência personalizada. A Personalization no nível corporativo é um processo complexo e em constante mudança, mas quando feito de maneira eficaz, maximizará a satisfação do cliente e aumentará substancialmente o ROI.
 
-O artigo a seguir fornece uma estrutura que você pode usar para começar a validar atividades de personalização e criar um roteiro de personalização para execução por meio do Adobe Target e do Adobe Analytics. A estrutura do Adobe QuickStart inclui:
+O artigo a seguir fornece uma estrutura que você pode usar para começar a validar atividades de personalização e criar um roteiro de personalização para execução por meio do Adobe Target e do Adobe Analytics. A estrutura QuickStart da Adobe inclui:
 
 1. **Identificar oportunidades de personalização** - aproveite a análise de dados para identificar oportunidades para afetar os principais indicadores de desempenho do site, vinculados aos objetivos de negócios da organização.
 
@@ -32,7 +32,7 @@ O artigo a seguir fornece uma estrutura que você pode usar para começar a vali
 
 ## Etapa 1: Identificar oportunidades de personalização{#personalization}
 
-Esse é o ponto de partida para começar a formar o Roteiro do Personalization. Ao executar um programa de personalização bem-sucedido, é essencial se concentrar em seus principais objetivos de negócios e indicadores-chave de desempenho. Os esforços do Personalization devem ser alinhados de acordo para fornecer valor. Paul Morris, consultor de negócios do Adobe, afirma: &quot;Se tudo o que você fizer se enquadra nesses objetivos, é altamente provável que o seu programa gere valor significativo. No entanto, se você tiver uma abordagem dispersa para testes, provavelmente encontrará algumas vitórias, mas seu programa geral não será tão bem-sucedido.&quot;
+Esse é o ponto de partida para começar a formar o Roteiro do Personalization. Ao executar um programa de personalização bem-sucedido, é essencial se concentrar em seus principais objetivos de negócios e indicadores-chave de desempenho. Os esforços do Personalization devem ser alinhados de acordo para fornecer valor. Paul Morris, consultor de negócios da Adobe, declara: &quot;Se tudo o que você fizer se enquadra nesses objetivos, é altamente provável que seu programa gere valor significativo. No entanto, se você tiver uma abordagem dispersa para testes, provavelmente encontrará algumas vitórias, mas seu programa geral não será tão bem-sucedido.&quot;
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ Concentre a análise de dados para identificar áreas específicas do site que p
 1. Avaliações jurísticas - Identifique quais partes do site se beneficiariam mais do Personalization. Essas análises permitem que você dê um passo atrás e ande pelo seu site como um cliente faria.
 1. Análise da concorrência — há chances de outras empresas enfrentarem os mesmos desafios que você enfrenta. Esta análise não se limita a empresas do mesmo setor.
 
-O objetivo dessa etapa é gerar insights acionáveis na forma de uma hipótese. Uma hipótese é uma previsão criada antes da execução de um experimento. Ele indica claramente o que está sendo alterado, o que você acredita que o resultado será e por que você acha que é o caso. A execução do experimento comprovará ou desaprovará sua hipótese. No final desta etapa, você deve ter um conjunto de hipóteses para oportunidades de personalização que melhorarão o site e a satisfação do visitante.
+O objetivo dessa etapa é gerar um insight acionável na forma de uma hipótese. Uma hipótese é uma previsão criada antes da execução de um experimento. Ele indica claramente o que está sendo alterado, o que você acredita que o resultado será e por que você acha que é o caso. A execução do experimento comprovará ou desaprovará sua hipótese. No final desta etapa, você deve ter um conjunto de hipóteses para oportunidades de personalização que melhorarão o site e a satisfação do visitante.
 
 ## Etapa 2: desenvolver casos de uso{#use-cases}
 
@@ -90,4 +90,4 @@ Depois que sua atividade de personalização engajar uma amostra representativa 
 
 Recomendamos que você assista a este vídeo que discute cada uma destas etapas: [https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/](https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/)
 
-Saiba mais sobre estratégia e liderança de pensamento na central de [Sucesso do cliente](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=pt-BR).
+Saiba mais sobre estratégia e liderança de pensamento na central de [Sucesso do cliente](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html).

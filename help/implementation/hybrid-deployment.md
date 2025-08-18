@@ -33,9 +33,9 @@ Ao final deste vídeo, você irá:
 * Desenvolvedores
 * Arquitetos
 
->[!VIDEO](https://video.tv.adobe.com/v/329473/?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/41698/?quality=12)
 
 ## Recursos adicionais
 
-* [Visão Geral Da Decisão No Dispositivo](https://experienceleague.adobe.com/pt-br/docs/target-learn/tutorials/implementation/on-device-decisioning-overview#implementation)
-* [Documentação do Adobe Target SDK](https://experienceleague.adobe.com/pt-br/docs/target-dev/developer/server-side/on-device-decisioning/overview)
+* [Visão Geral Da Decisão No Dispositivo](https://experienceleague.adobe.com/en/docs/target-learn/tutorials/implementation/on-device-decisioning-overview#implementation)
+* [Documentação do Adobe Target SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview)

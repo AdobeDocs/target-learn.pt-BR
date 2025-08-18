@@ -78,7 +78,7 @@ Siga as mesmas etapas listadas acima para criar um público-alvo para usuários 
 
 >[!NOTE]
 >
->Todas as métricas e dimensões de ciclo de vida coletadas no SDK móvel [!DNL Target] são anexadas com &quot;a&quot; (por exemplo, a.Launches) e estão disponíveis na opção &quot;Personalizado&quot; do menu suspenso e podem ser usadas para criar públicos.
+>Todas as métricas e dimensões do Lifecycle coletadas no [!DNL Target] Mobile SDK são anexadas com &quot;a&quot; (por exemplo, a.Launches) e estão disponíveis na opção &quot;Personalizado&quot; do menu suspenso e podem ser usadas para criar públicos.
 
 ### Criar um público-alvo para usuários que reservam uma viagem a San Diego
 
@@ -104,7 +104,7 @@ Em seguida, criaremos alguns públicos para alguns dos destinos oferecidos pelo 
 
 ## Criar Ofertas
 
-Agora, vamos criar ofertas para exibir essas mensagens. Lembrando que as ofertas são trechos de código/conteúdo, que são entregues na resposta do [!DNL Target]. Eles são criados com mais frequência na interface do usuário [!DNL Target], mas também podem ser criados por meio da API ou usando a integração de Fragmentos de experiência com o Adobe Experience Manager. Em aplicativos móveis, as ofertas JSON são comuns. Neste tutorial, usaremos as ofertas de HTML, que podem ser usadas para fornecer qualquer conteúdo de texto sem formatação (incluindo JSON) no aplicativo.
+Agora, vamos criar ofertas para exibir essas mensagens. Lembrando que as ofertas são trechos de código/conteúdo, que são entregues na resposta do [!DNL Target]. Eles são criados com mais frequência na interface do usuário [!DNL Target], mas também podem ser criados por meio da API ou usando a integração de Fragmentos de experiência com o Adobe Experience Manager. Em aplicativos móveis, as ofertas JSON são comuns. Neste tutorial, usaremos as ofertas do HTML, que podem ser usadas para entregar qualquer conteúdo de texto sem formatação (incluindo JSON) no aplicativo.
 
 ### Criar a oferta para novos usuários
 
@@ -120,7 +120,7 @@ Primeiro, vamos criar ofertas para as mensagens para Novos usuários:
 1. Digite _Selecionar Source e Destino para procurar barramentos disponíveis_ como código.
 1. Salve a nova oferta.
 
-   ![Criar oferta de HTML doméstico](assets/offer_home_2.jpg)
+   ![Criar oferta do HTML doméstico](assets/offer_home_2.jpg)
 
 ### Criar a oferta para usuários recorrentes
 
@@ -130,7 +130,7 @@ Agora vamos criar uma oferta para usuários recorrentes (a segunda oferta será 
 1. Digite _Bem-vindo de volta! Use o código promocional BACK30 durante o check-out para obter um desconto de 10%._ como o código HTML.
 1. Salve a nova oferta.
 
-   ![Criar oferta de HTML doméstico](assets/offer_home_returning_users.jpg)
+   ![Criar oferta do HTML doméstico](assets/offer_home_returning_users.jpg)
 
 ### Criação da oferta em San Diego
 
@@ -147,7 +147,7 @@ Quando &quot;DJ&quot; for retornado à atividade ThankYou, a lógica na função
 Quando &quot;Universal&quot; for retornado à atividade ThankYou, a lógica na função filterRecommendationBasedOnOffer() exibirá um banner para &quot;Universal Studios&quot; exibirá:
 
 1. Nomeie a oferta _Promoção para Los Angeles_.
-1. Digite _Universal_ como o código de HTML.
+1. Digite _Universal_ como o código HTML.
 1. Salve a nova oferta.
 
 ![Criar a oferta &quot;Los Angeles&quot;](assets/offer_los_angeles.jpg)

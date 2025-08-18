@@ -1,6 +1,6 @@
 ---
 title: Como configurar o destino do Adobe Target no Adobe Real-Time CDP?
-description: Saiba como configurar o destino do Adobe Target no Real-time Customer Data Platform para começar a enviar segmentos e atributos de perfil do Real-Time CDP para o Target.
+description: Saiba como configurar o destino do Adobe Target no Real-Time Customer Data Platform para começar a enviar segmentos e atributos de perfil do Real-Time CDP para o Target.
 feature-set: Experience Platform, Target
 feature: Destinations, Profiles, Integrations
 role: Admin, Architect, User
@@ -16,8 +16,8 @@ ht-degree: 1%
 
 ---
 
-# Configurar o destino do Adobe Target no Real-time Customer Data Platform
+# Configurar o destino do Adobe Target no Real-Time Customer Data Platform
 
-Saiba como configurar o destino do Adobe Target no Real-time Customer Data Platform para começar a enviar segmentos e atributos de perfil do Real-Time CDP para o Target. Para obter mais informações, consulte a [documentação de conexão do Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=pt-BR).
+Saiba como configurar o destino do Adobe Target no Real-Time Customer Data Platform para começar a enviar segmentos e atributos de perfil do Real-Time CDP para o Target. Para obter mais informações, consulte a [documentação de conexão do Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=pt-BR).
 
->[!VIDEO](https://video.tv.adobe.com/v/3449798/?learn=on&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/3418799/?learn=on)

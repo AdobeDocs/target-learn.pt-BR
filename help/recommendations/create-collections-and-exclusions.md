@@ -28,7 +28,7 @@ Neste vídeo, você aprenderá a:
 
 * Profissional de negócios
 
->[!VIDEO](https://video.tv.adobe.com/v/35372?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/27689?quality=12)
 
 ## Recursos adicionais
 
@@ -37,4 +37,4 @@ Neste vídeo, você aprenderá a:
 * [Criar um feed](create-a-feed.md)
 * [Criar critérios](create-criteria.md)
 * [Criar designs personalizados](create-custom-designs.md)
-* [Documentação do Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=pt-BR)
+* [Documentação do Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

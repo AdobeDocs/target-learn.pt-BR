@@ -1,6 +1,6 @@
 ---
 title: Baixe e atualize o aplicativo de amostra We.Travel
-description: O aplicativo de amostra We.Travel é pré-implementado com o SDK v4 do Adobe Mobile Services. Você só precisa atualizá-la para que ela aponte para suas próprias contas da Experience Cloud Org e da solução.
+description: O aplicativo de amostra We.Travel é pré-implementado com o Adobe Mobile Services SDK v4. Você só precisa atualizá-la para que ela aponte para suas próprias contas de solução e organização da Experience Cloud.
 role: Developer
 level: Intermediate
 topic: Mobile, Personalization
@@ -17,14 +17,14 @@ ht-degree: 0%
 
 # Baixe e atualize o aplicativo de amostra We.Travel
 
-O aplicativo de amostra We.Travel é pré-implementado com o SDK v4 do Adobe Mobile Services. Você só precisa atualizá-la para que ela aponte para suas próprias contas de Experience Cloud e de solução.
+O aplicativo de amostra We.Travel é pré-implementado com o Adobe Mobile Services SDK v4. Você só precisa atualizá-la para que ela aponte para suas próprias contas de solução e organização da Experience Cloud.
 
 ## Objetivos de aprendizagem
 
 No final desta lição, você poderá:
 
 * Baixe e abra o aplicativo de amostra We.Travel no Android Studio
-* Verifique e atualize as configurações do SDK do Mobile Services para [!DNL Target]
+* Verifique e atualize as configurações de SDK do Mobile Services para [!DNL Target]
 
 ## Baixe o aplicativo We.Travel
 
@@ -36,9 +36,9 @@ No final desta lição, você poderá:
 
   ![Abrir o aplicativo](assets/wetravel_homeScreen.png)![Tela de confirmação](assets/wetravel_confirmationScreen.png)
 
-## Verifique e atualize as configurações do SDK do Mobile Services para [!DNL Target]
+## Verifique e atualize as configurações de SDK do Mobile Services para [!DNL Target]
 
-O SDK do Adobe Mobile Services foi pré-instalado no aplicativo We.Travel [de acordo com a documentação](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=pt-BR). Agora você atualizará a instalação para apontar para sua própria conta [!DNL Target].
+O SDK do Adobe Mobile Services foi pré-instalado no aplicativo We.Travel [de acordo com a documentação](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en). Agora você atualizará a instalação para apontar para sua própria conta [!DNL Target].
 
 Primeiro, crie um novo aplicativo na interface do usuário do Mobile Services:
 
@@ -60,6 +60,6 @@ Primeiro, crie um novo aplicativo na interface do usuário do Mobile Services:
 
 Se você não vir suas configurações, confirme se clicou no botão direito **[!UICONTROL Save]** na interface [!UICONTROL Mobile Services] e copiou o arquivo para o local correto.
 
-Parabéns! Você atualizou o SDK com os detalhes da sua conta do [!DNL Target]! Faremos a validação adicional da configuração depois que adicionarmos [!DNL Target] solicitações na próxima lição.
+Parabéns! Você atualizou a SDK com os detalhes da sua conta do [!DNL Target]! Faremos a validação adicional da configuração depois que adicionarmos [!DNL Target] solicitações na próxima lição.
 
 **[NEXT: &quot;Adicionar Solicitações de Destino&quot; >](add-requests.md)**

@@ -29,7 +29,7 @@ Neste vídeo, você aprenderá a:
 
 * Profissional de negócios
 
->[!VIDEO](https://video.tv.adobe.com/v/33964?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/27688?quality=12)
 
 ## Recursos adicionais
 
@@ -39,4 +39,4 @@ Neste vídeo, você aprenderá a:
 * [Criar critérios](create-criteria.md)
 * [Criar designs personalizados](create-custom-designs.md)
 * [Criar coleções e exclusões](create-collections-and-exclusions.md)
-* [Documentação do Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=pt-BR)
+* [Documentação do Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

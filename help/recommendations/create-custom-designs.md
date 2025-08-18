@@ -27,7 +27,7 @@ Neste vídeo, você aprenderá a:
 
 * Profissional de negócios
 
->[!VIDEO](https://video.tv.adobe.com/v/35373?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/27687?quality=12)
 
 ## Recursos adicionais
 
@@ -36,4 +36,4 @@ Neste vídeo, você aprenderá a:
 * [Noções básicas sobre feeds](understanding-feeds.md)
 * [Criar um feed](create-a-feed.md)
 * [Criar critérios](create-criteria.md)
-* [Documentação do Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=pt-BR)
+* [Documentação do Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
