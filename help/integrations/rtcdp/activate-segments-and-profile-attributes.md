@@ -18,6 +18,6 @@ ht-degree: 5%
 
 # Ativação de segmentos e atributos de perfil
 
-Saiba como ativar segmentos e atributos de perfil do Adobe Real-Time Customer Data Platform para o Adobe Target a fim de exibir conteúdo personalizado em tempo real em seus sites, aplicativos móveis e outras propriedades digitais. Para obter mais informações, consulte a [documentação Ativar dados de público-alvo para destinos de solicitação de perfil](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html).
+Saiba como ativar segmentos e atributos de perfil do Adobe Real-Time Customer Data Platform para o Adobe Target a fim de exibir conteúdo personalizado em tempo real em seus sites, aplicativos móveis e outras propriedades digitais. Para obter mais informações, consulte a [documentação Ativar dados de público-alvo para destinos de solicitação de perfil](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=pt-BR).
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419036/?learn=on)

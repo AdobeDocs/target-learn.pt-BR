@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Usar os atributos de perfil do Real-Time CDP no Adobe Target
 
-Saiba como usar os atributos de perfil do Adobe Real-Time Customer Data Platform no Adobe Target para fornecer experiências personalizadas em seu site e aplicativos móveis. Para obter mais informações, consulte [a documentação](https://experienceleague.adobe.com/docs/target/using/integrate/integrating-with-rtcdp.html).
+Saiba como usar os atributos de perfil do Adobe Real-Time Customer Data Platform no Adobe Target para fornecer experiências personalizadas em seu site e aplicativos móveis. Para obter mais informações, consulte [a documentação](https://experienceleague.adobe.com/docs/target/using/integrate/integrating-with-rtcdp.html?lang=pt-BR).
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)
 

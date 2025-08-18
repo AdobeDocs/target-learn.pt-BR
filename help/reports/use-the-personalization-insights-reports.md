@@ -25,4 +25,4 @@ As atividades de Automated Personalization e Direcionamento automático usam apr
 
 ## Informações adicionais
 
-* [Personalization Insights na documentação de ajuda](https://experienceleague.adobe.com/docs/target/using/reports/insights/personalization-insights-reports.html?lang=en)
+* [Personalization Insights na documentação de ajuda](https://experienceleague.adobe.com/docs/target/using/reports/insights/personalization-insights-reports.html?lang=pt-BR)

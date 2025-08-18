@@ -38,7 +38,7 @@ No final desta lição, você poderá:
 
 ## Verifique e atualize as configurações de SDK do Mobile Services para [!DNL Target]
 
-O SDK do Adobe Mobile Services foi pré-instalado no aplicativo We.Travel [de acordo com a documentação](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en). Agora você atualizará a instalação para apontar para sua própria conta [!DNL Target].
+O SDK do Adobe Mobile Services foi pré-instalado no aplicativo We.Travel [de acordo com a documentação](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=pt-BR). Agora você atualizará a instalação para apontar para sua própria conta [!DNL Target].
 
 Primeiro, crie um novo aplicativo na interface do usuário do Mobile Services:
 

@@ -120,4 +120,4 @@ Dado o entendimento acima, a Adobe recomenda que você Otimize antes de Personal
 
 Para obter mais informações, assista ao [webinário sobre como entender e otimizar a implementação do Adobe Target](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/), com a Consultora de negócios, Katie Cozby.
 
-Saiba mais sobre estratégia e liderança de pensamento na central de [Sucesso do cliente](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html).
+Saiba mais sobre estratégia e liderança de pensamento na central de [Sucesso do cliente](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=pt-BR).
