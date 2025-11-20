@@ -20,7 +20,7 @@ ht-degree: 54%
 
 # Usar públicos no Adobe Target
 
-Este vídeo mostra aos usuários do Adobe Target como usar públicos para direcionar atividades e filtrar relatórios.
+Este vídeo mostra aos usuários do Adobe Target como usar públicos-alvos para direcionar atividades e filtrar relatórios.
 
 ## O que você vai aprender
 
@@ -34,4 +34,4 @@ Neste vídeo, você aprenderá a:
 
 * Profissional de negócios
 
->[!VIDEO](https://video.tv.adobe.com/v/30984/?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/17398/?quality=12)
