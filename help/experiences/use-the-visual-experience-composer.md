@@ -31,6 +31,6 @@ No segundo vídeo, veja como:
 
 * Profissional de negócios
 
->[!VIDEO](https://video.tv.adobe.com/v/17399/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/31293/?captions=por_br&quality=12)
 
->[!VIDEO](https://video.tv.adobe.com/v/17401/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/30981/?captions=por_br&quality=12)
