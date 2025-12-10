@@ -1,7 +1,7 @@
 ---
 title: O Que É A Decisão No Dispositivo
 description: A decisão no dispositivo do Adobe Target permite a entrega de conteúdo com latência próxima a zero. Assista a este vídeo para saber mais sobre a decisão no dispositivo e como ativá-la.
-role: Architect
+role: Developer
 level: Beginner
 topic: Architecture, Development
 feature: Implementation, Implement Server-side, Implement Client-side
@@ -9,7 +9,7 @@ doc-type: feature video
 team: Evangelism
 kt: 6691
 exl-id: 3b24efd3-a5b3-41a6-92f4-15433ddb2a26
-source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
+source-git-commit: ac4fad8a7fb77852b1bd27b9b6d49e55f8aa975a
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 1%
@@ -33,7 +33,7 @@ Ao final deste vídeo, você poderá:
 * Descrever a decisão no dispositivo e seus benefícios
 * Ativar a decisão no dispositivo no Target
 * Crie uma atividade de compositor baseada em formulário para usar com a decisão no dispositivo
-* Saiba mais sobre a configuração do SDK necessária para a tomada de decisões no dispositivo acessando a [documentação do Adobe Target SDK](https://experienceleague.adobe.com/pt-br/docs/target-dev/developer/server-side/on-device-decisioning/overview)
+* Saiba mais sobre a configuração do SDK necessária para a tomada de decisões no dispositivo acessando a [documentação do Adobe Target SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview)
 * Entenda o que os usuários finais experimentarão para o conteúdo entregue usando a decisão no dispositivo
 
 ## Público-alvo

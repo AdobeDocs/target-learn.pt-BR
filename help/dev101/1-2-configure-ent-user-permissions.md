@@ -1,7 +1,7 @@
 ---
 title: Como configurar permissões de usuário empresarial
 description: Saiba como diferenciar permissões de nível de usuário administrativo, configurar permissões do Adobe Target e criar espaços de trabalho e regular o acesso.
-role: Admin, Developer, Architect
+role: Admin, Developer
 level: Intermediate
 topic: Personalization, Administration
 feature: Administration & Configuration
@@ -9,7 +9,7 @@ doc-type: technical video
 kt: 5064
 thumbnail: 33754.jpg
 exl-id: ce159244-c541-4d7a-880d-cff7bf6f9fe9
-source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
+source-git-commit: ac4fad8a7fb77852b1bd27b9b6d49e55f8aa975a
 workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 3%
@@ -32,4 +32,4 @@ Neste vídeo, você aprenderá a:
 
 >[!VIDEO](https://video.tv.adobe.com/v/33754/?quality=12)
 
-Para obter mais informações, visite a [documentação](https://experienceleague.adobe.com/docs/target/using/administer/administrating-target.html?lang=pt-BR).
+Para obter mais informações, visite a [documentação](https://experienceleague.adobe.com/docs/target/using/administer/administrating-target.html?lang=en).

@@ -3,9 +3,9 @@ title: QuickStart para testes de personalização e criação de roteiro
 description: Saiba mais sobre uma estrutura que você pode usar para começar a validar atividades de personalização e criar um roteiro de personalização para execução por meio do Adobe Target e do Adobe Analytics.
 solution: Target,Analytics
 level: Intermediate
-role: Leader, Architect, Developer, Admin
+role: Leader, Developer, Admin
 exl-id: c0b6f9a0-7074-4e25-81e6-9781a54e2156
-source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
+source-git-commit: ac4fad8a7fb77852b1bd27b9b6d49e55f8aa975a
 workflow-type: tm+mt
 source-wordcount: '1421'
 ht-degree: 0%
@@ -90,4 +90,4 @@ Depois que sua atividade de personalização engajar uma amostra representativa 
 
 Recomendamos que você assista a este vídeo que discute cada uma destas etapas: [https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/](https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/)
 
-Saiba mais sobre estratégia e liderança de pensamento na central de [Sucesso do cliente](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=pt-BR).
+Saiba mais sobre estratégia e liderança de pensamento na central de [Sucesso do cliente](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html).

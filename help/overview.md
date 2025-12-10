@@ -1,12 +1,12 @@
 ---
 title: Saiba como usar o Adobe Target
 description: Saiba como usar o  [!DNL Adobe Target]  com esta coleção de tutoriais e vídeos que abrangem todos os seus componentes.
-role: Leader, Architect, Developer, Admin, User
+role: Leader, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 feature: Overview
 topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
+source-git-commit: ac4fad8a7fb77852b1bd27b9b6d49e55f8aa975a
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 10%
@@ -50,11 +50,11 @@ O [!DNL Adobe Target] é a solução do [!DNL Adobe Experience Cloud] que oferec
     <p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html?lang=pt-BR"> 
+    <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html"> 
       <img alt="Implementar o Target com tags do Adobe Experience Platform" src="./assets/add-adobe-target.jpg"/>
     </a>
     <div>
-      <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html?lang=pt-BR">
+      <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html">
     <strong>Implementar o Target com Tags do Adobe Experience Platform</strong>
     </a>
     </div>
@@ -63,11 +63,11 @@ O [!DNL Adobe Target] é a solução do [!DNL Adobe Experience Cloud] que oferec
     <p>
   </td>
    <td>
-    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html?lang=pt-BR">
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html">
       <img alt="Implementar a at.js 2.0 do Adobe Target em um aplicativo de página única (SPA)" src="./assets/26248.png" />
     </a>
     <div>
-    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html?lang=pt-BR">
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html">
     <strong>Implementar a at.js 2.0 em um SPA</strong>
     </a>
     </div>
