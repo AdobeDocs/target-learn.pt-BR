@@ -118,6 +118,6 @@ O Personalization também inclui o tipo de atividade de teste de Direcionamento 
 
 Dado o entendimento acima, a Adobe recomenda que você Otimize antes de Personalizar e promova o Personalization de amplo para granular. Para amadurecer as atividades do Personalization de amplo a granular, você começará a usar um estilo de personalização de um para muitos (amplo) (usando o teste A/B) e, em seguida, passará para um estilo de personalização de um para um (granular) (usando as atividades de Personalização automatizada).
 
-Para obter mais informações, leia o [QuickStart para testes de personalização e criação de roteiro](https://experienceleague.adobe.com/en/perspectives/quickstart-for-personalization-testing-and-roadmap-creation).
+Para obter mais informações, leia o [QuickStart para testes de personalização e criação de roteiro](https://experienceleague.adobe.com/pt-br/perspectives/quickstart-for-personalization-testing-and-roadmap-creation).
 
-Saiba mais sobre estratégia e liderança de pensamento no hub [Perspectivas](https://experienceleague.adobe.com/en/perspectives).
+Saiba mais sobre estratégia e liderança de pensamento no hub [Perspectivas](https://experienceleague.adobe.com/pt-br/perspectives).
