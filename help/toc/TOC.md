@@ -1,17 +1,17 @@
 ---
-user-guide-title: 'Tutoriais do Adobe Target '
+user-guide-title: Tutoriais do Adobe Target
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
 landing-page-breadcrumb-title: Adobe Target
 landing-page-name: target
-source-git-commit: a416f01d695b7f2b1686c93e3c777b8ae005ca09
+source-git-commit: 28a6f4bc24da40b4f8cb121227e53add17d391c7
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 6%
+source-wordcount: '489'
+ht-degree: 5%
 
 ---
 
 
-# Tutoriais do Adobe Target  {#tutorials}
+# Tutoriais do Adobe Target {#tutorials}
 
 + [Visão geral dos tutoriais do Adobe Target](../overview.md)
 + Administração{#administration}
@@ -29,7 +29,7 @@ ht-degree: 6%
 + Implementação{#implementation}
    + [Introdução à implementação do Target](../dev101/2-1-intro-to-target-implementation.md)
    + [Integração do Target ao Launch](../dev101/3-1-target-launch.md)
-   + [Implementar em sites com o Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=pt-BR)
+   + [Implementar em sites com o Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)
    + [Benefícios do uso de locais](../dev101/2-2-benefits-of-locations.md)
    + [Introdução a solicitações do Target](../dev101/2-3-intro-to-target-requests.md)
    + [Introdução aos Parâmetros do Target](../dev101/2-4-intro-to-target-params.md)
@@ -37,10 +37,10 @@ ht-degree: 6%
    + [Implementar a at.js 2.0 em um aplicativo de página única (SPA)](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [Projetar uma implementação do Target](../dev101/2-5-design-target-implementation.md)
    + [Próximas etapas para projetar uma implementação do Target](../dev101/2-6-next-steps-design-target-implementation.md)
-   + [Usar a aceitação para controlar as soluções da Experience Cloud com base no consentimento do usuário](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=pt-BR)
+   + [Usar o Opt-in para controlar as soluções da Experience Cloud com base no consentimento do usuário](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
    + [Entender a implantação híbrida do Adobe Target](../implementation/hybrid-deployment.md)
    + [Visão geral da decisão no dispositivo](../implementation/on-device-decisioning-overview.md)
-   + [Padrões de implementação do Adobe Target](../implementation/implementation-patterns-for-adobe-target.md)
+   + {hide-from-toc}[Padrões de implementação para o Adobe Target](../implementation/implementation-patterns-for-adobe-target.md)
 + Integrações{#integrations}
    + [Integração do Target ao Analytics](../dev101/3-2-target-analytics.md)
    + [Usar o Analytics como um Source de dados para o Target (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
@@ -58,7 +58,7 @@ ht-degree: 6%
       + [Usar os atributos de perfil do Real-Time CDP no Target](../integrations/rtcdp/use-rtcdp-profile-attributes-in-target.md)
    + [Integração do Target ao Scene7](../dev101/3-8-target-scene7.md)
    + [Integração do Target ao Adobe Experience Manager](../dev101/3-5-target-aem.md)
-   + [Usar os Fragmentos de experiência do AEM no Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
+   + [Usar fragmentos de experiência do AEM no Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
    + [Entrada de dados: Use provedores de dados para integrar dados de terceiros](../integrations/use-data-providers-to-integrate-third-party-data.md)
    + [Entrada de dados: Implementar provedores de dados para integrar dados de terceiros](../integrations/implement-data-providers-to-integrate-third-party-data.md)
    + [Saída de dados: Usar tokens de resposta e Eventos personalizados do at.js](../integrations/use-response-tokens-and-atjs-custom-events.md)
@@ -80,10 +80,10 @@ ht-degree: 6%
    + [Usar o Visual Experience Composer](../experiences/use-the-visual-experience-composer.md)
    + [Uso do Visual Experience Composer para Aplicativos de página única (SPA VEC)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
    + [Usar o Experience Composer baseado em formulário](../experiences/use-the-form-based-experience-composer.md)
-   + [Usar os Fragmentos de experiência do AEM no Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
+   + [Usar fragmentos de experiência do AEM no Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
 + Relatórios{#reports}
    + [Usar os relatórios do Personalization Insights](../reports/use-the-personalization-insights-reports.md)
-+ Recommendations{#recommendations}
++ Recomendações{#recommendations}
    + [Criar uma atividade do Recommendations](../recommendations/create-a-recommendations-activity.md)
    + [Usar ofertas do Recommendations](../recommendations/use-recommendations-offers.md)
    + [Noções básicas sobre feeds](../recommendations/understanding-feeds.md)
