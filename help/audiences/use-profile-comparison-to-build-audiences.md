@@ -44,6 +44,6 @@ Neste vídeo, você aprenderá a:
 
 ## Recursos adicionais
 
-* [Criação de um público-alvo de comparação do atributo de perfil](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=en)
-* [Criação de públicos](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=en)
+* [Criação de um público-alvo de comparação do atributo de perfil](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=pt-BR)
+* [Criação de públicos](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=pt-BR)
 * [Vídeo Criar atividades de direcionamento de experiência](../activities/create-experience-targeting-activities.md)
