@@ -9,9 +9,15 @@ doc-type: tutorial
 kt: 3040
 author: Daniel Wright
 exl-id: a9f033d9-9f72-4154-88f5-d36423a404d0
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+TQID: https://experienceleague.adobe.com/Ku3bhBHqeS5xdaAVtjPELQJ2fu-GdNWqTweOTILSqsI
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: 993
 ht-degree: 1%
 
 ---
@@ -61,7 +67,7 @@ Na interface [!DNL Target], faça o seguinte:
 1. Clique em **[!UICONTROL Done]**.
    ![Novo público-alvo de usuários de aplicativos móveis](assets/activity_create_4.jpg)
 
-1. Altere a localização para _wetravel_engage_home_.
+1. Altere a localização para _wetravel_ engage_home_.
 1. Selecione a seta suspensa ao lado de Conteúdo padrão e selecione **[!UICONTROL Change HTML Offer]**.
 
    ![Novo público-alvo de usuários de aplicativos móveis](assets/activity_create_5.jpg)
@@ -74,7 +80,7 @@ Na interface [!DNL Target], faça o seguinte:
 1. Selecione **[!UICONTROL Add Location]**.
    ![Novo público-alvo de usuários de aplicativos móveis](assets/activity_create_7.jpg)
 
-1. Selecione o local _wetravel_engage_search_.
+1. Selecione o local _wetravel_ engage_search_.
 1. Altere a oferta do HTML.
 
    ![Novo público-alvo de usuários de aplicativos móveis](assets/activity_create_8.jpg)
@@ -110,7 +116,7 @@ Vamos prosseguir para a próxima tela da configuração:
 Agora vamos concluir a configuração da atividade:
 
 1. Defina o **[!UICONTROL Primary Goal]** como **[!UICONTROL Conversion]**.
-1. Defina a ação como **[!UICONTROL Viewed an mbox]** > _wetravel_context_dest_ (como esse local está na tela de confirmação, podemos usá-lo para medir conversões).
+1. Defina a ação como **[!UICONTROL Viewed an mbox]** > _wetravel_ context_dest_ (como esse local está na tela de confirmação, podemos usá-lo para medir conversões).
 
    ![Envolver Atividade dos Usuários - Metas](assets/activity_create_12.jpg)
 
@@ -144,7 +150,7 @@ Repita o mesmo processo acima para a próxima atividade - &quot;Ofertas contextu
 Na etapa Metas e configurações, alteraremos a Meta principal para o local na tela de confirmação de reserva:
 
 1. Em **[!UICONTROL Reporting Settings]**, defina **[!UICONTROL Primary Goal]** como **[!UICONTROL Conversion]**.
-1. Defina a ação como **[!UICONTROL Viewed an mbox]** > _wetravel_context_dest_ (nesta atividade, essa métrica não tem basicamente significado, pois este também é o mesmo local que fornece a experiência).
+1. Defina a ação como **[!UICONTROL Viewed an mbox]** > _wetravel_ context_dest_ (nesta atividade, essa métrica não tem basicamente significado, pois este também é o mesmo local que fornece a experiência).
 1. Clique em **[!UICONTROL Save & Close]**.
 
 ![Ofertas contextuais - Experiência](assets/activity_create_14.jpg)
@@ -163,7 +169,7 @@ Se a nova oferta de usuário não for exibida, tente apagar os dados para o emul
 
 ![Limpar Emulador](assets/layout_home_validate_avd_wipe.jpg)
 
-Você também pode validar a resposta no Logcat filtrando por _wetravel_engage_home_:
+Você também pode validar a resposta no Logcat filtrando por _wetravel_ engage_home_:
 
 ![Validar Oferta Inicial - Logcat](assets/layout_home_validate_logcat.jpg)
 
@@ -191,7 +197,7 @@ Agora selecione **[!UICONTROL Done]** e tente outra reserva com Los Angeles como
 
 ![Validar Oferta de Contexto - Los Angeles](assets/layout_context_los_angeles.jpg)
 
-## Conclusão 
+## Conclusão
 
 Parabéns! Isso conclui a parte principal do tutorial do Adobe Target SDK 4.x para Android. Agora você tem as habilidades para implementar a personalização em aplicativos Android! Você pode consultar esta documentação e o aplicativo de demonstração como uma referência para seus projetos futuros.
 
