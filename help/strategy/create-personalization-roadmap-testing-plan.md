@@ -5,9 +5,31 @@ solution: Target,Analytics
 level: Intermediate
 role: Leader, Developer, Admin
 exl-id: c0b6f9a0-7074-4e25-81e6-9781a54e2156
-source-git-commit: ac4fad8a7fb77852b1bd27b9b6d49e55f8aa975a
+TQID: https://experienceleague.adobe.com/d2BYxVQLaDPbZ7538S-uP1pSjtGgd10nYk-WW3KnVZk
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: 1438
 ht-degree: 0%
 
 ---
@@ -45,7 +67,7 @@ Esse é o ponto de partida para começar a formar o Roteiro do Personalization. 
 
 * Alinhar cada oportunidade deve afetar uma única meta de métrica.
 
-Às vezes, você pode ter objetivos que inicialmente também parecem intangíveis, como valor da marca ou fidelidade. É crucial poder medir esses itens para usá-los como métricas de meta para atividades do Personalization. Normalmente, esses tipos de metas ainda podem ser alinhados ao impacto na receita, como valor vitalício do cliente ou custos de aquisição.Conforme você avança, certifique-se de revisar o desempenho do programa em relação aos principais objetivos de negócios periodicamente para garantir que o valor esteja sendo retirado do seu programa da Personalization.
+Às vezes, você pode ter objetivos que inicialmente também parecem intangíveis, como valor da marca ou fidelidade. É crucial poder medir esses itens para usá-los como métricas de meta para atividades do Personalization. Normalmente, esses tipos de metas ainda podem ser alinhados ao impacto na receita, como valor vitalício do cliente ou custos de aquisição.Conforme você avança, certifique-se de revisar o desempenho do programa em relação aos principais objetivos de negócios periodicamente, para garantir que o valor esteja sendo retirado do seu programa da Personalization.
 
 Concentre a análise de dados para identificar áreas específicas do site que podem ser melhoradas. A Adobe recomenda começar pelo Adobe Analytics para gerar casos de uso direcionados. Se você tiver uma equipe do Analytics em funções, peça que ela verifique o seguinte:
 

@@ -8,9 +8,23 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 exl-id: 0250e55f-a233-4060-84e1-86d1f88a6106
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+TQID: https://experienceleague.adobe.com/jX5KNFVLueF72JlxIo4OV0NRWRxpSAZ-tOMacI8FXL4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: 816
 ht-degree: 0%
 
 ---
@@ -108,7 +122,7 @@ Agora execute o emulador e use o Logcat para verificar se a at_property é exibi
 A solicitação de localização ao vivo (wetravel_context_dest) foi adicionada na lição anterior para que possamos exibir uma promoção relevante na tela de confirmação final do processo de reserva. Gostaríamos de personalizar a promoção com base no destino do usuário e, para isso, adicionaremos isso como parâmetro à solicitação. Também adicionaremos um parâmetro para a origem do trop e o valor at_property.
 
 Adicione os seguintes parâmetros à função targetLoadRequest() no controlador ThankYouActivity:
-![Adicionar Parâmetros à Solicitação de Local Dinâmico](assets/parameters_live_location.jpg)
+![Adicionar Parâmetros à Solicitação de Localização Dinâmica](assets/parameters_live_location.jpg)
 Este é o código atualizado da função targetLoadRequest() (certifique-se de atualizar o texto do espaço reservado &quot;adicione seu valor at_property aqui&quot;!):
 
 ```java
