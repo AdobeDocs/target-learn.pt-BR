@@ -49,7 +49,7 @@ O SPA VEC permite que os profissionais de marketing criem testes e personalizem 
 
 * Profissional de negócios
 
->[!VIDEO](https://video.tv.adobe.com/v/26249?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/34802?captions=por_br&quality=12)
 
 
 ## Recursos adicionais

@@ -39,7 +39,7 @@ Neste vídeo, você aprenderá a:
 
 * Profissional de negócios
 
->[!VIDEO](https://video.tv.adobe.com/v/17391/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/31295/?captions=por_br&quality=12)
 
 ## Outros recursos
 
