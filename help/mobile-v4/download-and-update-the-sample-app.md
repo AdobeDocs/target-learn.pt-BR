@@ -1,6 +1,6 @@
 ---
 title: Baixe e atualize o aplicativo de amostra We.Travel
-description: O aplicativo de amostra We.Travel é pré-implementado com o Adobe Mobile Services SDK v4. Você só precisa atualizá-la para que ela aponte para suas próprias contas de solução e organização da Experience Cloud.
+description: O aplicativo de amostra We.Travel é pré-implementado com o Adobe Mobile Services SDK v4. Você só precisa atualizá-la para que ela aponte para sua própria organização da Experience Cloud e contas de solução.
 role: Developer
 level: Intermediate
 topic: Mobile, Personalization
@@ -24,14 +24,14 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 499
+source-wordcount: 530
 ht-degree: 0%
 
 ---
 
 # Baixe e atualize o aplicativo de amostra We.Travel
 
-O aplicativo de amostra We.Travel é pré-implementado com o Adobe Mobile Services SDK v4. Você só precisa atualizá-la para que ela aponte para suas próprias contas de solução e organização da Experience Cloud.
+O aplicativo de amostra We.Travel é pré-implementado com o Adobe Mobile Services SDK v4. Você só precisa atualizá-la para que ela aponte para sua própria organização da Experience Cloud e contas da solução.
 
 ## Objetivos de aprendizagem
 
@@ -57,12 +57,12 @@ O SDK do Adobe Mobile Services foi pré-instalado no aplicativo We.Travel [de ac
 Primeiro, crie um novo aplicativo na interface do usuário do Mobile Services:
 
 1. Faça logon na [interface do Adobe Mobile Services](https://mobilemarketing.adobe.com/).
-1. Vá para o [!UICONTROL Manage Apps] e clique em **[!UICONTROL Add]** para adicionar um novo aplicativo para usar com este tutorial (**[!UICONTROL Manage Apps]** > **[!UICONTROL Add]**).
-1. Escolha um conjunto de relatórios do Analytics com dados de não produção, dê um nome ao aplicativo, selecione o tipo **[!UICONTROL Standard]** e clique em **[!UICONTROL Save]**.
-1. Depois que o aplicativo for adicionado, adicione o Código de Cliente do [!DNL Target] na próxima tela na seção [!UICONTROL SDK Target Options] (você pode encontrar o código de cliente na interface do [!DNL Target] em **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit Settings]**, ao lado do botão Baixar `at.js`).
-1. A configuração [!UICONTROL Request Timeout] determina quanto tempo o aplicativo aguarda a resposta do servidor [!DNL Target] antes de executar as instruções de tempo limite. Basta deixar a configuração padrão.
-1. Habilite o [!UICONTROL Visitor ID Service] e verifique se o [!UICONTROL Organization] está selecionado no menu suspenso.
-1. Salve as alterações clicando em **[!UICONTROL Save]** no lado superior direito da janela (não o da seção [!UICONTROL Universal Links], [!UICONTROL App Links] ou [!UICONTROL Push Services]).
+1. Vá para [!UICONTROL Gerenciar Aplicativos] e clique em **[!UICONTROL Adicionar]** para adicionar um novo aplicativo para usar com este tutorial (**[!UICONTROL Gerenciar Aplicativos]** > **[!UICONTROL Adicionar]**).
+1. Escolha um conjunto de relatórios do Analytics com dados de não produção, dê um nome ao aplicativo, selecione o tipo **[!UICONTROL Padrão]** e clique em **[!UICONTROL Salvar]**.
+1. Depois que o aplicativo for adicionado, adicione o Código de Cliente do [!DNL Target] na próxima tela na seção [!UICONTROL Opções do SDK Target] (você pode encontrar o código de cliente na interface do [!DNL Target] em **[!UICONTROL Configuração]** > **[!UICONTROL Implementação]** > **[!UICONTROL Editar Configurações]**, ao lado do botão Baixar `at.js`).
+1. A configuração [!UICONTROL Tempo Limite da Solicitação] determina quanto tempo o aplicativo aguarda a resposta do servidor [!DNL Target] antes de executar as instruções de tempo limite. Basta deixar a configuração padrão.
+1. Habilite o [!UICONTROL Serviço de ID de Visitante] e verifique se a [!UICONTROL Organização] está selecionada no menu suspenso.
+1. Salve as alterações clicando em **[!UICONTROL Salvar]** no lado superior direito da janela (não o das opções [!UICONTROL Links Universais], [!UICONTROL Links de Aplicativo] ou [!UICONTROL Serviços de Push]).
 1. Role até a seção Downloads do SDK para aplicativos na parte inferior da página e baixe o Arquivo de configuração:
 
    ![Baixar o Arquivo de Configuração](assets/config_file.jpg)
@@ -72,7 +72,7 @@ Primeiro, crie um novo aplicativo na interface do usuário do Mobile Services:
 1. Agora abra o arquivo `ADBMobileConfig.json` e verifique se ele contém as alterações esperadas, como o Código do Cliente [!DNL Target] e seus detalhes do Analytics:
    ![Baixar o Arquivo de Configuração](assets/client_code.jpg)
 
-Se você não vir suas configurações, confirme se clicou no botão direito **[!UICONTROL Save]** na interface [!UICONTROL Mobile Services] e copiou o arquivo para o local correto.
+Se você não vir suas configurações, confirme se clicou no botão direito **[!UICONTROL Salvar]** na interface do [!UICONTROL Mobile Services] e copiou o arquivo para o local correto.
 
 Parabéns! Você atualizou a SDK com os detalhes da sua conta do [!DNL Target]! Faremos a validação adicional da configuração depois que adicionarmos [!DNL Target] solicitações na próxima lição.
 

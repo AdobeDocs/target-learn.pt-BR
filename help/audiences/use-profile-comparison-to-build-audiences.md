@@ -20,14 +20,14 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 159
+source-wordcount: 161
 ht-degree: 7%
 
 ---
 
 # Use a Comparação de perfis para criar públicos-alvo no Adobe Target
 
-O recurso [!UICONTROL Profile Comparison] no Adobe Target permite comparar dois valores de perfil numéricos ao criar um público-alvo. Isso é extremamente útil se você estiver, por exemplo, passando pontuações de propensão personalizadas para [!DNL Target] e quiser personalizar o conteúdo com base no produto com a maior pontuação de propensão.
+O recurso [!UICONTROL Comparação de perfis] no Adobe Target permite comparar dois valores de perfil numéricos ao criar um público-alvo. Isso é extremamente útil se você estiver, por exemplo, passando pontuações de propensão personalizadas para [!DNL Target] e quiser personalizar o conteúdo com base no produto com a maior pontuação de propensão.
 
 ## O que você vai aprender
 

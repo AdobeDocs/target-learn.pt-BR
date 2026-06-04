@@ -27,14 +27,14 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 195
+source-wordcount: 199
 ht-degree: 16%
 
 ---
 
 # Usar provedores de dados para integrar dados de terceiros ao Adobe Target
 
-[!UICONTROL Data Providers] é um recurso que permite passar dados de terceiros facilmente para o Target.  Um terceiro pode ser um serviço de clima, um DMP ou até mesmo o seu próprio serviço Web. É possível então usar esses dados para criar públicos-alvo, conteúdo de direcionamento e enriquecer o perfil do visitante.
+[!UICONTROL Os Provedores de Dados] são um recurso que permite passar dados facilmente de terceiros para o Target.  Um terceiro pode ser um serviço de clima, um DMP ou até mesmo o seu próprio serviço Web. É possível então usar esses dados para criar públicos-alvo, conteúdo de direcionamento e enriquecer o perfil do visitante.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22349/?quality=12)
 
@@ -47,7 +47,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->[!UICONTROL Data Providers] exige at.js 1.3 ou superior
+>[!UICONTROL Provedores de dados] exigem at.js 1.3 ou superior
 
 ## Materiais de suporte
 

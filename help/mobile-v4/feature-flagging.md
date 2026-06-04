@@ -21,7 +21,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 735
+source-wordcount: 755
 ht-degree: 1%
 
 ---
@@ -139,20 +139,20 @@ Agora vamos criar uma atividade de Teste A/B com essa oferta. Para obter etapas 
 
    ![Configuração da Atividade de Sinalizador de Recurso](assets/feature_flag_activity.jpg)
 
-1. Clique em **[!UICONTROL Add Experience]** para adicionar a experiência B.
+1. Clique em **[!UICONTROL Adicionar experiência]** para adicionar a experiência B.
 1. Deixe o local &quot;wetravel_feature_flag_recs&quot;
-1. Deixar **[!UICONTROL Default Content]** para o conteúdo
-1. Clique em **[!UICONTROL Next]** para avançar para a tela [!UICONTROL Targeting]
+1. Deixar **[!UICONTROL Conteúdo padrão]** para o conteúdo
+1. Clique em **[!UICONTROL Avançar]** para avançar para a tela [!UICONTROL Direcionamento]
 
    ![Configuração da Atividade de Sinalizador de Recurso](assets/feature_flag_activity_2.jpg)
 
-1. Na tela [!UICONTROL Targeting], verifique se o método [!UICONTROL Traffic Allocation] está definido com a configuração padrão (Manual) e se cada experiência tem a alocação padrão de 50%. Selecione **[!UICONTROL Next]** para avançar para **[!UICONTROL Goals & Settings]**.
+1. Na tela [!UICONTROL Direcionamento], verifique se o método [!UICONTROL Alocação de Tráfego] está definido como a configuração padrão (Manual) e se cada experiência tem a alocação padrão de 50%. Selecione **[!UICONTROL Avançar]** para avançar para **[!UICONTROL Metas e Configurações]**.
 
    ![Configuração da Atividade de Sinalizador de Recurso](assets/feature_flag_activity_3.jpg)
 
-1. Defina o **[!UICONTROL Primary Goal]** como **[!UICONTROL Conversion]**.
-1. Defina a ação como **[!UICONTROL Viewed an Mbox]**. Usaremos o local &quot;wetravel_context_dest&quot; (como esse local está na tela Confirmação, podemos usá-lo para ver se o novo recurso leva a mais conversões).
-1. Clique em **[!UICONTROL Save & Close]**.
+1. Defina a **[!UICONTROL Meta primária]** para **[!UICONTROL Conversão]**.
+1. Defina a ação como **[!UICONTROL Visualizou uma Mbox]**. Usaremos o local &quot;wetravel_context_dest&quot; (como esse local está na tela Confirmação, podemos usá-lo para ver se o novo recurso leva a mais conversões).
+1. Clique em **[!UICONTROL Salvar e fechar]**.
 
    ![Configuração da Atividade de Sinalizador de Recurso](assets/feature_flag_activity_4.jpg)
 

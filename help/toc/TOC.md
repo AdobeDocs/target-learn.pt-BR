@@ -47,7 +47,7 @@ ht-degree: 5%
    + [Configurar relatórios do A4T no Analysis Workspace para atividades de alocação automática](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md)
    + [Configurar relatórios do A4T no Analysis Workspace para atividades de direcionamento automático](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)
    + [Integração do Target ao Audience Manager](../dev101/3-3-target-dmp.md)
-   + [Integração do Target aos públicos da Experience Cloud](../dev101/3-4-target-exc-audiences.md)
+   + [Integração do Target aos públicos-alvo da Experience Cloud](../dev101/3-4-target-exc-audiences.md)
    + [Integração do Target ao Campaign](../dev101/3-6-target-campaign.md)
    + [Integração do Target ao Adobe Developer Console](../dev101/3-7-target-io.md)
    + Integração do Target ao Real-Time CDP{#rtcdp}

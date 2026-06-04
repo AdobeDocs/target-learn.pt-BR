@@ -28,7 +28,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 396
+source-wordcount: 412
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Comportamento do ![at.js 2.0 no carregamento da página](assets/pageload.png)
 
 1. A solicitação de Carregamento de página é feita, incluindo todos os parâmetros configurados, ECID, SDID e ID do cliente.
 
-1. Os scripts de perfil executam e alimentam o [!UICONTROL Profile Store]. A Loja solicita públicos qualificados do [!UICONTROL Audience Library] (por exemplo, públicos compartilhados de [!DNL Analytics], Audience Manager, etc). [!UICONTROL Customer Attributes] são enviados a [!UICONTROL Profile Store] em um processo em lote.
+1. Os scripts de perfil executam e alimentam o [!UICONTROL Repositório de Perfis]. A Loja solicita públicos qualificados da [!UICONTROL Biblioteca de Público-Alvo] (por exemplo, públicos-alvo compartilhados de [!DNL Analytics], Audience Manager etc). [!UICONTROL Os Atributos do Cliente] são enviados para [!UICONTROL Loja de Perfis] em um processo em lote.
 1. Com base na URL, parâmetros de solicitação e dados de perfil, [!DNL Target] decide quais Atividades e Experiências retornarão ao visitante para a página atual e para as exibições futuras
 
 1. O conteúdo direcionado é enviado de volta para a página, opcionalmente incluindo valores de perfil para personalização adicional.
@@ -58,7 +58,7 @@ Comportamento do ![at.js 2.0 no carregamento da página](assets/pageload.png)
 
    O conteúdo direcionado para exibições futuras de um aplicativo de página única é armazenado em cache no navegador para que possa ser aplicado instantaneamente, sem uma chamada de servidor adicional, quando as exibições forem acionadas. (Veja o próximo diagrama para o comportamento de `triggerView()`).
 
-1. Dados do [!DNL Analytics] enviados da página para os [!UICONTROL Data Collection] Servidores
+1. Dados do [!DNL Analytics] enviados da página para os Servidores da [!UICONTROL Coleção de Dados]
 1. Os dados do [!DNL Target] são correspondidos aos dados do Analytics pela SDID e processados no armazenamento de relatórios do [!DNL Analytics]. Os dados do [!DNL Analytics] podem ser exibidos em [!DNL Analytics] e [!DNL Target] pelos relatórios do A4T.
 
 Comportamento do ![at.js 2.0 quando a função triggerView() é usada](assets/triggerview.png)
@@ -68,10 +68,10 @@ Comportamento do ![at.js 2.0 quando a função triggerView() é usada](assets/tr
 
 1. O conteúdo direcionado é revelado o mais rápido possível sem cintilação do conteúdo padrão
 
-1. A solicitação de notificação é enviada para [!DNL Target] [!UICONTROL Profile Store] para contar o visitante nas métricas de atividade e incremento
-1. Os dados do [!DNL Analytics] são enviados do SPA para os [!UICONTROL Data Collection] servidores
+1. A solicitação de notificação é enviada para o [!DNL Target] [!UICONTROL Armazenamento de perfis] para contar o visitante nas métricas de atividade e incremento
+1. Os dados de [!DNL Analytics] são enviados do SPA para os Servidores de [!UICONTROL Coleção de Dados]
 
-1. Os dados do [!DNL Target] são enviados do back-end do [!DNL Target] para os Servidores do [!UICONTROL Data Collection]. Os dados do [!DNL Target] são correspondidos aos dados do [!DNL Analytics] por meio da SDID e processados no armazenamento de relatórios do [!DNL Analytics]. Os dados do [!DNL Analytics] podem ser exibidos em [!DNL Analytics] e [!DNL Target] pelos relatórios do A4T.
+1. Os dados de [!DNL Target] são enviados do back-end [!DNL Target] para os Servidores de [!UICONTROL Coleta de Dados]. Os dados do [!DNL Target] são correspondidos aos dados do [!DNL Analytics] por meio da SDID e processados no armazenamento de relatórios do [!DNL Analytics]. Os dados do [!DNL Analytics] podem ser exibidos em [!DNL Analytics] e [!DNL Target] pelos relatórios do A4T.
 
 ## Recursos adicionais
 

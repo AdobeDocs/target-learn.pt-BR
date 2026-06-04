@@ -28,21 +28,21 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 206
+source-wordcount: 216
 ht-degree: 0%
 
 ---
 
-# Usar o [!UICONTROL Visual Experience Composer] para Aplicativos de Página Única (SPA VEC) no Adobe Target
+# Uso do [!UICONTROL Visual Experience Composer] para Aplicativos de Página Única (SPA VEC) no Adobe Target
 
 O SPA VEC permite que os profissionais de marketing criem testes e personalizem conteúdo em SPAs de forma autônoma, sem dependências de desenvolvimento contínuas.
 
 * O SPA VEC pode ser usado para criar atividades de teste A/B e Alocação automática e Direcionamento de experiência (XT)
 * O SPA VEC não é compatível com as atividades de Direcionamento automático, Automated Personalization ou Recommendations
-* O SPA VEC dá suporte a integrações A4T, [!UICONTROL Experience Cloud Audiences] e [!UICONTROL Customer Attributes]
+* O SPA VEC oferece suporte às integrações A4T, [!UICONTROL Públicos-alvo da Experience Cloud] e [!UICONTROL Atributos do cliente]
 * Todas as ações do VEC são compatíveis com aplicativos de página única, incluindo código personalizado
 * As ações do VEC podem ser aplicadas a uma única exibição ou ao evento de carregamento de página
-* Diferentes modificações podem ser adicionadas a diferentes modos de exibição sem precisar usar a opção [!UICONTROL Additional Pages]
+* É possível adicionar diferentes modificações a diferentes modos de exibição sem precisar usar a opção [!UICONTROL Páginas Adicionais]
 * `at.js 2.0+` e a função `adobe.target.triggerView()` devem ser implementadas no aplicativo antes que você possa usar o SPA VEC
 
 ## Público-alvo

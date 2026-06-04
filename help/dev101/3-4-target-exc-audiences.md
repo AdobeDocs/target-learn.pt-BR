@@ -33,13 +33,13 @@ ht-degree: 1%
 
 ---
 
-# Integrar o [!DNL Target] aos públicos da Experience Cloud
+# Integrar o [!DNL Target] aos públicos-alvo da Experience Cloud
 
 Neste vídeo, você aprenderá a:
 
 * Descreva a criação e o uso de público-alvo com o Analytics e o Audience Manager
 * Descrever como importar públicos-alvo de outros produtos da Adobe
-* Explorar o Experience Cloud Admin Console
+* Explorar a Experience Cloud Admin Console
 * Listar os requisitos da Experience Cloud ID (ECID)
 
 ## Público-alvo

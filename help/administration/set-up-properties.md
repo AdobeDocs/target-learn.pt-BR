@@ -23,7 +23,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 84
+source-wordcount: 88
 ht-degree: 2%
 
 ---
@@ -51,4 +51,4 @@ Os usuários devem ter as seguintes permissões para criar propriedades:
 
 >[!NOTE]
 >
->A interface do usuário do [!DNL Target] foi atualizada desde que este vídeo foi gravado. Para criar propriedades, navegue até [!UICONTROL Administration] > [!UICONTROL Properties] > [!UICONTROL Create Property]. Um novo vídeo estará disponível em breve.
+>A interface do usuário do [!DNL Target] foi atualizada desde que este vídeo foi gravado. Para criar propriedades, navegue até [!UICONTROL Administração] > [!UICONTROL Propriedades] > [!UICONTROL Criar propriedade]. Um novo vídeo estará disponível em breve.
