@@ -10,25 +10,15 @@ kt: null
 author: Daniel Wright
 exl-id: 7f037665-88a7-469c-8df5-c82cb0f65382
 TQID: https://experienceleague.adobe.com/yi78hasak-rtlhpCG4-UnewWXAwMfPZJSpw9sFzRenU
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 396
+source-wordcount: 412
 ht-degree: 0%
 
 ---
@@ -49,7 +39,7 @@ Comportamento do ![at.js 2.0 no carregamento da página](assets/pageload.png)
 
 1. A solicitação de Carregamento de página é feita, incluindo todos os parâmetros configurados, ECID, SDID e ID do cliente.
 
-1. Os scripts de perfil executam e alimentam o [!UICONTROL Profile Store]. A Loja solicita públicos qualificados do [!UICONTROL Audience Library] (por exemplo, públicos compartilhados de [!DNL Analytics], Audience Manager, etc). [!UICONTROL Customer Attributes] são enviados a [!UICONTROL Profile Store] em um processo em lote.
+1. Os scripts de perfil executam e alimentam o [!UICONTROL Repositório de Perfis]. A Loja solicita públicos qualificados da [!UICONTROL Biblioteca de Público-Alvo] (por exemplo, públicos-alvo compartilhados de [!DNL Analytics], Audience Manager etc). [!UICONTROL Os Atributos do Cliente] são enviados para [!UICONTROL Loja de Perfis] em um processo em lote.
 1. Com base na URL, parâmetros de solicitação e dados de perfil, [!DNL Target] decide quais Atividades e Experiências retornarão ao visitante para a página atual e para as exibições futuras
 
 1. O conteúdo direcionado é enviado de volta para a página, opcionalmente incluindo valores de perfil para personalização adicional.
@@ -58,7 +48,7 @@ Comportamento do ![at.js 2.0 no carregamento da página](assets/pageload.png)
 
    O conteúdo direcionado para exibições futuras de um aplicativo de página única é armazenado em cache no navegador para que possa ser aplicado instantaneamente, sem uma chamada de servidor adicional, quando as exibições forem acionadas. (Veja o próximo diagrama para o comportamento de `triggerView()`).
 
-1. Dados do [!DNL Analytics] enviados da página para os [!UICONTROL Data Collection] Servidores
+1. Dados do [!DNL Analytics] enviados da página para os Servidores da [!UICONTROL Coleção de Dados]
 1. Os dados do [!DNL Target] são correspondidos aos dados do Analytics pela SDID e processados no armazenamento de relatórios do [!DNL Analytics]. Os dados do [!DNL Analytics] podem ser exibidos em [!DNL Analytics] e [!DNL Target] pelos relatórios do A4T.
 
 Comportamento do ![at.js 2.0 quando a função triggerView() é usada](assets/triggerview.png)
@@ -68,10 +58,10 @@ Comportamento do ![at.js 2.0 quando a função triggerView() é usada](assets/tr
 
 1. O conteúdo direcionado é revelado o mais rápido possível sem cintilação do conteúdo padrão
 
-1. A solicitação de notificação é enviada para [!DNL Target] [!UICONTROL Profile Store] para contar o visitante nas métricas de atividade e incremento
-1. Os dados do [!DNL Analytics] são enviados do SPA para os [!UICONTROL Data Collection] servidores
+1. A solicitação de notificação é enviada para o [!DNL Target] [!UICONTROL Armazenamento de perfis] para contar o visitante nas métricas de atividade e incremento
+1. Os dados de [!DNL Analytics] são enviados do SPA para os Servidores de [!UICONTROL Coleção de Dados]
 
-1. Os dados do [!DNL Target] são enviados do back-end do [!DNL Target] para os Servidores do [!UICONTROL Data Collection]. Os dados do [!DNL Target] são correspondidos aos dados do [!DNL Analytics] por meio da SDID e processados no armazenamento de relatórios do [!DNL Analytics]. Os dados do [!DNL Analytics] podem ser exibidos em [!DNL Analytics] e [!DNL Target] pelos relatórios do A4T.
+1. Os dados de [!DNL Target] são enviados do back-end [!DNL Target] para os Servidores de [!UICONTROL Coleta de Dados]. Os dados do [!DNL Target] são correspondidos aos dados do [!DNL Analytics] por meio da SDID e processados no armazenamento de relatórios do [!DNL Analytics]. Os dados do [!DNL Analytics] podem ser exibidos em [!DNL Analytics] e [!DNL Target] pelos relatórios do A4T.
 
 ## Recursos adicionais
 

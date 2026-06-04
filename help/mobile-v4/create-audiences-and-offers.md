@@ -9,19 +9,14 @@ doc-type: tutorial
 kt: 3040
 exl-id: 4b153e4f-a979-49a8-8c26-f7ac95162a2f
 TQID: https://experienceleague.adobe.com/DoRg-ukzkWeNsIVbq-KSKES4ECa0SMX-9S1uqoe-K44
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 977
+source-wordcount: 1004
 ht-degree: 1%
 
 ---
@@ -62,17 +57,17 @@ Agora vamos criar os públicos que usaremos para personalizar o aplicativo.
 
 Os públicos-alvo da Adobe Target são usados para identificar grupos específicos de visitantes. As ofertas podem então ser direcionadas para esses grupos específicos. Nos dois primeiros locais, usaremos um público-alvo de &quot;Novos usuários&quot;:
 
-1. Clique em **[!UICONTROL Audiences]** na navegação superior.
-1. Clique no botão **[!UICONTROL Create Audience]**.
+1. Clique em **[!UICONTROL Públicos-alvo]** na navegação superior.
+1. Clique no botão **[!UICONTROL Criar público-alvo]**.
    ![Criar um novo público-alvo de usuário](assets/audience_new_mobile_app_users_1.jpg)
 
-1. Digite **[!UICONTROL New Mobile App Users]** como o nome do público-alvo.
-1. Selecione **[!UICONTROL Add Rule]**.
-1. Selecione uma regra **[!UICONTROL Custom]**.
+1. Digite **[!UICONTROL Novos usuários de aplicativos móveis]** como o nome do público-alvo.
+1. Selecione **[!UICONTROL Adicionar Regra]**.
+1. Selecione uma regra **[!UICONTROL Personalizada]**.
    ![Criar um novo público-alvo de usuário](assets/audience_new_mobile_app_users_2.jpg)
 
-1. Selecione **[!UICONTROL a.Launches]**.
-1. Selecione **[!UICONTROL is less than]**.
+1. Selecione **[!UICONTROL a.Lançamentos]**.
+1. Selecionar **[!UICONTROL é menor que]**.
 1. Digite **5**.
 1. Salve o novo público-alvo.
    ![Criar um novo público-alvo de usuário](assets/audience_new_mobile_app_users_3.jpg)
@@ -82,7 +77,7 @@ Os públicos-alvo da Adobe Target são usados para identificar grupos específic
 Siga as mesmas etapas listadas acima para criar um público-alvo para usuários recorrentes.
 
 1. Nomeie o público-alvo _Usuários de Aplicativos Móveis Recorrentes_.
-1. Use **[!UICONTROL a.Launches is greater than or equal to 5]** como regra personalizada.
+1. Usar **[!UICONTROL a.Inicializações são maiores ou iguais a 5]** como regra personalizada.
 1. Salve o novo público-alvo.
 
    ![Criar um público-alvo de usuário recorrente](assets/audience_returning_mobile_app_users.jpg)
@@ -121,8 +116,8 @@ Agora, vamos criar ofertas para exibir essas mensagens. Lembrando que as ofertas
 
 Primeiro, vamos criar ofertas para as mensagens para Novos usuários:
 
-1. Clique em **[!UICONTROL Offers]** na navegação superior.
-1. Clique em **[!UICONTROL Create]**.
+1. Clique em **[!UICONTROL Ofertas]** na navegação superior.
+1. Clique em **[!UICONTROL Criar]**.
 1. Selecione **[!UICONTROL HTML Offer]**.
 
    ![Criar oferta inicial](assets/offer_home_1.jpg)

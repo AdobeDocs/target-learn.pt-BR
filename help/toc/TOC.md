@@ -29,7 +29,7 @@ ht-degree: 5%
 + Implementação{#implementation}
    + [Introdução à implementação do Target](../dev101/2-1-intro-to-target-implementation.md)
    + [Integração do Target ao Launch](../dev101/3-1-target-launch.md)
-   + [Implementar em sites com o Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=pt-BR)
+   + [Implementar em sites com o Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)
    + [Benefícios do uso de locais](../dev101/2-2-benefits-of-locations.md)
    + [Introdução a solicitações do Target](../dev101/2-3-intro-to-target-requests.md)
    + [Introdução aos Parâmetros do Target](../dev101/2-4-intro-to-target-params.md)
@@ -37,7 +37,7 @@ ht-degree: 5%
    + [Implementar a at.js 2.0 em um aplicativo de página única (SPA)](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [Projetar uma implementação do Target](../dev101/2-5-design-target-implementation.md)
    + [Próximas etapas para projetar uma implementação do Target](../dev101/2-6-next-steps-design-target-implementation.md)
-   + [Usar o Opt-in para controlar as soluções da Experience Cloud com base no consentimento do usuário](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=pt-BR)
+   + [Usar o Opt-in para controlar as soluções da Experience Cloud com base no consentimento do usuário](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
    + [Entender a implantação híbrida do Adobe Target](../implementation/hybrid-deployment.md)
    + [Visão geral da decisão no dispositivo](../implementation/on-device-decisioning-overview.md)
    + {hide-from-toc}[Padrões de implementação para o Adobe Target](../implementation/implementation-patterns-for-adobe-target.md)
@@ -47,7 +47,7 @@ ht-degree: 5%
    + [Configurar relatórios do A4T no Analysis Workspace para atividades de alocação automática](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md)
    + [Configurar relatórios do A4T no Analysis Workspace para atividades de direcionamento automático](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)
    + [Integração do Target ao Audience Manager](../dev101/3-3-target-dmp.md)
-   + [Integração do Target aos públicos da Experience Cloud](../dev101/3-4-target-exc-audiences.md)
+   + [Integração do Target aos públicos-alvo da Experience Cloud](../dev101/3-4-target-exc-audiences.md)
    + [Integração do Target ao Campaign](../dev101/3-6-target-campaign.md)
    + [Integração do Target ao Adobe Developer Console](../dev101/3-7-target-io.md)
    + Integração do Target ao Real-Time CDP{#rtcdp}
