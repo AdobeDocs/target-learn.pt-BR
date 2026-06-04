@@ -9,12 +9,20 @@ doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
 TQID: https://experienceleague.adobe.com/5oQMgqqxw2VN-6cb29j4bwEP6VYmGRLXIp5AMJ3WWM4
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2: id: df62f171-ac37-440f-8f0f-f41a72ebdd34
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
 source-wordcount: 1546
@@ -73,7 +81,7 @@ As seções a seguir contêm mais informações sobre orientações adicionais �
 
 #### Criar um segmento {#segment}
 
-1. Clique no sinal &quot;+&quot; **** ao lado de **[!UICONTROL Segmentos]** no painel esquerdo.
+1. Clique no sinal &quot;+&quot; **&#x200B;**&#x200B;ao lado de **[!UICONTROL Segmentos]** no painel esquerdo.
 
    ![Sinal de adição ao lado de segmentos no painel esquerdo.](/help/integrations/assets/plus-sign.png)
 
@@ -134,9 +142,9 @@ Você pode navegar até um painel do [!UICONTROL Analytics for Target] pré-cria
 As seções a seguir especificam quais configurações são necessárias, dependendo de quais desses métodos você escolher. No entanto, as seguintes etapas servem como orientação geral para o A4T:
 
 * Remova as métricas de confiança do painel A4T, independentemente do método de criação do painel (ambos são detalhados abaixo). Em vez disso, faça referência a esses valores nos relatórios de [!DNL Target]. Além disso, os vencedores da atividade podem ser identificados nos relatórios [!DNL Target]. Detalhes sobre a identificação do vencedor da atividade podem ser encontrados na seção [Identificar o vencedor da atividade](#winner) abaixo.
->>
+&#x200B;>>
 * Para evitar confusão, desmarque a apresentação &quot;[!UICONTROL Percent]&quot; da métrica [!UICONTROL Taxa de Conversão]. Consulte [Ocultar a porcentagem da [!UICONTROL Taxa de Conversão] coluna](#hide-percentage) abaixo.
->>
+&#x200B;>>
 * Se você estiver criando um painel A4T, verifique se os intervalos de data e hora correspondem aos do relatório [!DNL Target]. Consulte [Alinhar a data e a hora no painel A4T](#aligning-date-and-time) abaixo.
 
 ### Ocultar a porcentagem da coluna [!UICONTROL Taxa de Conversão] {#hide-percentage}
