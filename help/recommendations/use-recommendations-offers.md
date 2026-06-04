@@ -37,5 +37,5 @@ As ofertas do Recommendations podem ser usadas com atividades de Teste A/B e Dir
 
 ## Recursos adicionais
 
-* [Documentação do Recommendations como uma oferta](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-as-an-offer.html?lang=en)
+* [Documentação do Recommendations como uma oferta](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-as-an-offer.html?lang=pt-BR)
 * [Vídeo Criar uma atividade do Recommendations](create-a-recommendations-activity.md)

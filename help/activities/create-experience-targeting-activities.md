@@ -46,10 +46,10 @@ Neste vídeo, você aprenderá a:
 ## Recursos adicionais
 
 * [Baixar o manual da Experience Personalization](https://guided.adobe.com/?promoid=K42KVXHD&mv=other&search=personalization+playbook#recommended/solutions/target)
-* [Documentação de direcionamento de experiência](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=en)
+* [Documentação de direcionamento de experiência](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=pt-BR)
 
 ## Outros recursos usados neste vídeo
 
-* [Documentação de Públicos-alvo para relatórios](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
-* [Criação da documentação de Públicos-alvo](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
-* [Criação de experiências com a documentação do Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=en)
+* [Documentação de Públicos-alvo para relatórios](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=pt-BR)
+* [Criação da documentação de Públicos-alvo](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=pt-BR)
+* [Criação de experiências com a documentação do Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=pt-BR)
