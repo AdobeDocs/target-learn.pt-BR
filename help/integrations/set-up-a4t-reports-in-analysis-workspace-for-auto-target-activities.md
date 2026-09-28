@@ -56,7 +56,7 @@ ht-degree: 1%
 
 A integração do [!UICONTROL Analytics for Target] (A4T) para atividades [!DNL Auto-Target] usa os algoritmos de aprendizado de máquina (ML) do conjunto [!DNL Adobe Target] para escolher a melhor experiência para cada visitante com base em seu perfil, comportamento e contexto, tudo isso ao usar uma métrica de meta [!DNL Adobe Analytics].
 
-Embora os recursos de análise avançada estejam disponíveis no [!DNL Adobe Analytics] [!DNL Analysis Workspace], algumas modificações no painel padrão **[!UICONTROL Analytics for Target]** são necessárias para interpretar corretamente as atividades de [!DNL Auto-Target], devido a diferenças entre as atividades de experimentação (teste A/B manual [!UICONTROL  e [!UICONTROL Alocação automática]) e as atividades de personalização ([!UICONTROL [!UICONTROL Direcionamento automático]]).]
+Embora os recursos de análise avançada estejam disponíveis no [!DNL Adobe Analytics] [!DNL Analysis Workspace], algumas modificações no painel padrão **[!UICONTROL Analytics for Target]** são necessárias para interpretar corretamente as atividades de [!DNL Auto-Target], devido a diferenças entre as atividades de experimentação (teste A/B manual [!UICONTROL &#x200B; e [!UICONTROL Alocação automática]) e as atividades de personalização ([!UICONTROL [!UICONTROL Direcionamento automático]]).]
 
 Este tutorial aborda as modificações recomendadas para analisar atividades de [!UICONTROL Direcionamento automático] em [!DNL Analysis Workspace], que são baseadas nos seguintes conceitos principais:
 
@@ -80,7 +80,7 @@ Para criar um A4T para o relatório de [!UICONTROL Direcionamento automático], 
 >
 >Para configurar o painel [!UICONTROL Analytics for Target] para atividades de [!UICONTROL Direcionamento automático], escolha qualquer experiência de controle, escolha [!UICONTROL Visitas] como a métrica de normalização e escolha a mesma métrica de meta que foi escolhida para otimização durante a criação da atividade [!DNL Target].
 
-## Usar o [!UICONTROL Controle vs.Dimensão ] do Target para comparar o modelo de ML de conjunto [!DNL Target] com seu controle
+## Usar o [!UICONTROL Controle vs.Dimensão &#x200B;] do Target para comparar o modelo de ML de conjunto [!DNL Target] com seu controle
 
 O painel A4T padrão foi projetado para atividades clássicas (manuais) [!UICONTROL Teste A/B] ou [!UICONTROL Alocação automática]. A meta é comparar o desempenho de experiências individuais com a experiência de controle. No entanto, nas atividades de [!UICONTROL Direcionamento automático], a comparação de primeira ordem deve ser entre a *estratégia* de controle e a *estratégia* de destino. Em outras palavras, determinar o aumento do desempenho geral do modelo de ML de conjunto [!UICONTROL Direcionamento automático] sobre a estratégia de controle.
 

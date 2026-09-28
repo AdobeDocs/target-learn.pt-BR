@@ -93,7 +93,7 @@ As seções a seguir contêm mais informações sobre orientações adicionais �
 
 #### Criar um segmento {#segment}
 
-1. Clique no sinal &quot;+&quot; **** ao lado de **[!UICONTROL Segmentos]** no painel esquerdo.
+1. Clique no sinal &quot;+&quot; **&#x200B;**&#x200B;ao lado de **[!UICONTROL Segmentos]** no painel esquerdo.
 
    ![Sinal de adição ao lado de segmentos no painel esquerdo.](/help/integrations/assets/plus-sign.png)
 
@@ -154,9 +154,9 @@ Você pode navegar até um painel do [!UICONTROL Analytics for Target] pré-cria
 As seções a seguir especificam quais configurações são necessárias, dependendo de quais desses métodos você escolher. No entanto, as seguintes etapas servem como orientação geral para o A4T:
 
 * Remova as métricas de confiança do painel A4T, independentemente do método de criação do painel (ambos são detalhados abaixo). Em vez disso, faça referência a esses valores nos relatórios de [!DNL Target]. Além disso, os vencedores da atividade podem ser identificados nos relatórios [!DNL Target]. Detalhes sobre a identificação do vencedor da atividade podem ser encontrados na seção [Identificar o vencedor da atividade](#winner) abaixo.
->>
+&#x200B;>>
 * Para evitar confusão, desmarque a apresentação &quot;[!UICONTROL Percent]&quot; da métrica [!UICONTROL Taxa de Conversão]. Consulte [Ocultar a porcentagem da [!UICONTROL Taxa de Conversão] coluna](#hide-percentage) abaixo.
->>
+&#x200B;>>
 * Se você estiver criando um painel A4T, verifique se os intervalos de data e hora correspondem aos do relatório [!DNL Target]. Consulte [Alinhar a data e a hora no painel A4T](#aligning-date-and-time) abaixo.
 
 ### Ocultar a porcentagem da coluna [!UICONTROL Taxa de Conversão] {#hide-percentage}
