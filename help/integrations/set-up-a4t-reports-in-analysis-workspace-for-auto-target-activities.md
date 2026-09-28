@@ -1,39 +1,53 @@
 ---
-title: Como configurar relatórios do A4T no [!DNL Analysis Workspace] for [!DNL Auto-Target] Activities
-description: Como configurar relatórios do A4T no [!DNL Analysis Workspace] para obter os resultados esperados ao executar atividades de [!UICONTROL Direcionamento automático]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=pt-BR#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
+title: Como configurar relatórios do A4T em [!DNL Analysis Workspace] para [!DNL Auto-Target] atividades
+description: Como configurar relatórios do A4T em [!DNL Analysis Workspace] para obter os resultados esperados ao executar atividades de [!UICONTROL Direcionamento automático]?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#premium newtab=true" tooltip="Consulte o que está incluído no Target Premium."
 role: User
 level: Intermediate
 topic: Personalization, Integrations
 feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
-thumbnail: null
-kt: null
+thumbnail:
+kt:
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-TQID: https://experienceleague.adobe.com/9UgPPqvQiI3LcX1Lhv1yxlM0BnQf6176cTB3bbPd1YE
+TQID: 'https://experienceleague.adobe.com/9UgPPqvQiI3LcX1Lhv1yxlM0BnQf6176cTB3bbPd1YE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
+    internal-label: Machine learning
+source-git-commit: d11449f8685d14c2bbd1e70f80711d4edab9d3a1
 workflow-type: tm+mt
-source-wordcount: 2717
+source-wordcount: '2720'
 ht-degree: 1%
-
 ---
-
 # Configurar relatórios do A4T em [!DNL Analysis Workspace] para [!DNL Auto-Target] atividades
 
 >[!IMPORTANT]
@@ -42,12 +56,12 @@ ht-degree: 1%
 
 A integração do [!UICONTROL Analytics for Target] (A4T) para atividades [!DNL Auto-Target] usa os algoritmos de aprendizado de máquina (ML) do conjunto [!DNL Adobe Target] para escolher a melhor experiência para cada visitante com base em seu perfil, comportamento e contexto, tudo isso ao usar uma métrica de meta [!DNL Adobe Analytics].
 
-Embora os recursos de análise avançada estejam disponíveis no [!DNL Adobe Analytics] [!DNL Analysis Workspace], algumas modificações no painel padrão **[!UICONTROL Analytics for Target]** são necessárias para interpretar corretamente as atividades de [!DNL Auto-Target], devido a diferenças entre as atividades de experimentação (teste A/B manual [!UICONTROL &#x200B; e [!UICONTROL Alocação automática]) e as atividades de personalização ([!UICONTROL [!UICONTROL Direcionamento automático]]).]
+Embora os recursos de análise avançada estejam disponíveis no [!DNL Adobe Analytics] [!DNL Analysis Workspace], algumas modificações no painel padrão **[!UICONTROL Analytics for Target]** são necessárias para interpretar corretamente as atividades de [!DNL Auto-Target], devido a diferenças entre as atividades de experimentação (teste A/B manual [!UICONTROL  e [!UICONTROL Alocação automática]) e as atividades de personalização ([!UICONTROL [!UICONTROL Direcionamento automático]]).]
 
 Este tutorial aborda as modificações recomendadas para analisar atividades de [!UICONTROL Direcionamento automático] em [!DNL Analysis Workspace], que são baseadas nos seguintes conceitos principais:
 
 * A dimensão **[!UICONTROL Controle vs. Direcionado]** pode ser usada para distinguir entre as experiências [!UICONTROL Controle] e as servidas pelo algoritmo de ML do conjunto [!UICONTROL Direcionamento automático].
-* As Visitas devem ser usadas como a métrica de normalização ao visualizar detalhamentos de desempenho no nível de experiência. Além disso, a metodologia de contagem padrão do [Adobe Analytics pode incluir visitas em que o usuário não vê realmente o conteúdo da atividade](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=pt-BR#metrics){target=_blank}, mas esse comportamento padrão pode ser modificado usando um segmento com escopo apropriado (detalhes abaixo).
+* As Visitas devem ser usadas como a métrica de normalização ao visualizar detalhamentos de desempenho no nível de experiência. Além disso, a metodologia de contagem padrão do [Adobe Analytics pode incluir visitas em que o usuário não vê realmente o conteúdo da atividade](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html#metrics){target=_blank}, mas esse comportamento padrão pode ser modificado usando um segmento com escopo apropriado (detalhes abaixo).
 * A atribuição com escopo de retrospectiva de visita, também conhecida como &quot;janela de retrospectiva de visita&quot; no modelo de atribuição prescrito, é usada pelos modelos de ML [!DNL Adobe Target] durante suas fases de treinamento, e o mesmo modelo de atribuição (não padrão) deve ser usado ao detalhar a métrica de meta.
 
 ## Criar o A4T para o painel [!UICONTROL Direcionamento automático] em [!DNL Analysis Workspace]
@@ -66,7 +80,7 @@ Para criar um A4T para o relatório de [!UICONTROL Direcionamento automático], 
 >
 >Para configurar o painel [!UICONTROL Analytics for Target] para atividades de [!UICONTROL Direcionamento automático], escolha qualquer experiência de controle, escolha [!UICONTROL Visitas] como a métrica de normalização e escolha a mesma métrica de meta que foi escolhida para otimização durante a criação da atividade [!DNL Target].
 
-## Usar o [!UICONTROL Controle vs.Dimensão &#x200B;] do Target para comparar o modelo de ML de conjunto [!DNL Target] com seu controle
+## Usar o [!UICONTROL Controle vs.Dimensão ] do Target para comparar o modelo de ML de conjunto [!DNL Target] com seu controle
 
 O painel A4T padrão foi projetado para atividades clássicas (manuais) [!UICONTROL Teste A/B] ou [!UICONTROL Alocação automática]. A meta é comparar o desempenho de experiências individuais com a experiência de controle. No entanto, nas atividades de [!UICONTROL Direcionamento automático], a comparação de primeira ordem deve ser entre a *estratégia* de controle e a *estratégia* de destino. Em outras palavras, determinar o aumento do desempenho geral do modelo de ML de conjunto [!UICONTROL Direcionamento automático] sobre a estratégia de controle.
 
@@ -80,7 +94,7 @@ Observe que essa substituição invalida os cálculos padrão de [!UICONTROL Aum
 
 >[!NOTE]
 >
->Atualmente, os números [!UICONTROL Elevação e Confiança] não estão disponíveis para as dimensões [!UICONTROL Controle versus Direcionado] dos relatórios A4T para [!UICONTROL Direcionamento automático]. Até que o suporte seja adicionado, o [!UICONTROL Aumento e Confiança] podem ser calculados manualmente baixando a [calculadora de confiança](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=pt-BR).
+>Atualmente, os números [!UICONTROL Elevação e Confiança] não estão disponíveis para as dimensões [!UICONTROL Controle versus Direcionado] dos relatórios A4T para [!UICONTROL Direcionamento automático]. Até que o suporte seja adicionado, o [!UICONTROL Aumento e Confiança] podem ser calculados manualmente baixando a [calculadora de confiança](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx).
 
 ## Adicionar detalhamentos de métricas no nível de experiência
 
@@ -166,7 +180,7 @@ Assim, a diferença entre a atribuição usada pelos modelos [!DNL Target] (dura
 >
 >Se os modelos de ML estiverem sendo otimizados para uma métrica atribuída de forma diferente das métricas que você está visualizando em um relatório, os modelos podem não funcionar conforme esperado. Para evitar isso, verifique se as métricas de meta do seu relatório usam a mesma definição e atribuição de métrica usadas pelos modelos de ML [!DNL Target].
 
-A definição exata da métrica e as configurações de atribuição dependem do [critério de otimização](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=pt-BR#supported){target=_blank} especificado durante a criação da atividade.
+A definição exata da métrica e as configurações de atribuição dependem do [critério de otimização](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank} especificado durante a criação da atividade.
 
 ### Conversões definidas pelo Target, ou [!DNL Analytics] métricas com *Maximizar valor de métrica por visita*
 
@@ -244,7 +258,7 @@ Faça isso criando uma [!UICONTROL Métrica calculada] usando estas etapas:
 
 >[!TIP]
 >
-> Você também pode criar esta métrica usando a [funcionalidade de métrica calculada rápida](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=pt-BR).
+> Você também pode criar esta métrica usando a [funcionalidade de métrica calculada rápida](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html).
 
 A definição completa da métrica calculada é mostrada aqui.
 

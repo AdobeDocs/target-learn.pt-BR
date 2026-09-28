@@ -8,13 +8,30 @@ feature: Implement Mobile, Overview
 doc-type: tutorial
 kt: 3040
 exl-id: 20f8ed4f-a86d-4c5e-9296-71a93724caa3
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: d051910f-2bda-47ea-a969-6ade9fcd71f1
+    internal-label: Implement mobile
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: d11449f8685d14c2bbd1e70f80711d4edab9d3a1
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 2%
-
 ---
-
 # Adobe Target com Adobe Mobile Services SDK v4 para Android - Visão geral
 
 O _Adobe Target com Adobe Mobile Services SDK v4 para Android_ é o ponto de partida perfeito para desenvolvedores do Android que já estão usando o Adobe Mobile Services SDK v4 e desejam começar a personalizar experiências de aplicativo com o Adobe Target.
@@ -23,14 +40,14 @@ Um aplicativo de demonstração do Android é fornecido para que você conclua a
 
 Depois de concluir este tutorial, você será capaz de:
 
-* Validar a configuração do [Adobe Mobile Services SDK](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=pt-BR)
+* Validar a configuração do [Adobe Mobile Services SDK](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en)
 * Implemente os seguintes tipos de solicitações [!DNL Target]:
-   * Pré-busca de conteúdo [!DNL Target]
-   * Vários locais (mboxes) do [!DNL Target] em lote em uma única solicitação
-   * Bloquear solicitações (é executado antes da exibição do aplicativo)
-   * Solicitações sem bloqueio (executadas em segundo plano)
-   * Tempo real (sem armazenamento em cache)
-   * Nova busca de cache
+  * Pré-busca de conteúdo [!DNL Target]
+  * Vários locais (mboxes) do [!DNL Target] em lote em uma única solicitação
+  * Bloquear solicitações (é executado antes da exibição do aplicativo)
+  * Solicitações sem bloqueio (executadas em segundo plano)
+  * Tempo real (sem armazenamento em cache)
+  * Nova busca de cache
 * Adicionar parâmetros a solicitações de personalização aprimorada
 * Criar públicos e ofertas
 * Personalizar layouts
