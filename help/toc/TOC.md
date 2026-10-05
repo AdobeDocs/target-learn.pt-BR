@@ -27,7 +27,7 @@ ht-degree: 5%
 + Implementação{#implementation}
   + [Introdução à implementação do Target](../dev101/2-1-intro-to-target-implementation.md)
   + [Integração do Target ao Launch](../dev101/3-1-target-launch.md)
-  + [Implementar em sites com o Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)
+  + [Implementar em sites com o Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=pt-BR)
   + [Benefícios do uso de locais](../dev101/2-2-benefits-of-locations.md)
   + [Introdução a solicitações do Target](../dev101/2-3-intro-to-target-requests.md)
   + [Introdução aos Parâmetros do Target](../dev101/2-4-intro-to-target-params.md)
@@ -35,7 +35,7 @@ ht-degree: 5%
   + [Implementar a at.js 2.0 em um aplicativo de página única (SPA)](../implementation/implement-atjs-20-in-a-single-page-application.md)
   + [Projetar uma implementação do Target](../dev101/2-5-design-target-implementation.md)
   + [Próximas etapas para projetar uma implementação do Target](../dev101/2-6-next-steps-design-target-implementation.md)
-  + [Usar o Opt-in para controlar as soluções da Experience Cloud com base no consentimento do usuário](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
+  + [Usar o Opt-in para controlar as soluções da Experience Cloud com base no consentimento do usuário](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=pt-BR)
   + [Entender a implantação híbrida do Adobe Target](../implementation/hybrid-deployment.md)
   + [Visão geral da decisão no dispositivo](../implementation/on-device-decisioning-overview.md)
   + {hide-from-toc}[Padrões de implementação para o Adobe Target](../implementation/implementation-patterns-for-adobe-target.md)
@@ -99,5 +99,5 @@ ht-degree: 5%
 + Coworker{#coworker}
   + [Visão Geral](../coworker/overview.md)
 + Móvel{#mobile}
-  + [Tutorial Implementar a Adobe Experience Cloud em aplicativos para dispositivos móveis](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/overview){target="_blank"}
+  + [Tutorial Implementar a Adobe Experience Cloud em aplicativos para dispositivos móveis](https://experienceleague.adobe.com/pt-br/docs/platform-learn/implement-mobile-sdk/overview){target="_blank"}
 
