@@ -58,6 +58,6 @@ Neste vídeo, você aprenderá a:
 * Desenvolvedores
 * Arquitetos
 
->[!VIDEO](https://video.tv.adobe.com/v/33753/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507801/?captions=por_br&quality=12)
 
 Para obter mais informações, visite a [documentação](https://experienceleague.adobe.com/docs/target/using/administer/administrating-target.html?lang=pt-BR).

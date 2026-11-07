@@ -49,4 +49,4 @@ Neste vídeo, você aprenderá a:
 * Profissional de negócios
 * Desenvolvedor
 
->[!VIDEO](https://video.tv.adobe.com/v/17394/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507911/?captions=por_br&quality=12)

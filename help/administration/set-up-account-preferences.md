@@ -43,4 +43,4 @@ Neste vídeo, você aprenderá a:
 
 * Administrador
 
->[!VIDEO](https://video.tv.adobe.com/v/17379/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507629/?captions=por_br&quality=12)

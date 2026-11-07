@@ -45,6 +45,6 @@ Neste vídeo, você aprenderá a:
 
 * Desenvolvedores
 
->[!VIDEO](https://video.tv.adobe.com/v/35153/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507920/?captions=por_br&quality=12)
 
 Para obter mais informações, visite a [documentação](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=pt-BR).

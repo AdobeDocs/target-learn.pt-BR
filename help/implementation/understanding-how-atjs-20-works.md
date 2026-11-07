@@ -47,7 +47,7 @@ ht-degree: 0%
 
 O `at.js` 2.0 aprimora o suporte da Adobe Target para aplicativos de página única (SPA) e integra-se com outras soluções da Experience Cloud. Este vídeo e os diagramas que o acompanham explicam como tudo se une.
 
->[!VIDEO](https://video.tv.adobe.com/v/26250?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507929?captions=por_br&quality=12)
 
 ## Diagramas de arquitetura
 
