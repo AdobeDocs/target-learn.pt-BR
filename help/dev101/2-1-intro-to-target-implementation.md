@@ -50,7 +50,7 @@ Neste vídeo, você aprenderá a:
 * Desenvolvedores
 * Arquitetos
 
->[!VIDEO](https://video.tv.adobe.com/v/35139/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507965/?captions=por_br&quality=12)
 
 Para obter mais informações, consulte [Implementação do lado do cliente](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=pt-BR){target=_blank} ou [Implementação do lado do servidor](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=pt-BR){target=_blank} no *[!UICONTROL Guia do Desenvolvedor do Adobe Target]*.
 

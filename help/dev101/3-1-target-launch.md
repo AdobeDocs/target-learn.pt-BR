@@ -48,7 +48,7 @@ Neste vídeo, você aprenderá a:
 
 * Desenvolvedores
 
->[!VIDEO](https://video.tv.adobe.com/v/35145/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507701/?captions=por_br&quality=12)
 
 Para obter mais informações, visite o [tutorial de tags](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=pt-BR).
 
